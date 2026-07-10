@@ -1,0 +1,601 @@
+[
+{
+"id":"FC001",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Missing Part",
+"difficulty":"Easy",
+"question":"A square has one corner missing. Which option correctly completes the square?",
+"options":[
+"Triangle fitting the missing corner",
+"Circle",
+"Rectangle",
+"Pentagon"
+],
+"correct_option":1,
+"explanation":"The missing corner must match the shape and orientation of the square.",
+"shortcut":"Match both shape and orientation.",
+"formula":"Complete the original figure.",
+"learning_tip":"Observe the boundary lines before choosing the missing part.",
+"estimated_time":20,
+"companies":["TCS","Infosys","Wipro"],
+"tags":["figure-completion","square","easy"]
+},
+
+{
+"id":"FC002",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Pattern Continuation",
+"difficulty":"Easy",
+"question":"A pattern contains parallel horizontal lines with one section missing. What should the missing piece contain?",
+"options":[
+"Vertical lines",
+"Horizontal lines in continuation",
+"Diagonal lines",
+"Blank space"
+],
+"correct_option":2,
+"explanation":"The missing part should continue the existing horizontal pattern.",
+"shortcut":"Continue the existing pattern.",
+"formula":"Pattern Continuity",
+"learning_tip":"Check whether the lines continue smoothly across the gap.",
+"estimated_time":20,
+"companies":["Infosys","Capgemini"],
+"tags":["pattern","continuation"]
+},
+
+{
+"id":"FC003",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Line Matching",
+"difficulty":"Easy",
+"question":"While completing a figure, the first thing to check is:",
+"options":[
+"Color",
+"Boundary and line continuation",
+"Size of the page",
+"Background"
+],
+"correct_option":2,
+"explanation":"Line continuity is the primary clue in figure completion questions.",
+"shortcut":"Match the broken lines first.",
+"formula":"Line Continuity",
+"learning_tip":"Ignore unnecessary details and focus on connecting lines.",
+"estimated_time":15,
+"companies":["TCS","Infosys"],
+"tags":["line-matching","basic"]
+},
+
+{
+"id":"FC004",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Shape Completion",
+"difficulty":"Medium",
+"question":"A circle has one quarter missing. Which option correctly completes the figure?",
+"options":[
+"Quarter-circle",
+"Triangle",
+"Rectangle",
+"Pentagon"
+],
+"correct_option":1,
+"explanation":"A quarter-circle perfectly completes the missing section.",
+"shortcut":"Complete the original shape.",
+"formula":"Shape Continuation",
+"learning_tip":"Visualize the complete figure before selecting the answer.",
+"estimated_time":20,
+"companies":["Infosys","Accenture"],
+"tags":["circle","completion"]
+},
+
+{
+"id":"FC005",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Symmetry",
+"difficulty":"Medium",
+"question":"A figure is vertically symmetrical with one half missing. The missing part should:",
+"options":[
+"Be random",
+"Mirror the existing half",
+"Be rotated 90°",
+"Be inverted"
+],
+"correct_option":2,
+"explanation":"For symmetrical figures, the missing part is the mirror image of the existing half.",
+"shortcut":"Use symmetry.",
+"formula":"Mirror Symmetry",
+"learning_tip":"Look for the axis of symmetry before choosing the option.",
+"estimated_time":25,
+"companies":["TCS","Capgemini"],
+"tags":["symmetry","mirror"]
+},
+
+{
+"id":"FC006",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Curve Matching",
+"difficulty":"Medium",
+"question":"A curved line is interrupted by a missing piece. The correct option must:",
+"options":[
+"Break the curve",
+"Continue the curve smoothly",
+"Replace it with a straight line",
+"Remove the curve"
+],
+"correct_option":2,
+"explanation":"The missing piece should preserve the continuity of the curve.",
+"shortcut":"Smooth continuation wins.",
+"formula":"Curve Continuity",
+"learning_tip":"Follow the direction of the curve into the missing region.",
+"estimated_time":25,
+"companies":["Infosys","Wipro"],
+"tags":["curve","continuity"]
+},
+
+{
+"id":"FC007",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Corner Matching",
+"difficulty":"Medium",
+"question":"A polygon has one corner removed. The correct missing part should preserve:",
+"options":[
+"Only color",
+"Only size",
+"Angles and edges",
+"Background"
+],
+"correct_option":3,
+"explanation":"The replacement must match the original angles and edge alignment.",
+"shortcut":"Match edges first.",
+"formula":"Edge & Angle Continuity",
+"learning_tip":"Corners are identified by matching both adjoining sides.",
+"estimated_time":25,
+"companies":["TCS","Infosys"],
+"tags":["polygon","edges"]
+},
+
+{
+"id":"FC008",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Important",
+"difficulty":"Medium",
+"question":"Which principle is MOST important while solving Figure Completion questions?",
+"options":[
+"Guess randomly",
+"Match line continuity, symmetry and orientation",
+"Choose the biggest figure",
+"Count the number of sides only"
+],
+"correct_option":2,
+"explanation":"Figure Completion mainly depends on continuity of lines, symmetry and correct orientation.",
+"shortcut":"Lines + Symmetry + Orientation.",
+"formula":"Visual Continuity Principle",
+"learning_tip":"This is the core concept tested in TCS, Infosys, Accenture and Capgemini placement exams.",
+"estimated_time":30,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant"],
+"tags":["important","placement","figure-completion","visual-reasoning"]
+}
+,
+{
+"id":"FC009",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Line Continuation",
+"difficulty":"Medium",
+"question":"A zigzag line is interrupted by a missing portion. The correct option should:",
+"options":[
+"Continue the zigzag pattern",
+"Replace it with a straight line",
+"End the pattern",
+"Introduce a curve"
+],
+"correct_option":1,
+"explanation":"The missing piece must continue the existing zigzag without changing its direction.",
+"shortcut":"Continue the existing pattern.",
+"formula":"Pattern Continuity",
+"learning_tip":"Observe the direction and angle of the lines before selecting the answer.",
+"estimated_time":25,
+"companies":["TCS","Infosys"],
+"tags":["zigzag","continuation"]
+},
+
+{
+"id":"FC010",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Shape Matching",
+"difficulty":"Medium",
+"question":"A hexagon has one side missing. The correct option should preserve:",
+"options":[
+"Only the colour",
+"The edge alignment",
+"The background",
+"The page orientation"
+],
+"correct_option":2,
+"explanation":"The missing part should align perfectly with the remaining edges of the hexagon.",
+"shortcut":"Match the edges first.",
+"formula":"Edge Continuity",
+"learning_tip":"Ignore decorative elements and focus on boundary lines.",
+"estimated_time":25,
+"companies":["Infosys","Capgemini"],
+"tags":["hexagon","edges"]
+},
+
+{
+"id":"FC011",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Curve Completion",
+"difficulty":"Medium",
+"question":"A semicircle is incomplete because one curved section is missing. Which option should be selected?",
+"options":[
+"A matching curved segment",
+"A straight line",
+"A triangle",
+"A square"
+],
+"correct_option":1,
+"explanation":"The missing part must continue the curvature smoothly.",
+"shortcut":"Curves should remain continuous.",
+"formula":"Curve Continuity",
+"learning_tip":"Check whether the curve enters and exits the missing region smoothly.",
+"estimated_time":20,
+"companies":["TCS","Wipro"],
+"tags":["curve","circle"]
+},
+
+{
+"id":"FC012",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Symmetry",
+"difficulty":"Hard",
+"question":"A figure has horizontal symmetry with its lower half missing. The missing part should be:",
+"options":[
+"The mirror image of the upper half",
+"A rotated copy",
+"A random figure",
+"A scaled figure"
+],
+"correct_option":1,
+"explanation":"Horizontal symmetry means the lower half is the mirror reflection of the upper half.",
+"shortcut":"Reflect across the symmetry line.",
+"formula":"Horizontal Symmetry",
+"learning_tip":"Identify the symmetry axis before selecting the missing figure.",
+"estimated_time":30,
+"companies":["Infosys","Accenture"],
+"tags":["symmetry","horizontal"]
+},
+
+{
+"id":"FC013",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Pattern Matching",
+"difficulty":"Hard",
+"question":"A repeated pattern is interrupted by a missing block. The correct option should preserve:",
+"options":[
+"Only colour",
+"Pattern sequence",
+"Only size",
+"Background"
+],
+"correct_option":2,
+"explanation":"The missing piece should continue the established sequence without interruption.",
+"shortcut":"Continue the sequence naturally.",
+"formula":"Pattern Continuity",
+"learning_tip":"Look for repetition in shapes, spacing and direction.",
+"estimated_time":30,
+"companies":["TCS","Infosys"],
+"tags":["pattern","sequence"]
+},
+
+{
+"id":"FC014",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Orientation",
+"difficulty":"Hard",
+"question":"Which factor is MOST important after matching the boundary lines of a missing figure?",
+"options":[
+"Colour",
+"Orientation",
+"Page size",
+"Font style"
+],
+"correct_option":2,
+"explanation":"After matching boundaries, ensure the figure has the correct orientation.",
+"shortcut":"Boundary first, orientation second.",
+"formula":"Boundary + Orientation",
+"learning_tip":"Many wrong options have the correct shape but incorrect rotation.",
+"estimated_time":30,
+"companies":["Capgemini","Infosys"],
+"tags":["orientation","rotation"]
+},
+
+{
+"id":"FC015",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Rotation",
+"difficulty":"Hard",
+"question":"A missing figure fits perfectly only after a 90° clockwise rotation. Which option should be selected?",
+"options":[
+"The rotated figure",
+"The original figure",
+"The mirror image",
+"A flipped figure"
+],
+"correct_option":1,
+"explanation":"The correct answer is the option that matches after a 90° clockwise rotation.",
+"shortcut":"Check rotation before rejecting an option.",
+"formula":"Rotation = 90° Clockwise",
+"learning_tip":"Rotation and mirror images are different transformations.",
+"estimated_time":35,
+"companies":["TCS","Infosys","Accenture"],
+"tags":["rotation","90-degree"]
+},
+
+{
+"id":"FC016",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"While solving Figure Completion questions, which order gives the highest accuracy?",
+"options":[
+"Colour → Size → Background",
+"Boundary → Line Continuity → Symmetry → Orientation",
+"Guess → Eliminate",
+"Count sides only"
+],
+"correct_option":2,
+"explanation":"The most reliable approach is to first match the boundary, then line continuity, symmetry and finally orientation.",
+"shortcut":"Boundary → Lines → Symmetry → Orientation.",
+"formula":"Visual Analysis Order",
+"learning_tip":"Following a fixed checking order reduces mistakes in placement aptitude exams.",
+"estimated_time":35,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant","Wipro"],
+"tags":["important","placement","figure-completion","strategy"]
+}
+,
+{
+"id":"FC017",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Diagonal Pattern",
+"difficulty":"Hard",
+"question":"A figure contains diagonal lines running from the top-left to the bottom-right. The missing part should:",
+"options":[
+"Continue the diagonal lines",
+"Replace them with vertical lines",
+"Replace them with circles",
+"Leave the area blank"
+],
+"correct_option":1,
+"explanation":"The missing piece must continue the diagonal pattern without interruption.",
+"shortcut":"Follow the direction of the existing lines.",
+"formula":"Pattern Continuity",
+"learning_tip":"Always observe the direction of the lines entering and leaving the missing region.",
+"estimated_time":30,
+"companies":["TCS","Infosys"],
+"tags":["diagonal","pattern"]
+},
+
+{
+"id":"FC018",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Corner Completion",
+"difficulty":"Hard",
+"question":"A figure has one corner missing. Which feature is MOST important while selecting the missing piece?",
+"options":[
+"Colour",
+"Matching adjoining edges",
+"Background",
+"Paper size"
+],
+"correct_option":2,
+"explanation":"The adjoining edges must align perfectly with the remaining figure.",
+"shortcut":"Edges should connect smoothly.",
+"formula":"Edge Continuity",
+"learning_tip":"Corner questions are solved mainly by matching the adjoining boundary lines.",
+"estimated_time":25,
+"companies":["Infosys","Capgemini"],
+"tags":["corner","edges"]
+},
+
+{
+"id":"FC019",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Mirror Completion",
+"difficulty":"Hard",
+"question":"A figure is vertically symmetrical with its right half missing. The correct option should be:",
+"options":[
+"A rotated copy",
+"The mirror image of the left half",
+"A random figure",
+"An inverted figure"
+],
+"correct_option":2,
+"explanation":"Since the figure has vertical symmetry, the missing part is the mirror image of the left half.",
+"shortcut":"Vertical symmetry = Mirror reflection.",
+"formula":"Vertical Symmetry",
+"learning_tip":"Identify the symmetry axis before comparing the options.",
+"estimated_time":30,
+"companies":["TCS","Accenture"],
+"tags":["mirror","symmetry"]
+},
+
+{
+"id":"FC020",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Rotation",
+"difficulty":"Hard",
+"question":"A missing figure matches only after a 180° rotation. Which option should be selected?",
+"options":[
+"The rotated figure",
+"The mirror image",
+"The original figure",
+"A flipped figure"
+],
+"correct_option":1,
+"explanation":"The correct option is the one that matches the figure after a 180° rotation.",
+"shortcut":"Check 180° rotation before rejecting an option.",
+"formula":"Rotation = 180°",
+"learning_tip":"Do not confuse rotation with reflection.",
+"estimated_time":35,
+"companies":["Infosys","Wipro"],
+"tags":["rotation","180-degree"]
+},
+
+{
+"id":"FC021",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Complex Pattern",
+"difficulty":"Hard",
+"question":"A figure contains intersecting horizontal and vertical lines. The missing part should preserve:",
+"options":[
+"Only colour",
+"Only size",
+"Line intersections and continuity",
+"Background"
+],
+"correct_option":3,
+"explanation":"The missing piece must continue both the intersecting lines and their meeting points.",
+"shortcut":"Match every intersection.",
+"formula":"Line & Intersection Continuity",
+"learning_tip":"Pay attention to where lines cross inside the missing area.",
+"estimated_time":35,
+"companies":["TCS","Infosys"],
+"tags":["intersections","pattern"]
+},
+
+{
+"id":"FC022",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Curve Pattern",
+"difficulty":"Hard",
+"question":"A spiral pattern is interrupted by a missing section. The correct option should:",
+"options":[
+"Continue the spiral smoothly",
+"Replace it with straight lines",
+"End the spiral",
+"Create a new pattern"
+],
+"correct_option":1,
+"explanation":"The missing piece should continue the spiral naturally without breaking the flow.",
+"shortcut":"Follow the curve.",
+"formula":"Curve Continuity",
+"learning_tip":"Trace the curve mentally through the missing section.",
+"estimated_time":35,
+"companies":["Infosys","Capgemini"],
+"tags":["spiral","curve"]
+},
+
+{
+"id":"FC023",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which of the following is NOT normally required while solving Figure Completion questions?",
+"options":[
+"Line continuity",
+"Symmetry",
+"Orientation",
+"Arithmetic calculation"
+],
+"correct_option":4,
+"explanation":"Figure Completion depends on visual analysis, not arithmetic calculations.",
+"shortcut":"Visual reasoning ≠ Numerical reasoning.",
+"formula":"Visual Observation",
+"learning_tip":"Focus on patterns, shapes and symmetry rather than calculations.",
+"estimated_time":20,
+"companies":["TCS","Infosys","Accenture"],
+"tags":["important","concept"]
+},
+
+{
+"id":"FC024",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"A figure has broken boundary lines, curves and symmetry. Which should be checked FIRST while selecting the missing piece?",
+"options":[
+"Colour",
+"Boundary line matching",
+"Background",
+"Page orientation"
+],
+"correct_option":2,
+"explanation":"Boundary lines should always be matched first because they immediately eliminate incorrect options.",
+"shortcut":"Boundary first, details later.",
+"formula":"Boundary → Continuity → Symmetry → Orientation",
+"learning_tip":"This elimination strategy is widely used in placement aptitude tests.",
+"estimated_time":30,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant","Wipro"],
+"tags":["important","placement","strategy","boundary"]
+}
+,
+{
+"id":"FC025",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Figure Completion",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which is the BEST strategy to solve Figure Completion questions accurately in placement exams?",
+"options":[
+"Guess the answer based on appearance",
+"Match boundary lines, continue patterns, check symmetry, and finally verify orientation",
+"Select the option with the largest figure",
+"Choose the first option that looks similar"
+],
+"correct_option":2,
+"explanation":"The most reliable method is to first match the boundary lines, then verify line/pattern continuity, symmetry, and finally the orientation of the figure.",
+"shortcut":"Boundary → Pattern → Symmetry → Orientation",
+"formula":"Visual Analysis Strategy",
+"learning_tip":"Following this sequence eliminates most incorrect options quickly and is the preferred approach in TCS, Infosys, Accenture, Capgemini, Cognizant, Wipro and similar placement exams.",
+"estimated_time":30,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant","Wipro","IBM","Deloitte"],
+"tags":["important","placement","figure-completion","strategy","visual-reasoning"]
+}
+]

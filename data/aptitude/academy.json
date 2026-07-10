@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Placement Foundation",
+        "folder": "01_foundation"
+    },
+    {
+        "id": 2,
+        "name": "Arithmetic",
+        "folder": "02_arithmetic"
+    },
+    {
+        "id": 3,
+        "name": "Time Based",
+        "folder": "03_time_based"
+    },
+    {
+        "id": 4,
+        "name": "Logical Reasoning",
+        "folder": "04_logical"
+    },
+    {
+        "id": 5,
+        "name": "Visual Reasoning",
+        "folder": "05_visual_reasoning"
+    },
+    {
+        "id": 6,
+        "name": "Puzzles",
+        "folder": "06_puzzles"
+    },
+    {
+        "id": 7,
+        "name": "Statement Logic",
+        "folder": "07_statement_logic"
+    },
+    {
+        "id": 8,
+        "name": "Algebra",
+        "folder": "08_algebra"
+    },
+    {
+        "id": 9,
+        "name": "Geometry",
+        "folder": "09_geometry"
+    },
+    {
+        "id": 10,
+        "name": "Data Interpretation",
+        "folder": "10_data_interpretation"
+    },
+    {
+        "id": 11,
+        "name": "Advanced Verbal",
+        "folder": "11_advanced_verbal"
+    },
+    {
+        "id": 12,
+        "name": "Final Mock Tests",
+        "folder": "12_final_mock"
+    }
+]

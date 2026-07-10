@@ -1,0 +1,968 @@
+[
+  {
+    "id": "SCHED_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Easy",
+    "question": "Five meetings A, B, C, D, and E are scheduled from Monday to Friday, one each day. A is scheduled before B. B is scheduled before C. Which meeting is scheduled between A and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is A → B → C. Therefore, B is scheduled between A and C.",
+    "shortcut": "Arrange the meetings in chronological order.",
+    "formula": "Not Applicable",
+    "learning_tip": "Treat scheduling puzzles like timeline arrangement problems.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "timeline",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "SCHED_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Easy",
+    "question": "Six workshops P, Q, R, S, T, and U are scheduled on different days. U is scheduled on Saturday. Which workshop is scheduled on the latest day?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "U"
+    ],
+    "correct_option": 4,
+    "explanation": "Saturday is the latest scheduled day mentioned, and U is scheduled on Saturday.",
+    "shortcut": "Use fixed-day clues first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always place events with fixed days before arranging others.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "scheduling",
+      "direct clue"
+    ]
+  },
+  {
+    "id": "SCHED_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Five interviews A, B, C, D, and E are scheduled on different days. C is scheduled after A. A is scheduled after D. Which interview is scheduled before both A and C?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is D → A → C. Therefore, D is scheduled before both A and C.",
+    "shortcut": "Convert 'before' and 'after' into a timeline.",
+    "formula": "Not Applicable",
+    "learning_tip": "Draw a simple day-wise sequence to solve scheduling puzzles.",
+    "estimated_time": 35,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "scheduling",
+      "timeline"
+    ]
+  },
+  {
+    "id": "SCHED_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Six events M, N, O, P, Q, and R are scheduled on different days. M is scheduled before N. O is scheduled before M. P is scheduled after N. Which event is scheduled earliest among O, M, N, and P?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is O → M → N → P. Hence, O is scheduled earliest.",
+    "shortcut": "Arrange events chronologically.",
+    "formula": "Not Applicable",
+    "learning_tip": "Build the full sequence before answering.",
+    "estimated_time": 40,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "SCHED_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven tasks A, B, C, D, E, F, and G are scheduled on different days. A is scheduled before B. B is scheduled before C. Which task is scheduled latest among A, B, and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "Cannot be determined"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is A → B → C. Therefore, C is scheduled latest.",
+    "shortcut": "Arrange the tasks from earliest to latest.",
+    "formula": "Not Applicable",
+    "learning_tip": "Focus only on the tasks mentioned in the question.",
+    "estimated_time": 30,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "scheduling",
+      "comparison"
+    ]
+  },
+  {
+    "id": "SCHED_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight sessions A, B, C, D, E, F, G, and H are scheduled on different days. D is scheduled before A. A is scheduled before B. C is scheduled after B. Which session is scheduled second earliest among D, A, B, and C?",
+    "options": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is D → A → B → C. Therefore, A is scheduled second earliest.",
+    "shortcut": "Arrange the sequence before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Nth-position questions require the complete order.",
+    "estimated_time": 50,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "scheduling",
+      "advanced",
+      "ranking"
+    ]
+  },
+  {
+    "id": "SCHED_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Six activities P, Q, R, S, T, and U are scheduled on different days. S is scheduled before Q. Q is scheduled before P. T is scheduled after P. Which activity is scheduled second latest among S, Q, P, and T?",
+    "options": [
+      "S",
+      "Q",
+      "P",
+      "T"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is S → Q → P → T. Therefore, P is scheduled second latest.",
+    "shortcut": "Arrange from earliest to latest and count from the end.",
+    "formula": "Not Applicable",
+    "learning_tip": "Read carefully whether the question asks for earliest or latest.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SCHED_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven presentations A, B, C, D, E, F, and G are scheduled on different days. F is scheduled before D. D is scheduled before B. B is scheduled before A. Which presentation is scheduled third earliest among F, D, B, and A?",
+    "options": [
+      "F",
+      "D",
+      "B",
+      "A"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F → D → B → A. Therefore, B is scheduled third earliest.",
+    "shortcut": "Create the complete schedule before answering.",
+    "formula": "Not Applicable",
+    "learning_tip": "A simple timeline makes scheduling puzzles much easier.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "placement",
+      "ranking"
+    ]
+  },
+    {
+    "id": "SCHED_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Easy",
+    "question": "Five meetings A, B, C, D, and E are scheduled from Monday to Friday. B is scheduled before C. C is scheduled before D. Which meeting is scheduled between B and D?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is B → C → D. Therefore, C is scheduled between B and D.",
+    "shortcut": "Arrange the meetings in chronological order.",
+    "formula": "Not Applicable",
+    "learning_tip": "Consecutive scheduling clues create a direct timeline.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "timeline"
+    ]
+  },
+  {
+    "id": "SCHED_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Easy",
+    "question": "Six workshops P, Q, R, S, T, and U are scheduled on different days. R is scheduled after Q. Which workshop is definitely scheduled before R?",
+    "options": [
+      "P",
+      "Q",
+      "S",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "Since R is scheduled after Q, Q is definitely scheduled before R.",
+    "shortcut": "Use the direct clue.",
+    "formula": "Not Applicable",
+    "learning_tip": "Direct comparison questions need only the given relationship.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "scheduling",
+      "comparison"
+    ]
+  },
+  {
+    "id": "SCHED_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven interviews A, B, C, D, E, F, and G are scheduled on different days. D is scheduled before B. B is scheduled before A. C is scheduled after A. Which interview is scheduled second earliest among D, B, A, and C?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is D → B → A → C. Therefore, B is scheduled second earliest.",
+    "shortcut": "Arrange the complete sequence first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Count positions only after finalizing the order.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "scheduling",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "SCHED_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Six events M, N, O, P, Q, and R are scheduled on different days. O is scheduled before M. M is scheduled before N. P is scheduled after N. Which event is scheduled latest among O, M, N, and P?",
+    "options": [
+      "O",
+      "M",
+      "N",
+      "P"
+    ],
+    "correct_option": 4,
+    "explanation": "The order is O → M → N → P. Therefore, P is scheduled latest.",
+    "shortcut": "Arrange events from earliest to latest.",
+    "formula": "Not Applicable",
+    "learning_tip": "The last event in the sequence is the latest.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "SCHED_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight tasks A, B, C, D, E, F, G, and H are scheduled on different days. C is scheduled after A. A is scheduled after D. Which task is scheduled earliest among D, A, and C?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "Cannot be determined"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is D → A → C. Therefore, D is scheduled earliest.",
+    "shortcut": "Arrange only the required tasks.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore unrelated tasks unless they affect the order.",
+    "estimated_time": 35,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "scheduling",
+      "timeline"
+    ]
+  },
+  {
+    "id": "SCHED_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven sessions P, Q, R, S, T, U, and V are scheduled on different days. T is scheduled before R. R is scheduled before Q. Q is scheduled before P. Which session is scheduled second latest among T, R, Q, and P?",
+    "options": [
+      "T",
+      "R",
+      "Q",
+      "P"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is T → R → Q → P. Therefore, Q is scheduled second latest.",
+    "shortcut": "Arrange the schedule, then count from the end.",
+    "formula": "Not Applicable",
+    "learning_tip": "Count from the latest side for 'second/latest' questions.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "advanced",
+      "scheduling puzzle"
+    ]
+  },
+  {
+    "id": "SCHED_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Six activities A, B, C, D, E, and F are scheduled on different days. F is scheduled before D. D is scheduled before C. C is scheduled before B. Which activity is scheduled third earliest among F, D, C, and B?",
+    "options": [
+      "F",
+      "D",
+      "C",
+      "B"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F → D → C → B. Therefore, C is scheduled third earliest.",
+    "shortcut": "Arrange all activities before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Drawing a timeline minimizes mistakes.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SCHED_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight presentations A, B, C, D, E, F, G, and H are scheduled on different days. H is scheduled after G. G is scheduled after F. F is scheduled after E. Which presentation is scheduled second earliest among E, F, G, and H?",
+    "options": [
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is E → F → G → H. Therefore, F is scheduled second earliest.",
+    "shortcut": "Arrange the timeline before answering.",
+    "formula": "Not Applicable",
+    "learning_tip": "Timeline-based puzzles become easy after writing the sequence.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "placement",
+      "advanced"
+    ]
+  },
+    {
+    "id": "SCHED_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Easy",
+    "question": "Five meetings A, B, C, D, and E are scheduled from Monday to Friday. B is scheduled before C. C is scheduled before D. Which meeting is scheduled between B and D?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is B → C → D. Therefore, C is scheduled between B and D.",
+    "shortcut": "Arrange the meetings in chronological order.",
+    "formula": "Not Applicable",
+    "learning_tip": "Consecutive scheduling clues create a direct timeline.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "timeline"
+    ]
+  },
+  {
+    "id": "SCHED_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Easy",
+    "question": "Six workshops P, Q, R, S, T, and U are scheduled on different days. R is scheduled after Q. Which workshop is definitely scheduled before R?",
+    "options": [
+      "P",
+      "Q",
+      "S",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "Since R is scheduled after Q, Q is definitely scheduled before R.",
+    "shortcut": "Use the direct clue.",
+    "formula": "Not Applicable",
+    "learning_tip": "Direct comparison questions need only the given relationship.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "scheduling",
+      "comparison"
+    ]
+  },
+  {
+    "id": "SCHED_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven interviews A, B, C, D, E, F, and G are scheduled on different days. D is scheduled before B. B is scheduled before A. C is scheduled after A. Which interview is scheduled second earliest among D, B, A, and C?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is D → B → A → C. Therefore, B is scheduled second earliest.",
+    "shortcut": "Arrange the complete sequence first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Count positions only after finalizing the order.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "scheduling",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "SCHED_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Six events M, N, O, P, Q, and R are scheduled on different days. O is scheduled before M. M is scheduled before N. P is scheduled after N. Which event is scheduled latest among O, M, N, and P?",
+    "options": [
+      "O",
+      "M",
+      "N",
+      "P"
+    ],
+    "correct_option": 4,
+    "explanation": "The order is O → M → N → P. Therefore, P is scheduled latest.",
+    "shortcut": "Arrange events from earliest to latest.",
+    "formula": "Not Applicable",
+    "learning_tip": "The last event in the sequence is the latest.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "SCHED_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight tasks A, B, C, D, E, F, G, and H are scheduled on different days. C is scheduled after A. A is scheduled after D. Which task is scheduled earliest among D, A, and C?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "Cannot be determined"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is D → A → C. Therefore, D is scheduled earliest.",
+    "shortcut": "Arrange only the required tasks.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore unrelated tasks unless they affect the order.",
+    "estimated_time": 35,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "scheduling",
+      "timeline"
+    ]
+  },
+  {
+    "id": "SCHED_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven sessions P, Q, R, S, T, U, and V are scheduled on different days. T is scheduled before R. R is scheduled before Q. Q is scheduled before P. Which session is scheduled second latest among T, R, Q, and P?",
+    "options": [
+      "T",
+      "R",
+      "Q",
+      "P"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is T → R → Q → P. Therefore, Q is scheduled second latest.",
+    "shortcut": "Arrange the schedule, then count from the end.",
+    "formula": "Not Applicable",
+    "learning_tip": "Count from the latest side for 'second/latest' questions.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "advanced",
+      "scheduling puzzle"
+    ]
+  },
+  {
+    "id": "SCHED_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Six activities A, B, C, D, E, and F are scheduled on different days. F is scheduled before D. D is scheduled before C. C is scheduled before B. Which activity is scheduled third earliest among F, D, C, and B?",
+    "options": [
+      "F",
+      "D",
+      "C",
+      "B"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F → D → C → B. Therefore, C is scheduled third earliest.",
+    "shortcut": "Arrange all activities before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Drawing a timeline minimizes mistakes.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SCHED_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight presentations A, B, C, D, E, F, G, and H are scheduled on different days. H is scheduled after G. G is scheduled after F. F is scheduled after E. Which presentation is scheduled second earliest among E, F, G, and H?",
+    "options": [
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is E → F → G → H. Therefore, F is scheduled second earliest.",
+    "shortcut": "Arrange the timeline before answering.",
+    "formula": "Not Applicable",
+    "learning_tip": "Timeline-based puzzles become easy after writing the sequence.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "placement",
+      "advanced"
+    ]
+  },
+    {
+    "id": "SCHED_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Easy",
+    "question": "Five meetings A, B, C, D, and E are scheduled from Monday to Friday. C is scheduled after B. B is scheduled after A. Which meeting is scheduled between A and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is A → B → C. Therefore, B is scheduled between A and C.",
+    "shortcut": "Arrange the meetings chronologically.",
+    "formula": "Not Applicable",
+    "learning_tip": "Convert 'after' relationships into a timeline.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "easy",
+      "timeline"
+    ]
+  },
+  {
+    "id": "SCHED_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Easy",
+    "question": "Six workshops P, Q, R, S, T, and U are scheduled on different days. Q is scheduled before R. Which workshop is definitely scheduled after Q?",
+    "options": [
+      "P",
+      "R",
+      "S",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "Since Q is scheduled before R, R is definitely scheduled after Q.",
+    "shortcut": "Use the direct scheduling clue.",
+    "formula": "Not Applicable",
+    "learning_tip": "Direct comparison questions can be solved without a complete schedule.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "scheduling",
+      "comparison"
+    ]
+  },
+  {
+    "id": "SCHED_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven interviews A, B, C, D, E, F, and G are scheduled on different days. E is scheduled before C. C is scheduled before B. B is scheduled before A. Which interview is scheduled second latest among E, C, B, and A?",
+    "options": [
+      "E",
+      "C",
+      "B",
+      "A"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is E → C → B → A. Therefore, B is scheduled second latest.",
+    "shortcut": "Arrange all interviews before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Count from the end for 'latest' position questions.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "scheduling",
+      "ranking"
+    ]
+  },
+  {
+    "id": "SCHED_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Six events M, N, O, P, Q, and R are scheduled on different days. N is scheduled after M. O is scheduled before M. P is scheduled after N. Which event is scheduled second earliest among O, M, N, and P?",
+    "options": [
+      "O",
+      "M",
+      "N",
+      "P"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is O → M → N → P. Therefore, M is scheduled second earliest.",
+    "shortcut": "Create the full chronological sequence.",
+    "formula": "Not Applicable",
+    "learning_tip": "A simple timeline helps avoid mistakes.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "chronology"
+    ]
+  },
+  {
+    "id": "SCHED_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight tasks A, B, C, D, E, F, G, and H are scheduled on different days. D is scheduled before B. B is scheduled before A. E is scheduled after A. Which task is scheduled earliest among D, B, A, and E?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "E"
+    ],
+    "correct_option": 1,
+    "explanation": "The order is D → B → A → E. Therefore, D is scheduled earliest.",
+    "shortcut": "Arrange only the required tasks first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore unrelated tasks if they do not affect the answer.",
+    "estimated_time": 40,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "scheduling",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "SCHED_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven sessions P, Q, R, S, T, U, and V are scheduled on different days. V is scheduled on Sunday. T is scheduled before R. R is scheduled before Q. Q is scheduled before P. Which session is scheduled third latest among V, P, Q, R, and T?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is T → R → Q → P → V. Therefore, Q is scheduled third latest.",
+    "shortcut": "Use the fixed day and arrange the remaining sessions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Fixed-day clues act as anchors in scheduling puzzles.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "advanced",
+      "scheduling puzzle"
+    ]
+  },
+  {
+    "id": "SCHED_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Six activities A, B, C, D, E, and F are scheduled on different days. E is scheduled before D. D is scheduled before C. C is scheduled before B. Which activity is scheduled second earliest among E, D, C, and B?",
+    "options": [
+      "E",
+      "D",
+      "C",
+      "B"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is E → D → C → B. Therefore, D is scheduled second earliest.",
+    "shortcut": "Arrange the activities before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Verify the complete sequence before answering nth-position questions.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SCHED_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight presentations A, B, C, D, E, F, G, and H are scheduled on different days. H is scheduled after G. G is scheduled after F. F is scheduled after E. Which presentation is scheduled third earliest among E, F, G, and H?",
+    "options": [
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is E → F → G → H. Therefore, G is scheduled third earliest.",
+    "shortcut": "Arrange the presentations in chronological order first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Building a timeline makes scheduling puzzles straightforward.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "placement",
+      "advanced"
+    ]
+  },
+    {
+    "id": "SCHED_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight tasks A, B, C, D, E, F, G, and H are scheduled on different days. F is scheduled before D. D is scheduled before B. B is scheduled before A. G is scheduled after A. Which task is scheduled second latest among F, D, B, A, and G?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "G"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F → D → B → A → G. Therefore, A is scheduled second latest.",
+    "shortcut": "Arrange the complete schedule from earliest to latest, then count from the end.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always build the complete timeline before answering position-based scheduling questions.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "scheduling puzzle",
+      "ranking",
+      "advanced",
+      "placement"
+    ]
+  }
+]

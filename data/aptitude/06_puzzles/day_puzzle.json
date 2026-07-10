@@ -1,0 +1,747 @@
+[
+  {
+    "id": "DAY_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Easy",
+    "question": "If today is Monday, what day will it be after 10 days?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "correct_option": 2,
+    "explanation": "10 mod 7 = 3. Three days after Monday is Thursday.",
+    "shortcut": "Find the remainder after dividing by 7.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "A week repeats every 7 days.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "day puzzle",
+      "calendar",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "DAY_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Easy",
+    "question": "If yesterday was Thursday, what day is tomorrow?",
+    "options": [
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "correct_option": 2,
+    "explanation": "If yesterday was Thursday, today is Friday, so tomorrow is Saturday.",
+    "shortcut": "Determine today first, then move forward.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always identify today's day before solving.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "calendar",
+      "day reasoning"
+    ]
+  },
+  {
+    "id": "DAY_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Medium",
+    "question": "If today is Wednesday, what day was 15 days ago?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correct_option": 2,
+    "explanation": "15 mod 7 = 1. One day before Wednesday is Tuesday.",
+    "shortcut": "Reduce the number of days using modulo 7.",
+    "formula": "Past Day = (Current Day − N mod 7)",
+    "learning_tip": "Subtract the remainder after dividing by 7.",
+    "estimated_time": 40,
+    "companies": [
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "day puzzle",
+      "calendar"
+    ]
+  },
+  {
+    "id": "DAY_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Medium",
+    "question": "If the day after tomorrow is Sunday, what day was yesterday?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "correct_option": 2,
+    "explanation": "If the day after tomorrow is Sunday, today is Friday. Therefore, yesterday was Thursday.",
+    "shortcut": "Work backwards from the given day.",
+    "formula": "Not Applicable",
+    "learning_tip": "Reverse the timeline carefully.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "day reasoning",
+      "calendar"
+    ]
+  },
+  {
+    "id": "DAY_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Medium",
+    "question": "If today is Friday, what day will it be after 100 days?",
+    "options": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Tuesday"
+    ],
+    "correct_option": 2,
+    "explanation": "100 mod 7 = 2. Two days after Friday is Sunday.",
+    "shortcut": "Divide by 7 and use only the remainder.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "Large numbers become easy using modulo 7.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "calendar",
+      "modulo"
+    ]
+  },
+  {
+    "id": "DAY_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If tomorrow is Tuesday, what day was 20 days ago?",
+    "options": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "correct_option": 1,
+    "explanation": "Tomorrow is Tuesday, so today is Monday. 20 mod 7 = 6. Six days before Monday is Tuesday.",
+    "shortcut": "Find today first, then apply modulo 7.",
+    "formula": "Past Day = (Current Day − N mod 7)",
+    "learning_tip": "Always simplify large values using modulo arithmetic.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "day puzzle",
+      "advanced",
+      "calendar"
+    ]
+  },
+  {
+    "id": "DAY_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If yesterday was Sunday, what day will it be 30 days from today?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correct_option": 3,
+    "explanation": "Yesterday was Sunday, so today is Monday. 30 mod 7 = 2. Two days after Monday is Wednesday.",
+    "shortcut": "Determine today's day before adding the remainder.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "Always convert the given information into today's day first.",
+    "estimated_time": 55,
+    "companies": [
+      "Deloitte",
+      "Cisco"
+    ],
+    "tags": [
+      "calendar",
+      "day puzzle",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "DAY_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If today is Saturday, what day was 365 days ago?",
+    "options": [
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "correct_option": 1,
+    "explanation": "365 mod 7 = 1. One day before Saturday is Friday.",
+    "shortcut": "A non-leap year has 365 days, so use 365 mod 7.",
+    "formula": "Past Day = (Current Day − N mod 7)",
+    "learning_tip": "Remember that 365 leaves a remainder of 1 when divided by 7.",
+    "estimated_time": 45,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "day puzzle",
+      "calendar",
+      "placement"
+    ]
+  }
+  ,
+  {
+    "id": "DAY_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Easy",
+    "question": "If today is Tuesday, what day will it be after 15 days?",
+    "options": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "correct_option": 2,
+    "explanation": "15 mod 7 = 1. One day after Tuesday is Wednesday.",
+    "shortcut": "Reduce the number of days using modulo 7.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "Always divide the given number of days by 7 and use only the remainder.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "day puzzle",
+      "calendar",
+      "modulo"
+    ]
+  },
+  {
+    "id": "DAY_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Easy",
+    "question": "If tomorrow is Friday, what day was yesterday?",
+    "options": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "correct_option": 2,
+    "explanation": "If tomorrow is Friday, today is Thursday. Therefore, yesterday was Wednesday.",
+    "shortcut": "Find today's day first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Convert the given clue into today's day before solving.",
+    "estimated_time": 25,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "calendar",
+      "day reasoning"
+    ]
+  },
+  {
+    "id": "DAY_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Medium",
+    "question": "If today is Sunday, what day will it be after 50 days?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correct_option": 2,
+    "explanation": "50 mod 7 = 1. One day after Sunday is Monday.",
+    "shortcut": "Use only the remainder after dividing by 7.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "Modulo arithmetic makes large day calculations simple.",
+    "estimated_time": 40,
+    "companies": [
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "calendar",
+      "day puzzle"
+    ]
+  },
+  {
+    "id": "DAY_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Medium",
+    "question": "If the day before yesterday was Monday, what day will it be the day after tomorrow?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "correct_option": 2,
+    "explanation": "If the day before yesterday was Monday, today is Wednesday. Therefore, the day after tomorrow is Friday.",
+    "shortcut": "Move step by step from the reference day.",
+    "formula": "Not Applicable",
+    "learning_tip": "Draw a small timeline if needed.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "day reasoning",
+      "calendar"
+    ]
+  },
+  {
+    "id": "DAY_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Medium",
+    "question": "If today is Thursday, what day was 100 days ago?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correct_option": 2,
+    "explanation": "100 mod 7 = 2. Two days before Thursday is Tuesday.",
+    "shortcut": "Subtract only the remainder from the current day.",
+    "formula": "Past Day = (Current Day − N mod 7)",
+    "learning_tip": "For past-day questions, move backward using the remainder.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "calendar",
+      "modulo",
+      "day puzzle"
+    ]
+  },
+  {
+    "id": "DAY_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If yesterday was Wednesday, what day will it be 200 days from today?",
+    "options": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Tuesday"
+    ],
+    "correct_option": 2,
+    "explanation": "Yesterday was Wednesday, so today is Thursday. 200 mod 7 = 4. Four days after Thursday is Monday.",
+    "shortcut": "Determine today first, then apply modulo 7.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "Break the problem into two parts: identify today and calculate the remainder.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "day puzzle",
+      "advanced",
+      "calendar"
+    ]
+  },
+  {
+    "id": "DAY_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If tomorrow is Sunday, what day was 50 days ago?",
+    "options": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "correct_option": 1,
+    "explanation": "Tomorrow is Sunday, so today is Saturday. 50 mod 7 = 1. One day before Saturday is Friday.",
+    "shortcut": "Find today's day before moving backward.",
+    "formula": "Past Day = (Current Day − N mod 7)",
+    "learning_tip": "Always simplify large values using modulo arithmetic.",
+    "estimated_time": 55,
+    "companies": [
+      "Deloitte",
+      "Cisco"
+    ],
+    "tags": [
+      "calendar",
+      "day reasoning",
+      "placement"
+    ]
+  },
+  {
+    "id": "DAY_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If today is Monday, what day will it be after 730 days?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correct_option": 2,
+    "explanation": "730 mod 7 = 2. Two days after Monday is Wednesday.",
+    "shortcut": "Use the remainder after dividing by 7.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "Even very large numbers become simple after modulo 7.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS Digital",
+      "Accenture"
+    ],
+    "tags": [
+      "day puzzle",
+      "calendar",
+      "logical reasoning"
+    ]
+  }
+  ,
+  {
+    "id": "DAY_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Easy",
+    "question": "If today is Wednesday, what day will it be after 8 days?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "correct_option": 2,
+    "explanation": "8 mod 7 = 1. One day after Wednesday is Thursday.",
+    "shortcut": "Use the remainder after dividing by 7.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "Every 7 days the weekday repeats.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "day puzzle",
+      "calendar",
+      "easy"
+    ]
+  },
+  {
+    "id": "DAY_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Easy",
+    "question": "If yesterday was Friday, what day is tomorrow?",
+    "options": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Tuesday"
+    ],
+    "correct_option": 2,
+    "explanation": "If yesterday was Friday, today is Saturday. Therefore, tomorrow is Sunday.",
+    "shortcut": "Find today's day first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always determine today's day before moving forward or backward.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "calendar",
+      "day reasoning"
+    ]
+  },
+  {
+    "id": "DAY_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Medium",
+    "question": "If today is Tuesday, what day was 22 days ago?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correct_option": 1,
+    "explanation": "22 mod 7 = 1. One day before Tuesday is Monday.",
+    "shortcut": "Reduce the number using modulo 7.",
+    "formula": "Past Day = (Current Day − N mod 7)",
+    "learning_tip": "Large values are easier after taking the remainder.",
+    "estimated_time": 35,
+    "companies": [
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "calendar",
+      "modulo",
+      "day puzzle"
+    ]
+  },
+  {
+    "id": "DAY_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Medium",
+    "question": "If the day after tomorrow is Wednesday, what day was yesterday?",
+    "options": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Tuesday"
+    ],
+    "correct_option": 1,
+    "explanation": "If the day after tomorrow is Wednesday, today is Monday. Therefore, yesterday was Sunday.",
+    "shortcut": "Move backward from the given future day.",
+    "formula": "Not Applicable",
+    "learning_tip": "Draw a simple timeline for relative day questions.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "day reasoning",
+      "calendar"
+    ]
+  },
+  {
+    "id": "DAY_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Medium",
+    "question": "If today is Saturday, what day will it be after 250 days?",
+    "options": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "correct_option": 1,
+    "explanation": "250 mod 7 = 5. Five days after Saturday is Thursday.",
+    "shortcut": "Take the remainder after dividing by 7.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "Always verify the weekday count carefully.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "calendar",
+      "day puzzle",
+      "modulo"
+    ]
+  },
+  {
+    "id": "DAY_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If tomorrow is Thursday, what day was 365 days ago?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Friday"
+    ],
+    "correct_option": 3,
+    "explanation": "Tomorrow is Thursday, so today is Wednesday. 365 mod 7 = 1. One day before Wednesday is Tuesday.",
+    "shortcut": "365 leaves a remainder of 1 when divided by 7.",
+    "formula": "Past Day = (Current Day − N mod 7)",
+    "learning_tip": "Remember that a normal year shifts the weekday by one.",
+    "estimated_time": 50,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "calendar",
+      "advanced",
+      "day puzzle"
+    ]
+  },
+  {
+    "id": "DAY_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If yesterday was Monday, what day will it be after 500 days from today?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correct_option": 3,
+    "explanation": "Yesterday was Monday, so today is Tuesday. 500 mod 7 = 3. Three days after Tuesday is Friday.",
+    "shortcut": "Determine today first, then use modulo 7.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "Break the question into today's day and remaining days.",
+    "estimated_time": 60,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "calendar",
+      "logical reasoning",
+      "day puzzle"
+    ]
+  },
+  {
+    "id": "DAY_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If today is Friday, what day was 730 days ago?",
+    "options": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "correct_option": 2,
+    "explanation": "730 mod 7 = 2. Two days before Friday is Wednesday.",
+    "shortcut": "730 ÷ 7 leaves a remainder of 2.",
+    "formula": "Past Day = (Current Day − N mod 7)",
+    "learning_tip": "Use modulo arithmetic for large day calculations.",
+    "estimated_time": 45,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "day puzzle",
+      "calendar",
+      "placement"
+    ]
+  }
+  ,
+  {
+    "id": "DAY_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Day Puzzle",
+    "difficulty": "Hard",
+    "question": "If today is Thursday, what day will it be after 1000 days?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correct_option": 1,
+    "explanation": "1000 mod 7 = 6. Six days after Thursday is Wednesday.",
+    "shortcut": "Find the remainder when the number of days is divided by 7.",
+    "formula": "Future Day = (Current Day + N mod 7)",
+    "learning_tip": "No matter how large the number, only the remainder after division by 7 determines the weekday.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "day puzzle",
+      "calendar",
+      "modulo",
+      "placement"
+    ]
+  }
+]

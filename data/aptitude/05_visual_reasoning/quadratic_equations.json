@@ -1,0 +1,624 @@
+[
+{
+"id":"QE001",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Basic Concept",
+"difficulty":"Easy",
+"question":"Which of the following is a quadratic equation?",
+"options":[
+"x + 5 = 0",
+"x² + 3x + 2 = 0",
+"2x³ − 1 = 0",
+"5 = 0"
+],
+"correct_option":2,
+"explanation":"A quadratic equation has the highest power of the variable equal to 2.",
+"shortcut":"Highest power = 2",
+"formula":"ax² + bx + c = 0, where a ≠ 0",
+"learning_tip":"Always check the highest power of the variable.",
+"estimated_time":20,
+"companies":["TCS","Infosys","Wipro"],
+"tags":["quadratic","basic"]
+},
+
+{
+"id":"QE002",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Roots",
+"difficulty":"Easy",
+"question":"Find the roots of x² − 5x + 6 = 0.",
+"options":[
+"1, 6",
+"2, 3",
+"−2, −3",
+"3, 6"
+],
+"correct_option":2,
+"explanation":"Factorizing gives (x−2)(x−3)=0. Hence the roots are 2 and 3.",
+"shortcut":"Factorize first.",
+"formula":"(x−a)(x−b)=0",
+"learning_tip":"If factorization is easy, avoid using the quadratic formula.",
+"estimated_time":25,
+"companies":["Infosys","Capgemini"],
+"tags":["roots","factorization"]
+},
+
+{
+"id":"QE003",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Factorization",
+"difficulty":"Easy",
+"question":"Solve x² − 9 = 0.",
+"options":[
+"±3",
+"±9",
+"3 only",
+"9 only"
+],
+"correct_option":1,
+"explanation":"x²−9=(x−3)(x+3)=0, so x=±3.",
+"shortcut":"Difference of squares.",
+"formula":"a²−b²=(a−b)(a+b)",
+"learning_tip":"Recognize special identities to solve quickly.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["difference-of-squares"]
+},
+
+{
+"id":"QE004",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Quadratic Formula",
+"difficulty":"Medium",
+"question":"Which formula is used to solve any quadratic equation?",
+"options":[
+"x = −b/a",
+"x = (−b ± √(b²−4ac))/2a",
+"x = a+b+c",
+"x = √a"
+],
+"correct_option":2,
+"explanation":"The quadratic formula gives the roots of every quadratic equation.",
+"shortcut":"Memorize the formula.",
+"formula":"x=(−b±√(b²−4ac))/2a",
+"learning_tip":"Use this formula when factorization is difficult.",
+"estimated_time":25,
+"companies":["Accenture","Infosys"],
+"tags":["quadratic-formula"]
+},
+
+{
+"id":"QE005",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Discriminant",
+"difficulty":"Medium",
+"question":"What is the discriminant of 2x² + 5x + 3 = 0?",
+"options":["1","25","49","9"],
+"correct_option":1,
+"explanation":"D=b²−4ac=5²−4×2×3=25−24=1.",
+"shortcut":"D = b² − 4ac",
+"formula":"D=b²−4ac",
+"learning_tip":"The discriminant tells the nature of roots.",
+"estimated_time":25,
+"companies":["TCS","Capgemini"],
+"tags":["discriminant"]
+},
+
+{
+"id":"QE006",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Nature of Roots",
+"difficulty":"Medium",
+"question":"If the discriminant is greater than zero, the roots are:",
+"options":[
+"Equal",
+"Real and distinct",
+"Imaginary",
+"Undefined"
+],
+"correct_option":2,
+"explanation":"When D>0, the quadratic equation has two distinct real roots.",
+"shortcut":"D>0 → Two real roots.",
+"formula":"D=b²−4ac",
+"learning_tip":"Remember the three cases: D>0, D=0 and D<0.",
+"estimated_time":20,
+"companies":["Infosys","Wipro"],
+"tags":["nature-of-roots"]
+},
+
+{
+"id":"QE007",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Nature of Roots",
+"difficulty":"Medium",
+"question":"If the discriminant equals zero, the roots are:",
+"options":[
+"Distinct",
+"Equal",
+"Imaginary",
+"None"
+],
+"correct_option":2,
+"explanation":"When D=0, both roots are equal.",
+"shortcut":"D=0 → Equal roots.",
+"formula":"D=b²−4ac",
+"learning_tip":"Equal roots are also called repeated roots.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["equal-roots"]
+},
+
+{
+"id":"QE008",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Important",
+"difficulty":"Medium",
+"question":"What is the FIRST step while solving a quadratic equation?",
+"options":[
+"Use the quadratic formula immediately",
+"Identify whether the equation can be factorized easily",
+"Find the discriminant first",
+"Guess the roots"
+],
+"correct_option":2,
+"explanation":"Check for easy factorization before using lengthy methods.",
+"shortcut":"Factorize first, formula later.",
+"formula":"ax²+bx+c=0",
+"learning_tip":"Simple factorization saves time in placement exams.",
+"estimated_time":30,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant"],
+"tags":["important","placement","strategy"]
+}
+,
+{
+"id":"QE009",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Factorization",
+"difficulty":"Medium",
+"question":"Solve x² + 7x + 12 = 0.",
+"options":[
+"-3, -4",
+"3, 4",
+"-2, -6",
+"2, 6"
+],
+"correct_option":1,
+"explanation":"x² + 7x + 12 = (x+3)(x+4)=0. Therefore, the roots are -3 and -4.",
+"shortcut":"Find two numbers whose product is 12 and sum is 7.",
+"formula":"(x+a)(x+b)=0",
+"learning_tip":"Factorization is usually the fastest method when integer roots exist.",
+"estimated_time":25,
+"companies":["TCS","Infosys"],
+"tags":["factorization","roots"]
+},
+
+{
+"id":"QE010",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Quadratic Formula",
+"difficulty":"Medium",
+"question":"Solve x² − 4x − 5 = 0.",
+"options":[
+"5, -1",
+"4, -5",
+"1, -5",
+"2, -2"
+],
+"correct_option":1,
+"explanation":"x²−4x−5=(x−5)(x+1)=0. Hence the roots are 5 and -1.",
+"shortcut":"Factorize before using the quadratic formula.",
+"formula":"x=(−b±√(b²−4ac))/2a",
+"learning_tip":"Try factorization first if the coefficients are small.",
+"estimated_time":25,
+"companies":["Infosys","Capgemini"],
+"tags":["quadratic-formula","factorization"]
+},
+
+{
+"id":"QE011",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Discriminant",
+"difficulty":"Medium",
+"question":"Find the discriminant of x² + 6x + 9 = 0.",
+"options":["0","9","18","36"],
+"correct_option":1,
+"explanation":"D = b²−4ac = 6²−4×1×9 = 36−36 = 0.",
+"shortcut":"Apply D = b²−4ac.",
+"formula":"D=b²−4ac",
+"learning_tip":"A discriminant of zero means equal roots.",
+"estimated_time":20,
+"companies":["TCS","Accenture"],
+"tags":["discriminant"]
+},
+
+{
+"id":"QE012",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Nature of Roots",
+"difficulty":"Hard",
+"question":"If the discriminant is negative, the roots are:",
+"options":[
+"Real and equal",
+"Real and distinct",
+"Imaginary (non-real)",
+"One real root"
+],
+"correct_option":3,
+"explanation":"When D<0, the quadratic equation has no real roots; the roots are imaginary.",
+"shortcut":"D<0 → Imaginary roots.",
+"formula":"D=b²−4ac",
+"learning_tip":"Negative discriminant always indicates complex roots.",
+"estimated_time":20,
+"companies":["Infosys","Wipro"],
+"tags":["nature-of-roots"]
+},
+
+{
+"id":"QE013",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Sum of Roots",
+"difficulty":"Hard",
+"question":"For ax² + bx + c = 0, the sum of the roots is:",
+"options":[
+"c/a",
+"-b/a",
+"b/a",
+"-c/a"
+],
+"correct_option":2,
+"explanation":"If the roots are α and β, then α + β = -b/a.",
+"shortcut":"Sum = -b/a",
+"formula":"α+β=-b/a",
+"learning_tip":"Memorize the relationships between roots and coefficients.",
+"estimated_time":25,
+"companies":["TCS","Infosys"],
+"tags":["sum-of-roots"]
+},
+
+{
+"id":"QE014",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Product of Roots",
+"difficulty":"Hard",
+"question":"For ax² + bx + c = 0, the product of the roots is:",
+"options":[
+"-c/a",
+"b/a",
+"c/a",
+"-b/a"
+],
+"correct_option":3,
+"explanation":"If the roots are α and β, then αβ = c/a.",
+"shortcut":"Product = c/a",
+"formula":"αβ=c/a",
+"learning_tip":"These formulas are frequently used without solving the equation.",
+"estimated_time":20,
+"companies":["Capgemini","Infosys"],
+"tags":["product-of-roots"]
+},
+
+{
+"id":"QE015",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Perfect Square",
+"difficulty":"Hard",
+"question":"Solve x² − 10x + 25 = 0.",
+"options":[
+"5, 5",
+"5, -5",
+"-5, -5",
+"10, 5"
+],
+"correct_option":1,
+"explanation":"x²−10x+25=(x−5)²=0. Therefore, both roots are 5.",
+"shortcut":"Recognize perfect square trinomials.",
+"formula":"(a−b)²=a²−2ab+b²",
+"learning_tip":"Perfect square expressions always have equal roots.",
+"estimated_time":25,
+"companies":["TCS","Infosys","Accenture"],
+"tags":["perfect-square","equal-roots"]
+}
+,
+{
+"id":"QE016",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which sequence should be followed while solving quadratic equations?",
+"options":[
+"Guess → Calculate",
+"Check factorization → Use the quadratic formula if needed → Verify the roots",
+"Find the discriminant only",
+"Always use the quadratic formula"
+],
+"correct_option":2,
+"explanation":"The most efficient approach is to first check whether the equation can be factorized easily. If not, apply the quadratic formula and verify the obtained roots.",
+"shortcut":"Factorize → Formula → Verify",
+"formula":"x = (-b ± √(b² - 4ac)) / 2a",
+"learning_tip":"Checking for factorization first saves time and reduces calculations in placement exams.",
+"estimated_time":30,
+"companies":[
+"TCS",
+"Infosys",
+"Accenture",
+"Capgemini",
+"Cognizant",
+"Wipro"
+],
+"tags":[
+"important",
+"placement",
+"strategy",
+"quadratic-equations",
+"factorization",
+"quadratic-formula"
+]
+},
+
+{
+"id":"QE017",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Factorization",
+"difficulty":"Hard",
+"question":"Solve x² − 7x + 12 = 0.",
+"options":[
+"3, 4",
+"2, 6",
+"-3, -4",
+"1, 12"
+],
+"correct_option":1,
+"explanation":"x² − 7x + 12 = (x−3)(x−4) = 0. Therefore, the roots are 3 and 4.",
+"shortcut":"Find two numbers whose product is 12 and sum is 7.",
+"formula":"(x−a)(x−b)=0",
+"learning_tip":"Look for two numbers whose product equals the constant term and whose sum equals the coefficient of x.",
+"estimated_time":25,
+"companies":["TCS","Infosys"],
+"tags":["factorization","roots"]
+},
+
+{
+"id":"QE018",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Factorization",
+"difficulty":"Hard",
+"question":"Solve x² + x − 6 = 0.",
+"options":[
+"2, -3",
+"3, -2",
+"1, -6",
+"2, 3"
+],
+"correct_option":1,
+"explanation":"x² + x − 6 = (x+3)(x−2)=0. Hence, the roots are 2 and -3.",
+"shortcut":"Factorize before using the quadratic formula.",
+"formula":"(x+a)(x−b)=0",
+"learning_tip":"Small coefficient equations are often easier to solve by factorization.",
+"estimated_time":25,
+"companies":["Infosys","Capgemini"],
+"tags":["factorization","roots"]
+},
+
+{
+"id":"QE019",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Discriminant",
+"difficulty":"Hard",
+"question":"Find the discriminant of 3x² − 2x + 5 = 0.",
+"options":[
+"-56",
+"56",
+"64",
+"16"
+],
+"correct_option":1,
+"explanation":"D = b² − 4ac = (−2)² − 4×3×5 = 4 − 60 = −56.",
+"shortcut":"Use D = b² − 4ac.",
+"formula":"D = b² − 4ac",
+"learning_tip":"A negative discriminant means the equation has no real roots.",
+"estimated_time":25,
+"companies":["TCS","Accenture"],
+"tags":["discriminant"]
+},
+
+{
+"id":"QE020",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Nature of Roots",
+"difficulty":"Hard",
+"question":"If the discriminant of a quadratic equation is 25, the roots are:",
+"options":[
+"Equal",
+"Imaginary",
+"Real and distinct",
+"Undefined"
+],
+"correct_option":3,
+"explanation":"Since D = 25 > 0, the quadratic equation has two distinct real roots.",
+"shortcut":"Positive D → Real & Distinct.",
+"formula":"If D > 0, roots are real and distinct.",
+"learning_tip":"Only the sign of the discriminant determines the nature of the roots.",
+"estimated_time":20,
+"companies":["Infosys","Wipro"],
+"tags":["nature-of-roots"]
+}
+,
+{
+"id":"QE021",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Sum of Roots",
+"difficulty":"Hard",
+"question":"For the equation 2x² + 7x + 3 = 0, what is the sum of the roots?",
+"options":[
+"-7/2",
+"7/2",
+"-3/2",
+"3/2"
+],
+"correct_option":1,
+"explanation":"For ax² + bx + c = 0, the sum of the roots is −b/a. Here, a = 2 and b = 7, so the sum is −7/2.",
+"shortcut":"Sum of Roots = −b/a",
+"formula":"α + β = −b/a",
+"learning_tip":"You don't need to solve the equation to find the sum of the roots.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["sum-of-roots","formula"]
+},
+
+{
+"id":"QE022",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Product of Roots",
+"difficulty":"Hard",
+"question":"For the equation 2x² + 7x + 3 = 0, what is the product of the roots?",
+"options":[
+"3/2",
+"-3/2",
+"7/2",
+"-7/2"
+],
+"correct_option":1,
+"explanation":"For ax² + bx + c = 0, the product of the roots is c/a. Here, c = 3 and a = 2, so the product is 3/2.",
+"shortcut":"Product of Roots = c/a",
+"formula":"αβ = c/a",
+"learning_tip":"Memorize both the sum and product formulas—they are frequently asked in placement exams.",
+"estimated_time":20,
+"companies":["Capgemini","Infosys"],
+"tags":["product-of-roots","formula"]
+},
+
+{
+"id":"QE023",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which of the following is always true for a quadratic equation?",
+"options":[
+"The highest power of x is 3",
+"The coefficient of x² is 0",
+"The highest power of x is 2",
+"It always has two distinct real roots"
+],
+"correct_option":3,
+"explanation":"A quadratic equation is defined as an equation whose highest power of the variable is 2 and whose coefficient of x² is non-zero.",
+"shortcut":"Quadratic → Degree = 2",
+"formula":"ax² + bx + c = 0, where a ≠ 0",
+"learning_tip":"If the coefficient of x² becomes zero, the equation is no longer quadratic.",
+"estimated_time":20,
+"companies":["TCS","Infosys","Accenture"],
+"tags":["important","concept"]
+},
+
+{
+"id":"QE024",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which concept is MOST frequently tested in placement aptitude questions on quadratic equations?",
+"options":[
+"Graph sketching",
+"Nature of roots using the discriminant",
+"Complex numbers",
+"Polynomial division"
+],
+"correct_option":2,
+"explanation":"Most placement questions focus on determining the nature of roots using the discriminant without solving the equation completely.",
+"shortcut":"Remember the discriminant formula.",
+"formula":"D = b² − 4ac",
+"learning_tip":"Master these three cases: D > 0 (distinct real roots), D = 0 (equal roots), D < 0 (imaginary roots).",
+"estimated_time":25,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant"],
+"tags":["important","placement","discriminant"]
+}
+,
+{
+"id":"QE025",
+"academy":"Aptitude",
+"level":"Quantitative Aptitude",
+"topic":"Quadratic Equations",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which is the BEST strategy for solving Quadratic Equation problems accurately in placement exams?",
+"options":[
+"Always apply the quadratic formula first",
+"Guess the roots using the options",
+"First check if the equation can be factorized, otherwise use the discriminant or quadratic formula, and finally verify the roots",
+"Find the discriminant only and stop"
+],
+"correct_option":3,
+"explanation":"The most effective strategy is to first look for simple factorization. If factorization is not possible, use the discriminant to understand the nature of the roots and apply the quadratic formula if required. Finally, verify the obtained roots by substituting them back into the original equation.",
+"shortcut":"Factorize → Discriminant → Quadratic Formula → Verify",
+"formula":"Discriminant: D = b² - 4ac\nQuadratic Formula: x = (-b ± √(b² - 4ac)) / 2a",
+"learning_tip":"In placement exams, don't immediately use the quadratic formula. Checking for easy factorization first can save significant time. Master the discriminant (D>0, D=0, D<0) because many questions ask only about the nature of the roots.",
+"estimated_time":35,
+"companies":[
+"TCS",
+"Infosys",
+"Accenture",
+"Capgemini",
+"Cognizant",
+"Wipro",
+"IBM",
+"Deloitte"
+],
+"tags":[
+"important",
+"placement",
+"quadratic-equations",
+"quadratic-formula",
+"factorization",
+"discriminant",
+"roots",
+"strategy",
+"quantitative-aptitude"
+]
+}
+]

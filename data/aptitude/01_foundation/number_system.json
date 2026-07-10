@@ -1,0 +1,32 @@
+[
+  {
+    "id": "NS001",
+    "academy": "Aptitude",
+    "level": "Placement Foundation",
+    "topic": "Number System",
+    "subtopic": "Basic Numbers",
+    "difficulty": "Easy",
+    "question": "Which of the following is a prime number?",
+    "options": [
+      "21",
+      "29",
+      "39",
+      "49"
+    ],
+    "correct_option": 2,
+    "explanation": "29 has exactly two factors: 1 and 29.",
+    "shortcut": "Check divisibility up to √29.",
+    "formula": "A prime number has exactly two factors.",
+    "learning_tip": "Memorize prime numbers from 1 to 100.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Accenture"
+    ],
+    "tags": [
+      "prime",
+      "number system"
+    ]
+  }
+]

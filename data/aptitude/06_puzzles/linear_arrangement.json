@@ -1,0 +1,735 @@
+[
+  {
+    "id": "LINEAR_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Five friends A, B, C, D, and E are standing in a row facing north. A stands to the left of B. B stands to the left of C. Who stands between A and C?",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is A - B - C. Therefore, B stands between A and C.",
+    "shortcut": "Arrange people according to the given left-right clues.",
+    "formula": "Not Applicable",
+    "learning_tip": "Draw a straight line and place people from left to right.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "linear arrangement",
+      "row puzzle",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "LINEAR_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Six students P, Q, R, S, T, and U are standing in a row facing north. P stands to the left of Q. Who definitely stands to the right of P?",
+    "options": [
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "correct_option": 1,
+    "explanation": "Since P is to the left of Q, Q is definitely to the right of P.",
+    "shortcut": "Use direct positional clues.",
+    "formula": "Not Applicable",
+    "learning_tip": "Not every arrangement requires building the full row.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "linear arrangement",
+      "comparison"
+    ]
+  },
+  {
+    "id": "LINEAR_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Five people A, B, C, D, and E stand in a row facing north. C stands to the right of A. A stands to the right of D. Who stands to the left of both A and C?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is D - A - C. Therefore, D is to the left of both A and C.",
+    "shortcut": "Convert all right/left clues into one sequence.",
+    "formula": "Not Applicable",
+    "learning_tip": "Link related clues before placing unrelated people.",
+    "estimated_time": 35,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "row arrangement",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "LINEAR_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Six friends M, N, O, P, Q, and R stand in a row facing north. M stands to the left of N. O stands to the left of M. P stands to the right of N. Who stands at the extreme left among O, M, N, and P?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is O - M - N - P. Therefore, O stands at the extreme left.",
+    "shortcut": "Arrange only the required people first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore people not involved in the given clues.",
+    "estimated_time": 40,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "linear arrangement",
+      "ranking"
+    ]
+  },
+  {
+    "id": "LINEAR_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people A, B, C, D, E, F, and G stand in a row facing north. A stands to the left of B. B stands to the left of C. Who stands at the extreme right among A, B, and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "Cannot be determined"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is A - B - C. Hence, C is at the extreme right among the three.",
+    "shortcut": "Create the left-to-right order.",
+    "formula": "Not Applicable",
+    "learning_tip": "Focus only on the people mentioned in the question.",
+    "estimated_time": 30,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "linear arrangement",
+      "comparison"
+    ]
+  },
+  {
+    "id": "LINEAR_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H stand in a row facing north. D stands to the left of A. A stands to the left of B. C stands to the right of B. Who stands second from the left among D, A, B, and C?",
+    "options": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is D - A - B - C. Therefore, A is second from the left.",
+    "shortcut": "Arrange everyone in order before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Position-based questions require a complete sequence.",
+    "estimated_time": 50,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "linear arrangement",
+      "advanced",
+      "ranking"
+    ]
+  },
+  {
+    "id": "LINEAR_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Six people P, Q, R, S, T, and U stand in a row facing north. S stands to the left of Q. Q stands to the left of P. T stands to the right of P. Who stands second from the right among S, Q, P, and T?",
+    "options": [
+      "S",
+      "Q",
+      "P",
+      "T"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is S - Q - P - T. Therefore, P is second from the right.",
+    "shortcut": "Arrange from left to right, then count from the required end.",
+    "formula": "Not Applicable",
+    "learning_tip": "Read carefully whether counting starts from the left or right.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "linear arrangement",
+      "advanced"
+    ]
+  },
+  {
+    "id": "LINEAR_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven students A, B, C, D, E, F, and G stand in a row facing north. F stands to the left of D. D stands to the left of B. B stands to the left of A. Who stands third from the left among F, D, B, and A?",
+    "options": [
+      "F",
+      "D",
+      "B",
+      "A"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F - D - B - A. Therefore, B stands third from the left.",
+    "shortcut": "Write the complete order before answering position-based questions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Linear arrangement questions become easy with a simple horizontal diagram.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "linear arrangement",
+      "placement",
+      "ranking"
+    ]
+  },
+    {
+    "id": "LINEAR_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Five friends A, B, C, D, and E are standing in a row facing north. B stands to the left of C. C stands to the left of D. Who stands between B and D?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is B - C - D. Therefore, C stands between B and D.",
+    "shortcut": "Arrange the given people in order from left to right.",
+    "formula": "Not Applicable",
+    "learning_tip": "People connected by consecutive clues form a chain.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "linear arrangement",
+      "ranking"
+    ]
+  },
+  {
+    "id": "LINEAR_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Six students P, Q, R, S, T, and U stand in a row facing north. R stands to the right of Q. Who definitely stands to the left of R?",
+    "options": [
+      "P",
+      "Q",
+      "S",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "Since R is to the right of Q, Q definitely stands to the left of R.",
+    "shortcut": "Use direct left-right clues first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Simple comparison questions do not require the full arrangement.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "linear arrangement",
+      "comparison"
+    ]
+  },
+  {
+    "id": "LINEAR_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people A, B, C, D, E, F, and G stand in a row facing north. D stands to the left of B. B stands to the left of A. C stands to the right of A. Who stands second from the left among D, B, A, and C?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is D - B - A - C. Therefore, B stands second from the left.",
+    "shortcut": "Arrange the people before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always count positions only after finalizing the order.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "row arrangement",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "LINEAR_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Six friends M, N, O, P, Q, and R stand in a row facing north. O stands to the left of M. M stands to the left of N. P stands to the right of N. Who stands at the extreme right among O, M, N, and P?",
+    "options": [
+      "O",
+      "M",
+      "N",
+      "P"
+    ],
+    "correct_option": 4,
+    "explanation": "The order is O - M - N - P. Hence, P stands at the extreme right.",
+    "shortcut": "Create the arrangement using the given clues.",
+    "formula": "Not Applicable",
+    "learning_tip": "Extreme left/right questions become easy after arranging everyone.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "linear arrangement",
+      "ranking"
+    ]
+  },
+  {
+    "id": "LINEAR_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight people A, B, C, D, E, F, G, and H stand in a row facing north. C stands to the right of A. A stands to the right of D. Who stands at the extreme left among D, A, and C?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "Cannot be determined"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is D - A - C. Therefore, D stands at the extreme left.",
+    "shortcut": "Arrange only the relevant people.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore unrelated people if they are not required.",
+    "estimated_time": 35,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "linear arrangement",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "LINEAR_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven people P, Q, R, S, T, U, and V stand in a row facing north. T stands to the left of R. R stands to the left of Q. Q stands to the left of P. Who stands second from the right among T, R, Q, and P?",
+    "options": [
+      "T",
+      "R",
+      "Q",
+      "P"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is T - R - Q - P. Therefore, Q stands second from the right.",
+    "shortcut": "Arrange first, then count from the right.",
+    "formula": "Not Applicable",
+    "learning_tip": "Read carefully whether the question asks from the left or right.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "advanced",
+      "linear arrangement"
+    ]
+  },
+  {
+    "id": "LINEAR_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Six people A, B, C, D, E, and F stand in a row facing north. F stands to the left of D. D stands to the left of C. C stands to the left of B. Who stands third from the left among F, D, C, and B?",
+    "options": [
+      "F",
+      "D",
+      "C",
+      "B"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F - D - C - B. Therefore, C stands third from the left.",
+    "shortcut": "Arrange all people before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Position questions are easiest after drawing a row.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "linear arrangement",
+      "advanced"
+    ]
+  },
+  {
+    "id": "LINEAR_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H stand in a row facing north. H stands to the right of G. G stands to the right of F. F stands to the right of E. Who stands second from the left among E, F, G, and H?",
+    "options": [
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is E - F - G - H. Therefore, F stands second from the left.",
+    "shortcut": "Arrange the sequence before identifying positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Draw arrows to represent left and right relationships.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "linear arrangement",
+      "placement",
+      "advanced"
+    ]
+  },
+    {
+    "id": "LINEAR_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Five friends A, B, C, D, and E are standing in a row facing north. C stands to the right of B. B stands to the right of A. Who stands between A and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is A - B - C. Therefore, B stands between A and C.",
+    "shortcut": "Write the arrangement from left to right.",
+    "formula": "Not Applicable",
+    "learning_tip": "Simple left-right clues often form a direct chain.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "linear arrangement",
+      "easy",
+      "row puzzle"
+    ]
+  },
+  {
+    "id": "LINEAR_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Six students P, Q, R, S, T, and U stand in a row facing north. Q stands to the left of R. Which person definitely stands to the right of Q?",
+    "options": [
+      "P",
+      "R",
+      "S",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "Since Q is to the left of R, R is definitely to the right of Q.",
+    "shortcut": "Use the direct positional clue.",
+    "formula": "Not Applicable",
+    "learning_tip": "Direct comparisons can often answer the question immediately.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "linear arrangement",
+      "comparison"
+    ]
+  },
+  {
+    "id": "LINEAR_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people A, B, C, D, E, F, and G stand in a row facing north. E stands to the left of C. C stands to the left of B. B stands to the left of A. Who stands second from the right among E, C, B, and A?",
+    "options": [
+      "E",
+      "C",
+      "B",
+      "A"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is E - C - B - A. Therefore, B stands second from the right.",
+    "shortcut": "Arrange the people, then count from the required side.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always pay attention to whether counting starts from the left or right.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "linear arrangement",
+      "ranking"
+    ]
+  },
+  {
+    "id": "LINEAR_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Six friends M, N, O, P, Q, and R stand in a row facing north. N stands to the right of M. O stands to the left of M. P stands to the right of N. Who stands second from the left among O, M, N, and P?",
+    "options": [
+      "O",
+      "M",
+      "N",
+      "P"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is O - M - N - P. Hence, M stands second from the left.",
+    "shortcut": "Arrange everyone before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Drawing a row avoids counting mistakes.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "linear arrangement",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "LINEAR_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight people A, B, C, D, E, F, G, and H stand in a row facing north. D stands to the left of B. B stands to the left of A. E stands to the right of A. Who stands at the extreme left among D, B, A, and E?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "E"
+    ],
+    "correct_option": 1,
+    "explanation": "The order is D - B - A - E. Therefore, D stands at the extreme left.",
+    "shortcut": "Arrange only the people mentioned in the clues.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore unrelated people unless they affect the arrangement.",
+    "estimated_time": 40,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "row puzzle",
+      "linear arrangement"
+    ]
+  },
+  {
+    "id": "LINEAR_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven people P, Q, R, S, T, U, and V stand in a row facing north. V stands at the extreme right. T stands to the left of R. R stands to the left of Q. Q stands to the left of P. Who stands third from the right among V, P, Q, R, and T?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is T - R - Q - P - V. Therefore, Q stands third from the right.",
+    "shortcut": "Build the complete sequence before counting.",
+    "formula": "Not Applicable",
+    "learning_tip": "Extreme positions help anchor the arrangement.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "advanced",
+      "linear arrangement"
+    ]
+  },
+  {
+    "id": "LINEAR_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Six people A, B, C, D, E, and F stand in a row facing north. E stands to the left of D. D stands to the left of C. C stands to the left of B. Who stands second from the left among E, D, C, and B?",
+    "options": [
+      "E",
+      "D",
+      "C",
+      "B"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is E - D - C - B. Therefore, D stands second from the left.",
+    "shortcut": "Arrange from left to right before counting.",
+    "formula": "Not Applicable",
+    "learning_tip": "Count positions only after confirming the final order.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "linear arrangement",
+      "advanced"
+    ]
+  },
+  {
+    "id": "LINEAR_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H stand in a row facing north. H stands to the right of G. G stands to the right of F. F stands to the right of E. Who stands third from the left among E, F, G, and H?",
+    "options": [
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is E - F - G - H. Therefore, G stands third from the left.",
+    "shortcut": "Write the arrangement before answering position-based questions.",
+    "formula": "Not Applicable",
+    "learning_tip": "A simple horizontal diagram reduces mistakes.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "linear arrangement",
+      "placement",
+      "advanced"
+    ]
+  },
+    {
+    "id": "LINEAR_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Linear Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H stand in a row facing north. F stands to the left of D. D stands to the left of B. B stands to the left of A. G stands to the right of A. Who stands second from the right among F, D, B, A, and G?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "G"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F - D - B - A - G. Therefore, A stands second from the right.",
+    "shortcut": "Arrange everyone from left to right, then count from the right.",
+    "formula": "Not Applicable",
+    "learning_tip": "For linear arrangement puzzles, drawing the complete sequence first makes position-based questions much easier.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "linear arrangement",
+      "ranking",
+      "advanced",
+      "placement"
+    ]
+  }
+]

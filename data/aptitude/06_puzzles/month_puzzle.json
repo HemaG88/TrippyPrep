@@ -1,0 +1,735 @@
+[
+  {
+    "id": "MONTH_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Easy",
+    "question": "Five friends A, B, C, D, and E were born in different months from January to May. A was born before B. B was born before C. Who was born earliest among A, B, and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "Cannot be determined"
+    ],
+    "correct_option": 1,
+    "explanation": "Since A was born before B and B before C, A was born earliest.",
+    "shortcut": "Arrange the months in chronological order.",
+    "formula": "Not Applicable",
+    "learning_tip": "Treat 'before' as an earlier month and 'after' as a later month.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "month puzzle",
+      "ranking",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "MONTH_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Easy",
+    "question": "Six students P, Q, R, S, T, and U were born in different months. U was born in December. Who was born in the latest month?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "U"
+    ],
+    "correct_option": 4,
+    "explanation": "December is the last month of the year, and U was born in December.",
+    "shortcut": "Use the fixed month clue first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Identify fixed months before arranging the remaining people.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "month puzzle",
+      "direct clue"
+    ]
+  },
+  {
+    "id": "MONTH_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Medium",
+    "question": "Five people A, B, C, D, and E were born in different months. C was born after A. A was born after D. Who was born before both A and C?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is D → A → C. Therefore, D was born before both A and C.",
+    "shortcut": "Convert 'before' and 'after' into a timeline.",
+    "formula": "Not Applicable",
+    "learning_tip": "Draw a horizontal timeline of months.",
+    "estimated_time": 35,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "month arrangement",
+      "comparison"
+    ]
+  },
+  {
+    "id": "MONTH_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Medium",
+    "question": "Six friends M, N, O, P, Q, and R were born in different months. M was born before N. O was born before M. P was born after N. Who was born earliest among O, M, N, and P?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is O → M → N → P. Hence, O was born earliest.",
+    "shortcut": "Arrange everyone in chronological order.",
+    "formula": "Not Applicable",
+    "learning_tip": "Earlier month means earlier in the timeline.",
+    "estimated_time": 40,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "month puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "MONTH_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people A, B, C, D, E, F, and G were born in different months. A was born before B. B was born before C. Who was born latest among A, B, and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "Cannot be determined"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is A → B → C. Therefore, C was born latest among the three.",
+    "shortcut": "Write the months in order from earliest to latest.",
+    "formula": "Not Applicable",
+    "learning_tip": "Focus only on the people mentioned in the question.",
+    "estimated_time": 30,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "month puzzle",
+      "comparison"
+    ]
+  },
+  {
+    "id": "MONTH_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H were born in different months. D was born before A. A was born before B. C was born after B. Who was born second earliest among D, A, B, and C?",
+    "options": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is D → A → B → C. Therefore, A was born second earliest.",
+    "shortcut": "Arrange everyone before identifying positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Questions asking for second earliest require the complete order.",
+    "estimated_time": 50,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "month puzzle",
+      "advanced",
+      "ranking"
+    ]
+  },
+  {
+    "id": "MONTH_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Six people P, Q, R, S, T, and U were born in different months. S was born before Q. Q was born before P. T was born after P. Who was born second latest among S, Q, P, and T?",
+    "options": [
+      "S",
+      "Q",
+      "P",
+      "T"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is S → Q → P → T. Therefore, P was born second latest.",
+    "shortcut": "Arrange from earliest to latest, then count backward.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always note whether the question asks for earliest or latest positions.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "month puzzle",
+      "advanced"
+    ]
+  },
+  {
+    "id": "MONTH_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven students A, B, C, D, E, F, and G were born in different months. F was born before D. D was born before B. B was born before A. Who was born third earliest among F, D, B, and A?",
+    "options": [
+      "F",
+      "D",
+      "B",
+      "A"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F → D → B → A. Therefore, B was born third earliest.",
+    "shortcut": "Create the full chronological order first.",
+    "formula": "Not Applicable",
+    "learning_tip": "A timeline is the easiest way to solve month arrangement puzzles.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "month puzzle",
+      "placement",
+      "ranking"
+    ]
+  },
+    {
+    "id": "MONTH_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Easy",
+    "question": "Five friends A, B, C, D, and E were born in different months. B was born before C. C was born before D. Who was born between B and D?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is B → C → D. Therefore, C was born between B and D.",
+    "shortcut": "Arrange the people in chronological order.",
+    "formula": "Not Applicable",
+    "learning_tip": "Consecutive 'before' clues form a direct timeline.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "month puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "MONTH_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Easy",
+    "question": "Six students P, Q, R, S, T, and U were born in different months. R was born after Q. Who was definitely born before R?",
+    "options": [
+      "P",
+      "Q",
+      "S",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "Since R was born after Q, Q was definitely born before R.",
+    "shortcut": "Use direct 'before' and 'after' clues.",
+    "formula": "Not Applicable",
+    "learning_tip": "Direct comparison questions usually require only one clue.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "month puzzle",
+      "comparison"
+    ]
+  },
+  {
+    "id": "MONTH_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people A, B, C, D, E, F, and G were born in different months. D was born before B. B was born before A. C was born after A. Who was born second earliest among D, B, A, and C?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is D → B → A → C. Therefore, B was born second earliest.",
+    "shortcut": "Arrange everyone first, then count positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Position-based month puzzles require the complete order.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "month arrangement",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "MONTH_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Medium",
+    "question": "Six friends M, N, O, P, Q, and R were born in different months. O was born before M. M was born before N. P was born after N. Who was born latest among O, M, N, and P?",
+    "options": [
+      "O",
+      "M",
+      "N",
+      "P"
+    ],
+    "correct_option": 4,
+    "explanation": "The order is O → M → N → P. Hence, P was born latest.",
+    "shortcut": "Arrange from earliest to latest.",
+    "formula": "Not Applicable",
+    "learning_tip": "Latest means the last person in the timeline.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "month puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "MONTH_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight people A, B, C, D, E, F, G, and H were born in different months. C was born after A. A was born after D. Who was born earliest among D, A, and C?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "Cannot be determined"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is D → A → C. Therefore, D was born earliest.",
+    "shortcut": "Arrange only the relevant people.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore unrelated people when they don't affect the answer.",
+    "estimated_time": 35,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "month puzzle",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "MONTH_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven people P, Q, R, S, T, U, and V were born in different months. T was born before R. R was born before Q. Q was born before P. Who was born second latest among T, R, Q, and P?",
+    "options": [
+      "T",
+      "R",
+      "Q",
+      "P"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is T → R → Q → P. Therefore, Q was born second latest.",
+    "shortcut": "Arrange everyone, then count from the latest side.",
+    "formula": "Not Applicable",
+    "learning_tip": "Count from the end when the question asks for latest positions.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "advanced",
+      "month puzzle"
+    ]
+  },
+  {
+    "id": "MONTH_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Six people A, B, C, D, E, and F were born in different months. F was born before D. D was born before C. C was born before B. Who was born third earliest among F, D, C, and B?",
+    "options": [
+      "F",
+      "D",
+      "C",
+      "B"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F → D → C → B. Therefore, C was born third earliest.",
+    "shortcut": "Arrange all people before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Draw a simple timeline to avoid mistakes.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "month puzzle",
+      "advanced"
+    ]
+  },
+  {
+    "id": "MONTH_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H were born in different months. H was born after G. G was born after F. F was born after E. Who was born second earliest among E, F, G, and H?",
+    "options": [
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is E → F → G → H. Therefore, F was born second earliest.",
+    "shortcut": "Write the timeline before identifying positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Chronological order simplifies month puzzles.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "month puzzle",
+      "placement",
+      "advanced"
+    ]
+  },
+    {
+    "id": "MONTH_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Easy",
+    "question": "Five friends A, B, C, D, and E were born in different months. C was born after B. B was born after A. Who was born between A and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is A → B → C. Therefore, B was born between A and C.",
+    "shortcut": "Arrange the months in chronological order.",
+    "formula": "Not Applicable",
+    "learning_tip": "A chain of 'after' clues can be reversed into a 'before' sequence.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "month puzzle",
+      "easy",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "MONTH_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Easy",
+    "question": "Six students P, Q, R, S, T, and U were born in different months. Q was born before R. Which person was definitely born after Q?",
+    "options": [
+      "P",
+      "R",
+      "S",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "Since Q was born before R, R was definitely born after Q.",
+    "shortcut": "Use the direct clue provided.",
+    "formula": "Not Applicable",
+    "learning_tip": "Direct comparison questions don't require the full arrangement.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "month puzzle",
+      "comparison"
+    ]
+  },
+  {
+    "id": "MONTH_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people A, B, C, D, E, F, and G were born in different months. E was born before C. C was born before B. B was born before A. Who was born second latest among E, C, B, and A?",
+    "options": [
+      "E",
+      "C",
+      "B",
+      "A"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is E → C → B → A. Therefore, B was born second latest.",
+    "shortcut": "Arrange everyone, then count from the latest end.",
+    "formula": "Not Applicable",
+    "learning_tip": "Count from the correct end depending on the question.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "month puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "MONTH_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Medium",
+    "question": "Six friends M, N, O, P, Q, and R were born in different months. N was born after M. O was born before M. P was born after N. Who was born second earliest among O, M, N, and P?",
+    "options": [
+      "O",
+      "M",
+      "N",
+      "P"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is O → M → N → P. Hence, M was born second earliest.",
+    "shortcut": "Arrange everyone before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Timeline diagrams help solve month puzzles quickly.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "month puzzle",
+      "chronology"
+    ]
+  },
+  {
+    "id": "MONTH_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight people A, B, C, D, E, F, G, and H were born in different months. D was born before B. B was born before A. E was born after A. Who was born earliest among D, B, A, and E?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "E"
+    ],
+    "correct_option": 1,
+    "explanation": "The order is D → B → A → E. Therefore, D was born earliest.",
+    "shortcut": "Arrange only the required people first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore unrelated people unless needed.",
+    "estimated_time": 40,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "month puzzle",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "MONTH_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven people P, Q, R, S, T, U, and V were born in different months. V was born in December. T was born before R. R was born before Q. Q was born before P. Who was born third latest among V, P, Q, R, and T?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is T → R → Q → P → V. Therefore, Q was born third latest.",
+    "shortcut": "Use the fixed month and arrange everyone else.",
+    "formula": "Not Applicable",
+    "learning_tip": "Fixed months act as anchors in chronology puzzles.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "advanced",
+      "month puzzle"
+    ]
+  },
+  {
+    "id": "MONTH_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Six people A, B, C, D, E, and F were born in different months. E was born before D. D was born before C. C was born before B. Who was born second earliest among E, D, C, and B?",
+    "options": [
+      "E",
+      "D",
+      "C",
+      "B"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is E → D → C → B. Therefore, D was born second earliest.",
+    "shortcut": "Arrange the timeline before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always verify the order before answering nth-position questions.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "month puzzle",
+      "advanced"
+    ]
+  },
+  {
+    "id": "MONTH_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H were born in different months. H was born after G. G was born after F. F was born after E. Who was born third earliest among E, F, G, and H?",
+    "options": [
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is E → F → G → H. Therefore, G was born third earliest.",
+    "shortcut": "Arrange everyone chronologically before counting.",
+    "formula": "Not Applicable",
+    "learning_tip": "Position-based month questions become easy after building a timeline.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "month puzzle",
+      "placement",
+      "advanced"
+    ]
+  },
+    {
+    "id": "MONTH_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Month Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H were born in different months. F was born before D. D was born before B. B was born before A. G was born after A. Who was born second latest among F, D, B, A, and G?",
+    "options": [
+      "D",
+      "B",
+      "A",
+      "G"
+    ],
+    "correct_option": 3,
+    "explanation": "The chronological order is F → D → B → A → G. Therefore, A was born second latest.",
+    "shortcut": "Arrange everyone from earliest to latest, then count from the end.",
+    "formula": "Not Applicable",
+    "learning_tip": "In month puzzles, creating a complete timeline first makes nth-position questions much easier.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "month puzzle",
+      "ranking",
+      "advanced",
+      "placement"
+    ]
+  }
+]

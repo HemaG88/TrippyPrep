@@ -1,0 +1,584 @@
+[
+{
+"id":"WI001",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Basic Reflection",
+"difficulty":"Easy",
+"question":"In a water image, the object is reflected across which axis?",
+"options":[
+"Vertical axis",
+"Horizontal axis",
+"Diagonal axis",
+"No axis"
+],
+"correct_option":2,
+"explanation":"A water image is formed by reflection across a horizontal axis.",
+"shortcut":"Water = Horizontal Reflection.",
+"formula":"Reflection across Horizontal Axis",
+"learning_tip":"Imagine the object placed above still water.",
+"estimated_time":15,
+"companies":["TCS","Infosys","Wipro"],
+"tags":["water-image","reflection","easy"]
+},
+
+{
+"id":"WI002",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Letter Reflection",
+"difficulty":"Easy",
+"question":"Which English letter remains unchanged in its water image?",
+"options":["B","C","H","L"],
+"correct_option":3,
+"explanation":"The capital letter H has horizontal symmetry and remains unchanged in its water image.",
+"shortcut":"Look for horizontal symmetry.",
+"formula":"Horizontal Symmetry",
+"learning_tip":"Only letters with horizontal symmetry remain unchanged.",
+"estimated_time":20,
+"companies":["Infosys","Capgemini"],
+"tags":["letters","symmetry"]
+},
+
+{
+"id":"WI003",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Number Reflection",
+"difficulty":"Easy",
+"question":"A water image changes the top and bottom portions of a figure while keeping which part unchanged?",
+"options":[
+"Left and right positions",
+"Top and bottom positions",
+"Diagonal position",
+"Shape size"
+],
+"correct_option":1,
+"explanation":"In a water image, the left and right positions remain unchanged while the top and bottom are reversed.",
+"shortcut":"Left-Right same, Top-Bottom reversed.",
+"formula":"Horizontal Reflection Rule",
+"learning_tip":"Think of the reflection seen in calm water.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["reflection","numbers"]
+},
+
+{
+"id":"WI004",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Shape Reflection",
+"difficulty":"Medium",
+"question":"Which geometric figure always looks the same in its water image?",
+"options":[
+"Scalene Triangle",
+"Circle",
+"Arrow",
+"Right Triangle"
+],
+"correct_option":2,
+"explanation":"A circle remains unchanged because of its complete symmetry.",
+"shortcut":"Perfect symmetry = Same reflection.",
+"formula":"Symmetric Figure",
+"learning_tip":"Highly symmetrical figures usually remain unchanged.",
+"estimated_time":20,
+"companies":["Infosys","Accenture"],
+"tags":["circle","symmetry"]
+},
+
+{
+"id":"WI005",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Direction",
+"difficulty":"Medium",
+"question":"If an arrow points upward, its water image will point:",
+"options":[
+"Upward",
+"Downward",
+"Left",
+"Right"
+],
+"correct_option":2,
+"explanation":"The top and bottom are reversed in a water image, so the arrow points downward.",
+"shortcut":"Up becomes Down.",
+"formula":"Horizontal Reflection",
+"learning_tip":"Only the vertical direction changes.",
+"estimated_time":20,
+"companies":["TCS","Wipro"],
+"tags":["arrow","direction"]
+},
+
+{
+"id":"WI006",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Character Reflection",
+"difficulty":"Medium",
+"question":"While solving Water Image questions, which feature changes first?",
+"options":[
+"Colour",
+"Top and bottom orientation",
+"Shape size",
+"Background"
+],
+"correct_option":2,
+"explanation":"A water image reverses the vertical orientation of the figure.",
+"shortcut":"Reverse vertically.",
+"formula":"Horizontal Axis Reflection",
+"learning_tip":"Imagine flipping the figure upside down across a water surface.",
+"estimated_time":20,
+"companies":["Infosys","Capgemini"],
+"tags":["orientation","reflection"]
+},
+
+{
+"id":"WI007",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Concept",
+"difficulty":"Medium",
+"question":"Water Image questions mainly test your ability to:",
+"options":[
+"Calculate",
+"Observe reflections",
+"Memorize formulas",
+"Estimate distance"
+],
+"correct_option":2,
+"explanation":"These questions test visual observation and understanding of horizontal reflections.",
+"shortcut":"Visualize the reflection.",
+"formula":"Reflection Concept",
+"learning_tip":"Practice mentally flipping figures vertically.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["concept","reflection"]
+},
+
+{
+"id":"WI008",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Important",
+"difficulty":"Medium",
+"question":"What should be checked FIRST while solving Water Image questions?",
+"options":[
+"Colour changes",
+"Horizontal reflection of the figure",
+"Figure size",
+"Background pattern"
+],
+"correct_option":2,
+"explanation":"The first step is to imagine the figure reflected across a horizontal axis.",
+"shortcut":"Think of calm water.",
+"formula":"Horizontal Reflection Strategy",
+"learning_tip":"This is the standard approach used in placement exams like TCS, Infosys, Accenture and Capgemini.",
+"estimated_time":25,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant"],
+"tags":["important","placement","water-images","strategy"]
+}
+,
+{
+"id":"WI009",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Letter Reflection",
+"difficulty":"Medium",
+"question":"In a water image, which part of the letter changes?",
+"options":[
+"Left and right",
+"Top and bottom",
+"Only colour",
+"Only size"
+],
+"correct_option":2,
+"explanation":"A water image reflects an object across a horizontal axis, reversing the top and bottom while keeping left and right unchanged.",
+"shortcut":"Water = Top ↔ Bottom.",
+"formula":"Horizontal Reflection",
+"learning_tip":"Imagine the figure reflected in still water.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["letters","horizontal-reflection"]
+},
+
+{
+"id":"WI010",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Arrow Reflection",
+"difficulty":"Medium",
+"question":"An arrow points diagonally upward-right. In its water image, it will point:",
+"options":[
+"Upward-right",
+"Downward-right",
+"Downward-left",
+"Upward-left"
+],
+"correct_option":2,
+"explanation":"Only the vertical direction changes in a water image. Left and right remain unchanged.",
+"shortcut":"Reverse only the vertical direction.",
+"formula":"Horizontal Reflection Rule",
+"learning_tip":"Keep the horizontal direction the same while flipping vertically.",
+"estimated_time":25,
+"companies":["Infosys","Capgemini"],
+"tags":["arrow","direction"]
+},
+
+{
+"id":"WI011",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Shape Reflection",
+"difficulty":"Medium",
+"question":"Which figure always remains unchanged in its water image?",
+"options":[
+"Circle",
+"Scalene Triangle",
+"Arrow",
+"Letter F"
+],
+"correct_option":1,
+"explanation":"A circle is perfectly symmetrical and remains unchanged after reflection.",
+"shortcut":"Perfect symmetry = Same image.",
+"formula":"Symmetry Principle",
+"learning_tip":"Highly symmetrical figures produce identical reflections.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["circle","symmetry"]
+},
+
+{
+"id":"WI012",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Word Reflection",
+"difficulty":"Hard",
+"question":"While finding the water image of a word, which property remains unchanged?",
+"options":[
+"Top and bottom",
+"Left-to-right order",
+"Letter height",
+"Letter orientation"
+],
+"correct_option":2,
+"explanation":"In a water image, the letters remain in the same left-to-right order, but each letter is reflected vertically.",
+"shortcut":"Order stays, orientation changes vertically.",
+"formula":"Horizontal Reflection",
+"learning_tip":"Do not reverse the order of letters; only reflect them vertically.",
+"estimated_time":30,
+"companies":["Accenture","Infosys"],
+"tags":["word","reflection"]
+},
+
+{
+"id":"WI013",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Number Reflection",
+"difficulty":"Hard",
+"question":"A digit is reflected in water. Which part of the digit changes?",
+"options":[
+"Only the top and bottom",
+"Only the left and right",
+"Both directions",
+"Neither direction"
+],
+"correct_option":1,
+"explanation":"Water images reverse the vertical orientation while keeping the horizontal orientation unchanged.",
+"shortcut":"Top ↔ Bottom only.",
+"formula":"Horizontal Reflection Rule",
+"learning_tip":"Visualize the number reflected below a water surface.",
+"estimated_time":25,
+"companies":["TCS","Wipro"],
+"tags":["numbers","reflection"]
+},
+
+{
+"id":"WI014",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Concept",
+"difficulty":"Hard",
+"question":"Which transformation is used to obtain a water image?",
+"options":[
+"Rotation",
+"Horizontal reflection",
+"Vertical reflection",
+"Translation"
+],
+"correct_option":2,
+"explanation":"A water image is formed by reflecting an object across a horizontal axis.",
+"shortcut":"Water = Horizontal Reflection.",
+"formula":"Reflection Across Horizontal Axis",
+"learning_tip":"Mirror images use vertical reflection, while water images use horizontal reflection.",
+"estimated_time":20,
+"companies":["Infosys","Capgemini"],
+"tags":["concept","transformation"]
+},
+
+{
+"id":"WI015",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Comparison",
+"difficulty":"Hard",
+"question":"The main difference between a mirror image and a water image is:",
+"options":[
+"Mirror changes top-bottom; Water changes left-right",
+"Mirror changes left-right; Water changes top-bottom",
+"Both are identical",
+"Neither changes orientation"
+],
+"correct_option":2,
+"explanation":"Mirror images reverse left and right, whereas water images reverse top and bottom.",
+"shortcut":"Mirror = Left↔Right, Water = Top↔Bottom.",
+"formula":"Reflection Comparison",
+"learning_tip":"This is one of the most frequently asked concepts in visual reasoning.",
+"estimated_time":30,
+"companies":["TCS","Infosys","Accenture"],
+"tags":["mirror-vs-water","comparison"]
+},
+{
+"id":"WI016",
+"academy":"Aptitude",
+"level":"Visual Reasoning","topic":"Water Images","subtopic":"Important","difficulty":"Hard",
+"question":"Which sequence gives the highest accuracy while solving Water Image questions?",
+"options":[
+"Guess → Eliminate","Identify the horizontal axis → Flip top and bottom → Verify orientation",
+"Check colours first","Count the number of lines"],
+"correct_option":2,
+"explanation":"The correct approach is to identify the horizontal axis, mentally flip the figure vertically, and verify the final orientation.",
+"shortcut":"Axis → Flip → Verify.",
+"formula":"Water Image Solving Strategy",
+"learning_tip":"Following this order minimizes mistakes in placement aptitude exams.",
+"estimated_time":30,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant","Wipro"],
+"tags":["important","placement","water-images","strategy"]
+}
+,
+{
+"id":"WI017",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Letter Reflection",
+"difficulty":"Hard",
+"question":"Which capital English letter remains unchanged in its water image due to horizontal symmetry?",
+"options":["B","C","H","P"],
+"correct_option":3,
+"explanation":"The capital letter H has horizontal symmetry, so its water image appears unchanged.",
+"shortcut":"Look for horizontal symmetry.",
+"formula":"Horizontal Symmetry",
+"learning_tip":"Only letters with horizontal symmetry remain unchanged in water images.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["letters","symmetry"]
+},
+
+{
+"id":"WI018",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Arrow Direction",
+"difficulty":"Hard",
+"question":"An arrow points diagonally downward-left. Its water image will point:",
+"options":[
+"Diagonally upward-left",
+"Diagonally upward-right",
+"Diagonally downward-right",
+"Diagonally downward-left"
+],
+"correct_option":1,
+"explanation":"Water images reverse only the vertical direction while keeping left and right unchanged.",
+"shortcut":"Reverse only Up ↔ Down.",
+"formula":"Horizontal Reflection",
+"learning_tip":"Never reverse the left-right direction in water images.",
+"estimated_time":25,
+"companies":["Infosys","Capgemini"],
+"tags":["arrow","direction"]
+},
+
+{
+"id":"WI019",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Shape Reflection",
+"difficulty":"Hard",
+"question":"A figure is reflected in still water. Which part of the figure remains unchanged?",
+"options":[
+"Top and bottom",
+"Left and right",
+"Diagonal direction",
+"Shape colour"
+],
+"correct_option":2,
+"explanation":"In a water image, the left and right positions remain unchanged while the top and bottom are reversed.",
+"shortcut":"Left-Right Same.",
+"formula":"Horizontal Reflection Rule",
+"learning_tip":"Imagine folding the figure over a horizontal line.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["reflection","concept"]
+},
+
+{
+"id":"WI020",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Word Reflection",
+"difficulty":"Hard",
+"question":"While finding the water image of a word, which property should be checked first?",
+"options":[
+"Letter colour",
+"Vertical flipping of each letter",
+"Word length",
+"Font style"
+],
+"correct_option":2,
+"explanation":"Each letter is reflected vertically while maintaining the original left-to-right order.",
+"shortcut":"Flip each letter vertically.",
+"formula":"Horizontal Reflection",
+"learning_tip":"Do not reverse the order of the letters.",
+"estimated_time":25,
+"companies":["Accenture","Infosys"],
+"tags":["word","letters"]
+},
+
+{
+"id":"WI021",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Concept",
+"difficulty":"Hard",
+"question":"A water image is produced by reflecting an object across a:",
+"options":[
+"Vertical axis",
+"Horizontal axis",
+"Diagonal axis",
+"Circular axis"
+],
+"correct_option":2,
+"explanation":"Water images are formed by reflection across a horizontal axis.",
+"shortcut":"Water = Horizontal Axis.",
+"formula":"Reflection Across Horizontal Axis",
+"learning_tip":"Remember: Mirror uses a vertical axis, water uses a horizontal axis.",
+"estimated_time":15,
+"companies":["TCS","Infosys"],
+"tags":["axis","reflection"]
+},
+
+{
+"id":"WI022",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Comparison",
+"difficulty":"Hard",
+"question":"Which statement about water images is TRUE?",
+"options":[
+"Left and right are reversed.",
+"Top and bottom are reversed.",
+"Both directions are reversed.",
+"No direction is reversed."
+],
+"correct_option":2,
+"explanation":"Water images reverse only the vertical orientation (top and bottom).",
+"shortcut":"Top ↔ Bottom.",
+"formula":"Horizontal Reflection Rule",
+"learning_tip":"This is the key difference between mirror and water images.",
+"estimated_time":20,
+"companies":["Infosys","Wipro"],
+"tags":["comparison","reflection"]
+},
+
+{
+"id":"WI023",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which of the following is NOT required while solving Water Image questions?",
+"options":[
+"Visual observation",
+"Understanding horizontal reflection",
+"Arithmetic calculation",
+"Orientation checking"
+],
+"correct_option":3,
+"explanation":"Water Image questions are based on visual reasoning, not numerical calculations.",
+"shortcut":"Visual reasoning ≠ Arithmetic.",
+"formula":"Visual Observation",
+"learning_tip":"Focus on reflection rules instead of calculations.",
+"estimated_time":20,
+"companies":["TCS","Infosys","Accenture"],
+"tags":["important","concept"]
+},
+
+{
+"id":"WI024",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"After identifying the horizontal reflection axis, what should you verify next?",
+"options":[
+"Background colour",
+"Final orientation of the reflected figure",
+"Page size",
+"Number of letters"
+],
+"correct_option":2,
+"explanation":"After reflecting the figure across the horizontal axis, verify that the final orientation matches the required option.",
+"shortcut":"Reflect → Verify.",
+"formula":"Reflection Strategy",
+"learning_tip":"Many incorrect options differ only in orientation.",
+"estimated_time":25,
+"companies":["TCS","Infosys","Accenture","Capgemini"],
+"tags":["important","strategy","orientation"]
+},
+
+{
+"id":"WI025",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Water Images",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which is the BEST strategy for solving Water Image questions accurately in placement exams?",
+"options":[
+"Guess based on appearance",
+"Identify the horizontal axis, mentally flip the figure vertically, then verify orientation carefully",
+"Count the number of lines",
+"Choose the option that looks most similar"
+],
+"correct_option":2,
+"explanation":"The best approach is to imagine the figure reflected across a horizontal axis, mentally flip the top and bottom, and then verify the orientation before selecting the answer.",
+"shortcut":"Axis → Vertical Flip → Verify.",
+"formula":"Complete Water Image Strategy",
+"learning_tip":"This method is widely used in TCS, Infosys, Accenture, Capgemini, Cognizant, Wipro, IBM and Deloitte placement aptitude exams.",
+"estimated_time":30,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant","Wipro","IBM","Deloitte"],
+"tags":["important","placement","water-images","strategy","visual-reasoning"]
+}
+]

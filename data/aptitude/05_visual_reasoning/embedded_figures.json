@@ -1,0 +1,600 @@
+[
+{
+"id":"EF001",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Basic Shape",
+"difficulty":"Easy",
+"question":"A simple triangle is hidden inside a complex figure. What should you focus on first to identify it?",
+"options":[
+"Colour",
+"Outline of the triangle",
+"Background",
+"Figure size"
+],
+"correct_option":2,
+"explanation":"Ignore extra lines and focus only on the outline of the required shape.",
+"shortcut":"Trace the outer boundary of the required figure.",
+"formula":"Identify the Target Shape",
+"learning_tip":"Ignore unnecessary details and concentrate only on the required figure.",
+"estimated_time":20,
+"companies":["TCS","Infosys","Wipro"],
+"tags":["embedded-figures","triangle","easy"]
+},
+
+{
+"id":"EF002",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Square Detection",
+"difficulty":"Easy",
+"question":"A square is hidden inside a complex drawing. Which approach is the most effective?",
+"options":[
+"Look for colours",
+"Trace four equal sides",
+"Count total shapes",
+"Check page orientation"
+],
+"correct_option":2,
+"explanation":"A square is identified by four equal sides and four right angles.",
+"shortcut":"Find four equal sides.",
+"formula":"Square = 4 Equal Sides + 4 Right Angles",
+"learning_tip":"Mentally remove unnecessary lines while searching.",
+"estimated_time":20,
+"companies":["Infosys","Capgemini"],
+"tags":["square","shape-detection"]
+},
+
+{
+"id":"EF003",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Line Recognition",
+"difficulty":"Easy",
+"question":"While searching for an embedded figure, unnecessary lines should be:",
+"options":[
+"Counted",
+"Ignored",
+"Extended",
+"Measured"
+],
+"correct_option":2,
+"explanation":"Extra lines are distractions and should be ignored.",
+"shortcut":"Ignore distracting lines.",
+"formula":"Target Shape Only",
+"learning_tip":"Focus only on the required figure instead of the complete drawing.",
+"estimated_time":15,
+"companies":["TCS","Infosys"],
+"tags":["basic","observation"]
+},
+
+{
+"id":"EF004",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Rotation",
+"difficulty":"Medium",
+"question":"An embedded figure may appear:",
+"options":[
+"Only upright",
+"Only inverted",
+"Rotated in any direction",
+"Only horizontal"
+],
+"correct_option":3,
+"explanation":"Embedded figures may appear in different orientations including rotation.",
+"shortcut":"Always check rotated shapes.",
+"formula":"Rotation Recognition",
+"learning_tip":"Do not reject a figure just because it is rotated.",
+"estimated_time":25,
+"companies":["Infosys","Accenture"],
+"tags":["rotation","orientation"]
+},
+
+{
+"id":"EF005",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Mirror Orientation",
+"difficulty":"Medium",
+"question":"Sometimes an embedded figure may appear as:",
+"options":[
+"A mirror image",
+"A coloured shape",
+"A larger figure",
+"A smaller page"
+],
+"correct_option":1,
+"explanation":"Many embedded-figure questions include mirrored versions as distractors.",
+"shortcut":"Compare orientation carefully.",
+"formula":"Mirror Recognition",
+"learning_tip":"Differentiate between rotation and reflection.",
+"estimated_time":25,
+"companies":["TCS","Capgemini"],
+"tags":["mirror","embedded"]
+},
+
+{
+"id":"EF006",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Polygon",
+"difficulty":"Medium",
+"question":"A pentagon is hidden inside a complex figure. Which feature should be verified first?",
+"options":[
+"Colour",
+"Five connected sides",
+"Area",
+"Background"
+],
+"correct_option":2,
+"explanation":"A pentagon always consists of five connected sides.",
+"shortcut":"Count the sides.",
+"formula":"Pentagon = 5 Sides",
+"learning_tip":"Ignore additional intersecting lines while counting sides.",
+"estimated_time":25,
+"companies":["Infosys","Wipro"],
+"tags":["pentagon","polygon"]
+},
+
+{
+"id":"EF007",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Observation",
+"difficulty":"Medium",
+"question":"Which skill is MOST important for solving Embedded Figure questions?",
+"options":[
+"Calculation",
+"Observation",
+"Memorization",
+"Drawing"
+],
+"correct_option":2,
+"explanation":"Embedded figure questions mainly test observation skills.",
+"shortcut":"Observe before deciding.",
+"formula":"Observation Skill",
+"learning_tip":"Careful visual observation is more important than speed.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["observation","concept"]
+},
+
+{
+"id":"EF008",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Important",
+"difficulty":"Medium",
+"question":"Which is the BEST strategy for solving Embedded Figure questions?",
+"options":[
+"Guess randomly",
+"Trace the target shape while ignoring extra lines and checking all rotations",
+"Count every line",
+"Choose the largest figure"
+],
+"correct_option":2,
+"explanation":"The correct approach is to focus only on the target figure, ignore unnecessary lines and check all possible orientations.",
+"shortcut":"Target Shape → Ignore Extras → Check Rotation.",
+"formula":"Observation Strategy",
+"learning_tip":"This is the standard approach used in placement exams like TCS, Infosys, Accenture and Capgemini.",
+"estimated_time":30,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant"],
+"tags":["important","placement","embedded-figures","strategy"]
+}
+,
+{
+"id":"EF009",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Triangle Detection",
+"difficulty":"Medium",
+"question":"A triangle is hidden inside a complex figure containing many intersecting lines. What should you identify first?",
+"options":[
+"The longest line",
+"The three sides forming the triangle",
+"The background",
+"The colour"
+],
+"correct_option":2,
+"explanation":"A triangle is identified by tracing its three connected sides while ignoring extra lines.",
+"shortcut":"Trace only the required three sides.",
+"formula":"Triangle = 3 Connected Sides",
+"learning_tip":"Ignore distracting intersections that do not belong to the triangle.",
+"estimated_time":25,
+"companies":["TCS","Infosys"],
+"tags":["triangle","embedded"]
+},
+
+{
+"id":"EF010",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Rotation",
+"difficulty":"Medium",
+"question":"An embedded figure is rotated by 90°. What should you do while searching for it?",
+"options":[
+"Reject the figure",
+"Consider only the upright position",
+"Check all possible rotations",
+"Ignore the rotation"
+],
+"correct_option":3,
+"explanation":"Embedded figures can appear in any orientation, including 90°, 180° or 270° rotations.",
+"shortcut":"Always check every rotation.",
+"formula":"Rotation Recognition",
+"learning_tip":"Rotation does not change the shape of the figure.",
+"estimated_time":25,
+"companies":["Infosys","Capgemini"],
+"tags":["rotation","orientation"]
+},
+
+{
+"id":"EF011",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Mirror Image",
+"difficulty":"Medium",
+"question":"A hidden figure appears as a mirror image of the original. What should you verify?",
+"options":[
+"Only its size",
+"Its orientation and reflection",
+"The page colour",
+"The number of lines"
+],
+"correct_option":2,
+"explanation":"Mirror images preserve shape but reverse orientation.",
+"shortcut":"Check reflection separately from rotation.",
+"formula":"Mirror Reflection",
+"learning_tip":"Rotation and mirror reflection are different transformations.",
+"estimated_time":30,
+"companies":["TCS","Accenture"],
+"tags":["mirror","reflection"]
+},
+
+{
+"id":"EF012",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Polygon Recognition",
+"difficulty":"Hard",
+"question":"A hexagon is hidden inside a complex drawing. Which characteristic should you verify first?",
+"options":[
+"Area",
+"Six connected sides",
+"Colour",
+"Background"
+],
+"correct_option":2,
+"explanation":"A hexagon is recognized by its six connected sides.",
+"shortcut":"Count the sides.",
+"formula":"Hexagon = 6 Sides",
+"learning_tip":"Ignore unnecessary intersecting lines while counting sides.",
+"estimated_time":30,
+"companies":["Infosys","Wipro"],
+"tags":["hexagon","polygon"]
+},
+
+{
+"id":"EF013",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Observation",
+"difficulty":"Hard",
+"question":"What is the biggest mistake students make while solving Embedded Figure questions?",
+"options":[
+"Ignoring extra lines",
+"Getting distracted by unnecessary details",
+"Checking rotations",
+"Tracing boundaries"
+],
+"correct_option":2,
+"explanation":"Extra lines often distract students from identifying the target figure.",
+"shortcut":"Focus only on the target figure.",
+"formula":"Selective Observation",
+"learning_tip":"Mentally remove unnecessary lines while searching.",
+"estimated_time":30,
+"companies":["TCS","Infosys"],
+"tags":["observation","concept"]
+},
+
+{
+"id":"EF014",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Shape Recognition",
+"difficulty":"Hard",
+"question":"A hidden square overlaps with several triangles. The best strategy is to:",
+"options":[
+"Count every triangle",
+"Trace only the square boundary",
+"Measure the angles",
+"Ignore the square"
+],
+"correct_option":2,
+"explanation":"Focus only on the required figure instead of analysing all surrounding shapes.",
+"shortcut":"Target shape first.",
+"formula":"Boundary Recognition",
+"learning_tip":"Ignore overlapping figures that are not part of the answer.",
+"estimated_time":35,
+"companies":["Infosys","Capgemini"],
+"tags":["square","overlap"]
+},
+
+{
+"id":"EF015",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Complex Figure",
+"difficulty":"Hard",
+"question":"An embedded figure contains both straight and curved lines. Which should be checked first?",
+"options":[
+"Background colour",
+"Overall boundary and line continuity",
+"Figure size",
+"Paper orientation"
+],
+"correct_option":2,
+"explanation":"Boundary matching and line continuity help identify the correct embedded figure quickly.",
+"shortcut":"Boundary before details.",
+"formula":"Boundary + Continuity",
+"learning_tip":"Use the outer shape to eliminate incorrect options first.",
+"estimated_time":35,
+"companies":["TCS","Infosys","Accenture"],
+"tags":["boundary","continuity"]
+},
+{
+"id":"EF016",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which sequence gives the highest accuracy while solving Embedded Figure questions?",
+"options":[
+"Guess → Eliminate",
+"Trace Boundary → Ignore Extra Lines → Check Rotation → Verify Shape",
+"Count all lines",
+"Compare colours first"
+],
+"correct_option":2,
+"explanation":"The most effective approach is to trace the target boundary, ignore unnecessary lines, check rotations and finally verify the complete shape.",
+"shortcut":"Boundary → Ignore Extras → Rotation → Verify.",
+"formula":"Embedded Figure Solving Strategy",
+"learning_tip":"This systematic approach is widely used in TCS, Infosys, Accenture, Capgemini and Cognizant placement exams.",
+"estimated_time":35,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant","Wipro"],
+"tags":["important","placement","embedded-figures","strategy"]
+}
+,
+{
+"id":"EF017",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Circle Detection",
+"difficulty":"Hard",
+"question":"A circle is hidden inside a complex figure made of several intersecting curves. What should you verify first?",
+"options":[
+"The colour of the figure",
+"The continuous circular boundary",
+"The number of curves",
+"The page orientation"
+],
+"correct_option":2,
+"explanation":"A circle is identified by tracing one continuous curved boundary.",
+"shortcut":"Follow one complete curved boundary.",
+"formula":"Circle = Continuous Closed Curve",
+"learning_tip":"Ignore extra intersecting curves that do not belong to the circle.",
+"estimated_time":30,
+"companies":["TCS","Infosys"],
+"tags":["circle","boundary"]
+},
+
+{
+"id":"EF018",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Multiple Shapes",
+"difficulty":"Hard",
+"question":"A hidden rectangle overlaps with several triangles. The best approach is to:",
+"options":[
+"Count every triangle",
+"Trace only the rectangle boundary",
+"Measure all angles",
+"Ignore the rectangle"
+],
+"correct_option":2,
+"explanation":"Focus only on the required rectangle while ignoring the overlapping shapes.",
+"shortcut":"Target figure first.",
+"formula":"Boundary Recognition",
+"learning_tip":"Do not get distracted by surrounding figures.",
+"estimated_time":30,
+"companies":["Infosys","Capgemini"],
+"tags":["rectangle","overlap"]
+},
+
+{
+"id":"EF019",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Rotation",
+"difficulty":"Hard",
+"question":"If the required figure is rotated by 180°, what should you do?",
+"options":[
+"Reject it",
+"Accept it if all boundaries match",
+"Ignore the rotation",
+"Choose another option"
+],
+"correct_option":2,
+"explanation":"Rotation changes orientation but not the actual shape.",
+"shortcut":"Rotation does not change identity.",
+"formula":"Rotation Recognition",
+"learning_tip":"Always compare shapes after mentally rotating them.",
+"estimated_time":30,
+"companies":["TCS","Accenture"],
+"tags":["rotation","180-degree"]
+},
+
+{
+"id":"EF020",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Mirror Recognition",
+"difficulty":"Hard",
+"question":"Which transformation changes the orientation of a figure while keeping its size unchanged?",
+"options":[
+"Scaling",
+"Mirror reflection",
+"Colour change",
+"Translation only"
+],
+"correct_option":2,
+"explanation":"Mirror reflection reverses orientation without changing size.",
+"shortcut":"Mirror reverses orientation.",
+"formula":"Reflection Transformation",
+"learning_tip":"Do not confuse reflection with rotation.",
+"estimated_time":30,
+"companies":["Infosys","Wipro"],
+"tags":["mirror","reflection"]
+},
+
+{
+"id":"EF021",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Observation",
+"difficulty":"Hard",
+"question":"Which ability is MOST essential for quickly identifying embedded figures?",
+"options":[
+"Arithmetic calculation",
+"Careful visual observation",
+"Writing speed",
+"Memory only"
+],
+"correct_option":2,
+"explanation":"Embedded Figure questions primarily test visual observation skills.",
+"shortcut":"Observe carefully before answering.",
+"formula":"Observation Skill",
+"learning_tip":"Accuracy is more important than speed.",
+"estimated_time":20,
+"companies":["TCS","Infosys"],
+"tags":["observation","concept"]
+},
+
+{
+"id":"EF022",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Complex Figure",
+"difficulty":"Hard",
+"question":"A hidden figure shares several lines with the surrounding figure. The correct strategy is to:",
+"options":[
+"Ignore shared lines",
+"Trace only the required figure's boundary",
+"Count all lines",
+"Measure every angle"
+],
+"correct_option":2,
+"explanation":"Shared lines are common in embedded figures. Trace only the required boundary.",
+"shortcut":"Follow only the target boundary.",
+"formula":"Boundary Identification",
+"learning_tip":"Shared lines often make embedded figure questions more challenging.",
+"estimated_time":35,
+"companies":["Infosys","Capgemini"],
+"tags":["boundary","shared-lines"]
+},
+
+{
+"id":"EF023",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which of the following is NOT usually required while solving Embedded Figure questions?",
+"options":[
+"Observation",
+"Pattern recognition",
+"Arithmetic calculation",
+"Shape identification"
+],
+"correct_option":3,
+"explanation":"Embedded Figure questions rely on observation and shape recognition, not arithmetic.",
+"shortcut":"Visual reasoning ≠ Numerical reasoning.",
+"formula":"Visual Analysis",
+"learning_tip":"Focus on identifying shapes instead of performing calculations.",
+"estimated_time":20,
+"companies":["TCS","Infosys","Accenture"],
+"tags":["important","concept"]
+},
+{
+"id":"EF024",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"What should always be checked LAST after identifying the target boundary in an Embedded Figure question?",
+"options":[
+"Colour",
+"Paper size",
+"Final orientation of the figure",
+"Background"
+],
+"correct_option":3,
+"explanation":"After tracing the boundary, verify that the figure's orientation also matches correctly.",
+"shortcut":"Boundary first, orientation last.",
+"formula":"Boundary → Rotation → Orientation",
+"learning_tip":"Many incorrect options have the correct shape but the wrong orientation.",
+"estimated_time":30,
+"companies":["TCS","Infosys","Accenture","Capgemini","Cognizant","Wipro"],
+"tags":["important","placement","orientation","strategy"]
+}
+,
+{
+"id":"EF025",
+"academy":"Aptitude",
+"level":"Visual Reasoning",
+"topic":"Embedded Figures",
+"subtopic":"Important",
+"difficulty":"Hard",
+"question":"Which is the BEST strategy for solving Embedded Figure questions accurately in placement exams?",
+"options":[
+"Guess the answer based on appearance",
+"Trace the target boundary, ignore unnecessary lines, check rotations and reflections, then verify the complete shape",
+"Count every line in the figure",
+"Choose the option with the most similar background"
+],
+"correct_option":2,
+"explanation":"The most effective approach is to first identify the target boundary, ignore distracting lines, check for rotations or mirror images, and finally verify that the complete shape matches exactly.",
+"shortcut":"Boundary → Ignore Extras → Rotation/Reflection → Verify",
+"formula":"Embedded Figure Solving Strategy",
+"learning_tip":"Following this sequence improves both speed and accuracy. This is the standard approach used in placement exams conducted by TCS, Infosys, Accenture, Capgemini, Cognizant, Wipro and IBM.",
+"estimated_time":30,
+"companies":[
+"TCS","Infosys","Accenture","Capgemini","Cognizant","Wipro","IBM","Deloitte"],
+"tags":[
+"important","placement","embedded-figures","strategy","visual-reasoning","observation"]}
+]

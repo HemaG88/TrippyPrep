@@ -1,0 +1,738 @@
+[
+  {
+    "id": "BOX_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Easy",
+    "question": "Five boxes A, B, C, D, and E are stacked vertically from top to bottom. A is above C. D is below B but above E. C is immediately below A. Which box is at the top?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 1,
+    "explanation": "A is immediately above C, and D is below B but above E. The only valid arrangement is A, C, B, D, E.",
+    "shortcut": "Place immediate relations first, then fit the remaining boxes.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always solve direct adjacency conditions before relative positions.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "puzzle",
+      "box puzzle",
+      "stacking",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "BOX_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Easy",
+    "question": "Six boxes P, Q, R, S, T, and U are stacked from top to bottom. T is at the bottom. Q is immediately above R. P is above Q. S is between R and T. Which box is immediately above S?",
+    "options": [
+      "R",
+      "Q",
+      "P",
+      "U"
+    ],
+    "correct_option": 1,
+    "explanation": "The valid arrangement is P, Q, R, S, U, T. Therefore, R is immediately above S.",
+    "shortcut": "Fix the bottom position first, then place adjacent pairs.",
+    "formula": "Not Applicable",
+    "learning_tip": "Anchor fixed positions before arranging the remaining boxes.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "box puzzle",
+      "stack order",
+      "placements"
+    ]
+  },
+  {
+    "id": "BOX_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven boxes A, B, C, D, E, F, and G are stacked vertically. F is immediately above G. A is at the top. D is immediately below C. B is above C. Which pair occupies the bottom two positions?",
+    "options": [
+      "F and G",
+      "D and E",
+      "C and D",
+      "B and C"
+    ],
+    "correct_option": 1,
+    "explanation": "Since A is fixed at the top and F is immediately above G, the bottom two positions are occupied by F and G.",
+    "shortcut": "Use fixed positions and adjacency clues first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Immediate relations usually reduce multiple possibilities quickly.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "Cognizant"
+    ],
+    "tags": [
+      "box arrangement",
+      "logical puzzle"
+    ]
+  },
+  {
+    "id": "BOX_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Five boxes L, M, N, O, and P are stacked vertically. N is above M. P is below O. L is at the top. M is at the bottom. Which box is immediately below L?",
+    "options": [
+      "N",
+      "O",
+      "P",
+      "M"
+    ],
+    "correct_option": 2,
+    "explanation": "The only valid arrangement is L, O, P, N, M. Therefore, O is immediately below L.",
+    "shortcut": "Fix the top and bottom positions before arranging the middle.",
+    "formula": "Not Applicable",
+    "learning_tip": "Extreme positions often simplify puzzle solving.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "stacking",
+      "box puzzle"
+    ]
+  },
+  {
+    "id": "BOX_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Six boxes A, B, C, D, E, and F are arranged vertically. E is immediately above B. D is below C. A is at the top. F is at the bottom. Which box is immediately below E?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "F"
+    ],
+    "correct_option": 1,
+    "explanation": "The condition directly states that E is immediately above B.",
+    "shortcut": "Identify direct adjacency clues first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Not every puzzle requires constructing the complete arrangement.",
+    "estimated_time": 30,
+    "companies": [
+      "HCL",
+      "LTIMindtree"
+    ],
+    "tags": [
+      "adjacency",
+      "box puzzle"
+    ]
+  },
+  {
+    "id": "BOX_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight boxes A, B, C, D, E, F, G, and H are stacked vertically. H is at the bottom. A is at the top. C is immediately below B. F is immediately above G. D is above F. Which box is immediately above G?",
+    "options": [
+      "F",
+      "D",
+      "E",
+      "B"
+    ],
+    "correct_option": 1,
+    "explanation": "The clue explicitly states that F is immediately above G.",
+    "shortcut": "Use direct clues before considering indirect ones.",
+    "formula": "Not Applicable",
+    "learning_tip": "Highlight words like 'immediately above' and 'immediately below'.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "TCS Digital"
+    ],
+    "tags": [
+      "stack puzzle",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "BOX_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven boxes K, L, M, N, O, P, and Q are stacked vertically. K is above L. L is immediately above M. P is below O but above Q. N is at the top. Which box is immediately below K?",
+    "options": [
+      "L",
+      "M",
+      "O",
+      "P"
+    ],
+    "correct_option": 1,
+    "explanation": "Since L is immediately below K, L occupies the position directly beneath K.",
+    "shortcut": "Treat consecutive boxes as one block.",
+    "formula": "Not Applicable",
+    "learning_tip": "Block formation is useful in arrangement puzzles.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Deloitte"
+    ],
+    "tags": [
+      "box arrangement",
+      "advanced puzzle"
+    ]
+  },
+  {
+    "id": "BOX_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Six boxes R, S, T, U, V, and W are stacked vertically. W is at the top. R is immediately below T. U is below S. V is at the bottom. If S is immediately below W, which box is third from the top?",
+    "options": [
+      "T",
+      "R",
+      "U",
+      "S"
+    ],
+    "correct_option": 1,
+    "explanation": "The arrangement becomes W, S, T, R, U, V. Therefore, T is third from the top.",
+    "shortcut": "Fix the top and bottom positions before arranging the remaining boxes.",
+    "formula": "Not Applicable",
+    "learning_tip": "Drawing vertical slots helps avoid mistakes.",
+    "estimated_time": 75,
+    "companies": [
+      "Oracle",
+      "Cisco"
+    ],
+    "tags": [
+      "box puzzle",
+      "stacking",
+      "placement reasoning"
+    ]
+  },  {
+    "id": "BOX_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Easy",
+    "question": "Six boxes A, B, C, D, E, and F are stacked from top to bottom. A is above B. C is immediately below B. D is above E. F is at the bottom. Which box is immediately above C?",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "correct_option": 2,
+    "explanation": "Since C is immediately below B, B is immediately above C.",
+    "shortcut": "Look for direct adjacency clues.",
+    "formula": "Not Applicable",
+    "learning_tip": "Immediate relations can often answer the question without solving the full arrangement.",
+    "estimated_time": 30,
+    "companies": [
+      "Infosys",
+      "TCS"
+    ],
+    "tags": [
+      "box puzzle",
+      "adjacency",
+      "placement"
+    ]
+  },
+  {
+    "id": "BOX_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven boxes G, H, I, J, K, L, and M are stacked vertically. G is at the top. M is at the bottom. J is immediately above K. H is below I. Which box is immediately below J?",
+    "options": [
+      "I",
+      "K",
+      "H",
+      "L"
+    ],
+    "correct_option": 2,
+    "explanation": "J is immediately above K, so K is immediately below J.",
+    "shortcut": "Use the direct clue involving J.",
+    "formula": "Not Applicable",
+    "learning_tip": "Read every clue carefully before arranging all boxes.",
+    "estimated_time": 35,
+    "companies": [
+      "Capgemini",
+      "Wipro"
+    ],
+    "tags": [
+      "stacking",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "BOX_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Five boxes P, Q, R, S, and T are stacked vertically. P is at the top. T is at the bottom. Q is immediately below P. R is immediately above S. Which box is third from the top?",
+    "options": [
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "correct_option": 2,
+    "explanation": "The arrangement is P, Q, R, S, T. Therefore, R is third from the top.",
+    "shortcut": "Fix the top and bottom positions first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Visualize the stack vertically while solving.",
+    "estimated_time": 45,
+    "companies": [
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "box arrangement",
+      "vertical puzzle"
+    ]
+  },
+  {
+    "id": "BOX_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight boxes A, B, C, D, E, F, G, and H are stacked. H is at the bottom. A is above C. C is immediately above D. F is below G. Which box is immediately below C?",
+    "options": [
+      "A",
+      "D",
+      "F",
+      "G"
+    ],
+    "correct_option": 2,
+    "explanation": "Since C is immediately above D, D is immediately below C.",
+    "shortcut": "Immediate pairs should be solved first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Adjacent clues are the strongest clues in box puzzles.",
+    "estimated_time": 50,
+    "companies": [
+      "Deloitte",
+      "HCL"
+    ],
+    "tags": [
+      "box puzzle",
+      "adjacent boxes"
+    ]
+  },
+  {
+    "id": "BOX_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Easy",
+    "question": "Five boxes K, L, M, N, and O are stacked vertically. O is at the bottom. L is immediately above M. K is above L. Which box is immediately above M?",
+    "options": [
+      "K",
+      "L",
+      "N",
+      "O"
+    ],
+    "correct_option": 2,
+    "explanation": "The clue states L is immediately above M.",
+    "shortcut": "Use direct adjacency information.",
+    "formula": "Not Applicable",
+    "learning_tip": "Questions based on immediate relations are usually straightforward.",
+    "estimated_time": 25,
+    "companies": [
+      "Tech Mahindra",
+      "Infosys"
+    ],
+    "tags": [
+      "box puzzle",
+      "placement"
+    ]
+  },
+  {
+    "id": "BOX_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Six boxes U, V, W, X, Y, and Z are stacked vertically. Z is at the top. X is immediately below V. W is above V. Y is at the bottom. Which box is immediately above X?",
+    "options": [
+      "V",
+      "W",
+      "Z",
+      "U"
+    ],
+    "correct_option": 1,
+    "explanation": "Since X is immediately below V, V is immediately above X.",
+    "shortcut": "Identify the immediate pair.",
+    "formula": "Not Applicable",
+    "learning_tip": "Underline words like 'immediately above' and 'immediately below'.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "LTIMindtree"
+    ],
+    "tags": [
+      "logical puzzle",
+      "stack order"
+    ]
+  },
+  {
+    "id": "BOX_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven boxes A, B, C, D, E, F, and G are stacked vertically. G is at the bottom. A is immediately above B. D is above E. C is between B and D. Which box is immediately below A?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_option": 1,
+    "explanation": "The clue directly states A is immediately above B.",
+    "shortcut": "Direct clues require no additional deduction.",
+    "formula": "Not Applicable",
+    "learning_tip": "Solve fixed adjacent pairs before relative clues.",
+    "estimated_time": 45,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "box arrangement",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "BOX_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight boxes P, Q, R, S, T, U, V, and W are stacked vertically. W is at the top. P is at the bottom. Q is immediately above R. T is immediately below U. S is above T. Which box is immediately below U?",
+    "options": [
+      "S",
+      "T",
+      "R",
+      "V"
+    ],
+    "correct_option": 2,
+    "explanation": "Since T is immediately below U, T is directly beneath U.",
+    "shortcut": "Use the immediate relationship involving U.",
+    "formula": "Not Applicable",
+    "learning_tip": "Direct adjacency clues are the quickest to solve.",
+    "estimated_time": 45,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "box puzzle",
+      "vertical arrangement",
+      "placement"
+    ]
+  }
+,
+  {
+    "id": "BOX_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Easy",
+    "question": "Five boxes A, B, C, D, and E are stacked vertically from top to bottom. A is at the top. C is immediately below B. D is immediately above E. B is below A. Which box is third from the top?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_option": 2,
+    "explanation": "The only possible arrangement is A, B, C, D, E. Hence, C is third from the top.",
+    "shortcut": "Start with fixed positions and immediate pairs.",
+    "formula": "Not Applicable",
+    "learning_tip": "Arrange the boxes in slots from top to bottom.",
+    "estimated_time": 40,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "box puzzle",
+      "stacking",
+      "easy"
+    ]
+  },
+  {
+    "id": "BOX_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Six boxes F, G, H, I, J, and K are stacked vertically. K is at the bottom. F is immediately above G. I is above J. H is below G. Which box is immediately above G?",
+    "options": [
+      "F",
+      "H",
+      "I",
+      "J"
+    ],
+    "correct_option": 1,
+    "explanation": "The clue states that F is immediately above G.",
+    "shortcut": "Answer direct adjacency questions first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Immediate clues require no full arrangement.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "adjacency",
+      "box arrangement"
+    ]
+  },
+  {
+    "id": "BOX_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven boxes L, M, N, O, P, Q, and R are stacked vertically. L is at the top. R is at the bottom. M is immediately below L. O is immediately above P. N is between M and O. Which box is fourth from the top?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correct_option": 3,
+    "explanation": "The arrangement is L, M, N, O, P, Q, R. Therefore, O is fourth from the top.",
+    "shortcut": "Use the given sequence clues to build the stack.",
+    "formula": "Not Applicable",
+    "learning_tip": "Sequential clues often determine the entire arrangement.",
+    "estimated_time": 50,
+    "companies": [
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "sequence",
+      "box puzzle"
+    ]
+  },
+  {
+    "id": "BOX_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight boxes A, B, C, D, E, F, G, and H are stacked vertically. H is at the bottom. A is at the top. B is immediately above C. D is below C. F is immediately above G. Which box is immediately below B?",
+    "options": [
+      "C",
+      "D",
+      "F",
+      "G"
+    ],
+    "correct_option": 1,
+    "explanation": "Since B is immediately above C, C is immediately below B.",
+    "shortcut": "Use immediate pair clues.",
+    "formula": "Not Applicable",
+    "learning_tip": "Direct relations eliminate unnecessary calculations.",
+    "estimated_time": 35,
+    "companies": [
+      "HCL",
+      "Deloitte"
+    ],
+    "tags": [
+      "box puzzle",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "BOX_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "Six boxes P, Q, R, S, T, and U are stacked vertically. U is at the top. P is at the bottom. Q is immediately below U. R is immediately above S. Which box is second from the top?",
+    "options": [
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "correct_option": 1,
+    "explanation": "Since U is at the top and Q is immediately below U, Q is second from the top.",
+    "shortcut": "Use fixed positions first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Top and bottom clues are useful starting points.",
+    "estimated_time": 30,
+    "companies": [
+      "Tech Mahindra",
+      "Infosys"
+    ],
+    "tags": [
+      "stack order",
+      "placement"
+    ]
+  },
+  {
+    "id": "BOX_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven boxes V, W, X, Y, Z, A, and B are stacked vertically. B is at the bottom. V is immediately above W. X is below W. Y is immediately above Z. Which box is immediately below V?",
+    "options": [
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "correct_option": 1,
+    "explanation": "The clue directly states that V is immediately above W.",
+    "shortcut": "Immediate adjacency gives the answer instantly.",
+    "formula": "Not Applicable",
+    "learning_tip": "Read every statement carefully before arranging.",
+    "estimated_time": 35,
+    "companies": [
+      "Oracle",
+      "Cisco"
+    ],
+    "tags": [
+      "vertical arrangement",
+      "box puzzle"
+    ]
+  },
+  {
+    "id": "BOX_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight boxes J, K, L, M, N, O, P, and Q are stacked vertically. Q is at the top. J is at the bottom. K is immediately below Q. M is immediately above N. L is between K and M. Which box is fifth from the top?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correct_option": 2,
+    "explanation": "The arrangement becomes Q, K, L, M, N, O, P, J. Hence, N is fifth from the top.",
+    "shortcut": "Convert sequence clues into a fixed order.",
+    "formula": "Not Applicable",
+    "learning_tip": "Draw numbered positions to reduce confusion.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Accenture"
+    ],
+    "tags": [
+      "box arrangement",
+      "advanced"
+    ]
+  },
+  {
+    "id": "BOX_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Six boxes C, D, E, F, G, and H are stacked vertically. H is at the bottom. C is at the top. D is immediately above E. F is below E. G is immediately above H. Which box is immediately below G?",
+    "options": [
+      "F",
+      "H",
+      "E",
+      "D"
+    ],
+    "correct_option": 2,
+    "explanation": "Since G is immediately above H, H is immediately below G.",
+    "shortcut": "Use the direct adjacency clue.",
+    "formula": "Not Applicable",
+    "learning_tip": "Adjacent clues are the easiest to solve first.",
+    "estimated_time": 30,
+    "companies": [
+      "Cognizant",
+      "LTIMindtree"
+    ],
+    "tags": [
+      "box puzzle",
+      "adjacency",
+      "reasoning"
+    ]
+  }
+  ,
+  {
+    "id": "BOX_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Nine boxes A, B, C, D, E, F, G, H, and I are stacked vertically from top to bottom. A is at the top. I is at the bottom. B is immediately below A. D is immediately above E. G is immediately below F. C is between B and D. Which box is sixth from the top?",
+    "options": [
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "correct_option": 2,
+    "explanation": "The arrangement is A, B, C, D, E, F, G, H, I. Therefore, E occupies the sixth position from the top.",
+    "shortcut": "Arrange fixed blocks first, then fill the remaining positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Represent boxes as numbered vertical slots to avoid mistakes in long arrangements.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "box puzzle",
+      "stacking",
+      "placement reasoning",
+      "advanced"
+    ]
+  }
+]

@@ -1,0 +1,643 @@
+[
+    {
+        "id": "F001",
+        "name": "Number System",
+        "file": "number_system",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F002",
+        "name": "LCM & HCF",
+        "file": "lcm_hcf",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F003",
+        "name": "Divisibility",
+        "file": "divisibility",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F004",
+        "name": "Simplification",
+        "file": "simplification",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F005",
+        "name": "Average",
+        "file": "average",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F006",
+        "name": "Percentage",
+        "file": "percentage",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F007",
+        "name": "Ratio & Proportion",
+        "file": "ratio_proportion",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F008",
+        "name": "Profit & Loss",
+        "file": "profit_loss",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F009",
+        "name": "Simple Interest",
+        "file": "simple_interest",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F010",
+        "name": "Compound Interest",
+        "file": "compound_interest",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F011",
+        "name": "Decimal Fraction",
+        "file": "decimal_fraction",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F012",
+        "name": "Approximation",
+        "file": "approximation",
+        "folder": "01_foundation"
+    },
+    {
+        "id": "F013",
+        "name": "Squares & Cubes",
+        "file": "squares_cubes",
+        "folder": "01_foundation"
+    },
+
+    {
+        "id": "A001",
+        "name": "Ages",
+        "file": "ages",
+        "folder": "02_arithmetic"
+    },
+    {
+        "id": "A002",
+        "name": "Calendar",
+        "file": "calendar",
+        "folder": "02_arithmetic"
+    },
+    {
+        "id": "A003",
+        "name": "Chain Rule",
+        "file": "chain_rule",
+        "folder": "02_arithmetic"
+    },
+    {
+        "id": "A004",
+        "name": "Clock",
+        "file": "clock",
+        "folder": "02_arithmetic"
+    },
+    {
+        "id": "A005",
+        "name": "Mixtures & Alligation",
+        "file": "mixtures_alligation",
+        "folder": "02_arithmetic"
+    },
+    {
+        "id": "A006",
+        "name": "Partnership",
+        "file": "partnership",
+        "folder": "02_arithmetic"
+    },
+    {
+        "id": "A007",
+        "name": "Surds & Indices",
+        "file": "surds_indices",
+        "folder": "02_arithmetic"
+    },
+    {
+        "id": "A008",
+        "name": "Trains",
+        "file": "trains",
+        "folder": "02_arithmetic"
+    },
+    {
+        "id": "A009",
+        "name": "Work & Wages",
+        "file": "work_wages",
+        "folder": "02_arithmetic"
+    },
+
+    {
+        "id": "T001",
+        "name": "Boats & Streams",
+        "file": "boats_streams",
+        "folder": "03_time_based"
+    },
+    {
+        "id": "T002",
+        "name": "Pipes & Cisterns",
+        "file": "pipes_cisterns",
+        "folder": "03_time_based"
+    },
+    {
+        "id": "T003",
+        "name": "Race",
+        "file": "race",
+        "folder": "03_time_based"
+    },
+    {
+        "id": "T004",
+        "name": "Relative Speed",
+        "file": "relative_speed",
+        "folder": "03_time_based"
+    },
+    {
+        "id": "T005",
+        "name": "Time Speed Distance",
+        "file": "time_speed_distance",
+        "folder": "03_time_based"
+    },
+    {
+        "id": "T006",
+        "name": "Time & Work",
+        "file": "time_work",
+        "folder": "03_time_based"
+    }
+    ,
+{
+    "id":"L001",
+    "name":"Alphabet Series",
+    "file":"alphabet_series",
+    "folder":"04_logical"
+},
+{
+    "id":"L002",
+    "name":"Analogy",
+    "file":"analogy",
+    "folder":"04_logical"
+},
+{
+    "id":"L003",
+    "name":"Blood Relations",
+    "file":"blood_relations",
+    "folder":"04_logical"
+},
+{
+    "id":"L004",
+    "name":"Classification",
+    "file":"classification",
+    "folder":"04_logical"
+},
+{
+    "id":"L005",
+    "name":"Coding Decoding",
+    "file":"coding_decoding",
+    "folder":"04_logical"
+},
+{
+    "id":"L006",
+    "name":"Direction Sense",
+    "file":"direction_sense",
+    "folder":"04_logical"
+},
+{
+    "id":"L007",
+    "name":"Number Series",
+    "file":"number_series",
+    "folder":"04_logical"
+},
+{
+    "id":"L008",
+    "name":"Odd One Out",
+    "file":"odd_one_out",
+    "folder":"04_logical"
+},
+{
+    "id":"L009",
+    "name":"Ranking Ordering",
+    "file":"ranking_ordering",
+    "folder":"04_logical"
+},
+
+{
+    "id":"VR001",
+    "name":"Cube Dice",
+    "file":"cube_dice",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR002",
+    "name":"Embedded Figures",
+    "file":"embedded_figures",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR003",
+    "name":"Figure Completion",
+    "file":"figure_completion",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR004",
+    "name":"Logarithms",
+    "file":"logarithms",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR005",
+    "name":"Mirror Images",
+    "file":"mirror_images",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR006",
+    "name":"Paper Cutting",
+    "file":"paper_cutting",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR007",
+    "name":"Paper Folding",
+    "file":"paper_folding",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR008",
+    "name":"Pattern Recognition",
+    "file":"pattern_recognition",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR009",
+    "name":"Permutation Combination",
+    "file":"permutation_combination",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR010",
+    "name":"Probability",
+    "file":"probability",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR011",
+    "name":"Quadratic Equations",
+    "file":"quadratic_equations",
+    "folder":"05_visual_reasoning"
+},
+{
+    "id":"VR012",
+    "name":"Water Images",
+    "file":"water_images",
+    "folder":"05_visual_reasoning"
+},
+
+{
+    "id":"P001",
+    "name":"Box Puzzle",
+    "file":"box_puzzle",
+    "folder":"06_puzzles"
+},
+{
+    "id":"P002",
+    "name":"Circular Arrangement",
+    "file":"circular_arrangement",
+    "folder":"06_puzzles"
+},
+{
+    "id":"P003",
+    "name":"Day Puzzle",
+    "file":"day_puzzle",
+    "folder":"06_puzzles"
+},
+{
+    "id":"P004",
+    "name":"Distribution Puzzle",
+    "file":"distribution_puzzle",
+    "folder":"06_puzzles"
+},
+{
+    "id":"P005",
+    "name":"Floor Puzzle",
+    "file":"floor_puzzle",
+    "folder":"06_puzzles"
+},
+{
+    "id":"P006",
+    "name":"Linear Arrangement",
+    "file":"linear_arrangement",
+    "folder":"06_puzzles"
+},
+{
+    "id":"P007",
+    "name":"Month Puzzle",
+    "file":"month_puzzle",
+    "folder":"06_puzzles"
+},
+{
+    "id":"P008",
+    "name":"Scheduling Puzzle",
+    "file":"scheduling_puzzle",
+    "folder":"06_puzzles"
+}
+,
+{
+    "id":"SL001",
+    "name":"Assertion Reason",
+    "file":"assertion_reason",
+    "folder":"07_statement_logic"
+},
+{
+    "id":"SL002",
+    "name":"Cause Effect",
+    "file":"cause_effect",
+    "folder":"07_statement_logic"
+},
+{
+    "id":"SL003",
+    "name":"Critical Reasoning",
+    "file":"critical_reasoning",
+    "folder":"07_statement_logic"
+},
+{
+    "id":"SL004",
+    "name":"Statement Argument",
+    "file":"statement_argument",
+    "folder":"07_statement_logic"
+},
+{
+    "id":"SL005",
+    "name":"Statement Assumption",
+    "file":"statement_assumption",
+    "folder":"07_statement_logic"
+},
+{
+    "id":"SL006",
+    "name":"Statement Conclusion",
+    "file":"statement_conclusion",
+    "folder":"07_statement_logic"
+},
+{
+    "id":"SL007",
+    "name":"Statement Course Of Action",
+    "file":"statement_course_of_action",
+    "folder":"07_statement_logic"
+},
+{
+    "id":"SL008",
+    "name":"Syllogism",
+    "file":"syllogism",
+    "folder":"07_statement_logic"
+},
+
+{
+    "id":"ALG001",
+    "name":"Functions",
+    "file":"functions",
+    "folder":"08_algebra"
+},
+{
+    "id":"ALG002",
+    "name":"Inequalities",
+    "file":"inequalities",
+    "folder":"08_algebra"
+},
+{
+    "id":"ALG003",
+    "name":"Linear Equations",
+    "file":"linear_equations",
+    "folder":"08_algebra"
+},
+{
+    "id":"ALG004",
+    "name":"Logarithms",
+    "file":"logarithms",
+    "folder":"08_algebra"
+},
+{
+    "id":"ALG005",
+    "name":"Polynomials",
+    "file":"polynomials",
+    "folder":"08_algebra"
+},
+{
+    "id":"ALG006",
+    "name":"Progressions",
+    "file":"progressions",
+    "folder":"08_algebra"
+},
+{
+    "id":"ALG007",
+    "name":"Quadratic Equations",
+    "file":"quadratic_equations",
+    "folder":"08_algebra"
+},
+{
+    "id":"ALG008",
+    "name":"Set Theory",
+    "file":"set_theory",
+    "folder":"08_algebra"
+},
+
+{
+    "id":"G001",
+    "name":"Circles",
+    "file":"circles",
+    "folder":"09_geometry"
+},
+{
+    "id":"G002",
+    "name":"Coordinate Geometry",
+    "file":"coordinate_geometry",
+    "folder":"09_geometry"
+},
+{
+    "id":"G003",
+    "name":"Geometry Basics",
+    "file":"geometry_basics",
+    "folder":"09_geometry"
+},
+{
+    "id":"G004",
+    "name":"Lines Angles",
+    "file":"lines_angles",
+    "folder":"09_geometry"
+},
+{
+    "id":"G005",
+    "name":"Mensuration 2D",
+    "file":"mensuration_2d",
+    "folder":"09_geometry"
+},
+{
+    "id":"G006",
+    "name":"Mensuration 3D",
+    "file":"mensuration_3d",
+    "folder":"09_geometry"
+},
+{
+    "id":"G007",
+    "name":"Quadrilaterals",
+    "file":"quadrilaterals",
+    "folder":"09_geometry"
+},
+{
+    "id":"G008",
+    "name":"Triangles",
+    "file":"triangles",
+    "folder":"09_geometry"
+}
+,
+{
+    "id":"DI001",
+    "name":"Bar Graph",
+    "file":"bar_graph",
+    "folder":"10_data_interpretation"
+},
+{
+    "id":"DI002",
+    "name":"Caselet DI",
+    "file":"caselet_di",
+    "folder":"10_data_interpretation"
+},
+{
+    "id":"DI003",
+    "name":"Data Interpretation Mixed",
+    "file":"data_interpretation_mixed",
+    "folder":"10_data_interpretation"
+},
+{
+    "id":"DI004",
+    "name":"Data Sufficiency",
+    "file":"data_sufficiency",
+    "folder":"10_data_interpretation"
+},
+{
+    "id":"DI005",
+    "name":"Line Graph",
+    "file":"line_graph",
+    "folder":"10_data_interpretation"
+},
+{
+    "id":"DI006",
+    "name":"Mixed Graph",
+    "file":"mixed_graph",
+    "folder":"10_data_interpretation"
+},
+{
+    "id":"DI007",
+    "name":"Pie Chart",
+    "file":"pie_chart",
+    "folder":"10_data_interpretation"
+},
+{
+    "id":"DI008",
+    "name":"Tables",
+    "file":"tables",
+    "folder":"10_data_interpretation"
+},
+
+{
+    "id":"AV001",
+    "name":"Binomial Theorem",
+    "file":"binomial_theorem",
+    "folder":"11_advanced_verbal"
+},
+{
+    "id":"AV002",
+    "name":"Permutation Combination",
+    "file":"permutation_combination",
+    "folder":"11_advanced_verbal"
+},
+{
+    "id":"AV003",
+    "name":"Probability",
+    "file":"probability",
+    "folder":"11_advanced_verbal"
+},
+{
+    "id":"AV004",
+    "name":"Statistics",
+    "file":"statistics",
+    "folder":"11_advanced_verbal"
+},
+
+{
+    "id":"M001",
+    "name":"Company Mix 01",
+    "file":"company_mix_01",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M002",
+    "name":"Company Mix 02",
+    "file":"company_mix_02",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M003",
+    "name":"Easy Mock 01",
+    "file":"easy_mock_01",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M004",
+    "name":"Easy Mock 02",
+    "file":"easy_mock_02",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M005",
+    "name":"Medium Mock 01",
+    "file":"medium_mock_01",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M006",
+    "name":"Medium Mock 02",
+    "file":"medium_mock_02",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M007",
+    "name":"Hard Mock 01",
+    "file":"hard_mock_01",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M008",
+    "name":"Hard Mock 02",
+    "file":"hard_mock_02",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M009",
+    "name":"Grand Mock 01",
+    "file":"grand_mock_01",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M010",
+    "name":"Grand Mock 02",
+    "file":"grand_mock_02",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M011",
+    "name":"Grand Mock 03",
+    "file":"grand_mock_03",
+    "folder":"12_final_mock"
+},
+{
+    "id":"M012",
+    "name":"Grand Mock 04",
+    "file":"grand_mock_04",
+    "folder":"12_final_mock"
+}
+]

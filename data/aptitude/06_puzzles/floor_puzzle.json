@@ -1,0 +1,737 @@
+[
+  {
+    "id": "FLOOR_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Easy",
+    "question": "Seven people A, B, C, D, E, F, and G live on seven different floors of a building, with the ground floor numbered 1 and the top floor numbered 7. A lives above B. B lives above C. Who lives on the highest floor among A, B, and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "Cannot be determined"
+    ],
+    "correct_option": 1,
+    "explanation": "Since A lives above B and B lives above C, the order is A > B > C.",
+    "shortcut": "Convert 'above' relations into a ranking.",
+    "formula": "Not Applicable",
+    "learning_tip": "Draw the floors vertically to visualize the arrangement.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "floor puzzle",
+      "ranking",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "FLOOR_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Easy",
+    "question": "Five people P, Q, R, S, and T live on five different floors. T lives on the topmost floor. Who definitely lives on the highest floor?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "T"
+    ],
+    "correct_option": 4,
+    "explanation": "The question directly states that T lives on the topmost floor.",
+    "shortcut": "Use direct clues before analyzing other conditions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always identify fixed positions first.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "floor puzzle",
+      "direct clue"
+    ]
+  },
+  {
+    "id": "FLOOR_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Medium",
+    "question": "Six people A, B, C, D, E, and F live on six different floors. C lives above A. A lives above D. Which person lives below both C and A?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "Since C is above A and A is above D, D lives below both.",
+    "shortcut": "Write the order from top to bottom.",
+    "formula": "Not Applicable",
+    "learning_tip": "Translate 'above' into a vertical ranking.",
+    "estimated_time": 35,
+    "companies": [
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "floor puzzle",
+      "comparison"
+    ]
+  },
+  {
+    "id": "FLOOR_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Medium",
+    "question": "Five people M, N, O, P, and Q live on five different floors. M lives above N. O lives below N. P lives above M. Who lives on the highest floor among these four people?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correct_option": 4,
+    "explanation": "The order is P > M > N > O. Therefore, P lives highest.",
+    "shortcut": "Arrange all given relationships before answering.",
+    "formula": "Not Applicable",
+    "learning_tip": "Create a top-to-bottom chain from the clues.",
+    "estimated_time": 40,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "floor arrangement",
+      "ranking"
+    ]
+  },
+  {
+    "id": "FLOOR_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people A, B, C, D, E, F, and G live on different floors. G lives on the bottom floor. A lives above B. B lives above C. Who lives on the lowest floor among A, B, and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "G"
+    ],
+    "correct_option": 3,
+    "explanation": "Among A, B, and C, the order is A > B > C. Hence, C lives lowest.",
+    "shortcut": "Ignore unrelated people unless required.",
+    "formula": "Not Applicable",
+    "learning_tip": "Focus only on the people mentioned in the question.",
+    "estimated_time": 35,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "floor puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "FLOOR_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H live on eight different floors. A lives above B. B lives above C. D lives above A. E lives below C. Who lives on the second highest floor among A, B, C, D, and E?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 1,
+    "explanation": "The order is D > A > B > C > E. Therefore, A is second highest.",
+    "shortcut": "Complete the ranking before identifying the required position.",
+    "formula": "Not Applicable",
+    "learning_tip": "Questions asking for second highest require the complete order.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "floor puzzle",
+      "advanced",
+      "ranking"
+    ]
+  },
+  {
+    "id": "FLOOR_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Six people P, Q, R, S, T, and U live on different floors. P lives above Q. Q lives above R. S lives above P. T lives below R. Who lives on the lowest floor among P, Q, R, S, and T?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "correct_option": 4,
+    "explanation": "The order is S > P > Q > R > T. Therefore, T lives on the lowest floor.",
+    "shortcut": "Arrange everyone from top to bottom.",
+    "formula": "Not Applicable",
+    "learning_tip": "The last person in the ranking occupies the lowest floor.",
+    "estimated_time": 60,
+    "companies": [
+      "Deloitte",
+      "Cisco"
+    ],
+    "tags": [
+      "floor puzzle",
+      "advanced"
+    ]
+  },
+  {
+    "id": "FLOOR_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven people A, B, C, D, E, F, and G live on seven different floors. F lives above D. D lives above B. B lives above A. G lives below A. Who lives on the third highest floor among F, D, B, A, and G?",
+    "options": [
+      "F",
+      "D",
+      "B",
+      "A"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is F > D > B > A > G. Therefore, B lives on the third highest floor.",
+    "shortcut": "Write the complete vertical order.",
+    "formula": "Not Applicable",
+    "learning_tip": "For nth-position questions, always create the entire ranking.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "floor puzzle",
+      "placement",
+      "ranking"
+    ]
+  },
+    {
+    "id": "FLOOR_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Easy",
+    "question": "Five people A, B, C, D, and E live on five different floors. A lives above B. B lives above C. Which person lives between A and C?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 2,
+    "explanation": "Since A is above B and B is above C, B lives between A and C.",
+    "shortcut": "Arrange the people vertically first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Visualize the floors from top to bottom.",
+    "estimated_time": 30,
+    "companies": [
+      "Infosys",
+      "TCS"
+    ],
+    "tags": [
+      "floor puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "FLOOR_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Easy",
+    "question": "Six people P, Q, R, S, T, and U live on different floors. U lives on the ground floor. Who definitely lives on the lowest floor?",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "U"
+    ],
+    "correct_option": 4,
+    "explanation": "The question directly states that U lives on the ground floor.",
+    "shortcut": "Use fixed-position clues immediately.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always identify the fixed floors before solving.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "floor puzzle",
+      "direct clue"
+    ]
+  },
+  {
+    "id": "FLOOR_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people A, B, C, D, E, F, and G live on different floors. D lives above B. B lives above A. C lives above D. Who lives on the highest floor among A, B, C, and D?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is C > D > B > A. Hence, C lives highest.",
+    "shortcut": "Convert all 'above' clues into one sequence.",
+    "formula": "Not Applicable",
+    "learning_tip": "Link all relationships together before answering.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "floor arrangement",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "FLOOR_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Medium",
+    "question": "Five people M, N, O, P, and Q live on five different floors. O lives below M. N lives above M. P lives below O. Who lives on the lowest floor among M, N, O, and P?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correct_option": 4,
+    "explanation": "The order is N > M > O > P. Therefore, P lives on the lowest floor.",
+    "shortcut": "Arrange from top to bottom.",
+    "formula": "Not Applicable",
+    "learning_tip": "The last person in the vertical order is the answer.",
+    "estimated_time": 40,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "floor puzzle",
+      "comparison"
+    ]
+  },
+  {
+    "id": "FLOOR_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight people A, B, C, D, E, F, G, and H live on different floors. A lives above B. C lives above A. D lives below B. Who lives on the second highest floor among A, B, C, and D?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 1,
+    "explanation": "The order is C > A > B > D. Hence, A is second highest.",
+    "shortcut": "Identify the highest person first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Second highest means one position below the top.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "ranking",
+      "floor puzzle"
+    ]
+  },
+  {
+    "id": "FLOOR_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven people P, Q, R, S, T, U, and V live on different floors. S lives above Q. Q lives above P. T lives above S. U lives below P. Who lives on the second lowest floor among P, Q, S, T, and U?",
+    "options": [
+      "P",
+      "Q",
+      "S",
+      "U"
+    ],
+    "correct_option": 1,
+    "explanation": "The order is T > S > Q > P > U. Therefore, P lives on the second lowest floor.",
+    "shortcut": "Complete the vertical ranking.",
+    "formula": "Not Applicable",
+    "learning_tip": "Second lowest is immediately above the lowest position.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "advanced",
+      "floor puzzle"
+    ]
+  },
+  {
+    "id": "FLOOR_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Six people A, B, C, D, E, and F live on different floors. E lives above C. C lives above B. B lives above A. F lives below A. Who lives on the third highest floor among E, C, B, A, and F?",
+    "options": [
+      "E",
+      "C",
+      "B",
+      "A"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is E > C > B > A > F. Therefore, B is third highest.",
+    "shortcut": "Arrange everyone from highest to lowest.",
+    "formula": "Not Applicable",
+    "learning_tip": "Build the full order for nth-position questions.",
+    "estimated_time": 60,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "floor puzzle",
+      "ranking",
+      "advanced"
+    ]
+  },
+  {
+    "id": "FLOOR_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H live on eight different floors. H lives on the topmost floor. G lives below F. F lives above D. D lives above B. Who lives highest among F, D, B, and G?",
+    "options": [
+      "F",
+      "D",
+      "B",
+      "G"
+    ],
+    "correct_option": 1,
+    "explanation": "Since F is above D, D is above B, and G is below F, F lives highest among the four.",
+    "shortcut": "Use only the required relationships.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore unrelated clues when answering comparison questions.",
+    "estimated_time": 50,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "floor puzzle",
+      "placement",
+      "advanced"
+    ]
+  },
+    {
+    "id": "FLOOR_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Easy",
+    "question": "Five people A, B, C, D, and E live on five different floors. B lives above C. C lives above D. Who lives between B and D?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "Since B lives above C and C lives above D, C lives between B and D.",
+    "shortcut": "Write the order from top to bottom.",
+    "formula": "Not Applicable",
+    "learning_tip": "People connected by consecutive clues usually form a chain.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "floor puzzle",
+      "ranking",
+      "easy"
+    ]
+  },
+  {
+    "id": "FLOOR_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Easy",
+    "question": "Six people P, Q, R, S, T, and U live on different floors. P lives above Q. Who definitely lives below P?",
+    "options": [
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "correct_option": 1,
+    "explanation": "The clue directly states that Q lives below P.",
+    "shortcut": "Use direct comparisons first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Not every floor puzzle requires a complete arrangement.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "floor puzzle",
+      "comparison"
+    ]
+  },
+  {
+    "id": "FLOOR_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people A, B, C, D, E, F, and G live on seven different floors. E lives above C. C lives above B. B lives above A. Who lives on the second highest floor among A, B, C, and E?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is E > C > B > A. Therefore, C lives on the second highest floor.",
+    "shortcut": "Identify the top person first.",
+    "formula": "Not Applicable",
+    "learning_tip": "The second highest is immediately below the highest.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "floor arrangement",
+      "ranking"
+    ]
+  },
+  {
+    "id": "FLOOR_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Medium",
+    "question": "Five people M, N, O, P, and Q live on different floors. N lives above M. O lives below M. P lives above N. Who lives highest among M, N, O, and P?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correct_option": 4,
+    "explanation": "The order is P > N > M > O. Hence, P lives highest.",
+    "shortcut": "Arrange everyone from top to bottom.",
+    "formula": "Not Applicable",
+    "learning_tip": "Create a simple vertical diagram while solving.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "floor puzzle",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "FLOOR_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight people A, B, C, D, E, F, G, and H live on different floors. D lives above B. B lives above A. E lives above D. Who lives on the lowest floor among A, B, D, and E?",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "correct_option": 1,
+    "explanation": "The order is E > D > B > A. Therefore, A lives on the lowest floor.",
+    "shortcut": "Arrange only the relevant people.",
+    "formula": "Not Applicable",
+    "learning_tip": "Focus on the people mentioned in the question.",
+    "estimated_time": 40,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "ranking",
+      "floor puzzle"
+    ]
+  },
+  {
+    "id": "FLOOR_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Seven people P, Q, R, S, T, U, and V live on different floors. V lives on the top floor. T lives above R. R lives above Q. Q lives above P. Who lives on the third highest floor among V, T, R, Q, and P?",
+    "options": [
+      "V",
+      "T",
+      "R",
+      "Q"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is V > T > R > Q > P. Therefore, R lives on the third highest floor.",
+    "shortcut": "Arrange from highest to lowest before counting positions.",
+    "formula": "Not Applicable",
+    "learning_tip": "For nth-position questions, build the complete ranking first.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "advanced",
+      "floor puzzle",
+      "ranking"
+    ]
+  },
+  {
+    "id": "FLOOR_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Six people A, B, C, D, E, and F live on different floors. F lives above D. D lives above C. C lives above B. B lives above A. Who lives on the second lowest floor?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is F > D > C > B > A. Therefore, B lives on the second lowest floor.",
+    "shortcut": "Identify the lowest person first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Second lowest is immediately above the lowest position.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "floor puzzle",
+      "advanced"
+    ]
+  },
+  {
+    "id": "FLOOR_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H live on eight different floors. H lives above G. G lives above F. F lives above E. Who lives on the third highest floor among H, G, F, and E?",
+    "options": [
+      "H",
+      "G",
+      "F",
+      "E"
+    ],
+    "correct_option": 3,
+    "explanation": "The order is H > G > F > E. Therefore, F lives on the third highest floor.",
+    "shortcut": "Write the order before answering nth-position questions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Convert 'above' clues into a vertical chain.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "floor puzzle",
+      "placement",
+      "advanced"
+    ]
+  },
+    {
+    "id": "FLOOR_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Floor Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H live on eight different floors. A lives above B. B lives above C. D lives above A. E lives below C. F lives above D. G lives below E. Who lives on the second highest floor among A, B, C, D, E, F, and G?",
+    "options": [
+      "A",
+      "D",
+      "E",
+      "F"
+    ],
+    "correct_option": 2,
+    "explanation": "The order is F > D > A > B > C > E > G. Therefore, D lives on the second highest floor.",
+    "shortcut": "Arrange everyone from highest to lowest, then identify the required position.",
+    "formula": "Not Applicable",
+    "learning_tip": "For floor puzzles, a complete top-to-bottom ranking makes position-based questions straightforward.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "floor puzzle",
+      "ranking",
+      "advanced",
+      "placement"
+    ]
+  }
+]

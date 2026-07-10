@@ -1,0 +1,746 @@
+[
+  {
+    "id": "CIRC_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Eight friends A, B, C, D, E, F, G, and H are sitting around a circular table facing the center. A sits second to the left of B. C sits immediately to the right of B. Who sits between A and C?",
+    "options": [
+      "B",
+      "D",
+      "E",
+      "F"
+    ],
+    "correct_option": 1,
+    "explanation": "If C is immediately right of B and A is second left of B, B lies between A and C.",
+    "shortcut": "Fix one person and arrange others relative to that person.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always fix one person to eliminate rotational symmetry.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "circular arrangement",
+      "seating puzzle",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "CIRC_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Six people P, Q, R, S, T, and U are sitting around a circular table facing the center. Q is immediately to the left of P. R is immediately to the right of P. Who sits between Q and R?",
+    "options": [
+      "P",
+      "S",
+      "T",
+      "U"
+    ],
+    "correct_option": 1,
+    "explanation": "Q is on one side of P and R is on the other, so P sits between them.",
+    "shortcut": "Use immediate left and right relations first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Adjacent clues are the strongest clues in circular arrangements.",
+    "estimated_time": 40,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "circular puzzle",
+      "seating arrangement"
+    ]
+  },
+  {
+    "id": "CIRC_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight friends A, B, C, D, E, F, G, and H sit around a circle facing the center. A is opposite E. B is immediately to the left of A. Who sits opposite B?",
+    "options": [
+      "C",
+      "D",
+      "F",
+      "H"
+    ],
+    "correct_option": 3,
+    "explanation": "Since E is opposite A, the seat opposite B (left of A) is occupied by F.",
+    "shortcut": "Mark opposite seats first before placing adjacent people.",
+    "formula": "Not Applicable",
+    "learning_tip": "In an 8-person circle, opposite seats are always 4 positions apart.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "circle",
+      "opposite",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "CIRC_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Seven people are sitting around a circular table facing the center. A sits second to the right of B. C sits immediately to the left of B. Which person is adjacent to both A and C?",
+    "options": [
+      "B",
+      "D",
+      "E",
+      "F"
+    ],
+    "correct_option": 1,
+    "explanation": "Using the given clues, B is adjacent to both A and C.",
+    "shortcut": "Draw a circle and place B first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always begin with the person mentioned in the maximum number of clues.",
+    "estimated_time": 60,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "circular arrangement",
+      "adjacent"
+    ]
+  },
+  {
+    "id": "CIRC_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight friends sit around a circular table facing the center. P is opposite T. Q sits immediately right of P. Which statement is definitely true?",
+    "options": [
+      "Q is opposite T",
+      "Q is adjacent to P",
+      "T is left of Q",
+      "P is opposite Q"
+    ],
+    "correct_option": 2,
+    "explanation": "Since Q is immediately right of P, Q is adjacent to P.",
+    "shortcut": "Choose statements directly supported by the clues.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid assuming positions that are not explicitly determined.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "logical reasoning",
+      "circle puzzle"
+    ]
+  },
+  {
+    "id": "CIRC_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Nine people sit around a circular table facing the center. A is third to the left of B. C is immediately to the right of B. D is opposite B. How many people sit between A and D in the clockwise direction?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 2,
+    "explanation": "Fix B and place others accordingly. Two people lie between A and D clockwise.",
+    "shortcut": "Fix one reference person and count clockwise carefully.",
+    "formula": "Not Applicable",
+    "learning_tip": "For odd-number circles, opposite means the farthest possible seat.",
+    "estimated_time": 75,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "circular arrangement",
+      "advanced",
+      "counting"
+    ]
+  },
+  {
+    "id": "CIRC_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people A, B, C, D, E, F, G, and H are sitting around a circular table facing the center. A sits opposite E. B sits immediately left of A. C sits immediately right of E. What is the position of C with respect to B?",
+    "options": [
+      "Opposite",
+      "Second to the left",
+      "Second to the right",
+      "Immediate right"
+    ],
+    "correct_option": 1,
+    "explanation": "After placing all given positions, C is directly opposite B.",
+    "shortcut": "Mark opposite positions first, then place neighbors.",
+    "formula": "Not Applicable",
+    "learning_tip": "Opposite-seat clues simplify circular arrangement puzzles.",
+    "estimated_time": 75,
+    "companies": [
+      "Deloitte",
+      "Cisco"
+    ],
+    "tags": [
+      "seating arrangement",
+      "circle",
+      "placement"
+    ]
+  },
+  {
+    "id": "CIRC_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Ten friends are sitting around a circular table facing the center. P is second to the left of Q. R is immediately right of Q. S is opposite Q. Which person is definitely adjacent to Q?",
+    "options": [
+      "P",
+      "R",
+      "S",
+      "Both P and R"
+    ],
+    "correct_option": 2,
+    "explanation": "Only R is immediately right of Q. P is second to the left, not adjacent.",
+    "shortcut": "Differentiate between 'second' and 'immediately'.",
+    "formula": "Not Applicable",
+    "learning_tip": "Read directional words carefully in seating arrangement puzzles.",
+    "estimated_time": 60,
+    "companies": [
+      "TCS Digital",
+      "Accenture"
+    ],
+    "tags": [
+      "circular arrangement",
+      "logical reasoning",
+      "placement"
+    ]
+  }
+  ,
+  {
+    "id": "CIRC_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Eight friends A, B, C, D, E, F, G, and H are sitting around a circular table facing the center. A is immediately to the right of B. C is immediately to the left of B. Who sits between A and C?",
+    "options": [
+      "B",
+      "D",
+      "E",
+      "F"
+    ],
+    "correct_option": 1,
+    "explanation": "Since A and C are on either side of B, B sits between them.",
+    "shortcut": "Solve immediate left/right clues first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Adjacent clues help establish the initial framework.",
+    "estimated_time": 35,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "circular arrangement",
+      "adjacency",
+      "placement"
+    ]
+  },
+  {
+    "id": "CIRC_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Six people P, Q, R, S, T, and U are sitting around a circular table facing the center. P is opposite S. Q is immediately left of P. Who is opposite Q?",
+    "options": [
+      "R",
+      "T",
+      "U",
+      "S"
+    ],
+    "correct_option": 2,
+    "explanation": "With P fixed, S sits opposite. Q is immediately left of P, making T opposite Q.",
+    "shortcut": "Mark opposite positions before placing adjacent people.",
+    "formula": "Not Applicable",
+    "learning_tip": "Opposite positions are equally spaced around the circle.",
+    "estimated_time": 55,
+    "companies": [
+      "Capgemini",
+      "Wipro"
+    ],
+    "tags": [
+      "opposite",
+      "circle puzzle"
+    ]
+  },
+  {
+    "id": "CIRC_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight people A, B, C, D, E, F, G, and H are sitting around a circular table facing the center. A sits second to the right of B. C sits immediately left of A. Who is immediately right of B?",
+    "options": [
+      "A",
+      "D",
+      "H",
+      "Cannot be determined"
+    ],
+    "correct_option": 4,
+    "explanation": "Only A's position relative to B is known. The immediate right of B cannot be uniquely determined.",
+    "shortcut": "Avoid assuming positions that are not specified.",
+    "formula": "Not Applicable",
+    "learning_tip": "Some arrangement questions intentionally have insufficient information.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Cognizant"
+    ],
+    "tags": [
+      "insufficient data",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "CIRC_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight friends are sitting around a circular table facing the center. A is opposite E. B is immediately right of A. F is immediately left of E. What is the position of F with respect to B?",
+    "options": [
+      "Opposite",
+      "Immediate left",
+      "Second right",
+      "Second left"
+    ],
+    "correct_option": 1,
+    "explanation": "After placing the opposite and adjacent positions, F is directly opposite B.",
+    "shortcut": "Fix opposite seats first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Opposite-seat clues significantly reduce possibilities.",
+    "estimated_time": 65,
+    "companies": [
+      "Accenture",
+      "Oracle"
+    ],
+    "tags": [
+      "circle",
+      "opposite",
+      "advanced"
+    ]
+  },
+  {
+    "id": "CIRC_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Seven people sit around a circular table facing the center. M is immediately left of N. O is immediately right of N. Who sits between M and O?",
+    "options": [
+      "N",
+      "P",
+      "Q",
+      "R"
+    ],
+    "correct_option": 1,
+    "explanation": "M and O are on either side of N, so N sits between them.",
+    "shortcut": "Use immediate neighbor clues directly.",
+    "formula": "Not Applicable",
+    "learning_tip": "Immediate left/right clues usually require no complete arrangement.",
+    "estimated_time": 30,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "adjacency",
+      "circular arrangement"
+    ]
+  },
+  {
+    "id": "CIRC_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Nine friends are sitting around a circular table facing the center. P sits third to the left of Q. R sits immediately right of Q. Which statement is definitely true?",
+    "options": [
+      "P is adjacent to Q",
+      "R is adjacent to Q",
+      "P is opposite Q",
+      "R is opposite P"
+    ],
+    "correct_option": 2,
+    "explanation": "R is immediately right of Q, making R adjacent to Q.",
+    "shortcut": "Pick statements directly supported by the clues.",
+    "formula": "Not Applicable",
+    "learning_tip": "Don't infer relationships beyond the given information.",
+    "estimated_time": 45,
+    "companies": [
+      "HCL",
+      "LTIMindtree"
+    ],
+    "tags": [
+      "logical reasoning",
+      "circle puzzle"
+    ]
+  },
+  {
+    "id": "CIRC_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Ten people A, B, C, D, E, F, G, H, I, and J are sitting around a circular table facing the center. A is opposite F. B is immediately left of A. G is immediately right of F. What is the position of G with respect to B?",
+    "options": [
+      "Opposite",
+      "Second left",
+      "Immediate right",
+      "Third right"
+    ],
+    "correct_option": 1,
+    "explanation": "With A opposite F and neighbors fixed, G is opposite B.",
+    "shortcut": "Place opposite pairs before neighbors.",
+    "formula": "Not Applicable",
+    "learning_tip": "Use symmetry in even-numbered circular arrangements.",
+    "estimated_time": 70,
+    "companies": [
+      "Amazon",
+      "Cisco"
+    ],
+    "tags": [
+      "advanced",
+      "circular arrangement",
+      "opposite"
+    ]
+  },
+  {
+    "id": "CIRC_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight friends sit around a circular table facing the center. P is immediately left of Q. R is second to the right of Q. S is opposite Q. How many people sit between P and S in the clockwise direction?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 3,
+    "explanation": "After arranging the people, there are three people between P and S in the clockwise direction.",
+    "shortcut": "Fix Q first and place others relative to Q.",
+    "formula": "Not Applicable",
+    "learning_tip": "Count carefully in the specified direction only.",
+    "estimated_time": 75,
+    "companies": [
+      "Deloitte",
+      "TCS Digital"
+    ],
+    "tags": [
+      "counting",
+      "circular arrangement",
+      "advanced"
+    ]
+  }
+  ,
+  {
+    "id": "CIRC_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Eight friends A, B, C, D, E, F, G, and H are sitting around a circular table facing the center. A is immediately to the left of B. B is immediately to the left of C. Who sits between A and C?",
+    "options": [
+      "B",
+      "D",
+      "E",
+      "F"
+    ],
+    "correct_option": 1,
+    "explanation": "A, B, and C occupy consecutive seats. Therefore, B sits between A and C.",
+    "shortcut": "Arrange consecutive people together first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Treat consecutive seating clues as a single block.",
+    "estimated_time": 30,
+    "companies": [
+      "Infosys",
+      "TCS"
+    ],
+    "tags": [
+      "circular arrangement",
+      "adjacency",
+      "easy"
+    ]
+  },
+  {
+    "id": "CIRC_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Six people P, Q, R, S, T, and U are sitting around a circular table facing the center. P is opposite S. Q is immediately right of P. T is immediately left of S. What is the position of T with respect to Q?",
+    "options": [
+      "Opposite",
+      "Immediate left",
+      "Second to the right",
+      "Adjacent"
+    ],
+    "correct_option": 1,
+    "explanation": "After placing P and S opposite each other, Q and T occupy opposite seats.",
+    "shortcut": "Mark opposite positions before placing neighbors.",
+    "formula": "Not Applicable",
+    "learning_tip": "In even-numbered circles, opposite seats simplify the arrangement.",
+    "estimated_time": 60,
+    "companies": [
+      "Capgemini",
+      "Wipro"
+    ],
+    "tags": [
+      "opposite",
+      "circular puzzle"
+    ]
+  },
+  {
+    "id": "CIRC_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight people A, B, C, D, E, F, G, and H are sitting around a circular table facing the center. A sits opposite E. B sits immediately left of A. C sits immediately right of A. Which person is opposite C?",
+    "options": [
+      "F",
+      "G",
+      "H",
+      "D"
+    ],
+    "correct_option": 2,
+    "explanation": "After placing A opposite E, C occupies the seat adjacent to A, making G opposite C.",
+    "shortcut": "Place opposite pairs first, then adjacent people.",
+    "formula": "Not Applicable",
+    "learning_tip": "Opposite positions are four seats apart in an 8-person arrangement.",
+    "estimated_time": 60,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "circle",
+      "opposite",
+      "reasoning"
+    ]
+  },
+  {
+    "id": "CIRC_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Nine friends are sitting around a circular table facing the center. M sits third to the left of N. O sits immediately to the right of N. P sits opposite N. How many people are between O and P in the clockwise direction?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 2,
+    "explanation": "After arranging all positions, there are two people between O and P in the clockwise direction.",
+    "shortcut": "Fix N first and place everyone relative to N.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always count only in the direction specified in the question.",
+    "estimated_time": 75,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "counting",
+      "advanced",
+      "circular arrangement"
+    ]
+  },
+  {
+    "id": "CIRC_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Easy",
+    "question": "Seven people P, Q, R, S, T, U, and V are sitting around a circular table facing the center. Q is immediately left of R. P is immediately right of R. Who sits between P and Q?",
+    "options": [
+      "R",
+      "S",
+      "T",
+      "U"
+    ],
+    "correct_option": 1,
+    "explanation": "Q and P are immediate neighbors of R, so R sits between them.",
+    "shortcut": "Immediate left/right clues answer the question directly.",
+    "formula": "Not Applicable",
+    "learning_tip": "Start with the person having the maximum number of relations.",
+    "estimated_time": 30,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "adjacency",
+      "circular arrangement"
+    ]
+  },
+  {
+    "id": "CIRC_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Medium",
+    "question": "Eight friends are sitting around a circular table facing the center. A is opposite E. B is second to the left of A. Which statement is definitely true?",
+    "options": [
+      "B is adjacent to A",
+      "B is opposite E",
+      "B is second to the left of A",
+      "B is immediately left of A"
+    ],
+    "correct_option": 3,
+    "explanation": "The third statement is directly given in the question.",
+    "shortcut": "Choose the option that is explicitly stated.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid making assumptions beyond the given clues.",
+    "estimated_time": 35,
+    "companies": [
+      "HCL",
+      "Cognizant"
+    ],
+    "tags": [
+      "logical reasoning",
+      "circle puzzle"
+    ]
+  },
+  {
+    "id": "CIRC_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Ten people A, B, C, D, E, F, G, H, I, and J are sitting around a circular table facing the center. A is opposite F. B is immediately right of A. G is immediately left of F. What is the position of G with respect to B?",
+    "options": [
+      "Opposite",
+      "Immediate right",
+      "Second left",
+      "Third right"
+    ],
+    "correct_option": 1,
+    "explanation": "After placing the opposite pair and adjacent people, G is directly opposite B.",
+    "shortcut": "Place opposite seats first.",
+    "formula": "Not Applicable",
+    "learning_tip": "Even-numbered circles have fixed opposite positions.",
+    "estimated_time": 70,
+    "companies": [
+      "Cisco",
+      "Amazon"
+    ],
+    "tags": [
+      "advanced",
+      "circular arrangement",
+      "opposite"
+    ]
+  },
+  {
+    "id": "CIRC_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight people are sitting around a circular table facing the center. P is immediately left of Q. R is second to the left of Q. S is opposite Q. Which person is definitely adjacent to Q?",
+    "options": [
+      "P",
+      "R",
+      "S",
+      "Cannot be determined"
+    ],
+    "correct_option": 1,
+    "explanation": "P is immediately left of Q and is therefore adjacent to Q.",
+    "shortcut": "Immediate neighbors are always adjacent.",
+    "formula": "Not Applicable",
+    "learning_tip": "Differentiate between 'immediately' and 'second' while solving.",
+    "estimated_time": 45,
+    "companies": [
+      "Deloitte",
+      "LTIMindtree"
+    ],
+    "tags": [
+      "adjacency",
+      "circle",
+      "placement"
+    ]
+  }
+,
+  {
+    "id": "CIRC_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Puzzles",
+    "subtopic": "Circular Arrangement Puzzle",
+    "difficulty": "Hard",
+    "question": "Eight friends A, B, C, D, E, F, G, and H are sitting around a circular table facing the center. A is opposite E. B is immediately to the left of A. C is immediately to the right of E. D is second to the left of B. What is the position of D with respect to C?",
+    "options": [
+      "Immediate left",
+      "Opposite",
+      "Second to the right",
+      "Third to the left"
+    ],
+    "correct_option": 2,
+    "explanation": "Fix A and E as opposite. Place B immediately left of A, C immediately right of E, and D second left of B. D and C end up occupying opposite seats.",
+    "shortcut": "Fix one person, place opposite pairs, then apply left/right conditions.",
+    "formula": "Not Applicable",
+    "learning_tip": "In circular arrangement puzzles, always start by fixing one person to remove rotational ambiguity.",
+    "estimated_time": 75,
+    "companies": [
+      "Amazon",
+      "TCS Digital"
+    ],
+    "tags": [
+      "circular arrangement",
+      "seating puzzle",
+      "advanced",
+      "logical reasoning"
+    ]
+  }
+]
