@@ -1,0 +1,754 @@
+[
+  {
+    "id": "ASSERTION_REASON_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Easy",
+    "question": "Assertion (A): Plants need sunlight to prepare food. Reason (R): Sunlight is essential for photosynthesis.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Plants prepare food through photosynthesis, which requires sunlight.",
+    "shortcut": "Check whether the reason directly explains the assertion.",
+    "formula": "Not Applicable",
+    "learning_tip": "In Assertion-Reason questions, verify both truthfulness and explanatory relationship.",
+    "estimated_time": 35,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "assertion",
+      "reason",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Easy",
+    "question": "Assertion (A): The Earth revolves around the Sun. Reason (R): The Earth rotates on its axis every 24 hours.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 2,
+    "explanation": "Both statements are true, but Earth's rotation does not explain its revolution around the Sun.",
+    "shortcut": "Do not confuse two independent facts.",
+    "formula": "Not Applicable",
+    "learning_tip": "The reason must explain the assertion, not merely be true.",
+    "estimated_time": 35,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "assertion",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Medium",
+    "question": "Assertion (A): Metals are good conductors of electricity. Reason (R): Metals contain free electrons that can move easily.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Free electrons in metals allow electric current to flow easily.",
+    "shortcut": "Identify whether the reason gives the scientific cause.",
+    "formula": "Not Applicable",
+    "learning_tip": "A valid reason usually provides the underlying cause.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "assertion",
+      "reason",
+      "science logic"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Medium",
+    "question": "Assertion (A): All squares are rectangles. Reason (R): Every square has four equal sides.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 2,
+    "explanation": "Both statements are true, but being a rectangle depends on having four right angles, not equal sides.",
+    "shortcut": "Check if the reason explains the property being discussed.",
+    "formula": "Not Applicable",
+    "learning_tip": "A true fact is not necessarily the correct explanation.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "assertion",
+      "geometry",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Medium",
+    "question": "Assertion (A): Water boils at 100°C at sea level. Reason (R): Atmospheric pressure affects the boiling point of water.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Water boils at 100°C specifically because of the atmospheric pressure at sea level.",
+    "shortcut": "See whether the reason explains the stated condition.",
+    "formula": "Not Applicable",
+    "learning_tip": "Watch for conditions like 'at sea level' in assertion questions.",
+    "estimated_time": 40,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "assertion",
+      "reason",
+      "science"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): Every prime number is odd. Reason (R): The number 2 is the only even prime number.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is false, but R is true.",
+      "A is true, but R is false."
+    ],
+    "correct_option": 3,
+    "explanation": "The assertion is false because 2 is an even prime number. The reason is true.",
+    "shortcut": "Always verify mathematical exceptions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Look for special cases before accepting universal statements.",
+    "estimated_time": 50,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "assertion",
+      "mathematics",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): Sound cannot travel in a vacuum. Reason (R): Sound waves require a material medium for propagation.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Sound requires particles to transmit vibrations, which are absent in a vacuum.",
+    "shortcut": "Identify whether the reason gives the actual cause.",
+    "formula": "Not Applicable",
+    "learning_tip": "Scientific Assertion-Reason questions usually test conceptual understanding.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "assertion",
+      "physics",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): A leap year has 366 days. Reason (R): An extra day is added to February every four years to adjust the calendar with Earth's revolution around the Sun.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Leap years include an extra day in February to compensate for the approximately 365.25-day orbital period of Earth.",
+    "shortcut": "Check if the reason directly explains why the assertion is true.",
+    "formula": "Not Applicable",
+    "learning_tip": "A correct explanation should establish the cause behind the assertion.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "assertion",
+      "calendar",
+      "reason",
+      "placement"
+    ]
+  },
+    {
+    "id": "ASSERTION_REASON_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Easy",
+    "question": "Assertion (A): Ice floats on water. Reason (R): Ice is less dense than liquid water.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Ice floats because its density is lower than that of liquid water.",
+    "shortcut": "The reason should explain the physical cause.",
+    "formula": "Not Applicable",
+    "learning_tip": "In science-based assertion questions, identify the underlying property.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "assertion",
+      "reason",
+      "science"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Easy",
+    "question": "Assertion (A): A triangle has three sides. Reason (R): A polygon with three sides is called a triangle.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "The definition of a triangle explains why it has three sides.",
+    "shortcut": "Definitions usually provide direct explanations.",
+    "formula": "Not Applicable",
+    "learning_tip": "A definition-based reason is often the correct explanation.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "assertion",
+      "geometry",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Medium",
+    "question": "Assertion (A): The sky appears blue during the day. Reason (R): Blue light is scattered more by the atmosphere than other visible colors.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "The scattering of blue light in the atmosphere causes the sky to appear blue.",
+    "shortcut": "Scientific causes indicate explanation.",
+    "formula": "Not Applicable",
+    "learning_tip": "Check whether the reason describes the mechanism.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "assertion",
+      "physics",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Medium",
+    "question": "Assertion (A): Plants release oxygen during photosynthesis. Reason (R): Plants use carbon dioxide and water to produce food.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 2,
+    "explanation": "Both statements are true, but food production from carbon dioxide and water does not directly explain oxygen release.",
+    "shortcut": "A related fact may not be the actual explanation.",
+    "formula": "Not Applicable",
+    "learning_tip": "Different steps of a process should not be confused.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "assertion",
+      "biology",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Medium",
+    "question": "Assertion (A): The value of pi is irrational. Reason (R): Pi cannot be expressed exactly as a ratio of two integers.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "A number that cannot be expressed as a ratio of integers is irrational, which explains the nature of pi.",
+    "shortcut": "Match mathematical definitions with the assertion.",
+    "formula": "Not Applicable",
+    "learning_tip": "Definitions are powerful tools in reasoning questions.",
+    "estimated_time": 40,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "assertion",
+      "mathematics",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): The Moon does not produce its own light. Reason (R): The Moon reflects sunlight falling on its surface.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "The Moon appears bright because it reflects sunlight rather than producing light itself.",
+    "shortcut": "Cause-and-effect relationship decides the answer.",
+    "formula": "Not Applicable",
+    "learning_tip": "Look for direct explanations rather than related information.",
+    "estimated_time": 50,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "assertion",
+      "space",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): The boiling point of water decreases at higher altitudes. Reason (R): Atmospheric pressure is lower at higher altitudes.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Lower atmospheric pressure reduces the temperature required for water to boil.",
+    "shortcut": "Connect the physical cause with the observed effect.",
+    "formula": "Not Applicable",
+    "learning_tip": "Pressure-related questions usually test cause-effect relationships.",
+    "estimated_time": 50,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "assertion",
+      "physics",
+      "advanced"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): Diamond is harder than graphite. Reason (R): Diamond and graphite are different forms of carbon with different atomic arrangements.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "The different arrangement of carbon atoms gives diamond its greater hardness compared to graphite.",
+    "shortcut": "Structural differences often explain material properties.",
+    "formula": "Not Applicable",
+    "learning_tip": "In advanced questions, connect structure with properties.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "assertion",
+      "chemistry",
+      "advanced"
+    ]
+  },
+    {
+    "id": "ASSERTION_REASON_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Easy",
+    "question": "Assertion (A): A year normally has 365 days. Reason (R): The Earth completes one revolution around the Sun in about 365 days.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "A calendar year is based on the Earth's revolution around the Sun.",
+    "shortcut": "Check if the reason directly explains the assertion.",
+    "formula": "Not Applicable",
+    "learning_tip": "Astronomical facts often explain calendar-based concepts.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "assertion",
+      "reason",
+      "calendar"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Easy",
+    "question": "Assertion (A): Every rectangle is a parallelogram. Reason (R): Opposite sides of a rectangle are parallel.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "A rectangle satisfies the defining property of a parallelogram because both pairs of opposite sides are parallel.",
+    "shortcut": "Use geometric definitions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Many geometry Assertion-Reason questions are based on definitions.",
+    "estimated_time": 35,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "assertion",
+      "geometry",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Medium",
+    "question": "Assertion (A): Copper is widely used in electrical wiring. Reason (R): Copper has high electrical conductivity.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Copper is preferred for wiring because it conducts electricity efficiently.",
+    "shortcut": "Identify the practical reason behind the assertion.",
+    "formula": "Not Applicable",
+    "learning_tip": "Material properties often explain their applications.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "assertion",
+      "reason",
+      "science"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Medium",
+    "question": "Assertion (A): All multiples of 10 are even. Reason (R): Every multiple of 10 is divisible by 2.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "A number divisible by 2 is even, and every multiple of 10 is divisible by 2.",
+    "shortcut": "Use the definition of even numbers.",
+    "formula": "Not Applicable",
+    "learning_tip": "Relate divisibility rules to number properties.",
+    "estimated_time": 35,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "assertion",
+      "mathematics",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Medium",
+    "question": "Assertion (A): The sum of the angles of a triangle is 180°. Reason (R): A triangle is a three-sided polygon in Euclidean geometry.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 2,
+    "explanation": "Both statements are true, but simply being a three-sided polygon does not explain why the angle sum is 180°.",
+    "shortcut": "A true definition is not always the explanation.",
+    "formula": "Not Applicable",
+    "learning_tip": "Distinguish between definitions and mathematical proofs.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "assertion",
+      "geometry",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): Light travels faster than sound. Reason (R): Light is an electromagnetic wave, whereas sound is a mechanical wave.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Light does not require a material medium and travels much faster than sound because of its electromagnetic nature.",
+    "shortcut": "Understand the nature of different wave types.",
+    "formula": "Not Applicable",
+    "learning_tip": "Wave classification often explains differences in speed.",
+    "estimated_time": 50,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "assertion",
+      "physics",
+      "advanced"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): Zero is an even number. Reason (R): An even number is divisible by 2 without leaving a remainder.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Zero is divisible by 2 with remainder zero, so it satisfies the definition of an even number.",
+    "shortcut": "Apply the mathematical definition directly.",
+    "formula": "Not Applicable",
+    "learning_tip": "Use definitions rather than intuition in number theory.",
+    "estimated_time": 45,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "assertion",
+      "numbers",
+      "reason"
+    ]
+  },
+  {
+    "id": "ASSERTION_REASON_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): Stainless steel is resistant to rusting. Reason (R): Stainless steel contains chromium, which forms a protective oxide layer.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "Chromium forms a thin oxide layer that protects stainless steel from corrosion.",
+    "shortcut": "Look for the scientific cause behind the property.",
+    "formula": "Not Applicable",
+    "learning_tip": "Material composition often explains material behavior.",
+    "estimated_time": 55,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "assertion",
+      "chemistry",
+      "advanced"
+    ]
+  },
+    {
+    "id": "ASSERTION_REASON_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Assertion and Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): Satellites remain in orbit around the Earth. Reason (R): The Earth's gravitational force provides the necessary centripetal force for orbital motion.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "correct_option": 1,
+    "explanation": "A satellite stays in orbit because Earth's gravitational pull continuously provides the centripetal force required for circular or elliptical motion.",
+    "shortcut": "Identify whether the reason explains the governing physical principle.",
+    "formula": "Centripetal Force = mv²/r",
+    "learning_tip": "In Assertion-Reason questions, confirm both statements are true and then verify whether the reason is the direct explanation.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "assertion",
+      "reason",
+      "physics",
+      "orbital motion",
+      "placement"
+    ]
+  }
+]

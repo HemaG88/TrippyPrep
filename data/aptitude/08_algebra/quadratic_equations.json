@@ -1,0 +1,767 @@
+[
+  {
+    "id": "QE01",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Easy",
+    "question": "Find the roots of x² - 5x + 6 = 0.",
+    "options": [
+      "2, 3",
+      "1, 6",
+      "-2, -3",
+      "3, 6"
+    ],
+    "correct_option": 1,
+    "explanation": "(x - 2)(x - 3) = 0. Therefore, the roots are 2 and 3.",
+    "shortcut": "Factorize whenever possible.",
+    "formula": "ax² + bx + c = 0",
+    "learning_tip": "Check if the middle term can be split for quick factorization.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "quadratic equations",
+      "roots",
+      "easy"
+    ]
+  },
+  {
+    "id": "QE02",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Easy",
+    "question": "Solve x² - 9 = 0.",
+    "options": [
+      "±2",
+      "±3",
+      "3 only",
+      "-3 only"
+    ],
+    "correct_option": 2,
+    "explanation": "x² = 9 ⇒ x = ±3.",
+    "shortcut": "Recognize the difference of squares.",
+    "formula": "a² - b² = (a - b)(a + b)",
+    "learning_tip": "Difference of squares is one of the quickest ways to solve quadratics.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "quadratic equations",
+      "factorization"
+    ]
+  },
+  {
+    "id": "QE03",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Find the sum of the roots of x² - 8x + 15 = 0.",
+    "options": [
+      "8",
+      "15",
+      "-8",
+      "-15"
+    ],
+    "correct_option": 1,
+    "explanation": "For ax² + bx + c = 0, sum of roots = -b/a = -(-8)/1 = 8.",
+    "shortcut": "Use the sum of roots formula directly.",
+    "formula": "Sum of roots = -b/a",
+    "learning_tip": "No need to solve the equation if only the sum is asked.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "quadratic equations",
+      "sum of roots"
+    ]
+  },
+  {
+    "id": "QE04",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Find the product of the roots of x² - 7x + 10 = 0.",
+    "options": [
+      "7",
+      "10",
+      "-7",
+      "-10"
+    ],
+    "correct_option": 2,
+    "explanation": "Product of roots = c/a = 10/1 = 10.",
+    "shortcut": "Use the product of roots formula.",
+    "formula": "Product of roots = c/a",
+    "learning_tip": "Remember: sum = -b/a and product = c/a.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "quadratic equations",
+      "product of roots"
+    ]
+  },
+  {
+    "id": "QE05",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Solve x² + x - 6 = 0.",
+    "options": [
+      "2, -3",
+      "3, -2",
+      "1, -6",
+      "-1, 6"
+    ],
+    "correct_option": 1,
+    "explanation": "(x + 3)(x - 2) = 0. Hence, the roots are 2 and -3.",
+    "shortcut": "Find two numbers whose product is -6 and sum is 1.",
+    "formula": "Factorization Method",
+    "learning_tip": "Practice factor pairs to improve speed.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "quadratic equations",
+      "factorization"
+    ]
+  },
+  {
+    "id": "QE06",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Solve x² - 11x + 30 = 0.",
+    "options": [
+      "5, 6",
+      "3, 10",
+      "2, 15",
+      "1, 30"
+    ],
+    "correct_option": 1,
+    "explanation": "(x - 5)(x - 6) = 0. Therefore, the roots are 5 and 6.",
+    "shortcut": "Look for factors of 30 whose sum is 11.",
+    "formula": "Factorization Method",
+    "learning_tip": "Factorization is usually faster than the quadratic formula when applicable.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "quadratic equations",
+      "advanced"
+    ]
+  },
+  {
+    "id": "QE07",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "If the roots of x² - 9x + 20 = 0 are α and β, find α + β.",
+    "options": [
+      "9",
+      "20",
+      "-9",
+      "-20"
+    ],
+    "correct_option": 1,
+    "explanation": "Sum of roots = -b/a = -(-9)/1 = 9.",
+    "shortcut": "Use the sum of roots formula.",
+    "formula": "α + β = -b/a",
+    "learning_tip": "Root sum questions rarely require solving the equation.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "quadratic equations",
+      "roots",
+      "advanced"
+    ]
+  },
+  {
+    "id": "QE08",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Find the discriminant of x² - 6x + 8 = 0.",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "36"
+    ],
+    "correct_option": 1,
+    "explanation": "D = b² - 4ac = (-6)² - 4(1)(8) = 36 - 32 = 4.",
+    "shortcut": "Apply the discriminant formula directly.",
+    "formula": "D = b² - 4ac",
+    "learning_tip": "The discriminant determines the nature of the roots.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "quadratic equations",
+      "discriminant",
+      "advanced"
+    ]
+  },  {
+    "id": "QE09",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Easy",
+    "question": "Solve x² - 4x + 4 = 0.",
+    "options": [
+      "2, 2",
+      "4, 1",
+      "-2, -2",
+      "1, 4"
+    ],
+    "correct_option": 1,
+    "explanation": "x² - 4x + 4 = (x - 2)². Hence, both roots are 2.",
+    "shortcut": "Recognize perfect square trinomials.",
+    "formula": "(a - b)² = a² - 2ab + b²",
+    "learning_tip": "A perfect square quadratic has equal roots.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "quadratic equations",
+      "perfect square",
+      "easy"
+    ]
+  },
+  {
+    "id": "QE10",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Easy",
+    "question": "What is the value of the discriminant of x² + 2x + 1 = 0?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correct_option": 1,
+    "explanation": "D = b² - 4ac = 2² - 4(1)(1) = 4 - 4 = 0.",
+    "shortcut": "Use D = b² - 4ac.",
+    "formula": "D = b² - 4ac",
+    "learning_tip": "If D = 0, the quadratic has equal real roots.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "quadratic equations",
+      "discriminant"
+    ]
+  },
+  {
+    "id": "QE11",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Find the sum of the roots of 2x² - 10x + 8 = 0.",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "8"
+    ],
+    "correct_option": 3,
+    "explanation": "Sum of roots = -b/a = -(-10)/2 = 5.",
+    "shortcut": "Apply the sum of roots formula directly.",
+    "formula": "α + β = -b/a",
+    "learning_tip": "The coefficients alone are enough to find the sum of the roots.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "quadratic equations",
+      "sum of roots"
+    ]
+  },
+  {
+    "id": "QE12",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Find the product of the roots of 3x² - 6x + 9 = 0.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 3,
+    "explanation": "Product of roots = c/a = 9/3 = 3.",
+    "shortcut": "Use c/a.",
+    "formula": "αβ = c/a",
+    "learning_tip": "The product of roots is independent of the discriminant.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "quadratic equations",
+      "product of roots"
+    ]
+  },
+  {
+    "id": "QE13",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Solve x² - x - 12 = 0.",
+    "options": [
+      "4, -3",
+      "3, -4",
+      "6, -2",
+      "12, -1"
+    ],
+    "correct_option": 1,
+    "explanation": "(x - 4)(x + 3) = 0. Therefore, the roots are 4 and -3.",
+    "shortcut": "Find two numbers whose product is -12 and sum is -1.",
+    "formula": "Factorization Method",
+    "learning_tip": "Practice integer factorization for faster solving.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "quadratic equations",
+      "factorization"
+    ]
+  },
+  {
+    "id": "QE14",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Find the discriminant of 2x² + 7x + 3 = 0.",
+    "options": [
+      "25",
+      "16",
+      "49",
+      "36"
+    ],
+    "correct_option": 1,
+    "explanation": "D = 7² - 4(2)(3) = 49 - 24 = 25.",
+    "shortcut": "Substitute values into D = b² - 4ac.",
+    "formula": "D = b² - 4ac",
+    "learning_tip": "A positive discriminant means two distinct real roots.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "quadratic equations",
+      "discriminant",
+      "advanced"
+    ]
+  },
+  {
+    "id": "QE15",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Find the sum of the roots of 5x² + 15x + 20 = 0.",
+    "options": [
+      "-3",
+      "3",
+      "-4",
+      "4"
+    ],
+    "correct_option": 1,
+    "explanation": "Sum of roots = -15/5 = -3.",
+    "shortcut": "Use α + β = -b/a.",
+    "formula": "α + β = -b/a",
+    "learning_tip": "You don't need to solve the equation if only the sum is required.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "quadratic equations",
+      "roots",
+      "advanced"
+    ]
+  },
+  {
+    "id": "QE16",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Solve x² - 13x + 40 = 0.",
+    "options": [
+      "5, 8",
+      "4, 10",
+      "2, 20",
+      "1, 40"
+    ],
+    "correct_option": 1,
+    "explanation": "(x - 5)(x - 8) = 0. Hence, the roots are 5 and 8.",
+    "shortcut": "Find two numbers whose product is 40 and sum is 13.",
+    "formula": "Factorization Method",
+    "learning_tip": "Factorization is often the fastest method for placement questions.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "quadratic equations",
+      "factorization",
+      "advanced"
+    ]
+  },  {
+    "id": "QE17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Easy",
+    "question": "Solve x² - 16 = 0.",
+    "options": [
+      "±2",
+      "±4",
+      "4 only",
+      "-4 only"
+    ],
+    "correct_option": 2,
+    "explanation": "x² = 16 ⇒ x = ±4.",
+    "shortcut": "Recognize the difference of squares.",
+    "formula": "a² - b² = (a - b)(a + b)",
+    "learning_tip": "Equations of the form x² = a have two real roots when a > 0.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "quadratic equations",
+      "difference of squares",
+      "easy"
+    ]
+  },
+  {
+    "id": "QE18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Easy",
+    "question": "What is the product of the roots of x² + 7x + 10 = 0?",
+    "options": [
+      "7",
+      "10",
+      "-7",
+      "-10"
+    ],
+    "correct_option": 2,
+    "explanation": "For ax² + bx + c = 0, the product of the roots is c/a = 10/1 = 10.",
+    "shortcut": "Use the formula αβ = c/a.",
+    "formula": "Product of roots = c/a",
+    "learning_tip": "The product can be found directly from the coefficients without solving the equation.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "quadratic equations",
+      "product of roots"
+    ]
+  },
+  {
+    "id": "QE19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Find the sum of the roots of 4x² - 12x + 5 = 0.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": 2,
+    "explanation": "Sum of roots = -b/a = -(-12)/4 = 3.",
+    "shortcut": "Apply α + β = -b/a.",
+    "formula": "Sum of roots = -b/a",
+    "learning_tip": "Only the coefficients are needed to find the sum of roots.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "quadratic equations",
+      "sum of roots"
+    ]
+  },
+  {
+    "id": "QE20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Solve x² + 5x + 6 = 0.",
+    "options": [
+      "-2, -3",
+      "2, 3",
+      "-1, -6",
+      "1, 6"
+    ],
+    "correct_option": 1,
+    "explanation": "(x + 2)(x + 3) = 0. Hence, the roots are -2 and -3.",
+    "shortcut": "Find two numbers whose product is 6 and sum is 5.",
+    "formula": "Factorization Method",
+    "learning_tip": "Check the signs carefully while factorizing.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "quadratic equations",
+      "factorization"
+    ]
+  },
+  {
+    "id": "QE21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "What is the discriminant of x² + 8x + 12 = 0?",
+    "options": [
+      "12",
+      "16",
+      "20",
+      "24"
+    ],
+    "correct_option": 2,
+    "explanation": "D = 8² - 4(1)(12) = 64 - 48 = 16.",
+    "shortcut": "Use D = b² - 4ac.",
+    "formula": "Discriminant = b² - 4ac",
+    "learning_tip": "If D > 0, the quadratic has two distinct real roots.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "quadratic equations",
+      "discriminant"
+    ]
+  },
+  {
+    "id": "QE22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Solve x² - 15x + 56 = 0.",
+    "options": [
+      "7, 8",
+      "6, 9",
+      "5, 10",
+      "4, 11"
+    ],
+    "correct_option": 1,
+    "explanation": "(x - 7)(x - 8) = 0. Therefore, the roots are 7 and 8.",
+    "shortcut": "Find two numbers whose product is 56 and sum is 15.",
+    "formula": "Factorization Method",
+    "learning_tip": "Most placement exams prefer factorization-based questions.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "quadratic equations",
+      "advanced"
+    ]
+  },
+  {
+    "id": "QE23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Find the product of the roots of 2x² + 9x + 4 = 0.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 2,
+    "explanation": "Product of roots = c/a = 4/2 = 2.",
+    "shortcut": "Use αβ = c/a.",
+    "formula": "Product of roots = c/a",
+    "learning_tip": "No factorization is required if only the product is asked.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "quadratic equations",
+      "roots",
+      "advanced"
+    ]
+  },
+  {
+    "id": "QE24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Find the discriminant of 3x² - 5x + 2 = 0.",
+    "options": [
+      "1",
+      "4",
+      "9",
+      "16"
+    ],
+    "correct_option": 1,
+    "explanation": "D = (-5)² - 4(3)(2) = 25 - 24 = 1.",
+    "shortcut": "Substitute into D = b² - 4ac.",
+    "formula": "Discriminant = b² - 4ac",
+    "learning_tip": "A positive discriminant indicates two distinct real roots.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "quadratic equations",
+      "discriminant",
+      "advanced"
+    ]
+  },
+    {
+        "id": "QE25",
+        "academy": "TrippyPrep",
+        "level": "Placement",
+        "topic": "Algebra",
+        "subtopic": "Quadratic Equations",
+        "difficulty": "Easy",
+        "question": "Solve x² + 6x + 9 = 0.",
+        "options": [
+        "-3, -3",
+        "-9, -1",
+        "-1, -9",
+        "-2, -4"
+        ],
+        "correct_option": 1,
+        "explanation": "(x + 3)² = 0. Hence, both roots are -3.",
+        "shortcut": "Recognize perfect square trinomials.",
+        "formula": "(a + b)² = a² + 2ab + b²",
+        "learning_tip": "Perfect square quadratics have equal roots.",
+        "estimated_time": 30,
+        "companies": [
+        "TCS",
+        "Infosys"
+        ],
+        "tags": [
+        "quadratic equations",
+        "perfect square",
+        "easy"
+        ]
+    }
+,{
+    "id": "QE26",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Solve x² - 17x + 72 = 0.",
+    "options": [
+      "8, 9",
+      "6, 12",
+      "4, 18",
+      "3, 24"
+    ],
+    "correct_option": 1,
+    "explanation": "(x - 8)(x - 9) = 0. Therefore, the roots are 8 and 9.",
+    "shortcut": "Find two numbers whose product is 72 and sum is 17.",
+    "formula": "Factorization Method",
+    "learning_tip": "Whenever possible, factorization is faster than using the quadratic formula.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Amazon"
+    ],
+    "tags": [
+      "quadratic equations",
+      "roots",
+      "placement",
+      "advanced"
+    ]
+  }
+]

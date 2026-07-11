@@ -1,0 +1,742 @@
+[
+  {
+    "id": "FN01",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Easy",
+    "question": "If f(x) = 3x + 2, find f(4).",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correct_option": 3,
+    "explanation": "f(4) = 3 × 4 + 2 = 12 + 2 = 14.",
+    "shortcut": "Substitute the given value directly into the function.",
+    "formula": "f(x) = 3x + 2",
+    "learning_tip": "Evaluating a function means replacing x with the given value.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "functions",
+      "evaluation",
+      "easy"
+    ]
+  },
+  {
+    "id": "FN02",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Easy",
+    "question": "If f(x) = x² + 1, find f(3).",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct_option": 3,
+    "explanation": "f(3) = 3² + 1 = 9 + 1 = 10.",
+    "shortcut": "Square the value first, then add 1.",
+    "formula": "f(x) = x² + 1",
+    "learning_tip": "Follow the order of operations when evaluating functions.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "functions",
+      "quadratic",
+      "easy"
+    ]
+  },
+  {
+    "id": "FN03",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Easy",
+    "question": "If f(x) = 5x - 7, find f(6).",
+    "options": [
+      "20",
+      "23",
+      "25",
+      "30"
+    ],
+    "correct_option": 2,
+    "explanation": "f(6) = 5 × 6 − 7 = 30 − 7 = 23.",
+    "shortcut": "Multiply first, then subtract.",
+    "formula": "f(x) = 5x - 7",
+    "learning_tip": "Substitute the value carefully to avoid arithmetic mistakes.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "HCL"
+    ],
+    "tags": [
+      "functions",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "FN04",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Medium",
+    "question": "If f(x) = 2x² - 3x + 1, find f(2).",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": 2,
+    "explanation": "f(2) = 2(2²) − 3(2) + 1 = 8 − 6 + 1 = 3.",
+    "shortcut": "Evaluate powers before multiplication.",
+    "formula": "f(x) = 2x² - 3x + 1",
+    "learning_tip": "Always compute exponents first.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "functions",
+      "quadratic"
+    ]
+  },
+  {
+    "id": "FN05",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Medium",
+    "question": "If f(x) = x + 4 and g(x) = 2x, find (f ∘ g)(3).",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correct_option": 3,
+    "explanation": "g(3) = 6, then f(6) = 6 + 4 = 10.",
+    "shortcut": "Evaluate the inner function first.",
+    "formula": "(f ∘ g)(x) = f(g(x))",
+    "learning_tip": "Composite functions are solved from inside to outside.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "Infosys"
+    ],
+    "tags": [
+      "functions",
+      "composite"
+    ]
+  },
+  {
+    "id": "FN06",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Medium",
+    "question": "Which of the following is the domain of f(x) = 1/x?",
+    "options": [
+      "All real numbers",
+      "x ≠ 0",
+      "x > 0",
+      "x < 0"
+    ],
+    "correct_option": 2,
+    "explanation": "Division by zero is undefined, so x cannot be 0.",
+    "shortcut": "Check where the denominator becomes zero.",
+    "formula": "Denominator ≠ 0",
+    "learning_tip": "The domain excludes values that make the function undefined.",
+    "estimated_time": 45,
+    "companies": [
+      "Tech Mahindra",
+      "Capgemini"
+    ],
+    "tags": [
+      "functions",
+      "domain"
+    ]
+  },
+  {
+    "id": "FN07",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "Which function is one-one (injective)?",
+    "options": [
+      "f(x)=x²",
+      "f(x)=|x|",
+      "f(x)=2x+1",
+      "f(x)=x²+4"
+    ],
+    "correct_option": 3,
+    "explanation": "A linear function with a non-zero slope is one-one over the real numbers.",
+    "shortcut": "Linear functions with non-zero slope are injective.",
+    "formula": "f(a)=f(b) ⇒ a=b",
+    "learning_tip": "One-one functions map different inputs to different outputs.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "functions",
+      "injective",
+      "advanced"
+    ]
+  },
+  {
+    "id": "FN08",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "If f(x) = 4x - 5, find f⁻¹(x).",
+    "options": [
+      "(x+5)/4",
+      "(x-5)/4",
+      "4x+5",
+      "x/4-5"
+    ],
+    "correct_option": 1,
+    "explanation": "Let y = 4x - 5. Swap x and y: x = 4y - 5 ⇒ y = (x + 5)/4.",
+    "shortcut": "Replace f(x) with y, interchange x and y, then solve for y.",
+    "formula": "f⁻¹(x)",
+    "learning_tip": "An inverse function reverses the effect of the original function.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "functions",
+      "inverse",
+      "advanced"
+    ]
+  },  {
+    "id": "FN09",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Easy",
+    "question": "If f(x) = x - 8, find f(15).",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_option": 3,
+    "explanation": "f(15) = 15 - 8 = 7.",
+    "shortcut": "Substitute the given value directly.",
+    "formula": "f(x) = x - c",
+    "learning_tip": "Replace x with the given number before simplifying.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "functions",
+      "evaluation",
+      "easy"
+    ]
+  },
+  {
+    "id": "FN10",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Easy",
+    "question": "If f(x) = 2x + 9, find f(5).",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "correct_option": 2,
+    "explanation": "f(5) = 2 × 5 + 9 = 19.",
+    "shortcut": "Multiply first, then add.",
+    "formula": "f(x) = ax + b",
+    "learning_tip": "Evaluate multiplication before addition.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "functions",
+      "linear"
+    ]
+  },
+  {
+    "id": "FN11",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Medium",
+    "question": "If f(x) = x² - 4x + 3, find f(1).",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_option": 1,
+    "explanation": "f(1) = 1² - 4(1) + 3 = 1 - 4 + 3 = 0.",
+    "shortcut": "Substitute carefully and simplify.",
+    "formula": "f(x) = x² - 4x + c",
+    "learning_tip": "Use brackets while substituting negative values.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "functions",
+      "quadratic"
+    ]
+  },
+  {
+    "id": "FN12",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Medium",
+    "question": "If f(x) = x + 2 and g(x) = x², find (g ∘ f)(2).",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "correct_option": 3,
+    "explanation": "f(2) = 4, then g(4) = 16.",
+    "shortcut": "Solve the inner function before the outer function.",
+    "formula": "(g ∘ f)(x) = g(f(x))",
+    "learning_tip": "Composition follows the order shown in the notation.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "Infosys"
+    ],
+    "tags": [
+      "functions",
+      "composition"
+    ]
+  },
+  {
+    "id": "FN13",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Medium",
+    "question": "What is the domain of f(x) = √(x - 5)?",
+    "options": [
+      "x ≥ 5",
+      "x > 5",
+      "x ≤ 5",
+      "All real numbers"
+    ],
+    "correct_option": 1,
+    "explanation": "The expression inside the square root must be non-negative: x - 5 ≥ 0.",
+    "shortcut": "Set the radicand greater than or equal to zero.",
+    "formula": "Inside √ ≥ 0",
+    "learning_tip": "Square roots of negative numbers are not real.",
+    "estimated_time": 45,
+    "companies": [
+      "Tech Mahindra",
+      "HCL"
+    ],
+    "tags": [
+      "functions",
+      "domain",
+      "square root"
+    ]
+  },
+  {
+    "id": "FN14",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "Which of the following is an even function?",
+    "options": [
+      "f(x)=x³",
+      "f(x)=x²",
+      "f(x)=2x+1",
+      "f(x)=x+5"
+    ],
+    "correct_option": 2,
+    "explanation": "For an even function, f(-x) = f(x). This is true for x².",
+    "shortcut": "Replace x with -x and compare.",
+    "formula": "f(-x)=f(x)",
+    "learning_tip": "Even functions are symmetric about the y-axis.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "functions",
+      "even function",
+      "advanced"
+    ]
+  },
+  {
+    "id": "FN15",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "Which of the following is an odd function?",
+    "options": [
+      "x²",
+      "|x|",
+      "x³",
+      "x²+1"
+    ],
+    "correct_option": 3,
+    "explanation": "For an odd function, f(-x) = -f(x). This property holds for x³.",
+    "shortcut": "Substitute -x into the function.",
+    "formula": "f(-x)=-f(x)",
+    "learning_tip": "Odd functions are symmetric about the origin.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "functions",
+      "odd function",
+      "advanced"
+    ]
+  },
+  {
+    "id": "FN16",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "If f(x)=5x+10, find f⁻¹(x).",
+    "options": [
+      "(x-10)/5",
+      "(x+10)/5",
+      "5x-10",
+      "x/5+10"
+    ],
+    "correct_option": 1,
+    "explanation": "Let y=5x+10. Swap x and y, then solve: x=5y+10 ⇒ y=(x-10)/5.",
+    "shortcut": "Swap x and y, then isolate y.",
+    "formula": "Inverse Function",
+    "learning_tip": "Only one-one functions have inverses.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "functions",
+      "inverse",
+      "advanced"
+    ]
+  },  {
+    "id": "FN17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Easy",
+    "question": "If f(x) = 7x - 4, find f(3).",
+    "options": [
+      "15",
+      "17",
+      "19",
+      "21"
+    ],
+    "correct_option": 2,
+    "explanation": "f(3) = 7 × 3 - 4 = 21 - 4 = 17.",
+    "shortcut": "Substitute the given value and simplify.",
+    "formula": "f(x) = ax + b",
+    "learning_tip": "Evaluate multiplication before subtraction.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "functions",
+      "evaluation",
+      "easy"
+    ]
+  },
+  {
+    "id": "FN18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Medium",
+    "question": "If f(x) = x² + 4 and g(x) = x - 1, find (f ∘ g)(5).",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "24"
+    ],
+    "correct_option": 3,
+    "explanation": "g(5) = 4, then f(4) = 4² + 4 = 16 + 4 = 20.",
+    "shortcut": "Evaluate the inner function before the outer function.",
+    "formula": "(f ∘ g)(x) = f(g(x))",
+    "learning_tip": "Composition follows the order from right to left.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "functions",
+      "composition"
+    ]
+  },
+  {
+    "id": "FN19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Medium",
+    "question": "Find the domain of f(x) = 1/(x - 6).",
+    "options": [
+      "All real numbers",
+      "x ≠ 6",
+      "x > 6",
+      "x ≥ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "The denominator cannot be zero. Therefore, x ≠ 6.",
+    "shortcut": "Set the denominator not equal to zero.",
+    "formula": "Denominator ≠ 0",
+    "learning_tip": "Always exclude values that make the denominator zero.",
+    "estimated_time": 45,
+    "companies": [
+      "Capgemini",
+      "HCL"
+    ],
+    "tags": [
+      "functions",
+      "domain",
+      "rational function"
+    ]
+  },
+  {
+    "id": "FN20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Medium",
+    "question": "Which of the following is an identity function?",
+    "options": [
+      "f(x)=x",
+      "f(x)=1",
+      "f(x)=x+1",
+      "f(x)=x²"
+    ],
+    "correct_option": 1,
+    "explanation": "An identity function maps every element to itself.",
+    "shortcut": "The output equals the input.",
+    "formula": "f(x) = x",
+    "learning_tip": "Identity functions are both one-one and onto.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "functions",
+      "identity function"
+    ]
+  },
+  {
+    "id": "FN21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "Which of the following is a constant function?",
+    "options": [
+      "f(x)=5",
+      "f(x)=x",
+      "f(x)=2x+1",
+      "f(x)=x²"
+    ],
+    "correct_option": 1,
+    "explanation": "A constant function gives the same output for every input.",
+    "shortcut": "There is no variable in the output expression.",
+    "formula": "f(x)=c",
+    "learning_tip": "The graph of a constant function is a horizontal line.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "functions",
+      "constant function",
+      "advanced"
+    ]
+  },
+  {
+    "id": "FN22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "If f(x)=2x+3, find f⁻¹(11).",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_option": 2,
+    "explanation": "f⁻¹(x) = (x - 3)/2. Therefore, f⁻¹(11) = (11 - 3)/2 = 4.",
+    "shortcut": "Find the inverse first, then substitute.",
+    "formula": "f⁻¹(x)=(x-b)/a",
+    "learning_tip": "The inverse function reverses the mapping of the original function.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "functions",
+      "inverse",
+      "advanced"
+    ]
+  },
+  {
+    "id": "FN23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "If f(x)=x², what is the range of the function over the real numbers?",
+    "options": [
+      "All real numbers",
+      "x ≥ 0",
+      "x > 0",
+      "x ≤ 0"
+    ],
+    "correct_option": 2,
+    "explanation": "The square of any real number is always non-negative.",
+    "shortcut": "Squares are never negative.",
+    "formula": "Range of x² = [0, ∞)",
+    "learning_tip": "Domain and range are different concepts—don't confuse them.",
+    "estimated_time": 60,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "functions",
+      "range",
+      "advanced"
+    ]
+  },
+  {
+    "id": "FN24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "If f(x)=3x−2 and g(x)=x+5, find (g ∘ f)(2).",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_option": 3,
+    "explanation": "f(2)=3×2−2=4. Then g(4)=4+5=9.",
+    "shortcut": "Evaluate the inner function first, then the outer function.",
+    "formula": "(g ∘ f)(x)=g(f(x))",
+    "learning_tip": "Read composition from right to left.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "functions",
+      "composition",
+      "advanced"
+    ]
+  },  {
+    "id": "FN25",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Functions",
+    "difficulty": "Hard",
+    "question": "If f(x)=2x+1 and g(x)=x², find (f ∘ g)(3).",
+    "options": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "correct_option": 3,
+    "explanation": "First compute g(3)=3²=9. Then f(9)=2(9)+1=19.",
+    "shortcut": "In composite functions, evaluate the inner function first and then substitute its result into the outer function.",
+    "formula": "(f \\circ g)(x)=f(g(x))",
+    "learning_tip": "Remember: (f ∘ g)(x) is generally not equal to (g ∘ f)(x). Pay attention to the order of composition.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "functions",
+      "composition",
+      "placement",
+      "advanced"
+    ]
+  }
+]

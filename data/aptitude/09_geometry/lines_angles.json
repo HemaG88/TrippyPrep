@@ -1,0 +1,565 @@
+[
+  {
+    "id": "LA01",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Easy",
+    "question": "If two adjacent angles form a linear pair, their sum is:",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "correct_option": 2,
+    "explanation": "Angles forming a linear pair always add up to 180°.",
+    "shortcut": "Linear pair → Straight line → 180°.",
+    "formula": "∠1 + ∠2 = 180°",
+    "learning_tip": "A linear pair consists of adjacent angles whose non-common arms form a straight line.",
+    "estimated_time": 20,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "geometry",
+      "lines",
+      "angles",
+      "linear pair"
+    ]
+  },
+  {
+    "id": "LA02",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Easy",
+    "question": "Two intersecting lines form how many pairs of vertically opposite angles?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 2,
+    "explanation": "When two lines intersect, two pairs of vertically opposite angles are formed.",
+    "shortcut": "Intersecting lines → 2 pairs of opposite angles.",
+    "formula": "Opposite angles are equal.",
+    "learning_tip": "Vertically opposite angles are always equal.",
+    "estimated_time": 20,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "geometry",
+      "vertical angles"
+    ]
+  },
+  {
+    "id": "LA03",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Easy",
+    "question": "If one angle of a linear pair is 75°, the other angle is:",
+    "options": [
+      "95°",
+      "100°",
+      "105°",
+      "110°"
+    ],
+    "correct_option": 3,
+    "explanation": "The second angle = 180° − 75° = 105°.",
+    "shortcut": "Subtract from 180°.",
+    "formula": "Other angle = 180° − Given angle",
+    "learning_tip": "Linear pair angles are supplementary.",
+    "estimated_time": 25,
+    "companies": [
+      "TCS",
+      "HCL"
+    ],
+    "tags": [
+      "geometry",
+      "linear pair"
+    ]
+  },
+  {
+    "id": "LA04",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Easy",
+    "question": "If two vertically opposite angles are (3x + 5)° and (5x − 15)°, find x.",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correct_option": 3,
+    "explanation": "Since vertically opposite angles are equal: 3x + 5 = 5x − 15 ⇒ 2x = 20 ⇒ x = 10.",
+    "shortcut": "Set vertically opposite angles equal.",
+    "formula": "Vertically opposite angles are equal.",
+    "learning_tip": "Always equate vertically opposite angles to solve for unknowns.",
+    "estimated_time": 35,
+    "companies": [
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "geometry",
+      "vertical angles",
+      "algebra"
+    ]
+  },
+  {
+    "id": "LA05",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Medium",
+    "question": "If one complementary angle is 42°, the other angle is:",
+    "options": [
+      "38°",
+      "42°",
+      "48°",
+      "52°"
+    ],
+    "correct_option": 3,
+    "explanation": "Complementary angles add up to 90°. So, 90° − 42° = 48°.",
+    "shortcut": "Subtract from 90°.",
+    "formula": "Complement = 90° − θ",
+    "learning_tip": "Complementary angles are always less than 90°.",
+    "estimated_time": 30,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "geometry",
+      "complementary angles"
+    ]
+  },  {
+    "id": "LA06",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Medium",
+    "question": "If one supplementary angle is 118°, the other angle is:",
+    "options": [
+      "52°",
+      "58°",
+      "62°",
+      "72°"
+    ],
+    "correct_option": 3,
+    "explanation": "Supplementary angles sum to 180°. Therefore, 180° − 118° = 62°.",
+    "shortcut": "Subtract the given angle from 180°.",
+    "formula": "Supplement = 180° − θ",
+    "learning_tip": "Supplementary angles always form a straight angle.",
+    "estimated_time": 30,
+    "companies": [
+      "Capgemini",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "geometry",
+      "supplementary angles"
+    ]
+  },
+  {
+    "id": "LA07",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Medium",
+    "question": "When a transversal cuts two parallel lines, alternate interior angles are:",
+    "options": [
+      "Complementary",
+      "Supplementary",
+      "Equal",
+      "Unequal"
+    ],
+    "correct_option": 3,
+    "explanation": "Alternate interior angles formed by a transversal with parallel lines are equal.",
+    "shortcut": "Parallel lines ⇒ Alternate interior angles are equal.",
+    "formula": "Alternate Interior Angles = Equal",
+    "learning_tip": "This property is frequently tested in placement geometry questions.",
+    "estimated_time": 35,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "geometry",
+      "parallel lines",
+      "alternate angles"
+    ]
+  },
+  {
+    "id": "LA08",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Medium",
+    "question": "When a transversal cuts two parallel lines, corresponding angles are:",
+    "options": [
+      "Equal",
+      "Supplementary",
+      "Complementary",
+      "Half of each other"
+    ],
+    "correct_option": 1,
+    "explanation": "Corresponding angles are equal when a transversal intersects two parallel lines.",
+    "shortcut": "Parallel lines ⇒ Corresponding angles match.",
+    "formula": "Corresponding Angles = Equal",
+    "learning_tip": "Corresponding angles occupy the same relative position at each intersection.",
+    "estimated_time": 35,
+    "companies": [
+      "Wipro",
+      "HCL"
+    ],
+    "tags": [
+      "geometry",
+      "corresponding angles"
+    ]
+  },
+  {
+    "id": "LA09",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "When a transversal cuts two parallel lines, co-interior (same-side interior) angles are:",
+    "options": [
+      "Equal",
+      "Complementary",
+      "Supplementary",
+      "Vertically opposite"
+    ],
+    "correct_option": 3,
+    "explanation": "Co-interior angles on the same side of the transversal always add up to 180°.",
+    "shortcut": "Same-side interior ⇒ Sum = 180°.",
+    "formula": "Co-interior Angles = 180°",
+    "learning_tip": "If co-interior angles do not sum to 180°, the lines are not parallel.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "geometry",
+      "co-interior angles",
+      "parallel lines"
+    ]
+  },
+  {
+    "id": "LA10",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "If two parallel lines are cut by a transversal and one corresponding angle is 125°, what is the measure of the alternate interior angle?",
+    "options": [
+      "55°",
+      "65°",
+      "125°",
+      "145°"
+    ],
+    "correct_option": 3,
+    "explanation": "Corresponding angles are equal, and alternate interior angles are also equal. Hence, the alternate interior angle is 125°.",
+    "shortcut": "Parallel lines preserve equal corresponding and alternate interior angles.",
+    "formula": "Corresponding = Alternate Interior",
+    "learning_tip": "Draw a quick sketch to identify angle relationships easily.",
+    "estimated_time": 45,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "geometry",
+      "parallel lines",
+      "transversal",
+      "advanced"
+    ]
+  },  {
+    "id": "LA11",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Easy",
+    "question": "If two lines intersect and one angle measures 70°, what is its vertically opposite angle?",
+    "options": ["70°", "90°", "110°", "180°"],
+    "correct_option": 1,
+    "explanation": "Vertically opposite angles are always equal. Hence, the opposite angle is 70°.",
+    "shortcut": "Opposite angles formed by intersecting lines are equal.",
+    "formula": "Vertically Opposite Angles = Equal",
+    "learning_tip": "Whenever two lines intersect, the opposite angles are always equal.",
+    "estimated_time": 20,
+    "companies": ["TCS", "Infosys"],
+    "tags": ["geometry", "vertical angles", "easy"]
+  },
+  {
+    "id": "LA12",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Easy",
+    "question": "If one angle of a linear pair is 132°, find the other angle.",
+    "options": ["38°", "42°", "48°", "52°"],
+    "correct_option": 3,
+    "explanation": "Linear pair angles sum to 180°. Therefore, 180° − 132° = 48°.",
+    "shortcut": "Subtract the given angle from 180°.",
+    "formula": "Linear Pair = 180°",
+    "learning_tip": "Angles on a straight line are always supplementary.",
+    "estimated_time": 25,
+    "companies": ["Wipro", "Capgemini"],
+    "tags": ["geometry", "linear pair"]
+  },
+  {
+    "id": "LA13",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Medium",
+    "question": "Two complementary angles are in the ratio 2:3. Find the smaller angle.",
+    "options": ["30°", "36°", "42°", "54°"],
+    "correct_option": 2,
+    "explanation": "Let the angles be 2x and 3x. Then 5x = 90°, so x = 18°. Smaller angle = 2x = 36°.",
+    "shortcut": "Use the ratio and total sum of complementary angles.",
+    "formula": "Complementary Angles = 90°",
+    "learning_tip": "Convert the ratio into algebraic expressions before solving.",
+    "estimated_time": 40,
+    "companies": ["IBM", "Accenture"],
+    "tags": ["geometry", "ratio", "complementary"]
+  },
+  {
+    "id": "LA14",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Medium",
+    "question": "Two supplementary angles are in the ratio 4:5. Find the larger angle.",
+    "options": ["80°", "90°", "100°", "120°"],
+    "correct_option": 3,
+    "explanation": "Let the angles be 4x and 5x. Then 9x = 180°, so x = 20°. Larger angle = 5x = 100°.",
+    "shortcut": "Express the ratio using variables and use the supplementary angle sum.",
+    "formula": "Supplementary Angles = 180°",
+    "learning_tip": "Ratio-based angle problems are common in placement aptitude tests.",
+    "estimated_time": 45,
+    "companies": ["Infosys", "HCL"],
+    "tags": ["geometry", "supplementary", "ratio"]
+  },
+  {
+    "id": "LA15",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "If two parallel lines are cut by a transversal and one interior angle is 58°, what is the corresponding angle?",
+    "options": ["58°", "122°", "90°", "148°"],
+    "correct_option": 1,
+    "explanation": "Corresponding angles formed by a transversal with parallel lines are equal.",
+    "shortcut": "Parallel lines ⇒ Corresponding angles are equal.",
+    "formula": "Corresponding Angles = Equal",
+    "learning_tip": "Identify the relative position of the angles before applying the property.",
+    "estimated_time": 45,
+    "companies": ["Amazon", "Microsoft"],
+    "tags": ["geometry", "parallel lines", "corresponding angles", "advanced"]
+  },  {
+    "id": "LA16",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Easy",
+    "question": "If one angle is 47°, what is its supplementary angle?",
+    "options": ["133°", "137°", "143°", "153°"],
+    "correct_option": 1,
+    "explanation": "Supplementary angles sum to 180°. Therefore, 180° − 47° = 133°.",
+    "shortcut": "Subtract the given angle from 180°.",
+    "formula": "Supplementary Angle = 180° − θ",
+    "learning_tip": "Supplementary angles always form a straight line.",
+    "estimated_time": 20,
+    "companies": ["TCS", "Infosys"],
+    "tags": ["geometry", "supplementary", "easy"]
+  },
+  {
+    "id": "LA17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Medium",
+    "question": "If two complementary angles are equal, what is the measure of each angle?",
+    "options": ["30°", "45°", "60°", "90°"],
+    "correct_option": 2,
+    "explanation": "Complementary angles sum to 90°. If they are equal, each angle is 90° ÷ 2 = 45°.",
+    "shortcut": "Divide 90° by 2.",
+    "formula": "Equal Complementary Angles = 90° / 2",
+    "learning_tip": "Equal complementary angles are always 45° each.",
+    "estimated_time": 30,
+    "companies": ["Wipro", "Capgemini"],
+    "tags": ["geometry", "complementary", "angles"]
+  },
+  {
+    "id": "LA18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Medium",
+    "question": "If two supplementary angles are equal, what is the measure of each angle?",
+    "options": ["45°", "60°", "90°", "120°"],
+    "correct_option": 3,
+    "explanation": "Supplementary angles sum to 180°. If they are equal, each angle is 180° ÷ 2 = 90°.",
+    "shortcut": "Divide 180° by 2.",
+    "formula": "Equal Supplementary Angles = 180° / 2",
+    "learning_tip": "Two equal supplementary angles are right angles.",
+    "estimated_time": 30,
+    "companies": ["IBM", "Accenture"],
+    "tags": ["geometry", "supplementary", "angles"]
+  },
+  {
+    "id": "LA19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "Two parallel lines are cut by a transversal. If one exterior angle is 115°, what is the adjacent interior angle?",
+    "options": ["55°", "65°", "75°", "115°"],
+    "correct_option": 2,
+    "explanation": "Adjacent angles form a linear pair, so the interior angle is 180° − 115° = 65°.",
+    "shortcut": "Linear pair angles always add up to 180°.",
+    "formula": "Adjacent Angles = 180°",
+    "learning_tip": "First identify whether the angles are adjacent, corresponding, alternate, or vertically opposite.",
+    "estimated_time": 45,
+    "companies": ["Amazon", "Oracle"],
+    "tags": ["geometry", "parallel lines", "transversal", "advanced"]
+  },
+  {
+    "id": "LA20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "If two intersecting lines form one angle of 82°, what is the largest angle formed?",
+    "options": ["82°", "90°", "98°", "180°"],
+    "correct_option": 3,
+    "explanation": "The adjacent angle is supplementary to 82°. Hence, 180° − 82° = 98°.",
+    "shortcut": "Largest angle = 180° − Smaller angle.",
+    "formula": "Linear Pair = 180°",
+    "learning_tip": "Intersecting lines form two acute and two obtuse angles unless they are perpendicular.",
+    "estimated_time": 45,
+    "companies": ["Microsoft", "Google"],
+    "tags": ["geometry", "intersecting lines", "advanced"]
+  },  {
+    "id": "LA21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "Two angles are in the ratio 7:11 and form a linear pair. Find the smaller angle.",
+    "options": ["60°", "70°", "75°", "80°"],
+    "correct_option": 2,
+    "explanation": "Let the angles be 7x and 11x. Since they form a linear pair, 18x = 180°. Therefore, x = 10° and the smaller angle is 7 × 10 = 70°.",
+    "shortcut": "Use the ratio and total sum of 180°.",
+    "formula": "Linear Pair = 180°",
+    "learning_tip": "Ratio-based angle questions are common in placement exams.",
+    "estimated_time": 50,
+    "companies": ["IBM", "Accenture"],
+    "tags": ["geometry", "ratio", "linear pair", "advanced"]
+  },
+  {
+    "id": "LA22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "If two parallel lines are cut by a transversal and one corresponding angle measures 48°, what is the co-interior angle on the same side?",
+    "options": ["48°", "132°", "138°", "142°"],
+    "correct_option": 2,
+    "explanation": "Corresponding angles are equal, so the interior angle is 48°. Co-interior angles are supplementary, so 180° − 48° = 132°.",
+    "shortcut": "Find the equal angle first, then subtract from 180°.",
+    "formula": "Co-interior Angles = 180°",
+    "learning_tip": "Use multiple angle properties step by step instead of trying to solve directly.",
+    "estimated_time": 55,
+    "companies": ["Amazon", "Oracle"],
+    "tags": ["geometry", "parallel lines", "co-interior", "advanced"]
+  },
+  {
+    "id": "LA23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "Which pair of angles is always equal when two parallel lines are cut by a transversal?",
+    "options": ["Alternate Interior Angles", "Co-interior Angles", "Supplementary Angles", "Linear Pair"],
+    "correct_option": 1,
+    "explanation": "Alternate interior angles are always equal when a transversal intersects two parallel lines.",
+    "shortcut": "Parallel lines ⇒ Alternate interior angles are equal.",
+    "formula": "Alternate Interior Angles = Equal",
+    "learning_tip": "Learn the standard properties of corresponding, alternate, and co-interior angles.",
+    "estimated_time": 40,
+    "companies": ["TCS", "Infosys"],
+    "tags": ["geometry", "parallel lines", "alternate interior"]
+  },
+  {
+    "id": "LA24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "Two complementary angles are in the ratio 1:2. Find the larger angle.",
+    "options": ["30°", "45°", "60°", "75°"],
+    "correct_option": 3,
+    "explanation": "Let the angles be x and 2x. Then 3x = 90°, so x = 30°. The larger angle is 2x = 60°.",
+    "shortcut": "Use the ratio and total of 90°.",
+    "formula": "Complementary Angles = 90°",
+    "learning_tip": "Represent the ratio using variables before solving.",
+    "estimated_time": 45,
+    "companies": ["Capgemini", "Cognizant"],
+    "tags": ["geometry", "ratio", "complementary"]
+  },
+  {
+    "id": "LA25",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Geometry",
+    "subtopic": "Lines and Angles",
+    "difficulty": "Hard",
+    "question": "Two supplementary angles are in the ratio 3:7. Find the larger angle.",
+    "options": ["108°", "116°", "126°", "144°"],
+    "correct_option": 3,
+    "explanation": "Let the angles be 3x and 7x. Since they are supplementary, 10x = 180°. Therefore, x = 18° and the larger angle is 7 × 18 = 126°.",
+    "shortcut": "Use the ratio and total of 180°.",
+    "formula": "Supplementary Angles = 180°",
+    "learning_tip": "These ratio-based angle problems frequently appear in aptitude tests for TCS, Infosys, Accenture, Capgemini, and Cognizant.",
+    "estimated_time": 50,
+    "companies": ["Microsoft", "Google", "Deloitte"],
+    "tags": ["geometry", "supplementary", "ratio", "placement", "advanced"]
+  }
+]

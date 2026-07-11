@@ -1,0 +1,971 @@
+[
+  {
+    "id": "STATEMENT_ASSUMPTION_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Easy",
+    "question": "Statement: The company introduced online training to improve employee productivity.\nAssumption I: Employees have access to the internet.\nAssumption II: Online training can help employees improve their skills.",
+    "options": [
+      "Both Assumptions I and II are implicit.",
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "Online training requires internet access and assumes that such training improves skills.",
+    "shortcut": "Check what must be true for the statement to work.",
+    "formula": "Not Applicable",
+    "learning_tip": "An assumption is something taken for granted without being explicitly stated.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement assumption",
+      "easy",
+      "placement"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Easy",
+    "question": "Statement: The school decided to install CCTV cameras to improve student safety.\nAssumption I: CCTV cameras help monitor activities.\nAssumption II: Students dislike CCTV cameras.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The decision assumes CCTV helps improve monitoring, but student preference is irrelevant.",
+    "shortcut": "Ignore assumptions unrelated to the purpose of the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions directly support the intention behind the statement.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement assumption",
+      "security"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The government launched an awareness campaign to encourage digital payments.\nAssumption I: Public awareness influences payment habits.\nAssumption II: Every citizen already prefers digital payments.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The campaign assumes awareness can change behavior. If everyone already preferred digital payments, the campaign would be unnecessary.",
+    "shortcut": "Ask whether the assumption is necessary for the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "An implicit assumption is essential for the statement to make sense.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement assumption",
+      "government"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The company upgraded its cybersecurity software to prevent data breaches.\nAssumption I: The upgraded software is more effective than the existing software.\nAssumption II: Data breaches can never occur after the upgrade.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The company assumes the upgrade improves security, but it does not assume complete elimination of breaches.",
+    "shortcut": "Avoid assumptions containing absolute words like 'never'.",
+    "formula": "Not Applicable",
+    "learning_tip": "Statements rarely assume impossible guarantees.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement assumption",
+      "cybersecurity"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The university introduced mandatory internships for final-year students.\nAssumption I: Practical industry exposure benefits students.\nAssumption II: Every student wants to work in the same industry.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "Internships are introduced because practical experience is beneficial, not because all students have identical career goals.",
+    "shortcut": "Look for the assumption that justifies the decision.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid unnecessary generalizations.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement assumption",
+      "education"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The hospital introduced online appointment booking to reduce patient waiting time.\nAssumption I: Patients will use the online booking system.\nAssumption II: Online booking completely eliminates waiting time.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The hospital assumes patients will use the system, but not that waiting time will disappear completely.",
+    "shortcut": "Reject assumptions with unrealistic certainty.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions are realistic, not absolute.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement assumption",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The company adopted cloud computing to improve business efficiency.\nAssumption I: Cloud computing can improve operational efficiency.\nAssumption II: Every organization must migrate to the cloud.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The statement assumes cloud computing offers efficiency benefits, not that it is mandatory for all organizations.",
+    "shortcut": "Ignore broad assumptions not required by the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "The assumption should be necessary for the decision described.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement assumption",
+      "cloud",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The city installed additional streetlights to improve road safety at night.\nAssumption I: Better lighting helps reduce road accidents and crime.\nAssumption II: People will avoid using roads during the daytime.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The purpose of installing streetlights assumes improved lighting enhances safety. Daytime road usage is unrelated.",
+    "shortcut": "Focus only on assumptions directly connected to the objective.",
+    "formula": "Not Applicable",
+    "learning_tip": "Irrelevant assumptions should always be rejected.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement assumption",
+      "road safety",
+      "advanced"
+    ]
+  },[
+  {
+    "id": "STATEMENT_ASSUMPTION_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Easy",
+    "question": "Statement: The company introduced online training to improve employee productivity.\nAssumption I: Employees have access to the internet.\nAssumption II: Online training can help employees improve their skills.",
+    "options": [
+      "Both Assumptions I and II are implicit.",
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "Online training requires internet access and assumes that such training improves skills.",
+    "shortcut": "Check what must be true for the statement to work.",
+    "formula": "Not Applicable",
+    "learning_tip": "An assumption is something taken for granted without being explicitly stated.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement assumption",
+      "easy",
+      "placement"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Easy",
+    "question": "Statement: The school decided to install CCTV cameras to improve student safety.\nAssumption I: CCTV cameras help monitor activities.\nAssumption II: Students dislike CCTV cameras.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The decision assumes CCTV helps improve monitoring, but student preference is irrelevant.",
+    "shortcut": "Ignore assumptions unrelated to the purpose of the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions directly support the intention behind the statement.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement assumption",
+      "security"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The government launched an awareness campaign to encourage digital payments.\nAssumption I: Public awareness influences payment habits.\nAssumption II: Every citizen already prefers digital payments.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The campaign assumes awareness can change behavior. If everyone already preferred digital payments, the campaign would be unnecessary.",
+    "shortcut": "Ask whether the assumption is necessary for the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "An implicit assumption is essential for the statement to make sense.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement assumption",
+      "government"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The company upgraded its cybersecurity software to prevent data breaches.\nAssumption I: The upgraded software is more effective than the existing software.\nAssumption II: Data breaches can never occur after the upgrade.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The company assumes the upgrade improves security, but it does not assume complete elimination of breaches.",
+    "shortcut": "Avoid assumptions containing absolute words like 'never'.",
+    "formula": "Not Applicable",
+    "learning_tip": "Statements rarely assume impossible guarantees.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement assumption",
+      "cybersecurity"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The university introduced mandatory internships for final-year students.\nAssumption I: Practical industry exposure benefits students.\nAssumption II: Every student wants to work in the same industry.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "Internships are introduced because practical experience is beneficial, not because all students have identical career goals.",
+    "shortcut": "Look for the assumption that justifies the decision.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid unnecessary generalizations.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement assumption",
+      "education"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The hospital introduced online appointment booking to reduce patient waiting time.\nAssumption I: Patients will use the online booking system.\nAssumption II: Online booking completely eliminates waiting time.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The hospital assumes patients will use the system, but not that waiting time will disappear completely.",
+    "shortcut": "Reject assumptions with unrealistic certainty.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions are realistic, not absolute.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement assumption",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The company adopted cloud computing to improve business efficiency.\nAssumption I: Cloud computing can improve operational efficiency.\nAssumption II: Every organization must migrate to the cloud.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The statement assumes cloud computing offers efficiency benefits, not that it is mandatory for all organizations.",
+    "shortcut": "Ignore broad assumptions not required by the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "The assumption should be necessary for the decision described.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement assumption",
+      "cloud",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The city installed additional streetlights to improve road safety at night.\nAssumption I: Better lighting helps reduce road accidents and crime.\nAssumption II: People will avoid using roads during the daytime.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The purpose of installing streetlights assumes improved lighting enhances safety. Daytime road usage is unrelated.",
+    "shortcut": "Focus only on assumptions directly connected to the objective.",
+    "formula": "Not Applicable",
+    "learning_tip": "Irrelevant assumptions should always be rejected.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement assumption",
+      "road safety",
+      "advanced"
+    ]
+  },  {
+    "id": "STATEMENT_ASSUMPTION_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Easy",
+    "question": "Statement: The company introduced flexible working hours to improve employee satisfaction.\nAssumption I: Flexible working hours can improve employee satisfaction.\nAssumption II: Every employee prefers working from home.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The company assumes flexibility improves satisfaction, but it does not assume everyone prefers working from home.",
+    "shortcut": "Accept only assumptions required for the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid unnecessary generalizations while identifying assumptions.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement assumption",
+      "easy",
+      "HR"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Easy",
+    "question": "Statement: The library extended its working hours during examinations.\nAssumption I: Students require additional study time during examinations.\nAssumption II: Students dislike reading books.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The extended hours assume students need more study time, not that they dislike books.",
+    "shortcut": "Identify the assumption that justifies the action.",
+    "formula": "Not Applicable",
+    "learning_tip": "The correct assumption directly supports the decision made.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement assumption",
+      "education"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The bank launched a mobile banking app to improve customer convenience.\nAssumption I: Customers have access to smartphones.\nAssumption II: Every customer will immediately stop visiting bank branches.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The app requires smartphone access, but it does not assume customers will completely stop visiting branches.",
+    "shortcut": "Reject assumptions with absolute outcomes.",
+    "formula": "Not Applicable",
+    "learning_tip": "Look for what must be true, not what may happen.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement assumption",
+      "banking"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The factory installed air purification systems to improve workplace safety.\nAssumption I: Cleaner air contributes to employee health and safety.\nAssumption II: Employees will never become sick after installation.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The factory assumes cleaner air improves safety, not that illness becomes impossible.",
+    "shortcut": "Avoid assumptions containing 'never' or 'always'.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions are realistic rather than absolute.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement assumption",
+      "workplace"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The government introduced rainwater harvesting guidelines for new buildings.\nAssumption I: Rainwater harvesting helps conserve water.\nAssumption II: Every building receives equal rainfall.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The policy assumes rainwater harvesting conserves water but not that rainfall is equal everywhere.",
+    "shortcut": "Focus on assumptions essential for the policy.",
+    "formula": "Not Applicable",
+    "learning_tip": "Do not accept assumptions unrelated to the main objective.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement assumption",
+      "environment"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The organization implemented biometric attendance to improve attendance accuracy.\nAssumption I: Biometric systems record attendance more accurately than manual methods.\nAssumption II: Employees will never forget to mark attendance.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The system is adopted because it is assumed to be more accurate, not because employees will never make mistakes.",
+    "shortcut": "Ignore unrealistic guarantees.",
+    "formula": "Not Applicable",
+    "learning_tip": "Implicit assumptions should be necessary and reasonable.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement assumption",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The company introduced AI-powered chatbots to improve customer service.\nAssumption I: AI chatbots can answer common customer queries effectively.\nAssumption II: Customers will never need to speak with human agents.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The chatbot is expected to handle common queries efficiently, but human support may still be necessary.",
+    "shortcut": "Reject assumptions that make unrealistic absolute claims.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions support the purpose without exaggeration.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement assumption",
+      "AI",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The city introduced dedicated cycling lanes to encourage eco-friendly transportation.\nAssumption I: Safe cycling infrastructure encourages more people to use bicycles.\nAssumption II: All citizens already own bicycles.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The policy assumes safer infrastructure promotes cycling, not that everyone already owns a bicycle.",
+    "shortcut": "Accept only assumptions required by the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "An implicit assumption is a necessary belief behind the action.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement assumption",
+      "transport",
+      "advanced"
+    ]
+  },
+    {
+    "id": "STATEMENT_ASSUMPTION_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Easy",
+    "question": "Statement: The company introduced free health check-ups for employees.\nAssumption I: Regular health check-ups can help detect health issues early.\nAssumption II: All employees are currently suffering from illnesses.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The initiative assumes regular check-ups are beneficial, not that every employee is ill.",
+    "shortcut": "Choose the assumption necessary for the decision.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid assumptions that make unnecessary universal claims.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement assumption",
+      "health",
+      "easy"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Easy",
+    "question": "Statement: The college started an online admission portal.\nAssumption I: Applicants have access to the internet.\nAssumption II: Every applicant owns a personal computer.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "Internet access is necessary, but applicants need not own a personal computer specifically.",
+    "shortcut": "Pick only what is essential for the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "An assumption need not be the only possible way to achieve the objective.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement assumption",
+      "education"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The company introduced a mentoring program for new employees.\nAssumption I: Guidance from experienced employees helps new employees perform better.\nAssumption II: Experienced employees never make mistakes.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "Mentoring assumes experienced employees can provide valuable guidance, not that they are infallible.",
+    "shortcut": "Reject assumptions containing absolute statements.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions are reasonable, not exaggerated.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement assumption",
+      "HR"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The city introduced an app for reporting civic issues.\nAssumption I: Citizens are willing to report civic problems through the app.\nAssumption II: Every citizen owns the latest smartphone.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The initiative assumes citizens will use the app, not that everyone owns the latest smartphone.",
+    "shortcut": "Focus on assumptions essential for the initiative.",
+    "formula": "Not Applicable",
+    "learning_tip": "Do not confuse willingness with ownership of premium devices.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement assumption",
+      "technology"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Medium",
+    "question": "Statement: The university launched free spoken English classes for first-year students.\nAssumption I: Improving communication skills benefits students academically and professionally.\nAssumption II: All first-year students have poor English skills.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The classes are based on the belief that communication skills are beneficial, not that every student has weak English.",
+    "shortcut": "Avoid assuming universal conditions unless required.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions support the purpose, not extreme conclusions.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement assumption",
+      "communication"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The factory installed robotic arms to improve production efficiency.\nAssumption I: Robotic automation can improve manufacturing efficiency.\nAssumption II: Human workers are completely unnecessary after automation.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "Automation is expected to improve efficiency, but it does not eliminate the need for human workers.",
+    "shortcut": "Reject assumptions with unrealistic absolute outcomes.",
+    "formula": "Not Applicable",
+    "learning_tip": "Most organizational decisions assume improvement, not perfection.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement assumption",
+      "automation",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The bank introduced biometric authentication for online transactions.\nAssumption I: Biometric authentication provides better security than traditional passwords alone.\nAssumption II: Customers will never forget their biometric credentials.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The bank assumes biometrics improve security, not that they completely eliminate user-related issues.",
+    "shortcut": "Avoid assumptions containing words like 'never' or 'always'.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions support the purpose without exaggeration.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement assumption",
+      "banking",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_ASSUMPTION_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The government introduced incentives for electric vehicle purchases.\nAssumption I: Financial incentives encourage more people to purchase electric vehicles.\nAssumption II: Every citizen is financially capable of buying an electric vehicle.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The policy assumes incentives influence buying decisions, not that everyone can already afford an electric vehicle.",
+    "shortcut": "Choose only assumptions essential for the policy to make sense.",
+    "formula": "Not Applicable",
+    "learning_tip": "Distinguish between a necessary assumption and an unnecessary generalization.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement assumption",
+      "electric vehicles",
+      "advanced"
+    ]
+  },  {
+    "id": "STATEMENT_ASSUMPTION_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Assumption",
+    "difficulty": "Hard",
+    "question": "Statement: The company introduced an AI-powered resume screening system to speed up recruitment.\nAssumption I: AI can efficiently identify suitable candidates based on predefined criteria.\nAssumption II: Human recruiters will no longer be required in the hiring process.",
+    "options": [
+      "Only Assumption I is implicit.",
+      "Only Assumption II is implicit.",
+      "Both Assumptions I and II are implicit.",
+      "Neither Assumption I nor II is implicit."
+    ],
+    "correct_option": 1,
+    "explanation": "The company assumes AI can assist in screening candidates efficiently, but it does not assume human recruiters become unnecessary.",
+    "shortcut": "Necessary assumptions support the objective without making extreme claims.",
+    "formula": "Not Applicable",
+    "learning_tip": "In assumption questions, eliminate options containing absolute words like 'always', 'never', or 'no longer' unless they are essential.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Amazon"
+    ],
+    "tags": [
+      "statement assumption",
+      "AI",
+      "logical reasoning",
+      "placement",
+      "advanced"  ]
+  }]]

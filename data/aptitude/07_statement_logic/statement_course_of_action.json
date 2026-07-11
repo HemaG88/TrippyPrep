@@ -1,0 +1,738 @@
+[
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Easy",
+    "question": "Statement: The number of phishing attacks reported by employees has increased significantly.\nCourses of Action:\nI. Conduct cybersecurity awareness training for all employees.\nII. Ignore the issue because phishing attacks cannot be prevented.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Training is a practical response to phishing attacks, while ignoring the issue is unreasonable.",
+    "shortcut": "Choose actions that solve the stated problem.",
+    "formula": "Not Applicable",
+    "learning_tip": "A valid course of action should be practical, relevant, and feasible.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement course of action",
+      "easy",
+      "placement"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Easy",
+    "question": "Statement: A city has reported a sharp increase in road accidents at a busy intersection.\nCourses of Action:\nI. Install traffic signals and speed-monitoring cameras.\nII. Close all roads leading to the intersection permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Traffic control measures are practical, while permanently closing roads is unrealistic.",
+    "shortcut": "Select practical solutions, not extreme reactions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Good actions directly address the problem without creating unnecessary disruption.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement course of action",
+      "road safety"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Medium",
+    "question": "Statement: Employee absenteeism has increased during the last three months.\nCourses of Action:\nI. Analyze the reasons for absenteeism and address genuine concerns.\nII. Terminate all employees who were absent.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Investigating the causes is reasonable, whereas mass termination is an extreme response.",
+    "shortcut": "Prefer root-cause analysis over harsh actions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Effective actions solve problems instead of creating new ones.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement course of action",
+      "HR"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Medium",
+    "question": "Statement: The company has experienced frequent server outages affecting customer services.\nCourses of Action:\nI. Upgrade the server infrastructure and investigate the root cause.\nII. Stop offering online services permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Infrastructure improvements address the issue, while shutting down services is impractical.",
+    "shortcut": "Choose corrective measures over abandoning the objective.",
+    "formula": "Not Applicable",
+    "learning_tip": "A good course of action should solve the underlying problem.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement course of action",
+      "technology"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Medium",
+    "question": "Statement: Plastic waste has increased significantly in public parks.\nCourses of Action:\nI. Install more waste bins and conduct awareness campaigns.\nII. Close all public parks permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Waste management and awareness are practical solutions. Closing parks is excessive.",
+    "shortcut": "Practical action beats extreme restriction.",
+    "formula": "Not Applicable",
+    "learning_tip": "Reasonable actions address the cause without unnecessary consequences.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement course of action",
+      "environment"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: Customer complaints regarding delayed deliveries have increased.\nCourses of Action:\nI. Review logistics operations and improve delivery planning.\nII. Stop accepting customer orders for the next six months.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Improving logistics is appropriate, whereas stopping business operations is unreasonable.",
+    "shortcut": "Look for corrective rather than destructive actions.",
+    "formula": "Not Applicable",
+    "learning_tip": "A valid course of action should be realistic and proportional.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement course of action",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: The number of online payment fraud cases has increased.\nCourses of Action:\nI. Strengthen fraud detection systems and educate customers.\nII. Permanently ban all online payment services.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Improving security is practical, while banning online payments is unrealistic.",
+    "shortcut": "Choose preventive measures instead of eliminating useful services.",
+    "formula": "Not Applicable",
+    "learning_tip": "The best action reduces the problem while preserving benefits.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement course of action",
+      "banking",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: A hospital has reported an increase in patient waiting times.\nCourses of Action:\nI. Review appointment scheduling and allocate additional staff during peak hours.\nII. Ask patients to avoid visiting the hospital unless absolutely necessary.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Improving scheduling and staffing addresses the issue directly. Discouraging patients from seeking care is not an appropriate solution.",
+    "shortcut": "Choose actions that solve the operational problem.",
+    "formula": "Not Applicable",
+    "learning_tip": "Valid courses of action should be feasible, relevant, and beneficial to the stakeholders.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement course of action",
+      "healthcare",
+      "advanced"
+    ]
+  },  {
+    "id": "STATEMENT_COURSE_OF_ACTION_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Easy",
+    "question": "Statement: Students' performance in mathematics has declined compared to the previous year.\nCourses of Action:\nI. Conduct remedial classes and identify weak areas.\nII. Cancel the mathematics examination permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Providing remedial support addresses the issue, whereas cancelling examinations is unreasonable.",
+    "shortcut": "Choose solutions that improve the situation.",
+    "formula": "Not Applicable",
+    "learning_tip": "A good course of action should solve the root problem, not avoid it.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement course of action",
+      "education",
+      "easy"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Easy",
+    "question": "Statement: Water leakage has been reported in several residential apartments.\nCourses of Action:\nI. Inspect the plumbing system and repair damaged pipelines.\nII. Ask all residents to stop using water permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Repairing the plumbing addresses the problem, while stopping water usage is impractical.",
+    "shortcut": "Select corrective rather than extreme actions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Reasonable actions directly solve the stated issue.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement course of action",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Medium",
+    "question": "Statement: Customer satisfaction ratings for an online shopping platform have declined.\nCourses of Action:\nI. Collect customer feedback and improve service quality.\nII. Disable the customer review feature permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Gathering feedback helps identify problems, whereas removing reviews hides the issue instead of solving it.",
+    "shortcut": "Choose improvement over suppression.",
+    "formula": "Not Applicable",
+    "learning_tip": "Valid actions focus on solving the cause of dissatisfaction.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement course of action",
+      "customer service"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Medium",
+    "question": "Statement: Several employees reported eye strain due to prolonged computer usage.\nCourses of Action:\nI. Encourage regular breaks and provide ergonomic workstations.\nII. Ban the use of computers in the office.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Improving workplace ergonomics is practical, whereas banning computers is unrealistic.",
+    "shortcut": "Prefer balanced and feasible solutions.",
+    "formula": "Not Applicable",
+    "learning_tip": "A course of action should minimize the problem without affecting normal operations.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement course of action",
+      "workplace"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Medium",
+    "question": "Statement: Electricity consumption in the office has increased sharply.\nCourses of Action:\nI. Conduct an energy audit and encourage energy-saving practices.\nII. Disconnect electricity supply during office hours.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Energy audits help identify wastage, whereas disconnecting electricity would halt operations.",
+    "shortcut": "Choose optimization instead of elimination.",
+    "formula": "Not Applicable",
+    "learning_tip": "Good actions reduce the problem while maintaining productivity.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement course of action",
+      "energy"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: Data breaches have increased due to weak account passwords.\nCourses of Action:\nI. Enforce strong password policies and multi-factor authentication.\nII. Disable employee access to all company systems permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Strengthening authentication directly addresses the issue, while blocking all access is impractical.",
+    "shortcut": "Prevent the problem without stopping business operations.",
+    "formula": "Not Applicable",
+    "learning_tip": "Effective actions are preventive, realistic, and proportional.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement course of action",
+      "cybersecurity",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: The number of defective products returned by customers has increased.\nCourses of Action:\nI. Strengthen quality control before dispatch.\nII. Stop accepting product returns permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Improving quality control solves the root issue, whereas refusing returns ignores customer rights.",
+    "shortcut": "Address the cause rather than hiding the consequence.",
+    "formula": "Not Applicable",
+    "learning_tip": "The best course of action fixes the underlying problem.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement course of action",
+      "quality",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: The office cafeteria receives frequent complaints about food quality.\nCourses of Action:\nI. Conduct regular food quality inspections and collect employee feedback.\nII. Shut down the cafeteria permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Quality inspections and feedback help improve service, while permanently closing the cafeteria is excessive.",
+    "shortcut": "Choose improvement over elimination.",
+    "formula": "Not Applicable",
+    "learning_tip": "A valid course of action should be practical, effective, and proportionate.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement course of action",
+      "food quality",
+      "advanced"
+    ]
+  },  {
+    "id": "STATEMENT_COURSE_OF_ACTION_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Easy",
+    "question": "Statement: Many employees have complained about slow internet connectivity in the office.\nCourses of Action:\nI. Upgrade the network infrastructure and investigate the issue.\nII. Ask employees to stop using the internet during office hours.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Upgrading the network addresses the issue, while stopping internet usage would disrupt work.",
+    "shortcut": "Choose practical improvements over unrealistic restrictions.",
+    "formula": "Not Applicable",
+    "learning_tip": "A valid course of action should directly solve the problem.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement course of action",
+      "network",
+      "easy"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Easy",
+    "question": "Statement: The library has reported an increase in overdue books.\nCourses of Action:\nI. Send reminder notifications and enforce late return penalties.\nII. Stop issuing books to all students permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Reminders and penalties encourage timely returns, while banning book lending defeats the library's purpose.",
+    "shortcut": "Prefer corrective actions over extreme measures.",
+    "formula": "Not Applicable",
+    "learning_tip": "Choose actions that solve the issue while preserving the service.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement course of action",
+      "library"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Medium",
+    "question": "Statement: Cases of fake online reviews have increased on an e-commerce platform.\nCourses of Action:\nI. Strengthen review verification mechanisms.\nII. Remove the review section permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Verification improves trust, while removing reviews eliminates a valuable feature.",
+    "shortcut": "Improve the system instead of eliminating it.",
+    "formula": "Not Applicable",
+    "learning_tip": "Effective actions fix the weakness without harming users.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement course of action",
+      "e-commerce"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Medium",
+    "question": "Statement: Air pollution levels in the city have exceeded safe limits.\nCourses of Action:\nI. Enforce stricter emission standards and promote public transport.\nII. Permanently prohibit all private vehicles from entering the city.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Emission control and public transport are practical solutions, whereas a complete ban is excessive.",
+    "shortcut": "Choose balanced solutions.",
+    "formula": "Not Applicable",
+    "learning_tip": "A suitable course of action should be realistic and implementable.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement course of action",
+      "environment"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Medium",
+    "question": "Statement: Employees frequently miss project deadlines due to poor task planning.\nCourses of Action:\nI. Introduce project planning tools and time management training.\nII. Cancel all future projects.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Planning tools and training address the root cause, whereas cancelling projects is unreasonable.",
+    "shortcut": "Fix the process, not the purpose.",
+    "formula": "Not Applicable",
+    "learning_tip": "The best action should improve efficiency without harming organizational goals.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement course of action",
+      "project management"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: There has been a rise in unauthorized access attempts to company servers.\nCourses of Action:\nI. Implement multi-factor authentication and strengthen access monitoring.\nII. Disconnect all company servers from the internet permanently.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Security enhancements are appropriate, whereas disconnecting servers permanently is impractical.",
+    "shortcut": "Strengthen protection instead of shutting down services.",
+    "formula": "Not Applicable",
+    "learning_tip": "Choose realistic preventive measures.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement course of action",
+      "cybersecurity",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: The hospital has experienced a shortage of essential medicines.\nCourses of Action:\nI. Improve inventory management and procure medicines immediately.\nII. Stop admitting new patients until further notice.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Improving inventory directly addresses the shortage, while refusing patients is not an appropriate first response.",
+    "shortcut": "Solve the shortage, don't avoid the responsibility.",
+    "formula": "Not Applicable",
+    "learning_tip": "The right action should be practical and directly related to the problem.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement course of action",
+      "healthcare",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_COURSE_OF_ACTION_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: The company has noticed a sharp increase in employee stress levels.\nCourses of Action:\nI. Introduce wellness programs and review workload distribution.\nII. Reduce office working hours to zero until stress disappears.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Wellness initiatives and workload review are practical solutions. Stopping all work is unrealistic.",
+    "shortcut": "Select feasible corrective measures.",
+    "formula": "Not Applicable",
+    "learning_tip": "Reasonable actions improve the situation without creating larger problems.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement course of action",
+      "employee wellness",
+      "advanced"
+    ]
+  },  {
+    "id": "STATEMENT_COURSE_OF_ACTION_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Course of Action",
+    "difficulty": "Hard",
+    "question": "Statement: The company has observed a significant increase in customer complaints regarding delayed responses from the support team.\nCourses of Action:\nI. Recruit additional support staff, improve ticket management, and monitor response times.\nII. Stop accepting customer complaints through support channels.",
+    "options": [
+      "Only Course of Action I follows.",
+      "Only Course of Action II follows.",
+      "Both I and II follow.",
+      "Neither I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Improving staffing and response management directly addresses the problem. Preventing customers from submitting complaints does not solve the issue.",
+    "shortcut": "Choose actions that remove the cause, not hide the symptom.",
+    "formula": "Not Applicable",
+    "learning_tip": "A valid course of action should be practical, relevant, and capable of solving the stated problem.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Amazon"
+    ],
+    "tags": [
+      "statement course of action",
+      "customer support",
+      "logical reasoning",
+      "placement",
+      "advanced"
+    ]
+  }
+]

@@ -1,0 +1,964 @@
+[
+  {
+    "id": "IE01",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Easy",
+    "question": "Solve the inequality: x + 5 > 12",
+    "options": [
+      "x > 5",
+      "x > 6",
+      "x > 7",
+      "x ≥ 7"
+    ],
+    "correct_option": 3,
+    "explanation": "Subtract 5 from both sides: x > 12 - 5 = 7.",
+    "shortcut": "Move constants to the opposite side.",
+    "formula": "If a + b > c, then a > c - b",
+    "learning_tip": "Adding or subtracting the same number on both sides does not change the inequality sign.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "inequalities",
+      "easy",
+      "algebra"
+    ]
+  },
+  {
+    "id": "IE02",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Easy",
+    "question": "Solve the inequality: 3x < 18",
+    "options": [
+      "x < 3",
+      "x < 6",
+      "x > 6",
+      "x ≤ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "Divide both sides by 3: x < 6.",
+    "shortcut": "Divide both sides by the positive coefficient.",
+    "formula": "If ax < b (a > 0), then x < b/a",
+    "learning_tip": "Dividing by a positive number keeps the inequality sign unchanged.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "inequalities",
+      "linear"
+    ]
+  },
+  {
+    "id": "IE03",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: 2x - 4 ≥ 10",
+    "options": [
+      "x ≥ 5",
+      "x ≥ 6",
+      "x > 6",
+      "x > 7"
+    ],
+    "correct_option": 2,
+    "explanation": "2x ≥ 14 ⇒ x ≥ 7.",
+    "shortcut": "First isolate the variable term.",
+    "formula": "ax + b ≥ c",
+    "learning_tip": "Always perform the same operation on both sides.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "inequalities",
+      "medium"
+    ]
+  },
+  {
+    "id": "IE04",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: -2x > 8",
+    "options": [
+      "x > -4",
+      "x < -4",
+      "x ≥ -4",
+      "x ≤ -4"
+    ],
+    "correct_option": 2,
+    "explanation": "Dividing both sides by -2 reverses the inequality sign: x < -4.",
+    "shortcut": "Reverse the sign when dividing by a negative number.",
+    "formula": "If ax > b (a < 0), then x < b/a",
+    "learning_tip": "Multiplying or dividing by a negative number always reverses the inequality sign.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "inequalities",
+      "negative"
+    ]
+  },
+  {
+    "id": "IE05",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: 5 - x ≤ 2",
+    "options": [
+      "x ≥ 3",
+      "x ≤ 3",
+      "x > 3",
+      "x < 3"
+    ],
+    "correct_option": 1,
+    "explanation": "5 - x ≤ 2 ⇒ -x ≤ -3 ⇒ x ≥ 3 (reverse the sign after multiplying by -1).",
+    "shortcut": "Multiply by -1 only after isolating the variable.",
+    "formula": "Reverse the sign when multiplying by -1.",
+    "learning_tip": "Watch carefully for sign reversal while solving inequalities.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "inequalities",
+      "sign reversal"
+    ]
+  },
+  {
+    "id": "IE06",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: 4x + 7 < 3x + 12",
+    "options": [
+      "x < 5",
+      "x > 5",
+      "x ≤ 5",
+      "x ≥ 5"
+    ],
+    "correct_option": 1,
+    "explanation": "Subtract 3x from both sides: x + 7 < 12 ⇒ x < 5.",
+    "shortcut": "Bring variables to one side and constants to the other.",
+    "formula": "ax + b < cx + d",
+    "learning_tip": "Collect like terms before solving.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "inequalities",
+      "advanced"
+    ]
+  },
+  {
+    "id": "IE07",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: 3(x - 2) ≥ 12",
+    "options": [
+      "x ≥ 4",
+      "x ≥ 5",
+      "x > 5",
+      "x > 6"
+    ],
+    "correct_option": 2,
+    "explanation": "3x - 6 ≥ 12 ⇒ 3x ≥ 18 ⇒ x ≥ 6.",
+    "shortcut": "Expand the brackets first.",
+    "formula": "Distributive property",
+    "learning_tip": "Always simplify expressions before solving.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "inequalities",
+      "advanced"
+    ]
+  },
+  {
+    "id": "IE08",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: (x/2) + 3 > 8",
+    "options": [
+      "x > 8",
+      "x > 10",
+      "x > 12",
+      "x ≥ 10"
+    ],
+    "correct_option": 2,
+    "explanation": "x/2 > 5 ⇒ x > 10.",
+    "shortcut": "Clear the fraction in the final step.",
+    "formula": "(x/a) + b > c",
+    "learning_tip": "Fractions can be eliminated by multiplying both sides by a positive denominator.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "inequalities",
+      "fractions",
+      "advanced"
+    ]
+  },  {
+    "id": "IE09",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Easy",
+    "question": "Solve the inequality: x - 9 ≥ 4",
+    "options": [
+      "x ≥ 13",
+      "x > 13",
+      "x ≥ 5",
+      "x > 5"
+    ],
+    "correct_option": 1,
+    "explanation": "Add 9 to both sides: x ≥ 13.",
+    "shortcut": "Move constants to the opposite side.",
+    "formula": "x - a ≥ b ⇒ x ≥ a + b",
+    "learning_tip": "Adding the same number to both sides does not change the inequality sign.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "inequalities",
+      "easy"
+    ]
+  },
+  {
+    "id": "IE10",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Easy",
+    "question": "Solve the inequality: 7x ≤ 49",
+    "options": [
+      "x ≤ 6",
+      "x ≤ 7",
+      "x < 7",
+      "x ≥ 7"
+    ],
+    "correct_option": 2,
+    "explanation": "Divide both sides by 7: x ≤ 7.",
+    "shortcut": "Divide by the positive coefficient.",
+    "formula": "ax ≤ b ⇒ x ≤ b/a (a > 0)",
+    "learning_tip": "The inequality sign remains unchanged when dividing by a positive number.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "inequalities",
+      "easy"
+    ]
+  },
+  {
+    "id": "IE11",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: 5x + 2 > 27",
+    "options": [
+      "x > 4",
+      "x > 5",
+      "x ≥ 5",
+      "x ≥ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "5x > 25 ⇒ x > 5.",
+    "shortcut": "Subtract the constant first.",
+    "formula": "ax + b > c",
+    "learning_tip": "Isolate the variable before dividing.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "inequalities",
+      "medium"
+    ]
+  },
+  {
+    "id": "IE12",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: -3x ≤ 9",
+    "options": [
+      "x ≤ -3",
+      "x ≥ -3",
+      "x > -3",
+      "x < -3"
+    ],
+    "correct_option": 2,
+    "explanation": "Divide both sides by -3 and reverse the inequality: x ≥ -3.",
+    "shortcut": "Reverse the sign after dividing by a negative number.",
+    "formula": "If a < 0, reverse the inequality sign.",
+    "learning_tip": "This is one of the most frequently tested inequality concepts.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "inequalities",
+      "negative"
+    ]
+  },
+  {
+    "id": "IE13",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: 8 - x > 2",
+    "options": [
+      "x > 6",
+      "x < 6",
+      "x ≥ 6",
+      "x ≤ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "8 - x > 2 ⇒ -x > -6 ⇒ x < 6.",
+    "shortcut": "Multiply by -1 at the end and reverse the sign.",
+    "formula": "Reverse inequality when multiplying by -1.",
+    "learning_tip": "Always remember to flip the sign after multiplying or dividing by a negative.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "inequalities",
+      "sign reversal"
+    ]
+  },
+  {
+    "id": "IE14",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: 6x - 5 < 25",
+    "options": [
+      "x < 5",
+      "x < 4",
+      "x ≤ 5",
+      "x > 5"
+    ],
+    "correct_option": 1,
+    "explanation": "6x < 30 ⇒ x < 5.",
+    "shortcut": "Move constants first, then divide.",
+    "formula": "ax + b < c",
+    "learning_tip": "Linear inequalities follow the same steps as linear equations except for sign reversal with negatives.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "inequalities",
+      "advanced"
+    ]
+  },
+  {
+    "id": "IE15",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: 2(x + 4) ≥ 20",
+    "options": [
+      "x ≥ 5",
+      "x ≥ 6",
+      "x > 6",
+      "x > 8"
+    ],
+    "correct_option": 2,
+    "explanation": "2x + 8 ≥ 20 ⇒ 2x ≥ 12 ⇒ x ≥ 6.",
+    "shortcut": "Expand the brackets before solving.",
+    "formula": "Distributive Property",
+    "learning_tip": "Always simplify expressions before isolating the variable.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "inequalities",
+      "advanced"
+    ]
+  },
+  {
+    "id": "IE16",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: (x/4) - 2 ≤ 3",
+    "options": [
+      "x ≤ 16",
+      "x ≤ 20",
+      "x < 20",
+      "x < 16"
+    ],
+    "correct_option": 2,
+    "explanation": "x/4 ≤ 5 ⇒ x ≤ 20.",
+    "shortcut": "Isolate the fraction before multiplying.",
+    "formula": "(x/a) + b ≤ c",
+    "learning_tip": "Multiply both sides by a positive denominator to eliminate fractions.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "inequalities",
+      "fractions",
+      "advanced"
+    ]
+  },  {
+    "id": "IE17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Easy",
+    "question": "Solve the inequality: x + 8 < 20",
+    "options": [
+      "x < 10",
+      "x < 11",
+      "x < 12",
+      "x ≤ 12"
+    ],
+    "correct_option": 3,
+    "explanation": "Subtract 8 from both sides: x < 12.",
+    "shortcut": "Move the constant to the other side.",
+    "formula": "x + a < b ⇒ x < b - a",
+    "learning_tip": "Adding or subtracting the same number on both sides does not change the inequality sign.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "inequalities",
+      "easy"
+    ]
+  },
+  {
+    "id": "IE18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Easy",
+    "question": "Solve the inequality: 9x > 63",
+    "options": [
+      "x > 6",
+      "x > 7",
+      "x ≥ 7",
+      "x < 7"
+    ],
+    "correct_option": 2,
+    "explanation": "Divide both sides by 9: x > 7.",
+    "shortcut": "Divide by the positive coefficient.",
+    "formula": "ax > b ⇒ x > b/a",
+    "learning_tip": "The inequality sign remains unchanged when dividing by a positive number.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "inequalities",
+      "easy"
+    ]
+  },
+  {
+    "id": "IE19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: 4x - 6 ≤ 18",
+    "options": [
+      "x ≤ 5",
+      "x ≤ 6",
+      "x < 6",
+      "x ≥ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "4x ≤ 24 ⇒ x ≤ 6.",
+    "shortcut": "Add the constant first, then divide.",
+    "formula": "ax - b ≤ c",
+    "learning_tip": "Solve inequalities just like equations unless multiplying/dividing by a negative.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "inequalities",
+      "medium"
+    ]
+  },
+  {
+    "id": "IE20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: -5x < 20",
+    "options": [
+      "x < -4",
+      "x > -4",
+      "x ≥ -4",
+      "x ≤ -4"
+    ],
+    "correct_option": 2,
+    "explanation": "Divide both sides by -5 and reverse the inequality: x > -4.",
+    "shortcut": "Always reverse the sign when dividing by a negative number.",
+    "formula": "If a < 0, reverse the inequality sign.",
+    "learning_tip": "This is one of the most common placement interview questions on inequalities.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "inequalities",
+      "negative"
+    ]
+  },
+  {
+    "id": "IE21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: 12 - x ≥ 7",
+    "options": [
+      "x ≤ 5",
+      "x ≥ 5",
+      "x < 5",
+      "x > 5"
+    ],
+    "correct_option": 1,
+    "explanation": "12 - x ≥ 7 ⇒ -x ≥ -5 ⇒ x ≤ 5.",
+    "shortcut": "Reverse the inequality after multiplying by -1.",
+    "formula": "Reverse sign when multiplying by -1.",
+    "learning_tip": "Always isolate the variable before reversing the sign.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "inequalities",
+      "sign reversal"
+    ]
+  },
+  {
+    "id": "IE22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: 7x + 4 > 39",
+    "options": [
+      "x > 4",
+      "x > 5",
+      "x ≥ 5",
+      "x ≥ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "7x > 35 ⇒ x > 5.",
+    "shortcut": "Subtract the constant before dividing.",
+    "formula": "ax + b > c",
+    "learning_tip": "Keep the inequality direction unchanged while dividing by a positive number.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "inequalities",
+      "advanced"
+    ]
+  },
+  {
+    "id": "IE23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: 5(x - 1) ≤ 25",
+    "options": [
+      "x ≤ 5",
+      "x ≤ 6",
+      "x < 6",
+      "x ≥ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "5x - 5 ≤ 25 ⇒ 5x ≤ 30 ⇒ x ≤ 6.",
+    "shortcut": "Expand the bracket first.",
+    "formula": "Distributive Property",
+    "learning_tip": "Simplify before isolating the variable.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "inequalities",
+      "advanced"
+    ]
+  },
+  {
+    "id": "IE24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: (x/5) + 4 < 9",
+    "options": [
+      "x < 20",
+      "x ≤ 20",
+      "x < 25",
+      "x ≤ 25"
+    ],
+    "correct_option": 3,
+    "explanation": "x/5 < 5 ⇒ x < 25.",
+    "shortcut": "Isolate the fraction before multiplying.",
+    "formula": "(x/a) + b < c",
+    "learning_tip": "Multiply both sides by a positive denominator after isolating the fraction.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "inequalities",
+      "fractions",
+      "advanced"
+    ]
+  },
+
+
+    {
+    "id": "IE17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Easy",
+    "question": "Solve the inequality: x + 8 < 20",
+    "options": [
+      "x < 10",
+      "x < 11",
+      "x < 12",
+      "x ≤ 12"
+    ],
+    "correct_option": 3,
+    "explanation": "Subtract 8 from both sides: x < 12.",
+    "shortcut": "Move the constant to the other side.",
+    "formula": "x + a < b ⇒ x < b - a",
+    "learning_tip": "Adding or subtracting the same number on both sides does not change the inequality sign.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "inequalities",
+      "easy"
+    ]
+  },
+  {
+    "id": "IE18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Easy",
+    "question": "Solve the inequality: 9x > 63",
+    "options": [
+      "x > 6",
+      "x > 7",
+      "x ≥ 7",
+      "x < 7"
+    ],
+    "correct_option": 2,
+    "explanation": "Divide both sides by 9: x > 7.",
+    "shortcut": "Divide by the positive coefficient.",
+    "formula": "ax > b ⇒ x > b/a",
+    "learning_tip": "The inequality sign remains unchanged when dividing by a positive number.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "inequalities",
+      "easy"
+    ]
+  },
+  {
+    "id": "IE19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: 4x - 6 ≤ 18",
+    "options": [
+      "x ≤ 5",
+      "x ≤ 6",
+      "x < 6",
+      "x ≥ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "4x ≤ 24 ⇒ x ≤ 6.",
+    "shortcut": "Add the constant first, then divide.",
+    "formula": "ax - b ≤ c",
+    "learning_tip": "Solve inequalities just like equations unless multiplying/dividing by a negative.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "inequalities",
+      "medium"
+    ]
+  },
+  {
+    "id": "IE20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: -5x < 20",
+    "options": [
+      "x < -4",
+      "x > -4",
+      "x ≥ -4",
+      "x ≤ -4"
+    ],
+    "correct_option": 2,
+    "explanation": "Divide both sides by -5 and reverse the inequality: x > -4.",
+    "shortcut": "Always reverse the sign when dividing by a negative number.",
+    "formula": "If a < 0, reverse the inequality sign.",
+    "learning_tip": "This is one of the most common placement interview questions on inequalities.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "inequalities",
+      "negative"
+    ]
+  },
+  {
+    "id": "IE21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Medium",
+    "question": "Solve the inequality: 12 - x ≥ 7",
+    "options": [
+      "x ≤ 5",
+      "x ≥ 5",
+      "x < 5",
+      "x > 5"
+    ],
+    "correct_option": 1,
+    "explanation": "12 - x ≥ 7 ⇒ -x ≥ -5 ⇒ x ≤ 5.",
+    "shortcut": "Reverse the inequality after multiplying by -1.",
+    "formula": "Reverse sign when multiplying by -1.",
+    "learning_tip": "Always isolate the variable before reversing the sign.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "inequalities",
+      "sign reversal"
+    ]
+  },
+  {
+    "id": "IE22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: 7x + 4 > 39",
+    "options": [
+      "x > 4",
+      "x > 5",
+      "x ≥ 5",
+      "x ≥ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "7x > 35 ⇒ x > 5.",
+    "shortcut": "Subtract the constant before dividing.",
+    "formula": "ax + b > c",
+    "learning_tip": "Keep the inequality direction unchanged while dividing by a positive number.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "inequalities",
+      "advanced"
+    ]
+  },
+  {
+    "id": "IE23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: 5(x - 1) ≤ 25",
+    "options": [
+      "x ≤ 5",
+      "x ≤ 6",
+      "x < 6",
+      "x ≥ 6"
+    ],
+    "correct_option": 2,
+    "explanation": "5x - 5 ≤ 25 ⇒ 5x ≤ 30 ⇒ x ≤ 6.",
+    "shortcut": "Expand the bracket first.",
+    "formula": "Distributive Property",
+    "learning_tip": "Simplify before isolating the variable.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "inequalities",
+      "advanced"
+    ]
+  },
+  {
+    "id": "IE24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: (x/5) + 4 < 9",
+    "options": [
+      "x < 20",
+      "x ≤ 20",
+      "x < 25",
+      "x ≤ 25"
+    ],
+    "correct_option": 3,
+    "explanation": "x/5 < 5 ⇒ x < 25.",
+    "shortcut": "Isolate the fraction before multiplying.",
+    "formula": "(x/a) + b < c",
+    "learning_tip": "Multiply both sides by a positive denominator after isolating the fraction.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "inequalities",
+      "fractions",
+      "advanced"
+    ]
+  },
+  {
+    "id": "IE25",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "Hard",
+    "question": "Solve the inequality: 2x + 3 < 11",
+    "options": [
+      "x < 4",
+      "x < 5",
+      "x ≤ 4",
+      "x ≤ 5"
+    ],
+    "correct_option": 1,
+    "explanation": "2x < 8 ⇒ x < 4.",
+    "shortcut": "Subtract the constant first, then divide.",
+    "formula": "ax + b < c ⇒ ax < c - b ⇒ x < (c - b)/a",
+    "learning_tip": "Always isolate the variable before dividing.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "inequalities",
+      "advanced"
+    ]
+  }
+]

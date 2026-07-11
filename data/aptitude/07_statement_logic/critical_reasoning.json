@@ -1,0 +1,742 @@
+[
+  {
+    "id": "CRITICAL_REASONING_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Easy",
+    "question": "A company claims that introducing flexible working hours has increased employee productivity. Which of the following, if true, most strengthens the company's claim?",
+    "options": [
+      "Employee absenteeism decreased after flexible hours were introduced.",
+      "The company renovated its office building during the same period.",
+      "Several employees were promoted recently.",
+      "The company launched a new marketing campaign."
+    ],
+    "correct_option": 1,
+    "explanation": "Lower absenteeism supports the idea that flexible hours positively affected productivity.",
+    "shortcut": "Choose the option that directly supports the argument.",
+    "formula": "Not Applicable",
+    "learning_tip": "Strengthening questions require evidence that makes the conclusion more believable.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen",
+      "placement"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Easy",
+    "question": "A restaurant owner concludes that introducing online ordering increased total sales because monthly revenue rose after the service was launched. Which option weakens this conclusion the most?",
+    "options": [
+      "The restaurant also introduced festival discounts during the same period.",
+      "The online ordering system is easy to use.",
+      "Customers appreciated the new menu design.",
+      "The restaurant hired additional staff."
+    ],
+    "correct_option": 1,
+    "explanation": "Festival discounts could have independently increased sales, weakening the claim that online ordering was the main reason.",
+    "shortcut": "Look for an alternative explanation.",
+    "formula": "Not Applicable",
+    "learning_tip": "Weakening questions often introduce another possible cause.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "critical reasoning",
+      "weaken"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "question": "An airline claims that its new pilot training program reduced flight delays. Which assumption is necessary for this conclusion?",
+    "options": [
+      "Weather conditions remained similar before and after the training program.",
+      "The airline purchased additional aircraft.",
+      "Passenger demand increased.",
+      "Fuel prices remained unchanged."
+    ],
+    "correct_option": 1,
+    "explanation": "If weather conditions changed significantly, the reduction in delays might not be due to the training program.",
+    "shortcut": "Identify what must be true for the conclusion to hold.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions are essential for the argument to remain valid.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "critical reasoning",
+      "assumption"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "question": "A school introduced digital classrooms and later observed improved student performance. Which option most weakens the school's conclusion that digital classrooms caused the improvement?",
+    "options": [
+      "The school also hired experienced teachers during the same academic year.",
+      "Students enjoyed using tablets in class.",
+      "Parents supported digital education.",
+      "Classrooms became more interactive."
+    ],
+    "correct_option": 1,
+    "explanation": "Hiring experienced teachers provides another likely reason for improved performance.",
+    "shortcut": "Find an alternative cause.",
+    "formula": "Not Applicable",
+    "learning_tip": "Alternative explanations weaken causal arguments.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "critical reasoning",
+      "weaken",
+      "education"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "question": "A company believes that providing free transportation reduces employee attrition. Which option best strengthens this argument?",
+    "options": [
+      "Employees using the transportation service stayed longer than those who did not.",
+      "Fuel prices increased during the year.",
+      "The company expanded its office space.",
+      "Most employees preferred flexible work hours."
+    ],
+    "correct_option": 1,
+    "explanation": "The data directly links the transportation benefit with lower employee attrition.",
+    "shortcut": "Support the conclusion with relevant evidence.",
+    "formula": "Not Applicable",
+    "learning_tip": "The best strengthening evidence directly connects the cause with the conclusion.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A city claims that installing additional CCTV cameras reduced crime. Which statement most weakens this claim?",
+    "options": [
+      "The number of police patrols also increased significantly during the same period.",
+      "Citizens appreciated the new surveillance system.",
+      "The CCTV cameras use high-resolution lenses.",
+      "Several cameras were installed near shopping malls."
+    ],
+    "correct_option": 1,
+    "explanation": "Increased police patrols provide another plausible reason for the reduction in crime.",
+    "shortcut": "Look for another factor that could explain the outcome.",
+    "formula": "Not Applicable",
+    "learning_tip": "Arguments become weaker when multiple explanations exist.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "critical reasoning",
+      "advanced",
+      "weaken"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A pharmaceutical company concludes that a new medicine is effective because most patients recovered after taking it. Which assumption is required?",
+    "options": [
+      "Most patients would not have recovered without the medicine.",
+      "The medicine is affordable.",
+      "Doctors recommended the medicine.",
+      "The medicine has a pleasant taste."
+    ],
+    "correct_option": 1,
+    "explanation": "Without this assumption, recovery could have occurred naturally or because of another treatment.",
+    "shortcut": "Ask what must be true for the conclusion to remain valid.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions eliminate alternative explanations.",
+    "estimated_time": 60,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "critical reasoning",
+      "assumption",
+      "advanced"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "An online retailer claims that its new recommendation engine increased customer purchases. Which statement most strengthens this claim?",
+    "options": [
+      "Customers who received personalized recommendations purchased more products than similar customers who did not.",
+      "The retailer launched a television advertising campaign.",
+      "The website changed its color scheme.",
+      "Shipping charges remained unchanged."
+    ],
+    "correct_option": 1,
+    "explanation": "The comparison directly supports the conclusion that personalized recommendations increased purchases.",
+    "shortcut": "The strongest evidence directly supports the claimed cause.",
+    "formula": "Not Applicable",
+    "learning_tip": "Comparative evidence is often the strongest support in critical reasoning.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen",
+      "advanced"
+    ]
+  },  {
+    "id": "CRITICAL_REASONING_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Easy",
+    "question": "A gym claims that its new fitness program helped members lose more weight. Which statement most strengthens this claim?",
+    "options": [
+      "Members following the new program lost more weight than those following the old program.",
+      "The gym purchased new exercise equipment.",
+      "Membership fees remained unchanged.",
+      "The gym extended its working hours."
+    ],
+    "correct_option": 1,
+    "explanation": "A direct comparison between the two programs supports the claim.",
+    "shortcut": "Choose evidence that directly supports the conclusion.",
+    "formula": "Not Applicable",
+    "learning_tip": "Comparative data often strengthens an argument.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen",
+      "easy"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Easy",
+    "question": "A café owner concludes that introducing live music increased customer visits because attendance rose afterward. Which option weakens this conclusion the most?",
+    "options": [
+      "A popular shopping mall opened next to the café during the same period.",
+      "Customers enjoyed the music performances.",
+      "The café hired more waiters.",
+      "The café redecorated its interior."
+    ],
+    "correct_option": 1,
+    "explanation": "The nearby mall could have increased customer visits independently of the live music.",
+    "shortcut": "Look for an alternative explanation.",
+    "formula": "Not Applicable",
+    "learning_tip": "A different possible cause weakens a causal argument.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "critical reasoning",
+      "weaken"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "question": "A company concludes that replacing desktop computers with laptops increased employee efficiency. Which assumption is necessary?",
+    "options": [
+      "No other major workplace changes affecting productivity occurred during the same period.",
+      "Employees preferred lightweight laptops.",
+      "Laptop prices were lower than desktop prices.",
+      "The company upgraded office furniture."
+    ],
+    "correct_option": 1,
+    "explanation": "If other productivity improvements occurred simultaneously, the conclusion may not be valid.",
+    "shortcut": "Find what must be true for the conclusion to hold.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions eliminate competing explanations.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "critical reasoning",
+      "assumption"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "question": "A city reports that planting more trees reduced average summer temperatures. Which statement most weakens this conclusion?",
+    "options": [
+      "The summer during that year was cooler across the entire region.",
+      "Many citizens appreciated the greener environment.",
+      "The city increased park maintenance.",
+      "The planted trees grew well."
+    ],
+    "correct_option": 1,
+    "explanation": "A naturally cooler summer across the region provides another explanation.",
+    "shortcut": "Alternative causes weaken conclusions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Always check whether external factors explain the result.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "critical reasoning",
+      "weaken",
+      "environment"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "question": "A college believes that introducing mock interviews improved campus placements. Which option best strengthens this belief?",
+    "options": [
+      "Students who attended the mock interviews received more job offers than those who did not.",
+      "The college built a new auditorium.",
+      "The placement season started earlier than usual.",
+      "Several companies visited the campus."
+    ],
+    "correct_option": 1,
+    "explanation": "The comparison directly supports the conclusion that mock interviews improved placements.",
+    "shortcut": "Look for evidence directly linking the cause to the effect.",
+    "formula": "Not Applicable",
+    "learning_tip": "Strong evidence compares affected and unaffected groups.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen",
+      "placement"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A hospital claims that a new appointment system reduced patient waiting time. Which statement most weakens the claim?",
+    "options": [
+      "The hospital hired several additional doctors during the same period.",
+      "Patients liked the online booking system.",
+      "The hospital updated its website.",
+      "The reception area was renovated."
+    ],
+    "correct_option": 1,
+    "explanation": "Hiring more doctors could independently reduce waiting times.",
+    "shortcut": "Search for another possible cause.",
+    "formula": "Not Applicable",
+    "learning_tip": "A strong weakening option introduces a plausible alternative explanation.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "critical reasoning",
+      "advanced",
+      "weaken"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A software company concludes that its bug-tracking tool improved software quality. Which assumption is necessary?",
+    "options": [
+      "No other major software development process changed during the same period.",
+      "Employees preferred the new interface.",
+      "The company purchased faster computers.",
+      "Customer support staff increased."
+    ],
+    "correct_option": 1,
+    "explanation": "Otherwise, another process improvement might have caused the quality increase.",
+    "shortcut": "Necessary assumptions remove competing explanations.",
+    "formula": "Not Applicable",
+    "learning_tip": "Identify what the argument depends upon.",
+    "estimated_time": 60,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "critical reasoning",
+      "assumption",
+      "advanced"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A bank claims that introducing biometric authentication reduced online fraud. Which statement most strengthens this claim?",
+    "options": [
+      "Fraud cases dropped significantly among accounts using biometric authentication compared to those that did not.",
+      "The bank redesigned its mobile application.",
+      "Interest rates remained unchanged.",
+      "The bank opened new branches."
+    ],
+    "correct_option": 1,
+    "explanation": "Direct comparative evidence strongly supports the conclusion.",
+    "shortcut": "The strongest support comes from relevant comparative data.",
+    "formula": "Not Applicable",
+    "learning_tip": "Evidence comparing two similar groups is highly persuasive.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen",
+      "advanced"
+    ]
+  },  {
+    "id": "CRITICAL_REASONING_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Easy",
+    "question": "A company claims that providing free online training improved employee performance. Which statement most strengthens this claim?",
+    "options": [
+      "Employees who completed the training showed higher performance ratings than those who did not.",
+      "The company redesigned its logo.",
+      "Office furniture was replaced during the year.",
+      "The cafeteria introduced a new menu."
+    ],
+    "correct_option": 1,
+    "explanation": "Direct evidence comparing trained and untrained employees supports the claim.",
+    "shortcut": "Choose evidence that directly links the cause with the conclusion.",
+    "formula": "Not Applicable",
+    "learning_tip": "Strong arguments are supported by relevant comparative evidence.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen",
+      "easy"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Easy",
+    "question": "A bookstore concludes that extending business hours increased daily sales. Which option most weakens this conclusion?",
+    "options": [
+      "A major festival occurred during the same period, increasing customer traffic.",
+      "Customers appreciated the longer business hours.",
+      "The bookstore rearranged its shelves.",
+      "New books were displayed near the entrance."
+    ],
+    "correct_option": 1,
+    "explanation": "The festival could independently explain the increase in sales.",
+    "shortcut": "Look for another possible reason for the observed result.",
+    "formula": "Not Applicable",
+    "learning_tip": "Alternative explanations weaken causal conclusions.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "critical reasoning",
+      "weaken"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "question": "A city concludes that installing smart traffic signals reduced travel time. Which assumption is necessary?",
+    "options": [
+      "No other major traffic management initiatives were introduced during the same period.",
+      "The signals were manufactured locally.",
+      "Traffic police received new uniforms.",
+      "Fuel prices remained constant."
+    ],
+    "correct_option": 1,
+    "explanation": "If other initiatives also affected traffic, the conclusion may not be valid.",
+    "shortcut": "Find what must be true for the argument to stand.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions eliminate competing causes.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "critical reasoning",
+      "assumption"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "question": "A mobile app company believes that simplifying the user interface increased customer retention. Which statement most strengthens this conclusion?",
+    "options": [
+      "Users who updated to the simplified interface remained active longer than users who did not.",
+      "The company increased its advertising budget.",
+      "The app changed its logo.",
+      "The company hired additional developers."
+    ],
+    "correct_option": 1,
+    "explanation": "The comparison directly supports the claim that the simplified interface improved retention.",
+    "shortcut": "Select evidence that directly supports the conclusion.",
+    "formula": "Not Applicable",
+    "learning_tip": "Relevant comparative data strongly strengthens an argument.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Medium",
+    "question": "A university concludes that introducing online attendance improved class participation. Which statement most weakens this conclusion?",
+    "options": [
+      "The university also introduced participation-based internal marks during the same semester.",
+      "Students preferred the online attendance system.",
+      "Attendance reports became easier to generate.",
+      "Faculty received new laptops."
+    ],
+    "correct_option": 1,
+    "explanation": "Participation-based marks could independently increase class participation.",
+    "shortcut": "Alternative explanations weaken the argument.",
+    "formula": "Not Applicable",
+    "learning_tip": "Check whether another event could have produced the same result.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "critical reasoning",
+      "weaken"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A manufacturer claims that installing robotic arms reduced production defects. Which assumption is required?",
+    "options": [
+      "No other major quality-control improvements were introduced simultaneously.",
+      "The robotic arms consumed less electricity.",
+      "The factory expanded its warehouse.",
+      "Workers received new uniforms."
+    ],
+    "correct_option": 1,
+    "explanation": "Otherwise, another quality-control improvement might have reduced the defects.",
+    "shortcut": "Identify the assumption that eliminates competing explanations.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary assumptions protect the argument from alternative causes.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "critical reasoning",
+      "assumption",
+      "advanced"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A telecom company concludes that introducing unlimited data plans increased customer retention. Which statement most strengthens this conclusion?",
+    "options": [
+      "Customers using unlimited data plans renewed their subscriptions at a higher rate than similar customers on limited plans.",
+      "The company opened additional service centers.",
+      "The company changed its brand logo.",
+      "Customer support timings were extended."
+    ],
+    "correct_option": 1,
+    "explanation": "The comparison directly supports the conclusion regarding customer retention.",
+    "shortcut": "Comparative evidence is strong supporting evidence.",
+    "formula": "Not Applicable",
+    "learning_tip": "Use evidence that closely matches the conclusion.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen",
+      "advanced"
+    ]
+  },
+  {
+    "id": "CRITICAL_REASONING_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A housing society concludes that installing LED streetlights reduced electricity expenses. Which statement most weakens this conclusion?",
+    "options": [
+      "The society also reduced the operating hours of common-area lighting during the same period.",
+      "Residents appreciated the brighter lighting.",
+      "The new LED lights required less maintenance.",
+      "The society repainted its buildings."
+    ],
+    "correct_option": 1,
+    "explanation": "Reducing operating hours could independently lower electricity expenses.",
+    "shortcut": "Search for another reasonable explanation.",
+    "formula": "Not Applicable",
+    "learning_tip": "A good weakening option introduces an equally plausible cause.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "critical reasoning",
+      "weaken",
+      "advanced"
+    ]
+  },  {
+    "id": "CRITICAL_REASONING_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Critical Reasoning",
+    "difficulty": "Hard",
+    "question": "A logistics company concludes that implementing an AI-based route optimization system reduced average delivery time. Which statement most strengthens this conclusion?",
+    "options": [
+      "Delivery vehicles using the AI-generated routes consistently completed deliveries faster than similar vehicles following traditional routes under comparable conditions.",
+      "The company purchased several new delivery vans during the same year.",
+      "Fuel prices decreased slightly after the system was introduced.",
+      "Customer demand increased during the holiday season."
+    ],
+    "correct_option": 1,
+    "explanation": "A direct comparison under similar conditions provides strong evidence that the AI route optimization system caused the reduction in delivery time.",
+    "shortcut": "The strongest support comes from controlled comparative evidence.",
+    "formula": "Not Applicable",
+    "learning_tip": "In strengthen questions, prefer evidence that directly connects the proposed cause with the observed effect while minimizing alternative explanations.",
+    "estimated_time": 60,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "critical reasoning",
+      "strengthen",
+      "AI",
+      "logical reasoning",
+      "placement"
+    ]
+  }
+]

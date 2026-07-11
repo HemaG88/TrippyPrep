@@ -1,0 +1,741 @@
+[
+  {
+    "id": "PR01",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Easy",
+    "question": "Find the next term in the AP: 3, 7, 11, 15, ?",
+    "options": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "correct_option": 3,
+    "explanation": "The common difference is 4. Therefore, the next term is 15 + 4 = 19.",
+    "shortcut": "Find the common difference and add it to the last term.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "In an Arithmetic Progression (AP), the difference between consecutive terms is constant.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "progressions",
+      "ap",
+      "easy"
+    ]
+  },
+  {
+    "id": "PR02",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Easy",
+    "question": "What is the common difference of the AP: 12, 17, 22, 27?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_option": 3,
+    "explanation": "17 − 12 = 5, which remains constant.",
+    "shortcut": "Subtract any term from the next term.",
+    "formula": "d = a₂ − a₁",
+    "learning_tip": "The common difference must remain the same throughout the sequence.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "progressions",
+      "ap"
+    ]
+  },
+  {
+    "id": "PR03",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Medium",
+    "question": "Find the 10th term of the AP: 2, 5, 8, 11, ...",
+    "options": [
+      "26",
+      "27",
+      "28",
+      "29"
+    ],
+    "correct_option": 3,
+    "explanation": "a₁ = 2, d = 3. a₁₀ = 2 + (10 − 1) × 3 = 29.",
+    "shortcut": "Use the nth-term formula.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "Memorize the AP nth-term formula for placement exams.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "progressions",
+      "nth term"
+    ]
+  },
+  {
+    "id": "PR04",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Medium",
+    "question": "Find the next term in the GP: 2, 6, 18, 54, ?",
+    "options": [
+      "108",
+      "162",
+      "216",
+      "324"
+    ],
+    "correct_option": 2,
+    "explanation": "The common ratio is 3. Therefore, 54 × 3 = 162.",
+    "shortcut": "Multiply by the common ratio.",
+    "formula": "aₙ = arⁿ⁻¹",
+    "learning_tip": "In a Geometric Progression (GP), each term is obtained by multiplying by a constant ratio.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "progressions",
+      "gp"
+    ]
+  },
+  {
+    "id": "PR05",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Medium",
+    "question": "Find the common ratio of the GP: 5, 15, 45, 135.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": 2,
+    "explanation": "15 ÷ 5 = 3, which is constant.",
+    "shortcut": "Divide a term by the previous term.",
+    "formula": "r = a₂ / a₁",
+    "learning_tip": "The ratio between consecutive terms remains constant in a GP.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "progressions",
+      "gp"
+    ]
+  },
+  {
+    "id": "PR06",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the 8th term of the AP: 4, 9, 14, 19, ...",
+    "options": [
+      "34",
+      "39",
+      "44",
+      "49"
+    ],
+    "correct_option": 2,
+    "explanation": "a₈ = 4 + (8 − 1) × 5 = 39.",
+    "shortcut": "Apply the AP nth-term formula.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "Identify the common difference before applying the formula.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "progressions",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PR07",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the next term in the GP: 3, 9, 27, 81, ?",
+    "options": [
+      "162",
+      "243",
+      "324",
+      "486"
+    ],
+    "correct_option": 2,
+    "explanation": "The common ratio is 3. Therefore, 81 × 3 = 243.",
+    "shortcut": "Multiply by the common ratio.",
+    "formula": "aₙ = arⁿ⁻¹",
+    "learning_tip": "Always verify the common ratio before predicting the next term.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "progressions",
+      "gp",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PR08",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the common difference of the AP: 25, 20, 15, 10.",
+    "options": [
+      "-3",
+      "-4",
+      "-5",
+      "-6"
+    ],
+    "correct_option": 3,
+    "explanation": "20 − 25 = -5, which remains constant.",
+    "shortcut": "Subtract consecutive terms.",
+    "formula": "d = a₂ − a₁",
+    "learning_tip": "The common difference can be negative in a decreasing AP.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "progressions",
+      "ap",
+      "advanced"
+    ]
+  },  {
+    "id": "PR09",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Easy",
+    "question": "Find the next term in the AP: 10, 15, 20, 25, ?",
+    "options": [
+      "28",
+      "29",
+      "30",
+      "35"
+    ],
+    "correct_option": 3,
+    "explanation": "The common difference is 5. Therefore, the next term is 25 + 5 = 30.",
+    "shortcut": "Add the common difference to the last term.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "An AP increases or decreases by a fixed amount.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "progressions",
+      "ap",
+      "easy"
+    ]
+  },
+  {
+    "id": "PR10",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Easy",
+    "question": "Find the common ratio of the GP: 4, 12, 36, 108.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_option": 2,
+    "explanation": "12 ÷ 4 = 3, which remains constant.",
+    "shortcut": "Divide any term by the previous term.",
+    "formula": "r = a₂/a₁",
+    "learning_tip": "A GP is formed by multiplying each term by the same ratio.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "progressions",
+      "gp"
+    ]
+  },
+  {
+    "id": "PR11",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Medium",
+    "question": "Find the 12th term of the AP: 5, 8, 11, 14, ...",
+    "options": [
+      "35",
+      "36",
+      "37",
+      "38"
+    ],
+    "correct_option": 2,
+    "explanation": "a₁₂ = 5 + (12 − 1) × 3 = 38.",
+    "shortcut": "Use the nth-term formula.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "First identify the common difference before applying the formula.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "progressions",
+      "nth term"
+    ]
+  },
+  {
+    "id": "PR12",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Medium",
+    "question": "Find the next term in the GP: 7, 14, 28, 56, ?",
+    "options": [
+      "84",
+      "98",
+      "112",
+      "224"
+    ],
+    "correct_option": 3,
+    "explanation": "The common ratio is 2. Therefore, 56 × 2 = 112.",
+    "shortcut": "Multiply by the common ratio.",
+    "formula": "aₙ = arⁿ⁻¹",
+    "learning_tip": "In a GP, every term is obtained by multiplying by the common ratio.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "progressions",
+      "gp"
+    ]
+  },
+  {
+    "id": "PR13",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Medium",
+    "question": "Find the common difference of the AP: 18, 13, 8, 3.",
+    "options": [
+      "-3",
+      "-4",
+      "-5",
+      "-6"
+    ],
+    "correct_option": 3,
+    "explanation": "13 − 18 = -5, which remains constant.",
+    "shortcut": "Subtract consecutive terms.",
+    "formula": "d = a₂ − a₁",
+    "learning_tip": "The common difference may be negative in a decreasing AP.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "progressions",
+      "ap"
+    ]
+  },
+  {
+    "id": "PR14",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the 6th term of the GP: 2, 4, 8, 16, ...",
+    "options": [
+      "32",
+      "64",
+      "96",
+      "128"
+    ],
+    "correct_option": 2,
+    "explanation": "a₆ = 2 × 2⁵ = 64.",
+    "shortcut": "Use the GP nth-term formula.",
+    "formula": "aₙ = arⁿ⁻¹",
+    "learning_tip": "The exponent is always (n − 1).",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "progressions",
+      "gp",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PR15",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the 15th term of the AP: 6, 10, 14, 18, ...",
+    "options": [
+      "58",
+      "60",
+      "62",
+      "64"
+    ],
+    "correct_option": 3,
+    "explanation": "a₁₅ = 6 + (15 − 1) × 4 = 62.",
+    "shortcut": "Apply the AP nth-term formula.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "Multiply the common difference by (n − 1), then add the first term.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "progressions",
+      "ap",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PR16",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the common ratio of the GP: 81, 27, 9, 3.",
+    "options": [
+      "1/2",
+      "1/3",
+      "2",
+      "3"
+    ],
+    "correct_option": 2,
+    "explanation": "27 ÷ 81 = 1/3, which remains constant.",
+    "shortcut": "Divide each term by the previous term.",
+    "formula": "r = a₂/a₁",
+    "learning_tip": "The common ratio can be a fraction in a decreasing GP.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "progressions",
+      "gp",
+      "advanced"
+    ]
+  },  {
+    "id": "PR17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Easy",
+    "question": "Find the next term in the AP: 14, 18, 22, 26, ?",
+    "options": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "correct_option": 2,
+    "explanation": "The common difference is 4. Therefore, the next term is 26 + 4 = 30.",
+    "shortcut": "Add the common difference to the last term.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "An AP has a fixed difference between consecutive terms.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "progressions",
+      "ap",
+      "easy"
+    ]
+  },
+  {
+    "id": "PR18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Easy",
+    "question": "Find the common ratio of the GP: 6, 18, 54, 162.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_option": 2,
+    "explanation": "18 ÷ 6 = 3, which is constant.",
+    "shortcut": "Divide a term by the previous term.",
+    "formula": "r = a₂ / a₁",
+    "learning_tip": "In a GP, every term is obtained by multiplying the previous term by the common ratio.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "progressions",
+      "gp",
+      "easy"
+    ]
+  },
+  {
+    "id": "PR19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Medium",
+    "question": "Find the 20th term of the AP: 1, 4, 7, 10, ...",
+    "options": [
+      "55",
+      "58",
+      "60",
+      "61"
+    ],
+    "correct_option": 2,
+    "explanation": "a₂₀ = 1 + (20 − 1) × 3 = 58.",
+    "shortcut": "Use the AP nth-term formula.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "Always identify the common difference before applying the formula.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "progressions",
+      "nth-term",
+      "medium"
+    ]
+  },
+  {
+    "id": "PR20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Medium",
+    "question": "Find the next term in the GP: 5, 10, 20, 40, ?",
+    "options": [
+      "60",
+      "70",
+      "80",
+      "90"
+    ],
+    "correct_option": 3,
+    "explanation": "The common ratio is 2. Therefore, 40 × 2 = 80.",
+    "shortcut": "Multiply the last term by the common ratio.",
+    "formula": "aₙ = arⁿ⁻¹",
+    "learning_tip": "A GP grows by multiplication rather than addition.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "progressions",
+      "gp",
+      "medium"
+    ]
+  },
+  {
+    "id": "PR21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Medium",
+    "question": "Find the common difference of the AP: 40, 34, 28, 22.",
+    "options": [
+      "-4",
+      "-5",
+      "-6",
+      "-7"
+    ],
+    "correct_option": 3,
+    "explanation": "34 − 40 = -6, which remains constant.",
+    "shortcut": "Subtract consecutive terms.",
+    "formula": "d = a₂ − a₁",
+    "learning_tip": "A negative common difference means the AP is decreasing.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "progressions",
+      "ap",
+      "medium"
+    ]
+  },
+  {
+    "id": "PR22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the 7th term of the GP: 3, 6, 12, 24, ...",
+    "options": [
+      "96",
+      "144",
+      "192",
+      "384"
+    ],
+    "correct_option": 3,
+    "explanation": "a₇ = 3 × 2⁶ = 192.",
+    "shortcut": "Use the GP nth-term formula.",
+    "formula": "aₙ = arⁿ⁻¹",
+    "learning_tip": "The exponent in the GP formula is always (n − 1).",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "progressions",
+      "gp",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PR23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the 18th term of the AP: 7, 11, 15, 19, ...",
+    "options": [
+      "71",
+      "73",
+      "75",
+      "77"
+    ],
+    "correct_option": 3,
+    "explanation": "a₁₈ = 7 + (18 − 1) × 4 = 75.",
+    "shortcut": "Apply the AP nth-term formula.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "Multiply the common difference by (n − 1) before adding the first term.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "progressions",
+      "ap",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PR24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the common ratio of the GP: 64, 16, 4, 1.",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/5"
+    ],
+    "correct_option": 3,
+    "explanation": "16 ÷ 64 = 1/4, which remains constant.",
+    "shortcut": "Divide each term by the previous term.",
+    "formula": "r = a₂ / a₁",
+    "learning_tip": "The common ratio can be a proper fraction in a decreasing GP.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "progressions",
+      "gp",
+      "advanced"
+    ]
+  },  {
+    "id": "PR25",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Progressions",
+    "difficulty": "Hard",
+    "question": "Find the 25th term of the AP: 8, 13, 18, 23, ...",
+    "options": [
+      "123",
+      "126",
+      "128",
+      "130"
+    ],
+    "correct_option": 3,
+    "explanation": "First term = 8, common difference = 5.\na₂₅ = 8 + (25 − 1) × 5 = 8 + 120 = 128.",
+    "shortcut": "Use the AP nth-term formula directly.",
+    "formula": "aₙ = a + (n − 1)d",
+    "learning_tip": "For AP problems, identify the first term and common difference before applying the formula.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Amazon"
+    ],
+    "tags": [
+      "progressions",
+      "ap",
+      "placement",
+      "advanced"
+    ]
+  }
+]

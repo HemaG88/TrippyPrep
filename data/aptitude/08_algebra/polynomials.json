@@ -1,0 +1,737 @@
+[
+  {
+    "id": "PL01",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Easy",
+    "question": "What is the degree of the polynomial 5x³ + 2x - 7?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "correct_option": 3,
+    "explanation": "The highest power of x is 3, so the degree is 3.",
+    "shortcut": "Look for the highest exponent of the variable.",
+    "formula": "Degree = Highest power of the variable",
+    "learning_tip": "The degree is determined only by the highest exponent, not the coefficient.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "polynomials",
+      "easy",
+      "degree"
+    ]
+  },
+  {
+    "id": "PL02",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Easy",
+    "question": "How many terms are present in the polynomial 4x² + 3x - 8?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": 2,
+    "explanation": "The terms are 4x², 3x and -8. Hence, there are 3 terms.",
+    "shortcut": "Count terms separated by '+' or '-'.",
+    "formula": "Terms are separated by '+' or '-'.",
+    "learning_tip": "A polynomial with three terms is called a trinomial.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "polynomials",
+      "terms"
+    ]
+  },
+  {
+    "id": "PL03",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Medium",
+    "question": "Evaluate 2x² + 3x - 1 when x = 2.",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "correct_option": 3,
+    "explanation": "2(2²) + 3(2) - 1 = 8 + 6 - 1 = 13.",
+    "shortcut": "Substitute the value of x carefully.",
+    "formula": "Replace x with the given value.",
+    "learning_tip": "Follow the BODMAS rule while evaluating expressions.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "polynomials",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "PL04",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Medium",
+    "question": "Find the constant term of 6x³ - 4x² + 7x + 9.",
+    "options": [
+      "-4",
+      "7",
+      "9",
+      "6"
+    ],
+    "correct_option": 3,
+    "explanation": "The constant term is the term without any variable, which is 9.",
+    "shortcut": "Look for the term with no variable.",
+    "formula": "Constant term = coefficient of x⁰",
+    "learning_tip": "The constant term remains unchanged regardless of x.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "polynomials",
+      "constant"
+    ]
+  },
+  {
+    "id": "PL05",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Medium",
+    "question": "Which of the following is a quadratic polynomial?",
+    "options": [
+      "3x + 2",
+      "x² + 5x + 6",
+      "7",
+      "x³ + 2"
+    ],
+    "correct_option": 2,
+    "explanation": "A quadratic polynomial has degree 2.",
+    "shortcut": "Check the highest power of x.",
+    "formula": "Quadratic ⇒ Degree = 2",
+    "learning_tip": "Linear, quadratic and cubic correspond to degrees 1, 2 and 3 respectively.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "polynomials",
+      "classification"
+    ]
+  },
+  {
+    "id": "PL06",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "What is the degree of (2x⁴ + 5x² - 3)?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": 3,
+    "explanation": "The highest exponent is 4.",
+    "shortcut": "Ignore coefficients while finding degree.",
+    "formula": "Degree = Highest exponent",
+    "learning_tip": "Only the exponent determines the degree.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "polynomials",
+      "degree",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PL07",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "Evaluate x³ - 2x² + x + 5 when x = 3.",
+    "options": [
+      "17",
+      "20",
+      "23",
+      "25"
+    ],
+    "correct_option": 1,
+    "explanation": "27 - 18 + 3 + 5 = 17.",
+    "shortcut": "Compute powers first.",
+    "formula": "Substitute the value of x.",
+    "learning_tip": "Always verify arithmetic while evaluating polynomial expressions.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "polynomials",
+      "evaluation",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PL08",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "Which polynomial is a cubic polynomial?",
+    "options": [
+      "x² + 2",
+      "4x + 7",
+      "x³ - x + 5",
+      "9"
+    ],
+    "correct_option": 3,
+    "explanation": "A cubic polynomial has degree 3.",
+    "shortcut": "Identify the highest exponent.",
+    "formula": "Cubic ⇒ Degree = 3",
+    "learning_tip": "Degree determines the type of polynomial.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "polynomials",
+      "classification",
+      "advanced"
+    ]
+  },
+    {
+    "id": "PL09",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Easy",
+    "question": "What is the degree of the polynomial 9x² + 5?",
+    "options": [
+      "1",
+      "2",
+      "5",
+      "9"
+    ],
+    "correct_option": 2,
+    "explanation": "The highest power of x is 2, so the degree is 2.",
+    "shortcut": "Identify the highest exponent of the variable.",
+    "formula": "Degree = Highest exponent",
+    "learning_tip": "The coefficient does not affect the degree of a polynomial.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "polynomials",
+      "degree"
+    ]
+  },
+  {
+    "id": "PL10",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Easy",
+    "question": "How many terms are there in the polynomial x⁴ + 2x² - 5x + 8?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": 3,
+    "explanation": "The terms are x⁴, 2x², -5x and 8. Hence there are 4 terms.",
+    "shortcut": "Count the expressions separated by '+' or '-'.",
+    "formula": "Terms are separated by '+' or '-'.",
+    "learning_tip": "A polynomial with four terms has no special name.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "polynomials",
+      "terms"
+    ]
+  },
+  {
+    "id": "PL11",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Medium",
+    "question": "Evaluate x² + 4x + 1 when x = 3.",
+    "options": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "correct_option": 2,
+    "explanation": "3² + 4(3) + 1 = 9 + 12 + 1 = 22.",
+    "shortcut": "Substitute x and simplify.",
+    "formula": "Replace x with the given value.",
+    "learning_tip": "Evaluate powers before multiplication and addition.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "polynomials",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "PL12",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Medium",
+    "question": "Find the constant term of x⁵ - 2x³ + 4x - 12.",
+    "options": [
+      "-12",
+      "-2",
+      "4",
+      "5"
+    ],
+    "correct_option": 1,
+    "explanation": "The constant term is the number without any variable, which is -12.",
+    "shortcut": "Look for the term with no variable.",
+    "formula": "Constant term = coefficient of x⁰",
+    "learning_tip": "The constant term remains the same for all values of x.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "polynomials",
+      "constant"
+    ]
+  },
+  {
+    "id": "PL13",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Medium",
+    "question": "Which of the following is a linear polynomial?",
+    "options": [
+      "x² + 1",
+      "5x - 8",
+      "x³ + 2",
+      "7"
+    ],
+    "correct_option": 2,
+    "explanation": "A linear polynomial has degree 1.",
+    "shortcut": "Check the highest exponent.",
+    "formula": "Linear ⇒ Degree = 1",
+    "learning_tip": "A constant polynomial has degree 0.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "polynomials",
+      "classification"
+    ]
+  },
+  {
+    "id": "PL14",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "Evaluate 2x³ - x² + 4 when x = 2.",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "22"
+    ],
+    "correct_option": 2,
+    "explanation": "2(8) - 4 + 4 = 16.",
+    "shortcut": "Evaluate powers first.",
+    "formula": "Substitute x and simplify.",
+    "learning_tip": "Be careful while simplifying polynomial expressions.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "polynomials",
+      "evaluation",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PL15",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "Which polynomial is of degree 4?",
+    "options": [
+      "x³ + 1",
+      "x⁴ - 6",
+      "x² + x",
+      "5x"
+    ],
+    "correct_option": 2,
+    "explanation": "The highest exponent is 4.",
+    "shortcut": "Ignore coefficients while checking the degree.",
+    "formula": "Degree = Highest exponent",
+    "learning_tip": "Quartic polynomials have degree 4.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "polynomials",
+      "degree",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PL16",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "Find the value of x² - 5x + 6 when x = 4.",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct_option": 2,
+    "explanation": "4² - 5(4) + 6 = 16 - 20 + 6 = 2.",
+    "shortcut": "Substitute the value carefully.",
+    "formula": "Replace x with the given value.",
+    "learning_tip": "Evaluate exponents before multiplication.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "polynomials",
+      "evaluation",
+      "advanced"
+    ]
+  },  {
+    "id": "PL17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Easy",
+    "question": "What is the degree of the polynomial 7x + 9?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "7"
+    ],
+    "correct_option": 2,
+    "explanation": "The highest power of x is 1, so the degree is 1.",
+    "shortcut": "Look for the highest exponent.",
+    "formula": "Degree = Highest exponent",
+    "learning_tip": "A polynomial with degree 1 is called a linear polynomial.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "polynomials",
+      "degree"
+    ]
+  },
+  {
+    "id": "PL18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Easy",
+    "question": "How many terms are present in the polynomial x² + 4?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 2,
+    "explanation": "The polynomial has two terms: x² and 4.",
+    "shortcut": "Terms are separated by '+' or '-'.",
+    "formula": "Count each individual term.",
+    "learning_tip": "A polynomial with two terms is called a binomial.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "polynomials",
+      "terms"
+    ]
+  },
+  {
+    "id": "PL19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Medium",
+    "question": "Evaluate 3x² - 2x + 5 when x = 2.",
+    "options": [
+      "11",
+      "13",
+      "15",
+      "17"
+    ],
+    "correct_option": 2,
+    "explanation": "3(2²) - 2(2) + 5 = 12 - 4 + 5 = 13.",
+    "shortcut": "Substitute the value and simplify using BODMAS.",
+    "formula": "Replace x with the given value.",
+    "learning_tip": "Calculate powers before multiplication.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "polynomials",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "PL20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Medium",
+    "question": "Find the constant term of 5x⁴ - 3x² + x - 15.",
+    "options": [
+      "-15",
+      "-3",
+      "1",
+      "5"
+    ],
+    "correct_option": 1,
+    "explanation": "The constant term is -15.",
+    "shortcut": "Locate the term without a variable.",
+    "formula": "Constant term = coefficient of x⁰",
+    "learning_tip": "The constant term does not depend on x.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "polynomials",
+      "constant"
+    ]
+  },
+  {
+    "id": "PL21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Medium",
+    "question": "Which of the following is a constant polynomial?",
+    "options": [
+      "4",
+      "2x + 1",
+      "x²",
+      "x³ - 7"
+    ],
+    "correct_option": 1,
+    "explanation": "A constant polynomial has degree 0 and contains no variable.",
+    "shortcut": "Choose the expression without x.",
+    "formula": "Constant polynomial ⇒ Degree = 0",
+    "learning_tip": "Any non-zero constant is a polynomial of degree 0.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "polynomials",
+      "classification"
+    ]
+  },
+  {
+    "id": "PL22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "Evaluate x³ + 2x² - x + 1 when x = 2.",
+    "options": [
+      "15",
+      "17",
+      "19",
+      "21"
+    ],
+    "correct_option": 1,
+    "explanation": "2³ + 2(2²) - 2 + 1 = 8 + 8 - 2 + 1 = 15.",
+    "shortcut": "Evaluate powers first, then substitute.",
+    "formula": "Substitute x into the polynomial.",
+    "learning_tip": "Follow the order of operations carefully.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "polynomials",
+      "evaluation",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PL23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "Which of the following is a quartic polynomial?",
+    "options": [
+      "x² + 3",
+      "x³ - 1",
+      "x⁴ + 2x - 5",
+      "6"
+    ],
+    "correct_option": 3,
+    "explanation": "A quartic polynomial has degree 4.",
+    "shortcut": "Find the polynomial with the highest exponent 4.",
+    "formula": "Quartic ⇒ Degree = 4",
+    "learning_tip": "Quartic is another name for a fourth-degree polynomial.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "polynomials",
+      "degree",
+      "advanced"
+    ]
+  },
+  {
+    "id": "PL24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "Evaluate x² + x + 1 when x = 5.",
+    "options": [
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correct_option": 2,
+    "explanation": "5² + 5 + 1 = 25 + 5 + 1 = 31.",
+    "shortcut": "Substitute the value and simplify.",
+    "formula": "Replace x with the given value.",
+    "learning_tip": "Simple substitution questions are common in placement aptitude tests.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "polynomials",
+      "evaluation",
+      "advanced"
+    ]
+  },  {
+    "id": "PL25",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "difficulty": "Hard",
+    "question": "Evaluate 2x² + 5x - 3 when x = 4.",
+    "options": [
+      "45",
+      "47",
+      "49",
+      "51"
+    ],
+    "correct_option": 1,
+    "explanation": "2(4²) + 5(4) - 3 = 2(16) + 20 - 3 = 32 + 20 - 3 = 49.",
+    "shortcut": "Substitute the value of x, then apply BODMAS.",
+    "formula": "P(x) = Substitute x into the polynomial and simplify.",
+    "learning_tip": "Always evaluate exponents before multiplication and addition.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Amazon"
+    ],
+    "tags": [
+      "polynomials",
+      "placement",
+      "algebra",
+      "advanced"
+    ]
+  }
+]

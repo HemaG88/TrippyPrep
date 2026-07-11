@@ -1,0 +1,732 @@
+[
+  {
+    "id": "LG01",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Easy",
+    "question": "Find the value of log₁₀(100).",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "correct_option": 2,
+    "explanation": "Since 10² = 100, log₁₀(100) = 2.",
+    "shortcut": "Express the number as a power of the base.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "A logarithm tells you the exponent to which the base must be raised.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logarithms",
+      "easy",
+      "algebra"
+    ]
+  },
+  {
+    "id": "LG02",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Easy",
+    "question": "Evaluate log₂(32).",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct_option": 2,
+    "explanation": "Since 2⁵ = 32, log₂(32) = 5.",
+    "shortcut": "Rewrite the number as a power of 2.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Memorize common powers of 2, 3, and 10.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "logarithms",
+      "powers"
+    ]
+  },
+  {
+    "id": "LG03",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Medium",
+    "question": "Find the value of log₅(125).",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": 2,
+    "explanation": "Since 5³ = 125, log₅(125) = 3.",
+    "shortcut": "Express 125 as a power of 5.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Convert numbers into powers of the given base whenever possible.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "logarithms",
+      "medium"
+    ]
+  },
+  {
+    "id": "LG04",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Medium",
+    "question": "Evaluate log₃(81).",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": 3,
+    "explanation": "Since 3⁴ = 81, log₃(81) = 4.",
+    "shortcut": "Identify the exponent.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Recognizing perfect powers speeds up calculations.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "logarithms",
+      "powers"
+    ]
+  },
+  {
+    "id": "LG05",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Medium",
+    "question": "If log₁₀(x) = 3, then x equals:",
+    "options": [
+      "30",
+      "100",
+      "1000",
+      "10000"
+    ],
+    "correct_option": 3,
+    "explanation": "log₁₀(x) = 3 means x = 10³ = 1000.",
+    "shortcut": "Convert logarithmic form into exponential form.",
+    "formula": "logₐ(x) = n ⇔ x = aⁿ",
+    "learning_tip": "Remember the relationship between logarithmic and exponential forms.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "logarithms",
+      "conversion"
+    ]
+  },
+  {
+    "id": "LG06",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "Evaluate log₂(64) + log₂(8).",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_option": 3,
+    "explanation": "log₂64 = 6 and log₂8 = 3. Therefore, 6 + 3 = 9.",
+    "shortcut": "Evaluate each logarithm separately.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Simple logarithm values are often tested directly in placement exams.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "logarithms",
+      "addition",
+      "advanced"
+    ]
+  },
+  {
+    "id": "LG07",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "Find the value of log₁₀(1000) - log₁₀(10).",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 2,
+    "explanation": "log₁₀1000 = 3 and log₁₀10 = 1. Therefore, 3 - 1 = 2.",
+    "shortcut": "Evaluate each logarithm individually.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Common logarithms (base 10) are frequently asked in aptitude tests.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "logarithms",
+      "subtraction",
+      "advanced"
+    ]
+  },
+  {
+    "id": "LG08",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "If log₄(x) = 3, find x.",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "81"
+    ],
+    "correct_option": 3,
+    "explanation": "x = 4³ = 64.",
+    "shortcut": "Convert the logarithmic equation into exponential form.",
+    "formula": "logₐ(x) = n ⇔ x = aⁿ",
+    "learning_tip": "Practice converting between logarithmic and exponential forms.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "logarithms",
+      "advanced",
+      "placement"
+    ]
+  },  {
+    "id": "LG09",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Easy",
+    "question": "Find the value of log₁₀(10000).",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": 3,
+    "explanation": "Since 10⁴ = 10000, log₁₀(10000) = 4.",
+    "shortcut": "Express the number as a power of 10.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Common logarithms use base 10 unless otherwise specified.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logarithms",
+      "easy"
+    ]
+  },
+  {
+    "id": "LG10",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Easy",
+    "question": "Evaluate log₅(25).",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "correct_option": 2,
+    "explanation": "Since 5² = 25, log₅(25) = 2.",
+    "shortcut": "Write 25 as a power of 5.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Recognizing powers of small numbers speeds up calculations.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "logarithms",
+      "easy"
+    ]
+  },
+  {
+    "id": "LG11",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Medium",
+    "question": "Evaluate log₇(49).",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "7"
+    ],
+    "correct_option": 2,
+    "explanation": "Since 7² = 49, log₇(49) = 2.",
+    "shortcut": "Convert the number into a power of the base.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Always check whether the given number is a perfect power of the base.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "logarithms",
+      "medium"
+    ]
+  },
+  {
+    "id": "LG12",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Medium",
+    "question": "If log₂(x) = 6, then x equals:",
+    "options": [
+      "32",
+      "48",
+      "64",
+      "128"
+    ],
+    "correct_option": 3,
+    "explanation": "x = 2⁶ = 64.",
+    "shortcut": "Convert from logarithmic to exponential form.",
+    "formula": "logₐ(x) = n ⇔ x = aⁿ",
+    "learning_tip": "Memorize common powers of 2 for placement exams.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "logarithms",
+      "conversion"
+    ]
+  },
+  {
+    "id": "LG13",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Medium",
+    "question": "If log₃(x) = 4, then x equals:",
+    "options": [
+      "27",
+      "64",
+      "81",
+      "243"
+    ],
+    "correct_option": 3,
+    "explanation": "x = 3⁴ = 81.",
+    "shortcut": "Rewrite in exponential form.",
+    "formula": "logₐ(x) = n ⇔ x = aⁿ",
+    "learning_tip": "Changing between logarithmic and exponential forms is a core concept.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "logarithms",
+      "conversion"
+    ]
+  },
+  {
+    "id": "LG14",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "Evaluate log₂(16) + log₂(4).",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_option": 3,
+    "explanation": "log₂16 = 4 and log₂4 = 2. Therefore, 4 + 2 = 6.",
+    "shortcut": "Find each logarithm separately before adding.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Know the powers of common bases like 2, 3, 5 and 10.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "logarithms",
+      "advanced"
+    ]
+  },
+  {
+    "id": "LG15",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "Evaluate log₅(125) - log₅(5).",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 2,
+    "explanation": "log₅125 = 3 and log₅5 = 1. Therefore, 3 - 1 = 2.",
+    "shortcut": "Evaluate each logarithm individually.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Basic logarithm values are frequently tested in aptitude rounds.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "logarithms",
+      "advanced"
+    ]
+  },
+  {
+    "id": "LG16",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "If log₈(x) = 2, find x.",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "correct_option": 3,
+    "explanation": "x = 8² = 64.",
+    "shortcut": "Convert logarithmic form into exponential form.",
+    "formula": "logₐ(x) = n ⇔ x = aⁿ",
+    "learning_tip": "Whenever possible, think in terms of exponents.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "logarithms",
+      "advanced",
+      "placement"
+    ]
+  },  {
+    "id": "LG17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Easy",
+    "question": "Evaluate log₁₀(100000).",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "correct_option": 2,
+    "explanation": "Since 10⁵ = 100000, log₁₀(100000) = 5.",
+    "shortcut": "Count the number of zeros for powers of 10.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Common logarithms (base 10) are among the easiest logarithm questions.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "logarithms",
+      "easy"
+    ]
+  },
+  {
+    "id": "LG18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Easy",
+    "question": "Evaluate log₄(16).",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 2,
+    "explanation": "Since 4² = 16, log₄(16) = 2.",
+    "shortcut": "Express the number as a power of the base.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Identify the exponent that gives the required value.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "logarithms",
+      "easy"
+    ]
+  },
+  {
+    "id": "LG19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Medium",
+    "question": "Evaluate log₉(81).",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": 2,
+    "explanation": "Since 9² = 81, log₉(81) = 2.",
+    "shortcut": "Rewrite the number using the given base.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Converting numbers into powers simplifies logarithm problems.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "logarithms",
+      "medium"
+    ]
+  },
+  {
+    "id": "LG20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Medium",
+    "question": "If log₅(x) = 4, find x.",
+    "options": [
+      "125",
+      "256",
+      "625",
+      "1024"
+    ],
+    "correct_option": 3,
+    "explanation": "x = 5⁴ = 625.",
+    "shortcut": "Convert logarithmic form into exponential form.",
+    "formula": "logₐ(x) = n ⇔ x = aⁿ",
+    "learning_tip": "The exponent becomes the answer after converting to exponential form.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "logarithms",
+      "conversion"
+    ]
+  },
+  {
+    "id": "LG21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Medium",
+    "question": "If log₁₀(x) = 2, then x equals:",
+    "options": [
+      "10",
+      "20",
+      "100",
+      "1000"
+    ],
+    "correct_option": 3,
+    "explanation": "x = 10² = 100.",
+    "shortcut": "Use exponential form.",
+    "formula": "logₐ(x) = n ⇔ x = aⁿ",
+    "learning_tip": "This is one of the most common placement questions on logarithms.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "logarithms",
+      "conversion"
+    ]
+  },
+  {
+    "id": "LG22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "Evaluate log₃(27) + log₃(9).",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_option": 2,
+    "explanation": "log₃27 = 3 and log₃9 = 2. Therefore, 3 + 2 = 5.",
+    "shortcut": "Evaluate each logarithm separately.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Know the common powers of 3 for quick calculations.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "logarithms",
+      "advanced"
+    ]
+  },
+  {
+    "id": "LG23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "Evaluate log₂(128) - log₂(4).",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_option": 3,
+    "explanation": "log₂128 = 7 and log₂4 = 2. Therefore, 7 - 2 = 5.",
+    "shortcut": "Find the exponent for each logarithm.",
+    "formula": "logₐ(aⁿ) = n",
+    "learning_tip": "Subtraction questions usually test your knowledge of basic logarithm values.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "logarithms",
+      "advanced"
+    ]
+  },
+  {
+    "id": "LG24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "If log₉(x) = 2, find x.",
+    "options": [
+      "18",
+      "27",
+      "81",
+      "729"
+    ],
+    "correct_option": 3,
+    "explanation": "x = 9² = 81.",
+    "shortcut": "Convert to exponential form.",
+    "formula": "logₐ(x) = n ⇔ x = aⁿ",
+    "learning_tip": "Always remember that logarithms and exponents are inverse operations.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "logarithms",
+      "advanced",
+      "placement"
+    ]
+  },  {
+    "id": "LG25",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Logarithms",
+    "difficulty": "Hard",
+    "question": "If log₁₀(x) = 4, find x.",
+    "options": [
+      "1000",
+      "10000",
+      "100000",
+      "1000000"
+    ],
+    "correct_option": 2,
+    "explanation": "x = 10⁴ = 10000.",
+    "shortcut": "Convert logarithmic form into exponential form.",
+    "formula": "logₐ(x) = n ⇔ x = aⁿ",
+    "learning_tip": "Placement exams frequently test direct conversion between logarithmic and exponential forms.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Amazon"
+    ],
+    "tags": [
+      "logarithms",
+      "placement",
+      "algebra",
+      "advanced"
+    ]
+  }
+]

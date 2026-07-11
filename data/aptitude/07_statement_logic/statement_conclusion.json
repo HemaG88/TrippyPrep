@@ -1,0 +1,738 @@
+[
+  {
+    "id": "STATEMENT_CONCLUSION_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Easy",
+    "question": "Statement: All laptops in the office have antivirus software installed. Raj uses an office laptop.\nConclusions:\nI. Raj's laptop has antivirus software installed.\nII. Raj personally installed the antivirus software.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Since Raj uses an office laptop, it must have antivirus software. There is no information about who installed it.",
+    "shortcut": "Accept only conclusions directly supported by the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "Do not infer extra facts that are not mentioned.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement conclusion",
+      "easy",
+      "placement"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Easy",
+    "question": "Statement: Every student in Class A submitted the assignment before the deadline. Meera is a student of Class A.\nConclusions:\nI. Meera submitted the assignment before the deadline.\nII. Meera scored full marks in the assignment.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "The statement guarantees timely submission but says nothing about marks.",
+    "shortcut": "Separate facts from assumptions.",
+    "formula": "Not Applicable",
+    "learning_tip": "A conclusion must necessarily follow from the given statement.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement conclusion",
+      "education"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Medium",
+    "question": "Statement: All electric buses produce lower emissions than diesel buses. Bus X is an electric bus.\nConclusions:\nI. Bus X produces lower emissions than diesel buses.\nII. Bus X is cheaper than every diesel bus.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "The statement discusses emissions only, not cost.",
+    "shortcut": "Do not introduce unrelated comparisons.",
+    "formula": "Not Applicable",
+    "learning_tip": "Focus only on the information explicitly provided.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement conclusion",
+      "environment"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Medium",
+    "question": "Statement: Some employees in the company work remotely. All remote employees use secure VPN access.\nConclusions:\nI. Some employees use secure VPN access.\nII. Every employee in the company works remotely.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Since some employees work remotely and all such employees use VPN, some employees use VPN. The second conclusion is unsupported.",
+    "shortcut": "Use the words 'some' and 'all' carefully.",
+    "formula": "Not Applicable",
+    "learning_tip": "A conclusion should always be logically necessary.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement conclusion",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Medium",
+    "question": "Statement: All certified trainers completed the advanced training program. Priya is a certified trainer.\nConclusions:\nI. Priya completed the advanced training program.\nII. Priya conducted the advanced training program.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Completion of training follows directly, but conducting the program does not.",
+    "shortcut": "Follow only stated relationships.",
+    "formula": "Not Applicable",
+    "learning_tip": "Never assume additional roles or responsibilities.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement conclusion",
+      "training"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: Every software engineer in the project knows Python. Some Python developers know SQL.\nConclusions:\nI. Every software engineer in the project knows Python.\nII. Every software engineer knows SQL.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "The first conclusion restates the statement. The second conclusion cannot be inferred.",
+    "shortcut": "Do not extend 'some' into 'all'.",
+    "formula": "Not Applicable",
+    "learning_tip": "Universal conclusions require universal evidence.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement conclusion",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: All cloud servers are monitored continuously. Server A is a cloud server.\nConclusions:\nI. Server A is monitored continuously.\nII. Server A has never experienced downtime.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Monitoring does not imply zero downtime.",
+    "shortcut": "Avoid conclusions based on unstated assumptions.",
+    "formula": "Not Applicable",
+    "learning_tip": "A true conclusion must necessarily follow from the facts given.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement conclusion",
+      "cloud",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: All ISO-certified factories follow quality inspection procedures. Factory Z is ISO-certified.\nConclusions:\nI. Factory Z follows quality inspection procedures.\nII. Factory Z manufactures only export products.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Quality inspection follows from certification, while export production is not mentioned.",
+    "shortcut": "Use only the information given in the statement.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore attractive but unsupported conclusions.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement conclusion",
+      "quality",
+      "advanced"
+    ]
+  },
+    {
+    "id": "STATEMENT_CONCLUSION_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Easy",
+    "question": "Statement: All employees of ABC Ltd. received cybersecurity training. Rohan is an employee of ABC Ltd.\nConclusions:\nI. Rohan received cybersecurity training.\nII. Rohan is a cybersecurity expert.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Receiving training does not imply expertise.",
+    "shortcut": "Training ≠ Expertise.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid drawing conclusions beyond the given information.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement conclusion",
+      "easy",
+      "cybersecurity"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Easy",
+    "question": "Statement: Every registered participant received an event badge. Neha was a registered participant.\nConclusions:\nI. Neha received an event badge.\nII. Neha delivered a presentation at the event.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Receiving a badge follows directly, but presenting at the event is not stated.",
+    "shortcut": "Stick to the facts given.",
+    "formula": "Not Applicable",
+    "learning_tip": "Do not assume additional roles or activities.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement conclusion",
+      "event"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Medium",
+    "question": "Statement: Some software developers work remotely. All remote employees attend weekly online meetings.\nConclusions:\nI. Some software developers attend weekly online meetings.\nII. All software developers work remotely.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Some developers are remote, and all remote employees attend meetings. The second conclusion is too broad.",
+    "shortcut": "Do not convert 'some' into 'all'.",
+    "formula": "Not Applicable",
+    "learning_tip": "Pay close attention to quantifiers such as 'all', 'some', and 'none'.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement conclusion",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Medium",
+    "question": "Statement: All employees who completed the AI certification received a digital certificate. Karan completed the AI certification.\nConclusions:\nI. Karan received a digital certificate.\nII. Karan is an AI researcher.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Certification guarantees a certificate, but not a research position.",
+    "shortcut": "Certification ≠ Profession.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid inferring occupations from certifications.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement conclusion",
+      "AI"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Medium",
+    "question": "Statement: Every electric vehicle in the fleet is equipped with GPS tracking. Vehicle P is an electric vehicle.\nConclusions:\nI. Vehicle P has GPS tracking.\nII. Vehicle P is fully autonomous.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "GPS tracking does not imply autonomous driving.",
+    "shortcut": "Do not confuse related technologies.",
+    "formula": "Not Applicable",
+    "learning_tip": "Read exactly what is stated, not what seems likely.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement conclusion",
+      "vehicles"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: All encrypted files require authentication before access. File X is encrypted.\nConclusions:\nI. File X requires authentication before access.\nII. File X cannot be copied.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Authentication is stated explicitly. Copy restrictions are not mentioned.",
+    "shortcut": "Do not assume additional security features.",
+    "formula": "Not Applicable",
+    "learning_tip": "Base conclusions only on stated conditions.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement conclusion",
+      "security",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: Every warehouse equipped with IoT sensors reports inventory automatically. Warehouse Y has IoT sensors.\nConclusions:\nI. Warehouse Y reports inventory automatically.\nII. Warehouse Y has the largest inventory.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Automatic reporting follows directly, but inventory size is unknown.",
+    "shortcut": "Avoid introducing unrelated information.",
+    "formula": "Not Applicable",
+    "learning_tip": "Necessary conclusions come directly from the statement.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement conclusion",
+      "IoT",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: All employees who completed cloud security training passed the final assessment. Anita completed the cloud security training.\nConclusions:\nI. Anita passed the final assessment.\nII. Anita scored the highest marks in the assessment.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Passing follows from the statement, but being the top scorer does not.",
+    "shortcut": "Passing ≠ Highest score.",
+    "formula": "Not Applicable",
+    "learning_tip": "Never infer ranking unless explicitly mentioned.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement conclusion",
+      "cloud",
+      "advanced"
+    ]
+  },  {
+    "id": "STATEMENT_CONCLUSION_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Easy",
+    "question": "Statement: All members of the coding club participated in the hackathon. Arjun is a member of the coding club.\nConclusions:\nI. Arjun participated in the hackathon.\nII. Arjun won the hackathon.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Participation follows directly from the statement, but winning is not mentioned.",
+    "shortcut": "Participation does not imply success.",
+    "formula": "Not Applicable",
+    "learning_tip": "Accept only conclusions that necessarily follow from the facts given.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "statement conclusion",
+      "easy",
+      "hackathon"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Easy",
+    "question": "Statement: Every premium customer receives priority support. Kavya is a premium customer.\nConclusions:\nI. Kavya receives priority support.\nII. Kavya has never raised a complaint.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Priority support is guaranteed, but complaint history is unknown.",
+    "shortcut": "Do not infer unrelated facts.",
+    "formula": "Not Applicable",
+    "learning_tip": "Ignore information that is not directly connected to the statement.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "statement conclusion",
+      "customer support"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Medium",
+    "question": "Statement: Some employees attended the leadership workshop. All workshop participants received a certificate.\nConclusions:\nI. Some employees received a certificate.\nII. Every employee attended the leadership workshop.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Since some employees attended and all participants received certificates, some employees received certificates. The second conclusion is unsupported.",
+    "shortcut": "Do not convert 'some' into 'all'.",
+    "formula": "Not Applicable",
+    "learning_tip": "Pay attention to the scope of words like 'some' and 'all'.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "statement conclusion",
+      "workshop"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Medium",
+    "question": "Statement: All vehicles entering the factory are inspected. Truck T entered the factory.\nConclusions:\nI. Truck T was inspected.\nII. Truck T was carrying raw materials.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Inspection follows directly from the statement, while the truck's cargo is not mentioned.",
+    "shortcut": "Separate stated facts from assumptions.",
+    "formula": "Not Applicable",
+    "learning_tip": "Do not infer details that are not provided.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "statement conclusion",
+      "factory"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Medium",
+    "question": "Statement: Every employee using the finance system must complete security training. Rahul uses the finance system.\nConclusions:\nI. Rahul completed security training.\nII. Rahul works in the finance department.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Security training is mandatory for finance system users, but Rahul's department is unknown.",
+    "shortcut": "Required access does not identify department.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid linking facts that are not logically connected.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement conclusion",
+      "security"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: All AI models deployed in production undergo performance testing. Model M is deployed in production.\nConclusions:\nI. Model M underwent performance testing.\nII. Model M is the most accurate AI model.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Performance testing is guaranteed, but model accuracy ranking is not mentioned.",
+    "shortcut": "Testing ≠ Best performance.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid assuming rankings or comparisons not present in the statement.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "statement conclusion",
+      "AI",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: Every database backup is encrypted before being stored. Backup B was stored yesterday.\nConclusions:\nI. Backup B was encrypted before storage.\nII. Backup B contains confidential customer data.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Encryption is mandatory before storage, but the backup contents are unknown.",
+    "shortcut": "Storage policy does not reveal data type.",
+    "formula": "Not Applicable",
+    "learning_tip": "Conclude only what is guaranteed by the statement.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "statement conclusion",
+      "database",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: All quality-tested products receive a certification label. Product X received a certification label.\nConclusions:\nI. Product X was quality-tested.\nII. Product X has the highest customer rating.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 4,
+    "explanation": "The statement says quality-tested products receive labels (Quality Tested → Label). It does not state that every labeled product must have been quality-tested (Label → Quality Tested). The second conclusion is also unsupported.",
+    "shortcut": "Do not reverse a conditional statement.",
+    "formula": "If A → B, it does not imply B → A.",
+    "learning_tip": "A common reasoning mistake is assuming the converse of a statement is true.",
+    "estimated_time": 60,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "statement conclusion",
+      "conditional reasoning",
+      "advanced"
+    ]
+  },
+  {
+    "id": "STATEMENT_CONCLUSION_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Statement and Conclusion",
+    "difficulty": "Hard",
+    "question": "Statement: All employees who completed the cybersecurity training passed the assessment. Employee E passed the assessment.\nConclusions:\nI. Employee E completed the cybersecurity training.\nII. Employee E is proficient in cybersecurity.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 4,
+    "explanation": "Passing the assessment does not guarantee that Employee E completed the training, nor does it confirm proficiency.",
+    "shortcut": "Passing ≠ Training completion or proficiency.",
+    "formula": "Not Applicable",
+    "learning_tip": "Avoid assuming causation from correlation.",
+    "estimated_time": 60,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "statement conclusion",
+      "cybersecurity",
+      "advanced"
+    ]
+  }
+]

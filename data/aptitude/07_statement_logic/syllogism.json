@@ -1,0 +1,738 @@
+[
+  {
+    "id": "SYLLOGISM_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Easy",
+    "question": "Statements:\nAll engineers are graduates.\nAll graduates are educated.\nConclusions:\nI. All engineers are educated.\nII. Some educated people are engineers.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 3,
+    "explanation": "All engineers are graduates and all graduates are educated, so all engineers are educated. Since engineers exist, some educated people are engineers.",
+    "shortcut": "Chain the statements: Engineers → Graduates → Educated.",
+    "formula": "A → B, B → C ⇒ A → C",
+    "learning_tip": "In placement syllogisms, 'All A are B' generally implies the existence of A unless stated otherwise.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "syllogism",
+      "easy",
+      "placement"
+    ]
+  },
+  {
+    "id": "SYLLOGISM_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Easy",
+    "question": "Statements:\nAll apples are fruits.\nSome fruits are sweet.\nConclusions:\nI. Some apples are sweet.\nII. All apples are fruits.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 2,
+    "explanation": "The second conclusion is directly given. There is no definite link proving that apples belong to the sweet fruits.",
+    "shortcut": "Do not connect 'some' unless necessary.",
+    "formula": "No definite conclusion from partial overlap.",
+    "learning_tip": "Avoid assuming that 'some fruits' includes apples.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "syllogism",
+      "easy"
+    ]
+  },
+  {
+    "id": "SYLLOGISM_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Medium",
+    "question": "Statements:\nAll programmers are logical thinkers.\nSome logical thinkers are gamers.\nConclusions:\nI. Some programmers are gamers.\nII. All programmers are logical thinkers.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 2,
+    "explanation": "The second conclusion is directly true. The first conclusion cannot be guaranteed.",
+    "shortcut": "Never connect 'some' with 'all' unless forced.",
+    "formula": "All A → B does not imply Some A → C.",
+    "learning_tip": "A common mistake is assuming intersections without evidence.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "syllogism",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "SYLLOGISM_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Medium",
+    "question": "Statements:\nAll laptops are electronic devices.\nAll electronic devices require power.\nConclusions:\nI. All laptops require power.\nII. Some devices requiring power are laptops.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 3,
+    "explanation": "Laptops require power through transitive reasoning, and therefore some power-requiring devices are laptops.",
+    "shortcut": "Apply transitive logic.",
+    "formula": "A → B, B → C ⇒ A → C",
+    "learning_tip": "Use chain relationships carefully.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "syllogism",
+      "medium"
+    ]
+  },
+  {
+    "id": "SYLLOGISM_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Medium",
+    "question": "Statements:\nSome books are novels.\nAll novels are interesting.\nConclusions:\nI. Some books are interesting.\nII. All books are interesting.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Some books are novels, and all novels are interesting. Therefore, some books are interesting. The second conclusion is too broad.",
+    "shortcut": "Some + All ⇒ Some.",
+    "formula": "Some A are B; All B are C ⇒ Some A are C.",
+    "learning_tip": "Never convert 'some' into 'all'.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "syllogism",
+      "books"
+    ]
+  },
+  {
+    "id": "SYLLOGISM_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nNo birds are mammals.\nAll sparrows are birds.\nConclusions:\nI. No sparrows are mammals.\nII. Some mammals are sparrows.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Since sparrows are birds and no birds are mammals, no sparrows are mammals.",
+    "shortcut": "Use negative relationships carefully.",
+    "formula": "No A are B; All C are A ⇒ No C are B.",
+    "learning_tip": "Negative universal statements are powerful in syllogisms.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "syllogism",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SYLLOGISM_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nAll managers are employees.\nSome employees are engineers.\nConclusions:\nI. Some managers are engineers.\nII. All managers are employees.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 2,
+    "explanation": "Only the second conclusion is directly supported. Managers need not be among the engineers.",
+    "shortcut": "Avoid connecting 'some' groups unnecessarily.",
+    "formula": "All A → B does not imply Some A → C.",
+    "learning_tip": "Two groups sharing a common set does not mean they overlap.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "syllogism",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SYLLOGISM_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nAll AI engineers know Python.\nAll Python programmers know programming logic.\nConclusions:\nI. All AI engineers know programming logic.\nII. Some people who know programming logic are AI engineers.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 3,
+    "explanation": "Using transitive reasoning, AI engineers know programming logic. Therefore, some people who know programming logic are AI engineers.",
+    "shortcut": "Apply chain reasoning completely.",
+    "formula": "A → B, B → C ⇒ A → C",
+    "learning_tip": "Transitive chains are common in placement syllogisms.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "syllogism",
+      "AI",
+      "advanced"
+    ]
+  },
+    {
+    "id": "SY09",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Easy",
+    "question": "Statements:\nAll doctors are graduates.\nAll graduates are educated.\nConclusions:\nI. All doctors are educated.\nII. Some educated people are doctors.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 3,
+    "explanation": "Doctors are graduates and graduates are educated. Hence all doctors are educated, and therefore some educated people are doctors.",
+    "shortcut": "Apply transitive logic.",
+    "formula": "A → B, B → C ⇒ A → C",
+    "learning_tip": "Chain all universal statements before evaluating conclusions.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "syllogism",
+      "easy",
+      "placement"
+    ]
+  },
+  {
+    "id": "SY10",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Easy",
+    "question": "Statements:\nAll roses are flowers.\nSome flowers are red.\nConclusions:\nI. Some roses are red.\nII. All roses are flowers.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 2,
+    "explanation": "The first conclusion is uncertain because the red flowers may not be roses. The second conclusion is directly given.",
+    "shortcut": "Don't connect 'some' with another set without proof.",
+    "formula": "No definite overlap unless forced.",
+    "learning_tip": "Some members of a set do not represent the entire set.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "syllogism",
+      "flowers"
+    ]
+  },
+  {
+    "id": "SY11",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Medium",
+    "question": "Statements:\nSome teachers are researchers.\nAll researchers are intelligent.\nConclusions:\nI. Some teachers are intelligent.\nII. All teachers are intelligent.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Some teachers are researchers, and all researchers are intelligent. Therefore, some teachers are intelligent.",
+    "shortcut": "Some + All ⇒ Some.",
+    "formula": "Some A are B; All B are C ⇒ Some A are C.",
+    "learning_tip": "Never extend 'some' into 'all'.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "syllogism",
+      "medium"
+    ]
+  },
+  {
+    "id": "SY12",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Medium",
+    "question": "Statements:\nAll smartphones are electronic devices.\nNo electronic devices are edible.\nConclusions:\nI. No smartphones are edible.\nII. Some edible things are smartphones.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Since smartphones are electronic devices and no electronic devices are edible, smartphones cannot be edible.",
+    "shortcut": "Use universal negative relationships.",
+    "formula": "All A are B; No B are C ⇒ No A are C.",
+    "learning_tip": "Negative universal statements help eliminate possibilities.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "syllogism",
+      "electronics"
+    ]
+  },
+  {
+    "id": "SY13",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Medium",
+    "question": "Statements:\nAll cats are animals.\nSome animals are pets.\nConclusions:\nI. Some cats are pets.\nII. All cats are animals.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 2,
+    "explanation": "The first conclusion is uncertain because the pets may not be cats. The second conclusion is directly true.",
+    "shortcut": "Avoid unnecessary overlap.",
+    "formula": "All A are B does not imply Some A are C.",
+    "learning_tip": "Look for guaranteed conclusions only.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "syllogism",
+      "animals"
+    ]
+  },
+  {
+    "id": "SY14",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nNo programmers are accountants.\nAll software engineers are programmers.\nConclusions:\nI. No software engineers are accountants.\nII. Some accountants are software engineers.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Software engineers are programmers, and programmers are not accountants. Hence no software engineers are accountants.",
+    "shortcut": "Combine universal and negative statements.",
+    "formula": "All A are B; No B are C ⇒ No A are C.",
+    "learning_tip": "Universal negatives eliminate all overlap.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "syllogism",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SY15",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nSome musicians are singers.\nAll singers are artists.\nConclusions:\nI. Some musicians are artists.\nII. All musicians are artists.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Some musicians are singers, and all singers are artists. Therefore, some musicians are artists.",
+    "shortcut": "Some + All ⇒ Some.",
+    "formula": "Some A are B; All B are C ⇒ Some A are C.",
+    "learning_tip": "Don't generalize 'some' into 'all'.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "syllogism",
+      "music",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SY16",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nAll cloud engineers know Linux.\nAll Linux professionals know operating systems.\nConclusions:\nI. All cloud engineers know operating systems.\nII. Some operating system professionals are cloud engineers.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 3,
+    "explanation": "Cloud engineers know Linux, and Linux professionals know operating systems. Hence all cloud engineers know operating systems, and therefore some operating system professionals are cloud engineers.",
+    "shortcut": "Complete the entire logical chain.",
+    "formula": "A → B, B → C ⇒ A → C",
+    "learning_tip": "Transitive reasoning is one of the most common syllogism patterns in placements.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "syllogism",
+      "cloud",
+      "advanced"
+    ]
+  },
+    {
+    "id": "SY17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Easy",
+    "question": "Statements:\nAll pens are stationery items.\nAll stationery items are useful.\nConclusions:\nI. All pens are useful.\nII. Some useful things are pens.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 3,
+    "explanation": "Pens are stationery items, and all stationery items are useful. Therefore, all pens are useful and some useful things are pens.",
+    "shortcut": "Apply transitive logic.",
+    "formula": "A → B, B → C ⇒ A → C",
+    "learning_tip": "Whenever two universal statements form a chain, combine them before checking conclusions.",
+    "estimated_time": 45,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "syllogism",
+      "easy",
+      "placement"
+    ]
+  },
+  {
+    "id": "SY18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Easy",
+    "question": "Statements:\nAll buses are vehicles.\nSome vehicles are electric.\nConclusions:\nI. Some buses are electric.\nII. All buses are vehicles.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 2,
+    "explanation": "The first conclusion is uncertain because the electric vehicles may not be buses. The second conclusion is directly given.",
+    "shortcut": "Do not assume overlap with 'some'.",
+    "formula": "All A are B does not imply Some A are C.",
+    "learning_tip": "A 'some' statement cannot be linked unless it is logically necessary.",
+    "estimated_time": 45,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "syllogism",
+      "vehicles"
+    ]
+  },
+  {
+    "id": "SY19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Medium",
+    "question": "Statements:\nSome nurses are doctors.\nAll doctors are professionals.\nConclusions:\nI. Some nurses are professionals.\nII. All nurses are professionals.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Some nurses are doctors, and all doctors are professionals. Therefore, some nurses are professionals.",
+    "shortcut": "Some + All ⇒ Some.",
+    "formula": "Some A are B; All B are C ⇒ Some A are C.",
+    "learning_tip": "Avoid extending 'some' into a universal statement.",
+    "estimated_time": 50,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "syllogism",
+      "medical"
+    ]
+  },
+  {
+    "id": "SY20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Medium",
+    "question": "Statements:\nNo reptiles are mammals.\nAll snakes are reptiles.\nConclusions:\nI. No snakes are mammals.\nII. Some mammals are snakes.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Snakes are reptiles, and reptiles are not mammals. Hence, no snakes are mammals.",
+    "shortcut": "Use universal negative statements.",
+    "formula": "No A are B; All C are A ⇒ No C are B.",
+    "learning_tip": "Negative universal relationships eliminate all overlap.",
+    "estimated_time": 50,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "syllogism",
+      "animals"
+    ]
+  },
+  {
+    "id": "SY21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Medium",
+    "question": "Statements:\nSome cars are SUVs.\nAll SUVs have airbags.\nConclusions:\nI. Some cars have airbags.\nII. All cars have airbags.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 1,
+    "explanation": "Some cars are SUVs, and all SUVs have airbags. Therefore, some cars have airbags.",
+    "shortcut": "Some + All ⇒ Some.",
+    "formula": "Some A are B; All B are C ⇒ Some A are C.",
+    "learning_tip": "A universal conclusion cannot be drawn from a partial statement.",
+    "estimated_time": 50,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "syllogism",
+      "automobile"
+    ]
+  },
+  {
+    "id": "SY22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nAll databases store data.\nNo spreadsheets are databases.\nConclusions:\nI. No spreadsheets store data.\nII. Some data storage systems are databases.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 2,
+    "explanation": "No conclusion can be drawn that spreadsheets do not store data. However, databases store data, so some data storage systems are databases.",
+    "shortcut": "Do not infer beyond the given statements.",
+    "formula": "No A are B does not imply No A are C.",
+    "learning_tip": "Avoid introducing facts that are not logically guaranteed.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "syllogism",
+      "database",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SY23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nAll scientists are curious.\nSome curious people are inventors.\nConclusions:\nI. Some scientists are inventors.\nII. All scientists are curious.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 2,
+    "explanation": "Only the second conclusion is directly supported. Scientists and inventors may or may not overlap.",
+    "shortcut": "Shared category does not imply intersection.",
+    "formula": "All A are B; Some B are C ≠ Some A are C.",
+    "learning_tip": "Don't assume overlap through a common middle term.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "syllogism",
+      "science",
+      "advanced"
+    ]
+  },
+  {
+    "id": "SY24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nAll DevOps engineers know Linux.\nAll Linux users understand operating systems.\nConclusions:\nI. All DevOps engineers understand operating systems.\nII. Some people who understand operating systems are DevOps engineers.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 3,
+    "explanation": "By transitive reasoning, all DevOps engineers understand operating systems. Therefore, some people who understand operating systems are DevOps engineers.",
+    "shortcut": "Complete the logical chain.",
+    "formula": "A → B, B → C ⇒ A → C",
+    "learning_tip": "Questions involving technical roles often test transitive reasoning.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "syllogism",
+      "devops",
+      "advanced"
+    ]
+  },  {
+    "id": "SY25",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "Statements:\nAll software testers are detail-oriented.\nAll detail-oriented people make fewer mistakes.\nConclusions:\nI. All software testers make fewer mistakes.\nII. Some people who make fewer mistakes are software testers.",
+    "options": [
+      "Only Conclusion I follows.",
+      "Only Conclusion II follows.",
+      "Both Conclusions I and II follow.",
+      "Neither Conclusion I nor II follows."
+    ],
+    "correct_option": 3,
+    "explanation": "Software testers are detail-oriented, and all detail-oriented people make fewer mistakes. Hence, all software testers make fewer mistakes, and therefore some people who make fewer mistakes are software testers.",
+    "shortcut": "Use transitive reasoning for chained universal statements.",
+    "formula": "A → B, B → C ⇒ A → C",
+    "learning_tip": "Whenever two 'All' statements form a chain, combine them before evaluating the conclusions.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Amazon"
+    ],
+    "tags": [
+      "syllogism",
+      "software testing",
+      "logical reasoning",
+      "placement",
+      "advanced"
+    ]
+  }
+]

@@ -1,0 +1,737 @@
+[
+  {
+    "id": "ST01",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Easy",
+    "question": "If A = {1, 2, 3} and B = {3, 4, 5}, what is A ∪ B?",
+    "options": [
+      "{1,2,3}",
+      "{3,4,5}",
+      "{1,2,3,4,5}",
+      "{3}"
+    ],
+    "correct_option": 3,
+    "explanation": "Union contains all distinct elements from both sets.",
+    "shortcut": "Combine both sets and remove duplicates.",
+    "formula": "A ∪ B = Elements in A or B (or both)",
+    "learning_tip": "The union of two sets never contains duplicate elements.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "set theory",
+      "union",
+      "easy"
+    ]
+  },
+  {
+    "id": "ST02",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Easy",
+    "question": "If A = {2,4,6} and B = {4,6,8}, what is A ∩ B?",
+    "options": [
+      "{2,4}",
+      "{4,6}",
+      "{6,8}",
+      "{2,8}"
+    ],
+    "correct_option": 2,
+    "explanation": "The intersection contains only common elements.",
+    "shortcut": "Choose elements present in both sets.",
+    "formula": "A ∩ B = Common elements of A and B",
+    "learning_tip": "Intersection means 'common'.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "set theory",
+      "intersection"
+    ]
+  },
+  {
+    "id": "ST03",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "If n(A) = 20, n(B) = 15 and n(A ∩ B) = 5, find n(A ∪ B).",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "25"
+    ],
+    "correct_option": 1,
+    "explanation": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B) = 20 + 15 − 5 = 30.",
+    "shortcut": "Apply the union formula.",
+    "formula": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+    "learning_tip": "Subtract the intersection once to avoid double counting.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "set theory",
+      "union formula"
+    ]
+  },
+  {
+    "id": "ST04",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "If U = {1,2,3,4,5} and A = {2,4}, what is A' (complement of A)?",
+    "options": [
+      "{2,4}",
+      "{1,3,5}",
+      "{1,2,3}",
+      "{4,5}"
+    ],
+    "correct_option": 2,
+    "explanation": "The complement contains elements in U but not in A.",
+    "shortcut": "Remove A's elements from the universal set.",
+    "formula": "A' = U − A",
+    "learning_tip": "The complement always depends on the universal set.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "set theory",
+      "complement"
+    ]
+  },
+  {
+    "id": "ST05",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "If A = {1,2,3,4} and B = {3,4}, what is A − B?",
+    "options": [
+      "{1,2}",
+      "{3,4}",
+      "{1,2,3,4}",
+      "{2,3}"
+    ],
+    "correct_option": 1,
+    "explanation": "Set difference contains elements of A that are not in B.",
+    "shortcut": "Remove common elements from A.",
+    "formula": "A − B = Elements in A but not in B",
+    "learning_tip": "A − B is not the same as B − A.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "set theory",
+      "difference"
+    ]
+  },
+  {
+    "id": "ST06",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "If n(A)=45, n(B)=35 and n(A∪B)=60, find n(A∩B).",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "correct_option": 2,
+    "explanation": "n(A∩B)=45+35−60=20.",
+    "shortcut": "Rearrange the union formula.",
+    "formula": "n(A∩B)=n(A)+n(B)-n(A∪B)",
+    "learning_tip": "This is one of the most common placement questions from Set Theory.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "set theory",
+      "advanced"
+    ]
+  },
+  {
+    "id": "ST07",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "If A={1,2,3} and B={4,5}, what is A∩B?",
+    "options": [
+      "{}",
+      "{1}",
+      "{4}",
+      "{2,3}"
+    ],
+    "correct_option": 1,
+    "explanation": "The sets have no common elements. Hence, the intersection is the empty set.",
+    "shortcut": "Look for common elements.",
+    "formula": "Disjoint sets have an empty intersection.",
+    "learning_tip": "The symbol for the empty set is {} or ∅.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "set theory",
+      "empty set",
+      "advanced"
+    ]
+  },
+  {
+    "id": "ST08",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "If A={2,4,6,8} and B={4,8}, which statement is true?",
+    "options": [
+      "A ⊂ B",
+      "B ⊂ A",
+      "A = B",
+      "A ∩ B = {}"
+    ],
+    "correct_option": 2,
+    "explanation": "Every element of B belongs to A. Therefore, B is a subset of A.",
+    "shortcut": "Check whether all elements of one set belong to the other.",
+    "formula": "B ⊂ A if every element of B belongs to A.",
+    "learning_tip": "A subset can contain fewer elements than its parent set.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "set theory",
+      "subset",
+      "advanced"
+    ]
+  },  {
+    "id": "ST09",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Easy",
+    "question": "If A = {5,6,7} and B = {7,8,9}, what is A ∪ B?",
+    "options": [
+      "{5,6,7}",
+      "{7,8,9}",
+      "{5,6,7,8,9}",
+      "{7}"
+    ],
+    "correct_option": 3,
+    "explanation": "The union contains all distinct elements from both sets.",
+    "shortcut": "Merge both sets and remove duplicates.",
+    "formula": "A ∪ B = Elements in A or B",
+    "learning_tip": "Repeated elements are written only once in a set.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "set theory",
+      "union",
+      "easy"
+    ]
+  },
+  {
+    "id": "ST10",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Easy",
+    "question": "If A = {1,3,5,7} and B = {3,5,9}, what is A ∩ B?",
+    "options": [
+      "{1,3}",
+      "{3,5}",
+      "{5,7}",
+      "{1,9}"
+    ],
+    "correct_option": 2,
+    "explanation": "Only 3 and 5 are common to both sets.",
+    "shortcut": "Choose the common elements.",
+    "formula": "A ∩ B = Common elements",
+    "learning_tip": "Intersection always contains elements present in every set involved.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "set theory",
+      "intersection"
+    ]
+  },
+  {
+    "id": "ST11",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "In a class, 35 students like Cricket, 25 like Football and 10 like both. How many students like at least one of the two games?",
+    "options": [
+      "50",
+      "55",
+      "60",
+      "70"
+    ],
+    "correct_option": 1,
+    "explanation": "n(C ∪ F) = 35 + 25 − 10 = 50.",
+    "shortcut": "Use the inclusion-exclusion formula.",
+    "formula": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+    "learning_tip": "Subtract the overlap once because it is counted twice.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "set theory",
+      "word problem"
+    ]
+  },
+  {
+    "id": "ST12",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "If U = {1,2,3,4,5,6} and A = {2,4,6}, what is A'?",
+    "options": [
+      "{1,3,5}",
+      "{2,4,6}",
+      "{1,2,3}",
+      "{4,5,6}"
+    ],
+    "correct_option": 1,
+    "explanation": "The complement contains all elements of U that are not in A.",
+    "shortcut": "Remove the elements of A from U.",
+    "formula": "A' = U − A",
+    "learning_tip": "The complement depends on the universal set.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "set theory",
+      "complement"
+    ]
+  },
+  {
+    "id": "ST13",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "If A = {2,4,6,8} and B = {6,8}, what is B − A?",
+    "options": [
+      "{}",
+      "{2,4}",
+      "{6,8}",
+      "{4,6}"
+    ],
+    "correct_option": 1,
+    "explanation": "Every element of B is already present in A, so B − A = {}.",
+    "shortcut": "Keep only elements of B that are not in A.",
+    "formula": "B − A = Elements in B but not in A",
+    "learning_tip": "If B is a subset of A, then B − A is the empty set.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "set theory",
+      "difference"
+    ]
+  },
+  {
+    "id": "ST14",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "If n(A)=60, n(B)=45 and n(A∩B)=20, find n(A∪B).",
+    "options": [
+      "75",
+      "80",
+      "85",
+      "90"
+    ],
+    "correct_option": 3,
+    "explanation": "n(A∪B)=60+45−20=85.",
+    "shortcut": "Apply the inclusion-exclusion formula.",
+    "formula": "n(A∪B)=n(A)+n(B)-n(A∩B)",
+    "learning_tip": "Always subtract the common elements once.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "set theory",
+      "advanced"
+    ]
+  },
+  {
+    "id": "ST15",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "Which of the following is always a subset of every set?",
+    "options": [
+      "Universal set",
+      "Empty set",
+      "Singleton set",
+      "Finite set"
+    ],
+    "correct_option": 2,
+    "explanation": "The empty set (∅) is a subset of every set.",
+    "shortcut": "Remember the basic property of sets.",
+    "formula": "∅ ⊆ A for every set A",
+    "learning_tip": "This is one of the most frequently asked theory questions.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "set theory",
+      "empty set",
+      "advanced"
+    ]
+  },
+  {
+    "id": "ST16",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "If A={1,2} and B={1,2,3,4}, then A is a ______ of B.",
+    "options": [
+      "Superset",
+      "Subset",
+      "Complement",
+      "Universal Set"
+    ],
+    "correct_option": 2,
+    "explanation": "Every element of A belongs to B, so A is a subset of B.",
+    "shortcut": "Check whether all elements of one set are contained in the other.",
+    "formula": "A ⊆ B",
+    "learning_tip": "A proper subset has fewer elements than the set it belongs to.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "set theory",
+      "subset",
+      "advanced"
+    ]
+  },  {
+    "id": "ST17",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Easy",
+    "question": "If A = {2,4,6} and B = {6,8,10}, what is A ∪ B?",
+    "options": [
+      "{2,4,6}",
+      "{6,8,10}",
+      "{2,4,6,8,10}",
+      "{6}"
+    ],
+    "correct_option": 3,
+    "explanation": "The union contains every distinct element from both sets.",
+    "shortcut": "Combine both sets and remove duplicate elements.",
+    "formula": "A ∪ B = {Elements in A or B}",
+    "learning_tip": "Sets never contain duplicate values.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "set theory",
+      "union",
+      "easy"
+    ]
+  },
+  {
+    "id": "ST18",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Easy",
+    "question": "If A = {1,2,3,4} and B = {3,4,5,6}, what is A ∩ B?",
+    "options": [
+      "{1,2}",
+      "{3,4}",
+      "{5,6}",
+      "{1,6}"
+    ],
+    "correct_option": 2,
+    "explanation": "The common elements are 3 and 4.",
+    "shortcut": "Find elements present in both sets.",
+    "formula": "A ∩ B = Common elements",
+    "learning_tip": "Intersection keeps only shared elements.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "set theory",
+      "intersection"
+    ]
+  },
+  {
+    "id": "ST19",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "In a survey, 50 people like Tea, 40 like Coffee and 15 like both. How many people like at least one of the two drinks?",
+    "options": [
+      "75",
+      "80",
+      "85",
+      "90"
+    ],
+    "correct_option": 1,
+    "explanation": "n(T ∪ C) = 50 + 40 − 15 = 75.",
+    "shortcut": "Use the inclusion-exclusion principle.",
+    "formula": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+    "learning_tip": "Subtract the overlap because it is counted twice.",
+    "estimated_time": 45,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "set theory",
+      "word problem"
+    ]
+  },
+  {
+    "id": "ST20",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "If U = {1,2,3,4,5,6,7} and A = {1,3,5}, what is A'?",
+    "options": [
+      "{2,4,6,7}",
+      "{1,3,5}",
+      "{2,4,6}",
+      "{7}"
+    ],
+    "correct_option": 1,
+    "explanation": "The complement contains all elements of U that are not in A.",
+    "shortcut": "Remove A from the universal set.",
+    "formula": "A' = U − A",
+    "learning_tip": "Always identify the universal set before finding a complement.",
+    "estimated_time": 45,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "set theory",
+      "complement"
+    ]
+  },
+  {
+    "id": "ST21",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Medium",
+    "question": "If A = {2,4,6,8} and B = {4,8}, then A − B equals:",
+    "options": [
+      "{2,6}",
+      "{4,8}",
+      "{}",
+      "{2,4}"
+    ],
+    "correct_option": 1,
+    "explanation": "Remove the elements of B from A. The remaining elements are {2,6}.",
+    "shortcut": "Delete common elements from the first set.",
+    "formula": "A − B = Elements in A but not in B",
+    "learning_tip": "Set difference is not commutative.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "set theory",
+      "difference"
+    ]
+  },
+  {
+    "id": "ST22",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "If n(A)=70, n(B)=55 and n(A∩B)=25, find n(A∪B).",
+    "options": [
+      "90",
+      "95",
+      "100",
+      "105"
+    ],
+    "correct_option": 3,
+    "explanation": "n(A∪B)=70+55−25=100.",
+    "shortcut": "Apply the union formula.",
+    "formula": "n(A∪B)=n(A)+n(B)-n(A∩B)",
+    "learning_tip": "This is one of the most common campus placement questions.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "set theory",
+      "advanced"
+    ]
+  },
+  {
+    "id": "ST23",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "Which symbol represents the empty set?",
+    "options": [
+      "∩",
+      "∪",
+      "∅",
+      "⊂"
+    ],
+    "correct_option": 3,
+    "explanation": "The symbol ∅ represents the empty (null) set.",
+    "shortcut": "Remember the standard mathematical symbol.",
+    "formula": "Empty Set = ∅",
+    "learning_tip": "An empty set has no elements.",
+    "estimated_time": 55,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "set theory",
+      "empty set",
+      "advanced"
+    ]
+  },
+  {
+    "id": "ST24",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "If A={1,2,3} and B={1,2,3}, then A and B are:",
+    "options": [
+      "Disjoint sets",
+      "Equal sets",
+      "Proper subsets",
+      "Complementary sets"
+    ],
+    "correct_option": 2,
+    "explanation": "Two sets are equal if they contain exactly the same elements.",
+    "shortcut": "Compare every element of both sets.",
+    "formula": "A = B if every element of A belongs to B and vice versa.",
+    "learning_tip": "The order of elements in a set does not matter.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "set theory",
+      "equal sets",
+      "advanced"
+    ]
+  },
+    {
+    "id": "ST25",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Algebra",
+    "subtopic": "Set Theory",
+    "difficulty": "Hard",
+    "question": "In a class of 100 students, 65 study Mathematics, 45 study Science and 20 study both. How many students study at least one of the two subjects?",
+    "options": [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    "correct_option": 3,
+    "explanation": "Using the inclusion-exclusion principle:\nn(M ∪ S) = n(M) + n(S) − n(M ∩ S)\n= 65 + 45 − 20 = 90.",
+    "shortcut": "Apply the inclusion-exclusion formula and subtract the common elements once.",
+    "formula": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+    "learning_tip": "Questions based on union and intersection are among the most frequently asked Set Theory problems in placement exams.",
+    "estimated_time": 60,
+    "companies": [
+      "Microsoft",
+      "Amazon"
+    ],
+    "tags": [
+      "set theory",
+      "union",
+      "intersection",
+      "placement",
+      "advanced"
+    ]
+  }
+]

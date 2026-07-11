@@ -1,0 +1,743 @@
+[
+  {
+    "id": "CAUSE_EFFECT_001",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Easy",
+    "question": "Statement I: Heavy rainfall occurred throughout the night. Statement II: Several low-lying areas were flooded the next morning.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent causes.",
+      "Both statements are effects of a common cause."
+    ],
+    "correct_option": 1,
+    "explanation": "Continuous heavy rainfall naturally leads to flooding in low-lying areas.",
+    "shortcut": "Identify which event happens first and leads to the other.",
+    "formula": "Not Applicable",
+    "learning_tip": "A cause must logically occur before its effect.",
+    "estimated_time": 35,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "cause and effect",
+      "logical reasoning",
+      "easy"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_002",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Easy",
+    "question": "Statement I: A student studied regularly for the entire semester. Statement II: The student scored the highest marks in the examination.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent causes.",
+      "Both statements are unrelated."
+    ],
+    "correct_option": 1,
+    "explanation": "Consistent study is a logical cause of good academic performance.",
+    "shortcut": "Look for a natural sequence of events.",
+    "formula": "Not Applicable",
+    "learning_tip": "The effect generally follows the cause in time.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "cause",
+      "effect",
+      "placement"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_003",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Medium",
+    "question": "Statement I: The government reduced import duties on electronic goods. Statement II: Prices of imported electronic products decreased.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both are independent causes.",
+      "Both are effects of a common cause."
+    ],
+    "correct_option": 1,
+    "explanation": "Lower import duties generally reduce the final selling price of imported goods.",
+    "shortcut": "Economic policy changes often produce market effects.",
+    "formula": "Not Applicable",
+    "learning_tip": "Identify whether one statement can reasonably produce the other.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "cause effect",
+      "economics"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_004",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Medium",
+    "question": "Statement I: A factory discharged untreated waste into the river. Statement II: Fish population in the river declined significantly.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both are independent events.",
+      "Both are effects of another cause."
+    ],
+    "correct_option": 1,
+    "explanation": "Water pollution from industrial waste can reduce aquatic life.",
+    "shortcut": "Check whether the first statement can directly produce the second.",
+    "formula": "Not Applicable",
+    "learning_tip": "Environmental questions often involve clear cause-effect relationships.",
+    "estimated_time": 40,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "cause",
+      "environment",
+      "logical reasoning"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_005",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Medium",
+    "question": "Statement I: The power supply was interrupted for six hours. Statement II: Production in the factory stopped during that period.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are effects."
+    ],
+    "correct_option": 1,
+    "explanation": "Without electricity, factory production usually cannot continue.",
+    "shortcut": "Identify operational dependency.",
+    "formula": "Not Applicable",
+    "learning_tip": "Think about practical real-world relationships.",
+    "estimated_time": 35,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "cause effect",
+      "industry"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_006",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: A vaccination campaign achieved nearly 100% coverage in the region. Statement II: Cases of the disease dropped sharply over the next year.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent causes.",
+      "Both statements are unrelated."
+    ],
+    "correct_option": 1,
+    "explanation": "Successful vaccination campaigns significantly reduce disease transmission.",
+    "shortcut": "Medical interventions usually precede health outcomes.",
+    "formula": "Not Applicable",
+    "learning_tip": "Look for logical chronological order.",
+    "estimated_time": 45,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "cause",
+      "health",
+      "advanced"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_007",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: A bridge was declared unsafe after inspection. Statement II: Traffic was diverted to an alternate route.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are effects."
+    ],
+    "correct_option": 1,
+    "explanation": "Declaring a bridge unsafe naturally leads authorities to divert traffic.",
+    "shortcut": "Administrative decisions often lead to operational actions.",
+    "formula": "Not Applicable",
+    "learning_tip": "The cause should logically trigger the subsequent action.",
+    "estimated_time": 45,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "cause effect",
+      "decision making"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_008",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: The central bank increased interest rates. Statement II: Demand for home loans declined in the following months.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent causes.",
+      "Both statements are effects of another event."
+    ],
+    "correct_option": 1,
+    "explanation": "Higher interest rates generally increase borrowing costs, reducing loan demand.",
+    "shortcut": "Economic policy changes often influence consumer behavior.",
+    "formula": "Not Applicable",
+    "learning_tip": "Understand common economic cause-and-effect relationships.",
+    "estimated_time": 50,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "cause effect",
+      "economics",
+      "advanced"
+    ]
+  },
+    {
+    "id": "CAUSE_EFFECT_009",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Easy",
+    "question": "Statement I: The driver exceeded the speed limit on a wet road. Statement II: The car skidded and hit the roadside barrier.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent events.",
+      "Both statements are effects of another cause."
+    ],
+    "correct_option": 1,
+    "explanation": "Overspeeding on a wet road can cause loss of control, leading to an accident.",
+    "shortcut": "Check whether the first event naturally leads to the second.",
+    "formula": "Not Applicable",
+    "learning_tip": "The cause should occur before the effect and explain it logically.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "cause effect",
+      "road safety",
+      "easy"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_010",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Easy",
+    "question": "Statement I: The company introduced attractive festival discounts. Statement II: Sales increased significantly during the festive season.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are effects."
+    ],
+    "correct_option": 1,
+    "explanation": "Discounts generally encourage more customers to purchase products.",
+    "shortcut": "Promotional activities often result in higher sales.",
+    "formula": "Not Applicable",
+    "learning_tip": "Business scenarios usually have straightforward cause-effect relationships.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "business",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_011",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Medium",
+    "question": "Statement I: The city planted thousands of trees over five years. Statement II: Air quality in the city improved noticeably.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent causes.",
+      "Both statements are unrelated."
+    ],
+    "correct_option": 1,
+    "explanation": "Large-scale tree plantation contributes to better air quality.",
+    "shortcut": "Environmental improvements often have long-term effects.",
+    "formula": "Not Applicable",
+    "learning_tip": "Think about realistic environmental outcomes.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "environment",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_012",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Medium",
+    "question": "Statement I: A software update fixed several security vulnerabilities. Statement II: The number of successful cyberattacks reduced afterwards.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are effects."
+    ],
+    "correct_option": 1,
+    "explanation": "Removing security vulnerabilities decreases the chances of successful cyberattacks.",
+    "shortcut": "Security improvements generally produce safer systems.",
+    "formula": "Not Applicable",
+    "learning_tip": "Consider whether the first event can realistically produce the second.",
+    "estimated_time": 40,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "technology",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_013",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Medium",
+    "question": "Statement I: The examination was postponed by one month. Statement II: Students received additional preparation time.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are effects of another event."
+    ],
+    "correct_option": 1,
+    "explanation": "Postponing the examination automatically gives students more preparation time.",
+    "shortcut": "Observe the natural sequence of events.",
+    "formula": "Not Applicable",
+    "learning_tip": "Effects generally occur as a consequence of earlier decisions.",
+    "estimated_time": 35,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "education",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_014",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: Continuous deforestation occurred in the region for several years. Statement II: Soil erosion increased significantly in the affected areas.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent causes.",
+      "Both statements are unrelated."
+    ],
+    "correct_option": 1,
+    "explanation": "Tree roots help bind soil, so deforestation often leads to increased soil erosion.",
+    "shortcut": "Environmental degradation often has predictable consequences.",
+    "formula": "Not Applicable",
+    "learning_tip": "Link ecological changes with their direct impacts.",
+    "estimated_time": 45,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "environment",
+      "advanced",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_015",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: A company implemented flexible work-from-home policies. Statement II: Employee satisfaction scores improved during the annual survey.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are effects."
+    ],
+    "correct_option": 1,
+    "explanation": "Flexible work arrangements often improve employee satisfaction.",
+    "shortcut": "Organizational policy changes frequently influence employee outcomes.",
+    "formula": "Not Applicable",
+    "learning_tip": "Business reasoning questions often involve workplace decisions and their effects.",
+    "estimated_time": 45,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "business",
+      "cause effect",
+      "advanced"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_016",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: The dam gates were opened after continuous heavy rainfall. Statement II: Water levels in the downstream river increased rapidly.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent events.",
+      "Both statements are effects of another cause."
+    ],
+    "correct_option": 1,
+    "explanation": "Opening the dam gates releases large amounts of water downstream, raising river levels.",
+    "shortcut": "Determine whether the first event directly produces the second.",
+    "formula": "Not Applicable",
+    "learning_tip": "Chronological order and logical dependency are key in cause-effect questions.",
+    "estimated_time": 50,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "cause effect",
+      "logical reasoning",
+      "advanced"
+    ]
+  },
+    {
+    "id": "CAUSE_EFFECT_017",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Easy",
+    "question": "Statement I: The school organized free weekend coaching classes. Statement II: The overall pass percentage increased compared to the previous year.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are effects of another cause."
+    ],
+    "correct_option": 1,
+    "explanation": "Additional coaching can improve students' performance, leading to a higher pass percentage.",
+    "shortcut": "Check if the first event reasonably produces the second.",
+    "formula": "Not Applicable",
+    "learning_tip": "Educational initiatives often result in improved academic outcomes.",
+    "estimated_time": 30,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "education",
+      "cause effect",
+      "easy"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_018",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Easy",
+    "question": "Statement I: The restaurant improved the quality of its food and service. Statement II: The number of repeat customers increased.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are unrelated."
+    ],
+    "correct_option": 1,
+    "explanation": "Better food and service encourage customers to return.",
+    "shortcut": "Customer satisfaction often leads to repeat business.",
+    "formula": "Not Applicable",
+    "learning_tip": "Business improvements frequently produce measurable outcomes.",
+    "estimated_time": 30,
+    "companies": [
+      "Wipro",
+      "Capgemini"
+    ],
+    "tags": [
+      "business",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_019",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Medium",
+    "question": "Statement I: Farmers adopted drip irrigation techniques. Statement II: Water consumption in agriculture reduced significantly.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent causes.",
+      "Both statements are unrelated."
+    ],
+    "correct_option": 1,
+    "explanation": "Drip irrigation delivers water efficiently, reducing wastage.",
+    "shortcut": "Modern agricultural practices often improve resource efficiency.",
+    "formula": "Not Applicable",
+    "learning_tip": "Look for practical cause-and-effect relationships.",
+    "estimated_time": 40,
+    "companies": [
+      "IBM",
+      "Accenture"
+    ],
+    "tags": [
+      "agriculture",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_020",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Medium",
+    "question": "Statement I: A new metro line was opened in the city. Statement II: Traffic congestion on major roads reduced.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are effects."
+    ],
+    "correct_option": 1,
+    "explanation": "An efficient public transport system reduces dependence on private vehicles.",
+    "shortcut": "Infrastructure improvements often influence transportation patterns.",
+    "formula": "Not Applicable",
+    "learning_tip": "Think about real-life consequences of public projects.",
+    "estimated_time": 40,
+    "companies": [
+      "Cognizant",
+      "HCL"
+    ],
+    "tags": [
+      "transport",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_021",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Medium",
+    "question": "Statement I: Employees attended a mandatory cybersecurity awareness program. Statement II: Incidents of phishing attacks within the company decreased.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are unrelated."
+    ],
+    "correct_option": 1,
+    "explanation": "Awareness training helps employees recognize and avoid phishing attempts.",
+    "shortcut": "Training often improves behavior and reduces mistakes.",
+    "formula": "Not Applicable",
+    "learning_tip": "Corporate training programs are designed to improve outcomes.",
+    "estimated_time": 45,
+    "companies": [
+      "Infosys",
+      "Tech Mahindra"
+    ],
+    "tags": [
+      "cybersecurity",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_022",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: A prolonged drought affected the region for two consecutive years. Statement II: Agricultural production declined sharply.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent causes.",
+      "Both statements are effects of another event."
+    ],
+    "correct_option": 1,
+    "explanation": "Lack of rainfall reduces crop yield, leading to lower agricultural production.",
+    "shortcut": "Natural disasters often have direct economic consequences.",
+    "formula": "Not Applicable",
+    "learning_tip": "Identify the event that logically triggers the other.",
+    "estimated_time": 45,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "agriculture",
+      "advanced",
+      "cause effect"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_023",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: The company invested heavily in employee skill development. Statement II: Overall productivity increased over the next year.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are effects."
+    ],
+    "correct_option": 1,
+    "explanation": "Better-skilled employees generally perform more efficiently, increasing productivity.",
+    "shortcut": "Investment in people often improves organizational performance.",
+    "formula": "Not Applicable",
+    "learning_tip": "Organizational decisions frequently produce measurable business results.",
+    "estimated_time": 45,
+    "companies": [
+      "Cisco",
+      "Deloitte"
+    ],
+    "tags": [
+      "business",
+      "cause effect",
+      "advanced"
+    ]
+  },
+  {
+    "id": "CAUSE_EFFECT_024",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: Strict traffic rules with heavy penalties were introduced. Statement II: The number of road accidents decreased over the following months.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent.",
+      "Both statements are unrelated."
+    ],
+    "correct_option": 1,
+    "explanation": "Strict enforcement and higher penalties encourage safer driving, reducing accidents.",
+    "shortcut": "Policy changes often influence public behavior.",
+    "formula": "Not Applicable",
+    "learning_tip": "Evaluate whether the first event can realistically produce the second.",
+    "estimated_time": 50,
+    "companies": [
+      "Accenture",
+      "TCS Digital"
+    ],
+    "tags": [
+      "cause effect",
+      "traffic",
+      "advanced"
+    ]
+  },
+    {
+    "id": "CAUSE_EFFECT_025",
+    "academy": "TrippyPrep",
+    "level": "Placement",
+    "topic": "Statement Logic",
+    "subtopic": "Cause and Effect",
+    "difficulty": "Hard",
+    "question": "Statement I: The company automated several repetitive manufacturing processes. Statement II: Production efficiency increased while operational costs decreased.",
+    "options": [
+      "Statement I is the cause and Statement II is the effect.",
+      "Statement II is the cause and Statement I is the effect.",
+      "Both statements are independent causes.",
+      "Both statements are effects of another event."
+    ],
+    "correct_option": 1,
+    "explanation": "Automation improves production speed, reduces manual effort, minimizes errors, and lowers operational costs, making Statement II the natural effect of Statement I.",
+    "shortcut": "Identify whether the first event directly leads to the second in a practical scenario.",
+    "formula": "Not Applicable",
+    "learning_tip": "In Cause and Effect questions, the cause should logically precede and explain the effect without requiring additional assumptions.",
+    "estimated_time": 55,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "cause effect",
+      "automation",
+      "manufacturing",
+      "logical reasoning",
+      "placement"
+    ]
+  }
+]
