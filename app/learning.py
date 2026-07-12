@@ -1,31 +1,68 @@
 import streamlit as st
-
-from services.state_service import StateService
-from services.topic_service import TopicService
-from services.notes_loader import NotesLoader
+from services.question_service import QuestionService
+from services.search_service import SearchService
 
 
 def show():
 
-    topic_name = StateService.get_topic()
+    st.title("📚 Learning Center")
 
-    if topic_name == "":
-        st.warning("Select a topic first.")
+    keyword = st.text_input(
+        "🔍 Search Topic"
+    )
+
+    if keyword == "":
+
+        st.info("Search any topic.")
+
         return
 
-    topic = TopicService.get_topic(topic_name)
+    topics = SearchService.search_topics(keyword)
 
-    if topic is None:
-        st.error("Topic not found.")
+    if len(topics) == 0:
+
+        st.warning("No topic found.")
+
         return
 
-    path = f"notes/aptitude/{topic['folder']}/{topic['file']}.md"
+    names = [t["name"] for t in topics]
 
-    st.title(f"📖 {topic_name}")
+    selected = st.selectbox(
+        "Results",
+        names
+    )
 
-    try:
-        notes = NotesLoader.load(path)
-        st.markdown(notes)
+    topic = next(
+        t for t in topics
+        if t["name"] == selected
+    )
 
-    except Exception:
-        st.error(f"Notes not found:\n{path}")
+    if st.button("Open Lesson"):
+
+        questions = QuestionService.get_questions(
+            topic["path"]
+        )
+
+        q = questions[0]
+
+        st.markdown("---")
+
+        st.subheader(q["topic"])
+
+        st.success(q["formula"])
+
+        st.info(q["shortcut"])
+
+        st.warning(q["learning_tip"])
+
+        st.markdown("---")
+
+        st.write(q["question"])
+
+        for option in q["options"]:
+
+            st.write(f"• {option}")
+
+        st.success(q["correct_option"])
+
+        st.write(q["explanation"])

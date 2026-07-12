@@ -1,33 +1,66 @@
-from services.topic_loader import TopicLoader
+import streamlit as st
+from services.question_service import QuestionService
+from services.topic_service import TopicService
 
 
-class TopicService:
+def show():
 
-    @staticmethod
-    def get_all_topics():
+    st.title("📚 Learning Center")
 
-        return TopicLoader.load_topics()
+    topics = TopicService.get_all_topics()
 
-    @staticmethod
-    def get_topic(name):
+    topic_names = [t["name"] for t in topics]
 
-        topics = TopicLoader.load_topics()
+    selected = st.selectbox(
+        "Choose Topic",
+        topic_names
+    )
 
-        for topic in topics:
+    topic = next(
+        t for t in topics
+        if t["name"] == selected
+    )
 
-            if topic["name"] == name:
+    if st.button("Open Lesson"):
 
-                return topic
+        questions = QuestionService.get_questions(
+            topic["path"]
+        )
 
-        return None
+        if not questions:
 
-    @staticmethod
-    def get_topics_by_folder(folder):
+            st.warning("No lesson available.")
+            return
 
-        topics = TopicLoader.load_topics()
+        q = questions[0]
 
-        return [
-            topic
-            for topic in topics
-            if topic["folder"] == folder
-        ]
+        st.markdown("---")
+
+        st.subheader(q["topic"])
+
+        st.write("### 📘 Formula")
+        st.success(q["formula"])
+
+        st.write("### 💡 Shortcut")
+        st.info(q["shortcut"])
+
+        st.write("### 🎯 Learning Tip")
+        st.warning(q["learning_tip"])
+
+        st.write("### 📝 Example")
+
+        st.write(q["question"])
+
+        if "options" in q:
+
+            for option in q["options"]:
+
+                st.write(f"• {option}")
+
+        st.write("### ✅ Correct Answer")
+
+        st.success(q["correct_option"])
+
+        st.write("### 📖 Explanation")
+
+        st.write(q["explanation"])

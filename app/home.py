@@ -1,32 +1,67 @@
 import streamlit as st
+from services.stats_service import StatsService
+from services.recommendation_service import RecommendationService
 
 
 def show():
 
     st.title("💀 TrippyPrep")
 
-    st.subheader("Your Personal Placement Preparation Companion")
+    st.subheader("AI Powered Placement Preparation Platform")
 
-    st.divider()
+    st.markdown("---")
 
-    col1, col2 = st.columns(2)
+    stats = StatsService.get_dashboard_stats()
+
+    c1, c2, c3, c4 = st.columns(4)
+
+    with c1:
+        st.metric(
+            "Tests",
+            stats["tests_completed"]
+        )
+
+    with c2:
+        st.metric(
+            "Solved",
+            stats["questions_solved"]
+        )
+
+    with c3:
+        st.metric(
+            "Accuracy",
+            f"{stats['average_accuracy']}%"
+        )
+
+    with c4:
+        st.metric(
+            "Question Bank",
+            stats["academy_questions"]
+        )
+
+    st.markdown("---")
+
+    st.subheader("🎯 AI Recommendation")
+
+    st.success(
+        RecommendationService.get_recommendation()
+    )
+
+    st.markdown("---")
+
+    st.subheader("Quick Access")
+
+    col1, col2, col3 = st.columns(3)
 
     with col1:
-
-        st.info("📚 Learn")
-
-        st.info("✍ Practice")
-
-        st.info("📝 Test")
+        st.button("📖 Learning")
 
     with col2:
+        st.button("✍ Practice")
 
-        st.info("📊 Progress")
+    with col3:
+        st.button("🏢 Company Prep")
 
-        st.info("🏆 Badges")
+    st.markdown("---")
 
-        st.info("🤖 AI Mentor")
-
-    st.divider()
-
-    st.success("Select an option from the left sidebar to begin.")
+    st.info("Welcome to TrippyPrep. Practice consistently and track your progress.")

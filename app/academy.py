@@ -1,32 +1,44 @@
-import json
 import streamlit as st
-
-from services.state_service import StateService
+from services.academy_service import AcademyService
+from services.topic_service import TopicService
 
 
 def show():
 
-    st.title("🎓 Aptitude Academy")
+    st.title("🎓 Placement Academy")
 
-    with open(
-        "data/aptitude/academy.json",
-        "r",
-        encoding="utf-8"
-    ) as f:
+    stats = AcademyService.get_statistics()
 
-        academies = json.load(f)
+    c1, c2, c3 = st.columns(3)
 
-    for academy in academies:
+    with c1:
+        st.metric(
+            "Modules",
+            stats["folders"]
+        )
 
-        if st.button(
-            academy["name"],
-            use_container_width=True
-        ):
+    with c2:
+        st.metric(
+            "Topics",
+            stats["topics"]
+        )
 
-            StateService.save_academy(
-                academy["folder"]
-            )
+    with c3:
+        st.metric(
+            "Questions",
+            stats["questions"]
+        )
 
-            st.success(
-                f"Selected {academy['name']}"
-            )
+    st.markdown("---")
+
+    st.subheader("Available Topics")
+
+    topics = TopicService.get_all_topics()
+
+    for topic in topics:
+
+        st.write("📘", topic["name"])
+
+    st.markdown("---")
+
+    st.success("Complete every topic to become placement ready.")
