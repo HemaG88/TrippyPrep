@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Aptitude",
+        "folder": "aptitude"
+    },
+    {
+        "id": 2,
+        "name": "Technical",
+        "folder": "technical"
+    },
+    {
+        "id": 3,
+        "name": "Verbal",
+        "folder": "verbal"
+    },
+    {
+        "id": 4,
+        "name": "HR Interview",
+        "folder": "hr"
+    }
+]

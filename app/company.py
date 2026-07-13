@@ -1,15 +1,32 @@
 import streamlit as st
+
 from services.company_service import CompanyService
+from services.company_stats_service import CompanyStatsService
 
 
 def show():
 
     st.title("🏢 Company Preparation")
 
+    stats = CompanyStatsService.get_stats()
+
+    st.subheader("Company Question Bank")
+
+    cols = st.columns(3)
+
+    for i, (company, total) in enumerate(stats.items()):
+
+        cols[i % 3].metric(
+            company,
+            f"{total} Questions"
+        )
+
+    st.markdown("---")
+
     companies = CompanyService.get_companies()
 
     company = st.selectbox(
-        "Company",
+        "Select Company",
         companies
     )
 
@@ -30,9 +47,10 @@ def show():
             section
         )
 
-        if not questions:
+        if len(questions) == 0:
 
-            st.warning("No questions available.")
+            st.warning("No questions found.")
+
             return
 
         st.success(
@@ -41,19 +59,22 @@ def show():
 
         st.markdown("---")
 
-        for i, q in enumerate(
-            questions[:5],
-            start=1
-        ):
+        for i, q in enumerate(questions[:5], start=1):
 
-            st.subheader(f"Question {i}")
+            with st.expander(f"Question {i}"):
 
-            st.write(q["question"])
+                st.write(q["question"])
 
-            if "options" in q:
+                if "options" in q:
 
-                for option in q["options"]:
+                    for option in q["options"]:
 
-                    st.write(f"• {option}")
+                        st.write(f"• {option}")
 
-            st.markdown("---")
+                if "correct_option" in q:
+
+                    st.success(q["correct_option"])
+
+                if "explanation" in q:
+
+                    st.info(q["explanation"])

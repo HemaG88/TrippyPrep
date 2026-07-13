@@ -1,12 +1,17 @@
 import streamlit as st
+
 from services.question_service import QuestionService
+from services.progress_service import ProgressService
+from services.report_service import ReportService
+from services.streak_service import StreakService
+from services.leaderboard_service import LeaderboardService
 
 
 def show():
 
     st.title("✍ Practice")
 
-    path = st.selectbox(
+    topic = st.selectbox(
         "Select Topic",
         [
             "aptitude/01_foundation/percentage.json",
@@ -17,10 +22,6 @@ def show():
         ],
     )
 
-    # -----------------------------
-    # Session State
-    # -----------------------------
-
     if "questions" not in st.session_state:
         st.session_state.questions = []
 
@@ -30,52 +31,69 @@ def show():
     if "answers" not in st.session_state:
         st.session_state.answers = {}
 
-    if "test_started" not in st.session_state:
-        st.session_state.test_started = False
+    if "practice_started" not in st.session_state:
+        st.session_state.practice_started = False
 
-    # -----------------------------
+    # =====================================
     # Start Practice
-    # -----------------------------
+    # =====================================
 
-    if st.button("🚀 Start Practice"):
+    if not st.session_state.practice_started:
 
-        st.session_state.questions = QuestionService.get_random_questions(path, 10)
+        st.info("Click Start Practice to begin.")
 
-        st.session_state.current = 0
-        st.session_state.answers = {}
-        st.session_state.test_started = True
+        if st.button("🚀 Start Practice", use_container_width=True):
 
-        st.rerun()
-
-    # -----------------------------
-    # Practice Screen
-    # -----------------------------
-
-    if st.session_state.test_started:
-
-        questions = st.session_state.questions
-
-        if st.session_state.current < len(questions):
-
-            q = questions[st.session_state.current]
-
-            st.progress(
-                (st.session_state.current + 1) / len(questions)
+            st.session_state.questions = (
+                QuestionService.get_random_questions(
+                    topic,
+                    10
+                )
             )
 
-            st.subheader(
-                f"Question {st.session_state.current + 1} / {len(questions)}"
-            )
+            st.session_state.current = 0
+            st.session_state.answers = {}
+            st.session_state.practice_started = True
 
-            st.write(q["question"])
+            st.rerun()
 
-            answer = st.radio(
-                "Choose Answer",
-                q["options"],
-                key=f"question_{st.session_state.current}",
-            )
+        return
 
-            if st.button("Next"):
+    # =====================================
+    # Question Screen
+    # =====================================
+
+    questions = st.session_state.questions
+
+    if st.session_state.current < len(questions):
+
+        q = questions[st.session_state.current]
+
+        st.progress(
+            (st.session_state.current + 1)
+            / len(questions)
+        )
+
+        st.subheader(
+            f"Question {st.session_state.current + 1} / {len(questions)}"
+        )
+
+        st.write(q["question"])
+
+        answer = st.radio(
+            "Choose Answer",
+            q["options"],
+            key=f"radio_{st.session_state.current}"
+        )
+
+        col1, col2 = st.columns(2)
+
+        with col2:
+
+            if st.button(
+                "Next ➜",
+                use_container_width=True
+            ):
 
                 st.session_state.answers[
                     st.session_state.current
@@ -85,86 +103,109 @@ def show():
 
                 st.rerun()
 
-        else:
+        return
 
-            result = QuestionService.check_answers(
-                questions,
-                st.session_state.answers
-            )
+    # =====================================
+    # Result
+    # =====================================
 
-            # -----------------------------
-            # Dashboard Data
-            # -----------------------------
+    result = QuestionService.check_answers(
+        questions,
+        st.session_state.answers
+    )
 
-            st.session_state.last_score = result["score"]
-            st.session_state.last_total = result["total"]
-            st.session_state.last_accuracy = result["accuracy"]
+    ProgressService.save_result(
+        result["score"],
+        result["total"],
+        result["accuracy"]
+    )
 
-            st.session_state.tests_completed = (
-                st.session_state.get("tests_completed", 0) + 1
-            )
+    StreakService.update_streak()
 
-            # -----------------------------
-            # Result
-            # -----------------------------
+    LeaderboardService.save_result(
+        result["score"],
+        result["total"],
+        result["accuracy"]
+    )
 
-            st.success("🎉 Practice Test Completed")
+    report = ReportService.generate_report(result)
 
-            st.markdown("---")
+    st.success("🎉 Practice Test Completed")
 
-            c1, c2, c3 = st.columns(3)
+    c1, c2, c3, c4 = st.columns(4)
 
-            with c1:
-                st.metric(
-                    "Score",
-                    f"{result['score']}/{result['total']}"
-                )
+    with c1:
+        st.metric(
+            "Score",
+            f"{result['score']}/{result['total']}"
+        )
 
-            with c2:
-                st.metric(
-                    "Correct",
-                    len(result["correct"])
-                )
+    with c2:
+        st.metric(
+            "Correct",
+            len(result["correct"])
+        )
 
-            with c3:
-                st.metric(
-                    "Accuracy",
-                    f"{result['accuracy']}%"
-                )
+    with c3:
+        st.metric(
+            "Wrong",
+            len(result["wrong"])
+        )
 
-            st.markdown("---")
+    with c4:
+        st.metric(
+            "Accuracy",
+            f"{result['accuracy']}%"
+        )
 
-            st.subheader("❌ Wrong Answers Review")
+    st.markdown("---")
 
-            if len(result["wrong"]) == 0:
+    st.subheader("📋 Test Summary")
 
-                st.success("Excellent! All answers are correct. 🎉")
+    st.write(f"📅 Date : {report['date']}")
+    st.write(f"🎯 Score : {report['score']}/{report['total']}")
+    st.write(f"✅ Correct : {report['correct']}")
+    st.write(f"❌ Wrong : {report['wrong']}")
+    st.write(f"📈 Accuracy : {report['accuracy']}%")
 
-            else:
+    st.markdown("---")
 
-                for i, q in enumerate(result["wrong"], start=1):
+    st.subheader("❌ Wrong Answers Review")
 
-                    with st.expander(f"Question {i}"):
+    if len(result["wrong"]) == 0:
 
-                        st.write("**Question**")
-                        st.write(q["question"])
+        st.success(
+            "Perfect Score! Excellent work 🎉"
+        )
 
-                        st.write("**Your Answer**")
-                        st.error(q["your_answer"])
+    else:
 
-                        st.write("**Correct Answer**")
-                        st.success(q["correct_answer"])
+        for i, q in enumerate(result["wrong"], start=1):
 
-                        st.write("**Explanation**")
-                        st.info(q["explanation"])
+            with st.expander(f"Question {i}"):
 
-            st.markdown("---")
+                st.write("### Question")
+                st.write(q["question"])
 
-            if st.button("🔄 Practice Again"):
+                st.write("### Your Answer")
+                st.error(q["your_answer"])
 
-                st.session_state.questions = []
-                st.session_state.answers = {}
-                st.session_state.current = 0
-                st.session_state.test_started = False
+                st.write("### Correct Answer")
+                st.success(q["correct_answer"])
 
-                st.rerun()
+                st.write("### Explanation")
+                st.info(q["explanation"])
+
+    st.markdown("---")
+
+    if st.button(
+        "🔄 Practice Again",
+        use_container_width=True
+    ):
+
+        st.session_state.questions = []
+        st.session_state.answers = {}
+        st.session_state.current = 0
+        st.session_state.practice_started = False
+
+        st.rerun()

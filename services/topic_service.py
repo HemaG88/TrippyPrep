@@ -1,66 +1,23 @@
-import streamlit as st
-from services.question_service import QuestionService
-from services.topic_service import TopicService
+from pathlib import Path
 
 
-def show():
+class TopicService:
 
-    st.title("📚 Learning Center")
+    DATA_FOLDER = Path("data/aptitude")
 
-    topics = TopicService.get_all_topics()
+    @classmethod
+    def get_all_topics(cls):
 
-    topic_names = [t["name"] for t in topics]
+        topics = []
 
-    selected = st.selectbox(
-        "Choose Topic",
-        topic_names
-    )
+        for folder in sorted(cls.DATA_FOLDER.iterdir()):
 
-    topic = next(
-        t for t in topics
-        if t["name"] == selected
-    )
+            if folder.is_dir():
 
-    if st.button("Open Lesson"):
+                for file in sorted(folder.glob("*.json")):
 
-        questions = QuestionService.get_questions(
-            topic["path"]
-        )
-
-        if not questions:
-
-            st.warning("No lesson available.")
-            return
-
-        q = questions[0]
-
-        st.markdown("---")
-
-        st.subheader(q["topic"])
-
-        st.write("### 📘 Formula")
-        st.success(q["formula"])
-
-        st.write("### 💡 Shortcut")
-        st.info(q["shortcut"])
-
-        st.write("### 🎯 Learning Tip")
-        st.warning(q["learning_tip"])
-
-        st.write("### 📝 Example")
-
-        st.write(q["question"])
-
-        if "options" in q:
-
-            for option in q["options"]:
-
-                st.write(f"• {option}")
-
-        st.write("### ✅ Correct Answer")
-
-        st.success(q["correct_option"])
-
-        st.write("### 📖 Explanation")
-
-        st.write(q["explanation"])
+                    topics.append({
+                        "name": file.stem.replace("_", " ").title(),
+                        "path": str(file.relative_to("data")).replace("\\", "/")
+                    })
+        return topics

@@ -17,7 +17,9 @@ class CompanyService:
 
                 if folder.is_dir():
 
-                    companies.append(folder.name.replace("_", " ").title())
+                    companies.append(
+                        folder.name.replace("_", " ").title()
+                    )
 
         return sorted(companies)
 
@@ -36,10 +38,22 @@ class CompanyService:
 
             return []
 
-        with open(
-            file_path,
-            "r",
-            encoding="utf-8"
-        ) as file:
+        try:
 
-            return json.load(file)
+            with open(
+                file_path,
+                "r",
+                encoding="utf-8"
+            ) as file:
+
+                content = file.read().strip()
+
+                if content == "":
+
+                    return []
+
+                return json.loads(content)
+
+        except Exception:
+
+            return []
