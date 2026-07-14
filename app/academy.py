@@ -1,44 +1,62 @@
+import json
+from pathlib import Path
+
 import streamlit as st
-from services.academy_service import AcademyService
-from services.topic_service import TopicService
+
+# Path to data folder
+DATA_DIR = Path(__file__).parent.parent / "data"
+
+
+def load_academies():
+    """Load the main academy list."""
+
+    academy_file = DATA_DIR / "academy.json"
+
+    with open(academy_file, "r", encoding="utf-8") as file:
+        return json.load(file)
 
 
 def show():
+    """Academy Screen"""
 
-    st.title("🎓 Placement Academy")
+    # -----------------------------
+    # Session State Initialization
+    # -----------------------------
+    if "selected_academy" not in st.session_state:
+        st.session_state.selected_academy = None
 
-    stats = AcademyService.get_statistics()
+    if "selected_topic" not in st.session_state:
+        st.session_state.selected_topic = None
 
-    c1, c2, c3 = st.columns(3)
+    # -----------------------------
+    # Open Aptitude Page
+    # -----------------------------
+    if st.session_state.selected_academy == "aptitude":
 
-    with c1:
-        st.metric(
-            "Modules",
-            stats["folders"]
-        )
+        from pages.academy import aptitude
 
-    with c2:
-        st.metric(
-            "Topics",
-            stats["topics"]
-        )
+        aptitude.show()
+        return
 
-    with c3:
-        st.metric(
-            "Questions",
-            stats["questions"]
-        )
+    # -----------------------------
+    # Academy Home
+    # -----------------------------
+    st.title("🎓 Academy")
+    st.write("Choose an academy to begin learning.")
 
-    st.markdown("---")
+    academies = load_academies()
 
-    st.subheader("Available Topics")
+    cols = st.columns(2)
 
-    topics = TopicService.get_all_topics()
+    for index, academy in enumerate(academies):
 
-    for topic in topics:
+        with cols[index % 2]:
 
-        st.write("📘", topic["name"])
+            if st.button(
+                academy["name"],
+                key=f"academy_{academy['id']}",
+                use_container_width=True,
+            ):
 
-    st.markdown("---")
-
-    st.success("Complete every topic to become placement ready.")
+                st.session_state.selected_academy = academy["folder"]
+                st.rerun()
