@@ -1,64 +1,26 @@
-import streamlit as st
-from pathlib import Path
+col1, col2 = st.columns([4, 1])
 
-from pages.academy import quiz
+with col1:
 
-DATA_DIR = Path(__file__).parents[2] / "data" / "aptitude"
+    if st.button(
+        topic["name"],
+        use_container_width=True,
+        key=f"quiz_{topic['file']}"
+    ):
 
+        st.session_state.selected_question_file = topic["file"]
+        st.session_state.learning_mode = False
 
-def show():
-
-    # -----------------------------
-    # Session State
-    # -----------------------------
-
-    if "selected_question_file" not in st.session_state:
-        st.session_state.selected_question_file = None
-
-    # -----------------------------
-    # Open Quiz
-    # -----------------------------
-
-    if st.session_state.selected_question_file is not None:
-        quiz.show()
-        return
-
-    # -----------------------------
-    # Validate Module
-    # -----------------------------
-
-    if "selected_topic" not in st.session_state:
-        st.error("No module selected.")
-        return
-
-    topic = st.session_state.selected_topic
-
-    folder = DATA_DIR / topic["folder"]
-
-    st.title(f"📚 {topic['name']}")
-
-    if st.button("⬅ Back"):
-
-        st.session_state.selected_topic = None
         st.rerun()
 
-    st.divider()
+with col2:
 
-    json_files = sorted(folder.glob("*.json"))
+    if st.button(
+        "📖",
+        key=f"learn_{topic['file']}"
+    ):
 
-    cols = st.columns(2)
+        st.session_state.selected_question_file = topic["file"]
+        st.session_state.learning_mode = True
 
-    for index, file in enumerate(json_files):
-
-        with cols[index % 2]:
-
-            topic_name = file.stem.replace("_", " ").title()
-
-            if st.button(
-                topic_name,
-                key=file.stem,
-                use_container_width=True,
-            ):
-
-                st.session_state.selected_question_file = str(file)
-                st.rerun()
+        st.rerun()

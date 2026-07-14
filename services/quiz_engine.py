@@ -7,6 +7,11 @@ class QuizEngine:
         self.score = 0
 
         self.answers = {}
+        self.review = set()
+
+    # ==========================================
+    # Current Question
+    # ==========================================
 
     def current_question(self):
 
@@ -14,6 +19,10 @@ class QuizEngine:
             return None
 
         return self.questions[self.current_index]
+
+    # ==========================================
+    # Answer
+    # ==========================================
 
     def check_answer(self, selected_option):
 
@@ -25,7 +34,6 @@ class QuizEngine:
         )
 
         self.answers[self.current_index] = {
-
             "selected": selected_option,
             "correct": question["correct_option"],
             "is_correct": correct
@@ -36,9 +44,14 @@ class QuizEngine:
 
         return correct
 
+    # ==========================================
+    # Navigation
+    # ==========================================
+
     def next_question(self):
 
-        self.current_index += 1
+        if self.current_index < len(self.questions):
+            self.current_index += 1
 
     def previous_question(self):
 
@@ -50,9 +63,41 @@ class QuizEngine:
         if 0 <= index < len(self.questions):
             self.current_index = index
 
+    # ==========================================
+    # Review
+    # ==========================================
+
+    def mark_review(self):
+
+        self.review.add(self.current_index)
+
+    def unmark_review(self):
+
+        self.review.discard(self.current_index)
+
+    def is_review(self, index):
+
+        return index in self.review
+
+    # ==========================================
+    # Status
+    # ==========================================
+
+    def is_answered(self, index):
+
+        return index in self.answers
+
+    def has_previous(self):
+
+        return self.current_index > 0
+
     def has_next(self):
 
         return self.current_index < len(self.questions)
+
+    # ==========================================
+    # Stats
+    # ==========================================
 
     def total_questions(self):
 
@@ -65,7 +110,44 @@ class QuizEngine:
     def get_score(self):
 
         return self.score
+        # ==========================================
+    # Statistics
+    # ==========================================
 
-    def is_answered(self, index):
+    def answered_count(self):
 
-        return index in self.answers
+        return len(self.answers)
+
+    def review_count(self):
+
+        return len(self.review)
+
+    def remaining_count(self):
+
+        return (
+            len(self.questions)
+            - len(self.answers)
+        )
+
+    def current_score(self):
+
+        return self.score
+        # ==========================================
+    # Navigation Status
+    # ==========================================
+
+    def visited_count(self):
+
+        return max(self.current_index + 1, len(self.answers))
+
+    def skipped_count(self):
+
+        return self.visited_count() - len(self.answers)
+
+    def answered_correct(self):
+
+        return self.score
+
+    def answered_wrong(self):
+
+        return len(self.answers) - self.score

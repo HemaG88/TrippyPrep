@@ -1,62 +1,89 @@
-import json
-from pathlib import Path
-
 import streamlit as st
 
-# Path to data folder
-DATA_DIR = Path(__file__).parent.parent / "data"
-
-
-def load_academies():
-    """Load the main academy list."""
-
-    academy_file = DATA_DIR / "academy.json"
-
-    with open(academy_file, "r", encoding="utf-8") as file:
-        return json.load(file)
+from pages.academy import aptitude
+from pages.academy import quiz
+from pages.academy import learning
 
 
 def show():
-    """Academy Screen"""
 
-    # -----------------------------
-    # Session State Initialization
-    # -----------------------------
+    st.title("🎓 Academy")
+
     if "selected_academy" not in st.session_state:
         st.session_state.selected_academy = None
 
-    if "selected_topic" not in st.session_state:
-        st.session_state.selected_topic = None
+    if "selected_question_file" not in st.session_state:
+        st.session_state.selected_question_file = None
 
-    # -----------------------------
-    # Open Aptitude Page
-    # -----------------------------
-    if st.session_state.selected_academy == "aptitude":
+    if "learning_mode" not in st.session_state:
+        st.session_state.learning_mode = False
 
-        from pages.academy import aptitude
+    # ==========================================
+    # Quiz / Learning Screen
+    # ==========================================
 
-        aptitude.show()
+    if st.session_state.selected_question_file is not None:
+
+        if st.session_state.learning_mode:
+
+            learning.show()
+
+        else:
+
+            quiz.show()
+
         return
 
-    # -----------------------------
+    # ==========================================
     # Academy Home
-    # -----------------------------
-    st.title("🎓 Academy")
-    st.write("Choose an academy to begin learning.")
+    # ==========================================
 
-    academies = load_academies()
+    c1, c2, c3, c4 = st.columns(4)
 
-    cols = st.columns(2)
+    with c1:
 
-    for index, academy in enumerate(academies):
+        if st.button(
+            "🧮 Aptitude",
+            use_container_width=True
+        ):
 
-        with cols[index % 2]:
+            st.session_state.selected_academy = "aptitude"
 
-            if st.button(
-                academy["name"],
-                key=f"academy_{academy['id']}",
-                use_container_width=True,
-            ):
+            st.rerun()
 
-                st.session_state.selected_academy = academy["folder"]
-                st.rerun()
+    with c2:
+
+        if st.button(
+            "💻 Technical",
+            use_container_width=True
+        ):
+
+            st.info("Coming Soon")
+
+    with c3:
+
+        if st.button(
+            "📝 Verbal",
+            use_container_width=True
+        ):
+
+            st.info("Coming Soon")
+
+    with c4:
+
+        if st.button(
+            "🎤 HR Interview",
+            use_container_width=True
+        ):
+
+            st.info("Coming Soon")
+
+    st.divider()
+
+    # ==========================================
+    # Aptitude Module
+    # ==========================================
+
+    if st.session_state.selected_academy == "aptitude":
+
+        aptitude.show()

@@ -1,4 +1,5 @@
 import streamlit as st
+from pages.academy import result
 
 from app import (
     home,
@@ -42,7 +43,14 @@ if page == "🏠 Home":
     home.show()
 
 elif page == "🎓 Academy":
-    academy.show()
+
+    if st.session_state.get("quiz_completed", False):
+
+        result.show()
+
+    else:
+
+        academy.show()
 
 elif page == "📖 Learning":
     learning.show()
