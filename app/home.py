@@ -1,126 +1,85 @@
 import streamlit as st
 
-from services.stats_service import StatsService
-from services.recommendation_service import RecommendationService
-from services.roadmap_service import RoadmapService
+from services.dashboard_service import DashboardService
 
 
 def show():
 
+    data = DashboardService.get_dashboard_data()
+
     st.title("💀 TrippyPrep")
 
-    st.subheader("AI Powered Placement Preparation Platform")
+    st.caption("Your AI Placement Preparation Companion")
 
-    st.markdown("---")
-
-    # -----------------------------
-    # Dashboard Statistics
-    # -----------------------------
-
-    stats = StatsService.get_dashboard_stats()
+    st.divider()
 
     c1, c2, c3, c4 = st.columns(4)
 
     with c1:
         st.metric(
-            "Tests Completed",
-            stats["tests_completed"]
+            "📝 Tests",
+            data["tests_completed"]
         )
 
     with c2:
         st.metric(
-            "Questions Solved",
-            stats["questions_solved"]
+            "⭐ XP",
+            data["xp"]
         )
 
     with c3:
         st.metric(
-            "Average Accuracy",
-            f"{stats['average_accuracy']}%"
+            "🏆 Level",
+            data["level"]
         )
 
     with c4:
         st.metric(
-            "Question Bank",
-            stats["academy_questions"]
+            "📚 Topics",
+            data["completed_topics"]
         )
 
-    st.markdown("---")
+    st.divider()
 
-    # -----------------------------
-    # AI Recommendation
-    # -----------------------------
+    st.subheader("🚀 Quick Actions")
 
-    st.subheader("🎯 AI Recommendation")
+    c1, c2, c3 = st.columns(3)
 
-    st.success(
-        RecommendationService.get_recommendation()
-    )
+    with c1:
+        if st.button(
+            "🎓 Academy",
+            use_container_width=True,
+        ):
+            st.session_state.selected_question_file = None
 
-    st.markdown("---")
+    with c2:
+        if st.button(
+            "📊 Dashboard",
+            use_container_width=True,
+        ):
+            pass
 
-    # -----------------------------
-    # Today's Roadmap
-    # -----------------------------
+    with c3:
+        if st.button(
+            "🤖 AI Mentor",
+            use_container_width=True,
+        ):
+            pass
 
-    st.subheader("📅 Today's Roadmap")
+    st.divider()
 
-    for task in RoadmapService.get_daily_plan():
+    st.subheader("🕒 Recent Activity")
 
-        st.checkbox(task)
+    if not data["recent"]:
 
-    st.markdown("---")
+        st.info("No recent activity.")
 
-    # -----------------------------
-    # Quick Access
-    # -----------------------------
+    else:
 
-    st.subheader("🚀 Quick Access")
+        for activity in data["recent"]:
 
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        st.button(
-            "📖 Learning",
-            use_container_width=True
-        )
-
-    with col2:
-        st.button(
-            "✍ Practice",
-            use_container_width=True
-        )
-
-    with col3:
-        st.button(
-            "🏢 Company Prep",
-            use_container_width=True
-        )
-
-    st.markdown("---")
-
-    # -----------------------------
-    # Welcome
-    # -----------------------------
-
-    st.info(
-        """
-Welcome to **TrippyPrep** 🚀
-
-Your AI-powered placement preparation platform.
-
-✔ Learn Concepts
-
-✔ Practice Questions
-
-✔ Company-wise Preparation
-
-✔ Mock Interviews
-
-✔ Resume Analyzer
-
-✔ Progress Tracking
-
-Stay consistent. Small improvements every day lead to placement success.
-"""
-    )
+            st.write(
+                f"📘 {activity['topic']} • "
+                f"{activity['score']}/{activity['total']} • "
+                f"{activity['accuracy']}%"
+            )

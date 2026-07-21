@@ -1,61 +1,60 @@
 import streamlit as st
 
+from services.xp_tracker_service import XPTrackerService
+from services.progress_service import ProgressService
+
 
 def show():
 
-    st.title("⚙️ Settings")
+    st.title("⚙ Settings")
 
-    st.markdown("Manage your TrippyPrep preferences.")
+    st.divider()
 
-    st.markdown("---")
+    st.subheader("Reset Progress")
 
-    st.subheader("Appearance")
-
-    theme = st.selectbox(
-        "Theme",
-        [
-            "Light",
-            "Dark",
-            "System Default"
-        ]
+    st.warning(
+        "This will reset your quiz progress and XP."
     )
 
-    st.subheader("Notifications")
+    if st.button(
+        "🗑 Reset All Data",
+        use_container_width=True,
+    ):
 
-    email = st.checkbox("Email Notifications")
+        ProgressService.save_progress({
 
-    reminders = st.checkbox("Study Reminders")
+            "tests_completed": 0,
 
-    st.subheader("Practice")
+            "total_score": 0,
 
-    difficulty = st.selectbox(
-        "Default Difficulty",
-        [
-            "Easy",
-            "Medium",
-            "Hard"
-        ]
+            "total_questions": 0,
+
+            "best_accuracy": 0,
+        })
+
+        XPTrackerService.save({
+
+            "xp": 0,
+
+            "level": 1,
+        })
+
+        st.success(
+            "Progress Reset Successfully."
+        )
+
+    st.divider()
+
+    st.subheader("About")
+
+    st.info(
+        """
+**TrippyPrep**
+
+Version : 1.0
+
+AI Placement Preparation Platform
+
+Built with ❤️ using Python + Streamlit
+"""
     )
-
-    questions = st.slider(
-        "Default Questions per Test",
-        5,
-        50,
-        10
-    )
-
-    st.markdown("---")
-
-    if st.button("💾 Save Settings"):
-
-        st.success("Settings saved successfully.")
-
-        st.write("Theme :", theme)
-        st.write("Email :", email)
-        st.write("Reminders :", reminders)
-        st.write("Difficulty :", difficulty)
-        st.write("Questions :", questions)
-
-    st.markdown("---")
-
-    st.info("User settings will be stored permanently in a future update.")

@@ -1,80 +1,80 @@
 import streamlit as st
 
 from services.company_service import CompanyService
-from services.company_stats_service import CompanyStatsService
 
 
 def show():
 
     st.title("🏢 Company Preparation")
 
-    stats = CompanyStatsService.get_stats()
+    st.caption(
+        "Practice company-specific questions."
+    )
 
-    st.subheader("Company Question Bank")
-
-    cols = st.columns(3)
-
-    for i, (company, total) in enumerate(stats.items()):
-
-        cols[i % 3].metric(
-            company,
-            f"{total} Questions"
-        )
-
-    st.markdown("---")
+    st.divider()
 
     companies = CompanyService.get_companies()
 
+    if not companies:
+
+        st.info(
+            "No company data available."
+        )
+
+        return
+
     company = st.selectbox(
         "Select Company",
-        companies
+        companies,
     )
 
-    section = st.selectbox(
-        "Section",
-        [
-            "Aptitude",
-            "Technical",
-            "Coding",
-            "HR"
-        ]
+    st.success(
+        f"Selected : {company}"
     )
 
-    if st.button("Load Questions"):
+    st.divider()
 
-        questions = CompanyService.load_company_questions(
-            company,
-            section
-        )
+    st.subheader("Features")
 
-        if len(questions) == 0:
+    st.checkbox(
+        "Aptitude Questions",
+        value=True,
+        disabled=True,
+    )
 
-            st.warning("No questions found.")
+    st.checkbox(
+        "Technical Questions",
+        value=True,
+        disabled=True,
+    )
 
-            return
+    st.checkbox(
+        "HR Questions",
+        value=True,
+        disabled=True,
+    )
 
-        st.success(
-            f"{len(questions)} Questions Loaded"
-        )
+    st.checkbox(
+        "Coding Questions",
+        value=True,
+        disabled=True,
+    )
 
-        st.markdown("---")
+    st.checkbox(
+        "Interview Experience",
+        value=False,
+        disabled=True,
+    )
 
-        for i, q in enumerate(questions[:5], start=1):
+    st.checkbox(
+        "Mock Interview",
+        value=False,
+        disabled=True,
+    )
 
-            with st.expander(f"Question {i}"):
+    st.divider()
 
-                st.write(q["question"])
-
-                if "options" in q:
-
-                    for option in q["options"]:
-
-                        st.write(f"• {option}")
-
-                if "correct_option" in q:
-
-                    st.success(q["correct_option"])
-
-                if "explanation" in q:
-
-                    st.info(q["explanation"])
+    st.button(
+        "🚀 Start Preparation",
+        use_container_width=True,
+    )

@@ -1,41 +1,47 @@
 from pathlib import Path
+import json
 
 
 class AcademyService:
 
-    DATA_FOLDER = Path("data/aptitude")
+    DATA_PATH = Path("data")
+
+    @staticmethod
+    def load_json(file_path):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading {file_path}: {e}")
+            return []
+
+    @classmethod
+    def get_academies(cls):
+        file_path = cls.DATA_PATH / "academy.json"
+        return cls.load_json(file_path)
+
+    @classmethod
+    def get_aptitude_topics(cls):
+        file_path = cls.DATA_PATH / "aptitude" / "aptitude_topics.json"
+        return cls.load_json(file_path)
 
     @classmethod
     def get_statistics(cls):
 
-        folders = 0
-        topics = 0
-        questions = 0
-
-        for folder in cls.DATA_FOLDER.iterdir():
-
-            if folder.is_dir():
-
-                folders += 1
-
-                for file in folder.glob("*.json"):
-
-                    topics += 1
-
-                    try:
-
-                        import json
-
-                        with open(file, "r", encoding="utf-8") as f:
-
-                            questions += len(json.load(f))
-
-                    except Exception:
-
-                        pass
+        topics = cls.get_aptitude_topics()
 
         return {
-            "folders": folders,
-            "topics": topics,
-            "questions": questions
+            "topics": len(topics),
+            "questions": len(topics) * 25
+        }
+    @classmethod
+    def get_statistics(cls):
+
+        topics = cls.get_aptitude_topics()
+
+        return {
+
+            "topics": len(topics),
+
+            "questions": len(topics) * 25
         }

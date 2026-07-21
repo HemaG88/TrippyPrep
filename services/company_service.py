@@ -1,59 +1,52 @@
-import json
 from pathlib import Path
+import json
 
 
 class CompanyService:
 
-    DATA_FOLDER = Path("data/companies")
+    DATA_DIR = Path("data/companies")
 
     @classmethod
     def get_companies(cls):
 
         companies = []
 
-        if cls.DATA_FOLDER.exists():
+        if not cls.DATA_DIR.exists():
+            return companies
 
-            for folder in cls.DATA_FOLDER.iterdir():
+        for folder in cls.DATA_DIR.iterdir():
 
-                if folder.is_dir():
+            if folder.is_dir():
 
-                    companies.append(
-                        folder.name.replace("_", " ").title()
-                    )
+                companies.append(
+                    folder.name.replace("_", " ").title()
+                )
 
         return sorted(companies)
 
-    @classmethod
-    def load_company_questions(cls, company, section):
+    @staticmethod
+    def get_companies_for_question(question_file):
 
-        company = company.lower().replace(" ", "_")
+        path = Path(question_file)
 
-        file_path = (
-            cls.DATA_FOLDER /
-            company /
-            f"{section.lower()}.json"
-        )
-
-        if not file_path.exists():
-
+        if not path.exists():
             return []
 
-        try:
+        with open(path, "r", encoding="utf-8") as f:
+            questions = json.load(f)
 
-            with open(
-                file_path,
-                "r",
-                encoding="utf-8"
-            ) as file:
+        companies = set()
 
-                content = file.read().strip()
+        for question in questions:
 
-                if content == "":
+            value = question.get("companies")
 
-                    return []
+            if not value:
+                continue
 
-                return json.loads(content)
+            if isinstance(value, list):
+                companies.update(value)
+            else:
+                companies.add(value)
 
-        except Exception:
-
-            return []
+        return sorted(companies)

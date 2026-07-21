@@ -5,38 +5,26 @@ from pathlib import Path
 class LearningService:
 
     @staticmethod
-    def load_topic(file_path):
+    def get_notes(file_path):
 
         path = Path(file_path)
 
         if not path.exists():
             return []
 
-        with open(path, "r", encoding="utf-8") as file:
-
-            return json.load(file)
-
-    @staticmethod
-    def get_notes(file_path):
-
-        questions = LearningService.load_topic(file_path)
+        with open(path, "r", encoding="utf-8") as f:
+            questions = json.load(f)
 
         notes = []
 
-        for question in questions:
+        for q in questions:
 
             notes.append({
-
-                "question": question.get("question", ""),
-
-                "formula": question.get("formula", ""),
-
-                "shortcut": question.get("shortcut", ""),
-
-                "tip": question.get("learning_tip", ""),
-
-                "explanation": question.get("explanation", "")
-
+                "question": q.get("question", ""),
+                "formula": q.get("formula", ""),
+                "shortcut": q.get("shortcut", ""),
+                "tip": q.get("learning_tip", ""),
+                "explanation": q.get("explanation", "")
             })
 
         return notes

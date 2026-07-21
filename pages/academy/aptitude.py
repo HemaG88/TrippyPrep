@@ -1,92 +1,73 @@
-import json
-from pathlib import Path
-
 import streamlit as st
 
-from pages.academy import topic_browser
+from services.academy_service import AcademyService
+from services.topic_progress_service import TopicProgressService
 
-# --------------------------------------------------
-# Data Path
-# --------------------------------------------------
-
-DATA_DIR = Path(__file__).parents[2] / "data" / "aptitude"
-
-
-# --------------------------------------------------
-# Load Aptitude Modules
-# --------------------------------------------------
-
-def load_topics():
-
-    academy_file = DATA_DIR / "academy.json"
-
-    with open(academy_file, "r", encoding="utf-8") as file:
-        return json.load(file)
-
-
-# --------------------------------------------------
-# Aptitude Page
-# --------------------------------------------------
 
 def show():
-
-    # ----------------------------
-    # Session State
-    # ----------------------------
 
     if "selected_topic" not in st.session_state:
         st.session_state.selected_topic = None
 
-    if "selected_question_file" not in st.session_state:
-        st.session_state.selected_question_file = None
-
-    # ----------------------------
-    # Open Topic Browser
-    # ----------------------------
-
     if st.session_state.selected_topic is not None:
-        topic_browser.show()
+        from pages.academy import topic_browser
+        topic_browser.show(st.session_state.selected_topic["folder"])
         return
 
-    # ----------------------------
-    # Header
-    # ----------------------------
-
     st.title("🧮 Aptitude Academy")
+    st.caption("Master Aptitude for Placements")
 
-    st.write("Choose a module to continue learning.")
+    topics = AcademyService.get_aptitude_topics()
 
-    # ----------------------------
-    # Back Button
-    # ----------------------------
+    total_topics = len(topics)
 
-    if st.button("⬅ Back to Academy"):
+    completed = sum(
+        TopicProgressService.is_completed(topic["file"])
+        for topic in topics
+    )
 
-        st.session_state.selected_academy = None
-        st.session_state.selected_topic = None
-        st.session_state.selected_question_file = None
+    percent = round(
+        (completed / total_topics) * 100,
+        2
+    ) if total_topics else 0
 
-        st.rerun()
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.metric("Topics", total_topics)
+
+    with col2:
+        st.metric("Completed", completed)
+
+    with col3:
+        st.metric("Progress", f"{percent}%")
+
+    st.progress(percent / 100)
 
     st.divider()
 
-    # ----------------------------
-    # Load Modules
-    # ----------------------------
+    folders = {}
 
-    topics = load_topics()
+    for topic in topics:
+        folders.setdefault(
+            topic["folder"],
+            []
+        ).append(topic)
 
-    cols = st.columns(2)
+    for folder, values in folders.items():
 
-    for index, topic in enumerate(topics):
+        with st.expander(
+            f"📂 {folder.replace('_', ' ').title()} ({len(values)} Topics)",
+            expanded=False,
+        ):
 
-        with cols[index % 2]:
+            for topic in values:
 
-            if st.button(
-                topic["name"],
-                key=f"topic_{topic['id']}",
-                use_container_width=True,
-            ):
+                if st.button(
+                    topic["name"],
+                    key=topic["id"],
+                    use_container_width=True,
+                ):
 
-                st.session_state.selected_topic = topic
-                st.rerun()
+                    st.session_state.selected_topic = topic
+                    st.rerun()

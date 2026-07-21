@@ -14,6 +14,17 @@ class ResultAnalysisService:
                 2
             )
 
+        performance = "Needs Practice"
+
+        if accuracy >= 90:
+            performance = "Excellent"
+
+        elif accuracy >= 75:
+            performance = "Very Good"
+
+        elif accuracy >= 60:
+            performance = "Good"
+
         return {
 
             "score": score,
@@ -30,5 +41,7 @@ class ResultAnalysisService:
 
             "review": quiz.review_count(),
 
-            "remaining": quiz.remaining_count()
+            "remaining": quiz.remaining_count(),
+
+            "performance": performance
         }

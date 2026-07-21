@@ -1,129 +1,108 @@
 import streamlit as st
-import random
 
 
 def show():
 
     st.title("🎤 Mock Interview")
 
+    st.caption(
+        "Practice Company Interviews"
+    )
+
+    st.divider()
+
     interview_type = st.selectbox(
+
         "Interview Type",
+
         [
-            "HR",
-            "Technical",
-            "Mixed"
-        ]
+
+            "HR Interview",
+
+            "Technical Interview",
+
+            "Aptitude Interview",
+
+            "Mixed Interview",
+
+        ],
+
     )
 
-    total_questions = st.slider(
+    questions = st.slider(
+
         "Number of Questions",
+
         5,
+
         20,
-        10
+
+        10,
+
     )
 
-    if "interview_started" not in st.session_state:
-        st.session_state.interview_started = False
+    difficulty = st.selectbox(
 
-    if "interview_current" not in st.session_state:
-        st.session_state.interview_current = 0
+        "Difficulty",
 
-    if "interview_answers" not in st.session_state:
-        st.session_state.interview_answers = {}
+        [
 
-    questions = [
+            "Easy",
 
-        "Tell me about yourself.",
+            "Medium",
 
-        "What are your strengths?",
+            "Hard",
 
-        "What are your weaknesses?",
+        ],
 
-        "Why should we hire you?",
+    )
 
-        "Where do you see yourself in 5 years?",
+    st.divider()
 
-        "Explain OOP.",
+    st.checkbox(
 
-        "What is Python?",
+        "🎙 Voice Interview",
 
-        "Difference between List and Tuple?",
+        value=False,
 
-        "Explain SQL JOIN.",
+        disabled=True,
 
-        "What is Machine Learning?",
+    )
 
-        "What is DBMS?",
+    st.checkbox(
 
-        "Explain Operating System."
-    ]
+        "📹 Camera Analysis",
 
-    if st.button("Start Interview"):
+        value=False,
 
-        st.session_state.interview_questions = random.sample(
-            questions,
-            total_questions
-        )
+        disabled=True,
 
-        st.session_state.interview_current = 0
-        st.session_state.interview_answers = {}
-        st.session_state.interview_started = True
+    )
 
-        st.rerun()
+    st.checkbox(
 
-    if st.session_state.interview_started:
+        "🤖 AI Feedback",
 
-        q_list = st.session_state.interview_questions
+        value=True,
 
-        if st.session_state.interview_current < len(q_list):
+        disabled=True,
 
-            q = q_list[
-                st.session_state.interview_current
-            ]
+    )
 
-            st.progress(
-                (st.session_state.interview_current + 1) /
-                len(q_list)
-            )
+    st.divider()
 
-            st.subheader(
-                f"Question {st.session_state.interview_current + 1}"
-            )
+    st.success(f"Interview : {interview_type}")
 
-            st.write(q)
+    st.write(f"Questions : {questions}")
 
-            ans = st.text_area(
-                "Your Answer",
-                key=f"ans_{st.session_state.interview_current}"
-            )
+    st.write(f"Difficulty : {difficulty}")
 
-            if st.button("Next"):
+    st.divider()
 
-                st.session_state.interview_answers[
-                    st.session_state.interview_current
-                ] = ans
+    st.button(
 
-                st.session_state.interview_current += 1
+        "🚀 Start Interview",
 
-                st.rerun()
+        use_container_width=True,
 
-        else:
-
-            st.success("🎉 Interview Completed")
-
-            st.metric(
-                "Questions Answered",
-                len(st.session_state.interview_answers)
-            )
-
-            st.info(
-                "AI Evaluation will be connected in the next phase."
-            )
-
-            if st.button("Start Again"):
-
-                st.session_state.interview_started = False
-                st.session_state.interview_current = 0
-                st.session_state.interview_answers = {}
-
-                st.rerun()
+    )

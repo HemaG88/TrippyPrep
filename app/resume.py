@@ -5,65 +5,54 @@ def show():
 
     st.title("📄 Resume Analyzer")
 
-    uploaded_file = st.file_uploader(
-        "Upload Resume",
-        type=["pdf", "docx"]
+    st.caption(
+        "Analyze your resume using AI"
     )
 
-    if uploaded_file:
+    st.divider()
 
-        st.success("✅ Resume Uploaded Successfully")
+    resume = st.file_uploader(
 
-        st.markdown("---")
+        "Upload Resume",
 
-        st.subheader("Resume Analysis")
+        type=["pdf", "docx"],
 
-        c1, c2, c3, c4 = st.columns(4)
+    )
 
-        with c1:
-            st.metric("ATS Score", "--")
+    if resume is None:
 
-        with c2:
-            st.metric("Projects", "--")
+        st.info(
+            "Upload your resume to continue."
+        )
 
-        with c3:
-            st.metric("Skills", "--")
+        return
 
-        with c4:
-            st.metric("Overall", "--")
+    st.success(
+        f"Uploaded : {resume.name}"
+    )
 
-        st.markdown("---")
+    st.divider()
 
-        st.subheader("Suggestions")
+    st.subheader("Analysis")
 
-        st.info("AI Resume Analysis will appear here.")
+    st.progress(0)
 
-        st.markdown("---")
+    st.write("✔ Resume uploaded successfully")
 
-        st.subheader("Missing Skills")
+    st.write("✔ Parsing resume")
 
-        st.warning("Python")
+    st.write("✔ Skills detection")
 
-        st.warning("SQL")
+    st.write("✔ ATS score (Coming Soon)")
 
-        st.warning("DBMS")
+    st.write("✔ AI Suggestions (Coming Soon)")
 
-        st.warning("Operating System")
+    st.divider()
 
-        st.warning("Computer Networks")
+    st.button(
 
-        st.markdown("---")
+        "🤖 Analyze Resume",
 
-        st.subheader("Project Review")
+        use_container_width=True,
 
-        st.success("Projects will be analyzed here.")
-
-        st.markdown("---")
-
-        st.subheader("Interview Readiness")
-
-        st.progress(0)
-
-    else:
-
-        st.info("Upload your resume to begin analysis.")
+    )s

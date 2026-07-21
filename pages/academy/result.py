@@ -1,149 +1,126 @@
 import streamlit as st
 
-from services.xp_service import XPService
-from services.badge_service import BadgeService
-from services.result_analysis_service import ResultAnalysisService
+from services.progress_service import ProgressService
+from services.recent_activity_service import RecentActivityService
 
 
 def show():
 
-    if "quiz_engine" not in st.session_state:
+    result = st.session_state.get("quiz_result")
 
-        st.warning("No quiz completed.")
+    if result is None:
+        st.warning("No quiz result found.")
         return
 
-    quiz = st.session_state.quiz_engine
+    # ==========================================================
+    # Save Progress (Only Once)
+    # ==========================================================
 
-    report = ResultAnalysisService.analyze(quiz)
+    if not st.session_state.get("progress_saved", False):
 
-    xp = XPService.calculate(
-        report["score"],
-        report["total"]
+        ProgressService.save_result(
+            score=result["score"],
+            total_questions=result["total"],
+            accuracy=result["accuracy"],
+        )
+
+        RecentActivityService.save({
+
+            "topic": st.session_state.selected_question_file,
+
+            "score": result["score"],
+
+            "total": result["total"],
+
+            "accuracy": result["accuracy"],
+        })
+
+        st.session_state.progress_saved = True
+
+    # ==========================================================
+    # Result Screen
+    # ==========================================================
+
+    st.title("🎉 Quiz Result")
+
+    st.success(
+        f"Score : {result['score']} / {result['total']}"
     )
 
-    level = XPService.level(xp)
-
-    badges = BadgeService.get_badges(
-        report["score"],
-        report["total"]
+    st.progress(
+        result["accuracy"] / 100
     )
 
-    st.title("🏆 Quiz Result")
-
-    c1, c2, c3, c4 = st.columns(4)
-
-    c1.metric(
-        "Score",
-        f"{report['score']}/{report['total']}"
-    )
-
-    c2.metric(
+    st.metric(
         "Accuracy",
-        f"{report['accuracy']}%"
-    )
-
-    c3.metric(
-        "XP Earned",
-        xp
-    )
-
-    c4.metric(
-        "Level",
-        level
+        f"{result['accuracy']}%"
     )
 
     st.divider()
 
-    st.subheader("Performance")
+    c1, c2, c3 = st.columns(3)
 
-    st.progress(report["accuracy"] / 100)
+    with c1:
 
-    st.write(f"Correct : {report['correct']}")
-
-    st.write(f"Wrong : {report['wrong']}")
-
-    st.write(f"Answered : {report['answered']}")
-
-    st.write(f"Marked Review : {report['review']}")
-
-    st.divider()
-
-    st.subheader("Achievements")
-
-    if badges:
-
-        cols = st.columns(len(badges))
-
-        for i, badge in enumerate(badges):
-
-            cols[i].success(badge)
-
-    else:
-
-        st.info("No badges unlocked.")
-
-    st.divider()
-
-    st.subheader("Recommendation")
-
-    if report["accuracy"] >= 90:
-
-        st.success(
-            "Excellent! You're placement ready."
+        st.metric(
+            "✅ Correct",
+            result["correct"]
         )
 
-    elif report["accuracy"] >= 75:
+    with c2:
 
-        st.success(
-            "Very Good. Continue practicing."
+        st.metric(
+            "❌ Wrong",
+            result["wrong"]
         )
 
-    elif report["accuracy"] >= 50:
+    with c3:
 
-        st.warning(
-            "Need more practice."
-        )
-
-    else:
-
-        st.error(
-            "Go back to Academy and strengthen fundamentals."
+        st.metric(
+            "⏭ Remaining",
+            result["remaining"]
         )
 
     st.divider()
 
     c1, c2 = st.columns(2)
 
+    # ==========================================================
+    # Retry Quiz
+    # ==========================================================
+
     with c1:
 
         if st.button(
-            "🔄 Retry Quiz",
-            use_container_width=True
+            "🔁 Retry Quiz",
+            use_container_width=True,
         ):
 
-            del st.session_state.quiz_engine
-
-            st.session_state.quiz_completed = False
+            st.session_state.quiz_engine = None
+            st.session_state.quiz_result = None
             st.session_state.answer_submitted = False
             st.session_state.last_answer_correct = False
+            st.session_state.progress_saved = False
 
             st.rerun()
+
+    # ==========================================================
+    # Back To Topics
+    # ==========================================================
 
     with c2:
 
         if st.button(
-            "⬅ Back To Topics",
-            use_container_width=True
+            "📚 Back To Topics",
+            use_container_width=True,
         ):
 
-            del st.session_state.quiz_engine
+            st.session_state.quiz_engine = None
+            st.session_state.quiz_result = None
+            st.session_state.selected_question_file = None
+            st.session_state.learning_mode = False
+            st.session_state.answer_submitted = False
+            st.session_state.last_answer_correct = False
+            st.session_state.progress_saved = False
 
-st.session_state.quiz_completed = False
-
-st.session_state.selected_question_file = None
-
-st.session_state.answer_submitted = False
-
-st.session_state.last_answer_correct = False
-
-st.rerun()
+            st.rerun()

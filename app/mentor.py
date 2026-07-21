@@ -5,65 +5,51 @@ def show():
 
     st.title("🤖 AI Mentor")
 
-    st.write("Your personal AI Placement Mentor.")
-
-    st.markdown("---")
-
-    goal = st.selectbox(
-        "Current Goal",
-        [
-            "Internship",
-            "Placement",
-            "Product Company",
-            "Service Company",
-            "Higher Studies"
-        ]
+    st.caption(
+        "Your Personal Placement Assistant"
     )
 
-    hours = st.slider(
-        "Study Hours / Day",
-        1,
-        12,
-        4
+    st.divider()
+
+    question = st.text_area(
+        "Ask anything...",
+        placeholder="Example: Explain Binary Search"
     )
 
-    level = st.selectbox(
-        "Current Level",
-        [
-            "Beginner",
-            "Intermediate",
-            "Advanced"
-        ]
-    )
+    if st.button(
+        "💬 Ask AI",
+        use_container_width=True,
+    ):
 
-    if st.button("Generate Plan"):
+        if not question.strip():
 
-        st.success("Personal Study Plan")
+            st.warning(
+                "Please enter a question."
+            )
 
-        st.markdown("---")
+        else:
 
-        st.write(f"🎯 Goal : {goal}")
-        st.write(f"📚 Study Hours : {hours}")
-        st.write(f"⭐ Level : {level}")
+            st.info(
+                "AI integration coming soon..."
+            )
 
-        st.markdown("---")
+    st.divider()
 
-        st.subheader("Today's Tasks")
+    st.subheader("Suggested Questions")
 
-        st.checkbox("Aptitude Practice")
-        st.checkbox("Technical Questions")
-        st.checkbox("Company Preparation")
-        st.checkbox("Mock Interview")
-        st.checkbox("Resume Improvement")
+    suggestions = [
 
-        st.markdown("---")
+        "Explain Time Complexity",
 
-        st.info("AI-generated personalized roadmap will be integrated soon.")
+        "Difference between Stack and Queue",
 
-    st.markdown("---")
+        "How to prepare for TCS?",
 
-    st.subheader("Daily Motivation")
+        "What are DBMS Normal Forms?",
 
-    st.success(
-        "Small progress every day leads to big success."
-    )
+        "Top HR Interview Questions"
+    ]
+
+    for item in suggestions:
+
+        st.write(f"• {item}")

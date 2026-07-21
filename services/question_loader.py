@@ -5,36 +5,30 @@ from pathlib import Path
 
 class QuestionLoader:
 
-    def __init__(self):
-        self.data_folder = Path("data")
+    DATA_DIR = Path(".")
 
-    def load_questions(self, json_file):
+    @classmethod
+    def load_questions(cls, json_file):
 
-        file_path = self.data_folder / json_file
+        path = Path(json_file)
 
-        print("\n==============================")
-        print("Loading File:")
-        print(file_path)
-        print("==============================\n")
+        if not path.is_absolute():
+            path = cls.DATA_DIR / path
 
-        if not file_path.exists():
-            raise FileNotFoundError(file_path)
+        if not path.exists():
+            raise FileNotFoundError(path)
 
-        with open(file_path, "r", encoding="utf-8") as file:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
 
-            content = file.read()
+    @classmethod
+    def total_questions(cls, json_file):
+        return len(cls.load_questions(json_file))
 
-        if content.strip() == "":
-            raise Exception(f"JSON file is EMPTY:\n{file_path}")
+    @classmethod
+    def get_random_questions(cls, json_file, count=5):
 
-        return json.loads(content)
-
-    def total_questions(self, json_file):
-        return len(self.load_questions(json_file))
-
-    def get_random_questions(self, json_file, count=5):
-
-        questions = self.load_questions(json_file)
+        questions = cls.load_questions(json_file)
 
         return random.sample(
             questions,

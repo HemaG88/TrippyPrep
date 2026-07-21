@@ -1,5 +1,9 @@
 {
     "questions_solved": 7,
     "correct_answers": 3,
-    "accuracy": 42.86
+    "accuracy": 42.86,
+    "tests_completed": 3,
+    "total_score": 0,
+    "total_questions": 30,
+    "best_accuracy": 0
 }

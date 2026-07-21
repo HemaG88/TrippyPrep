@@ -18,23 +18,31 @@ class StatsService:
         if total_questions > 0:
 
             average = round(
-                (progress["total_score"] / total_questions) * 100,
-                2
+                (progress["total_score"] /
+                 total_questions) * 100,
+                2,
             )
 
         return {
 
-            "tests_completed": progress["tests_completed"],
+            "tests_completed":
+                progress["tests_completed"],
 
-            "questions_solved": total_questions,
+            "questions_solved":
+                total_questions,
 
-            "correct_answers": progress["total_score"],
+            "correct_answers":
+                progress["total_score"],
 
-            "average_accuracy": average,
+            "average_accuracy":
+                average,
 
-            "best_accuracy": progress["best_accuracy"],
+            "best_accuracy":
+                progress["best_accuracy"],
 
-            "academy_topics": academy["topics"],
+            "academy_topics":
+                academy["topics"],
 
-            "academy_questions": academy["questions"]
+            "academy_questions":
+                academy["questions"],
         }
