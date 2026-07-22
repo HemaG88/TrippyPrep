@@ -45,3 +45,19 @@ class AcademyService:
 
             "questions": len(topics) * 25
         }
+@classmethod
+def search_topics(cls, keyword):
+
+    keyword = keyword.lower()
+
+    topics = cls.get_aptitude_topics()
+
+    return [
+
+        topic
+
+        for topic in topics
+
+        if keyword in topic["name"].lower()
+
+    ]

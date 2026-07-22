@@ -11,18 +11,42 @@ def show():
 
     if st.session_state.selected_topic is not None:
         from pages.academy import topic_browser
-        topic_browser.show(st.session_state.selected_topic["folder"])
+        topic_browser.show(
+            st.session_state.selected_topic["folder"]
+        )
         return
 
     st.title("🧮 Aptitude Academy")
     st.caption("Master Aptitude for Placements")
 
-    topics = AcademyService.get_aptitude_topics()
+    # ==========================================
+    # Search
+    # ==========================================
+
+    search = st.text_input(
+        "🔍 Search Topic"
+    )
+
+    if search:
+
+        topics = AcademyService.search_topics(
+            search
+        )
+
+    else:
+
+        topics = AcademyService.get_aptitude_topics()
+
+    # ==========================================
+    # Statistics
+    # ==========================================
 
     total_topics = len(topics)
 
     completed = sum(
-        TopicProgressService.is_completed(topic["file"])
+        TopicProgressService.is_completed(
+            topic["file"]
+        )
         for topic in topics
     )
 
@@ -34,21 +58,35 @@ def show():
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.metric("Topics", total_topics)
+        st.metric(
+            "Topics",
+            total_topics
+        )
 
     with col2:
-        st.metric("Completed", completed)
+        st.metric(
+            "Completed",
+            completed
+        )
 
     with col3:
-        st.metric("Progress", f"{percent}%")
+        st.metric(
+            "Progress",
+            f"{percent}%"
+        )
 
     st.progress(percent / 100)
 
     st.divider()
 
+    # ==========================================
+    # Topic List
+    # ==========================================
+
     folders = {}
 
     for topic in topics:
+
         folders.setdefault(
             topic["folder"],
             []
@@ -70,4 +108,5 @@ def show():
                 ):
 
                     st.session_state.selected_topic = topic
+
                     st.rerun()

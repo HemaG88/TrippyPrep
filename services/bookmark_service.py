@@ -4,63 +4,79 @@ from pathlib import Path
 
 class BookmarkService:
 
-    FILE = Path("data/progress/bookmarks.json")
+    FILE = Path("storage/progress/bookmarks.json")
 
     @classmethod
     def load(cls):
 
+        cls.FILE.parent.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
         if not cls.FILE.exists():
+
+            cls.save([])
+
             return []
 
-        with open(cls.FILE, "r", encoding="utf-8") as f:
+        with open(
+            cls.FILE,
+            "r",
+            encoding="utf-8"
+        ) as f:
+
             return json.load(f)
 
     @classmethod
-    def save(cls, question):
+    def save(cls, data):
+
+        cls.FILE.parent.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
+        with open(
+            cls.FILE,
+            "w",
+            encoding="utf-8"
+        ) as f:
+
+            json.dump(
+                data,
+                f,
+                indent=4,
+                ensure_ascii=False
+            )
+
+    @classmethod
+    def add(cls, question):
 
         bookmarks = cls.load()
 
-        question_id = question.get("id")
-
         for item in bookmarks:
 
-            if item.get("id") == question_id:
+            if item.get("id") == question.get("id"):
                 return
 
         bookmarks.append(question)
 
-        cls.FILE.parent.mkdir(
-            parents=True,
-            exist_ok=True,
-        )
-
-        with open(cls.FILE, "w", encoding="utf-8") as f:
-
-            json.dump(
-                bookmarks,
-                f,
-                indent=4,
-                ensure_ascii=False,
-            )
+        cls.save(bookmarks)
 
     @classmethod
     def remove(cls, question_id):
 
         bookmarks = [
+
             q for q in cls.load()
+
             if q.get("id") != question_id
+
         ]
 
-        with open(cls.FILE, "w", encoding="utf-8") as f:
-
-            json.dump(
-                bookmarks,
-                f,
-                indent=4,
-                ensure_ascii=False,
-            )
+        cls.save(bookmarks)
 
     @classmethod
-    def count(cls):
+    def total(cls):
 
         return len(cls.load())

@@ -1,6 +1,8 @@
 import streamlit as st
 
 from pages.academy import result
+from pages import bookmarks
+from pages import reports
 
 from app import (
     home,
@@ -58,6 +60,8 @@ page = st.sidebar.radio(
         "🏠 Home",
         "🎓 Academy",
         "📖 Learning",
+        "🔖 Bookmarks",
+        "🚩 Reports",
         "✍ Practice",
         "🎤 Mock Interview",
         "📄 Resume Analyzer",
@@ -101,6 +105,10 @@ elif page == "🎓 Academy":
 elif page == "📖 Learning":
 
     learning.show()
+elif page == "🔖 Bookmarks":
+    bookmarks.show()
+elif page == "🚩 Reports":
+    reports.show()
 
 elif page == "✍ Practice":
 

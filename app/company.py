@@ -7,9 +7,7 @@ def show():
 
     st.title("🏢 Company Preparation")
 
-    st.caption(
-        "Practice company-specific questions."
-    )
+    st.caption("Practice company-specific preparation")
 
     st.divider()
 
@@ -17,64 +15,56 @@ def show():
 
     if not companies:
 
-        st.info(
-            "No company data available."
-        )
+        st.info("No company data available.")
 
         return
 
     company = st.selectbox(
+
         "Select Company",
+
         companies,
+
     )
 
-    st.success(
-        f"Selected : {company}"
-    )
+    topics = CompanyService.get_company_topics(company)
 
     st.divider()
 
-    st.subheader("Features")
+    st.subheader(f"📚 {company} Roadmap")
 
-    st.checkbox(
-        "Aptitude Questions",
-        value=True,
-        disabled=True,
-    )
+    if not topics:
 
-    st.checkbox(
-        "Technical Questions",
-        value=True,
-        disabled=True,
-    )
+        st.warning("No topics added yet.")
 
-    st.checkbox(
-        "HR Questions",
-        value=True,
-        disabled=True,
-    )
+    else:
 
-    st.checkbox(
-        "Coding Questions",
-        value=True,
-        disabled=True,
-    )
+        for topic in topics:
 
-    st.checkbox(
-        "Interview Experience",
-        value=False,
-        disabled=True,
-    )
+            with st.expander(topic):
 
-    st.checkbox(
-        "Mock Interview",
-        value=False,
-        disabled=True,
-    )
+                st.write(f"Practice {topic}")
 
     st.divider()
 
-    st.button(
-        "🚀 Start Preparation",
-        use_container_width=True,
-    )
+    c1, c2 = st.columns(2)
+
+    with c1:
+
+        st.button(
+
+            "🚀 Start Preparation",
+
+            use_container_width=True,
+
+        )
+
+    with c2:
+
+        st.button(
+
+            "🎯 Start Mock Interview",
+
+            use_container_width=True,
+
+        )

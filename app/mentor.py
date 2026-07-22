@@ -1,55 +1,58 @@
 import streamlit as st
 
+from services.mentor_service import MentorService
+
 
 def show():
 
     st.title("🤖 AI Mentor")
 
-    st.caption(
-        "Your Personal Placement Assistant"
-    )
+    st.caption("Your Personal Placement Mentor")
+
+    st.divider()
+
+    st.subheader("📌 Daily Suggestions")
+
+    suggestions = MentorService.get_suggestions()
+
+    for suggestion in suggestions:
+
+        st.success(suggestion)
 
     st.divider()
 
     question = st.text_area(
-        "Ask anything...",
-        placeholder="Example: Explain Binary Search"
+        "Ask your mentor",
+        placeholder="Example: How do I improve aptitude speed?"
     )
 
     if st.button(
-        "💬 Ask AI",
+        "💬 Ask Mentor",
         use_container_width=True,
     ):
 
-        if not question.strip():
+        if question.strip() == "":
 
-            st.warning(
-                "Please enter a question."
-            )
+            st.warning("Enter a question.")
 
         else:
 
             st.info(
-                "AI integration coming soon..."
+                "LLM integration will be added here."
             )
 
     st.divider()
 
-    st.subheader("Suggested Questions")
+    st.subheader("🎯 Daily Goal")
 
-    suggestions = [
+    st.info(
+        """
+• Solve 20 Aptitude Questions
 
-        "Explain Time Complexity",
+• Revise 2 Topics
 
-        "Difference between Stack and Queue",
+• Attempt 1 Mock Test
 
-        "How to prepare for TCS?",
-
-        "What are DBMS Normal Forms?",
-
-        "Top HR Interview Questions"
-    ]
-
-    for item in suggestions:
-
-        st.write(f"• {item}")
+• Maintain your learning streak 🔥
+"""
+    )

@@ -5,46 +5,76 @@ from datetime import date
 
 class StreakService:
 
-    FILE = Path("data/progress/streak.json")
+    FILE = Path("storage/progress/streak.json")
 
     @classmethod
-    def update_streak(cls):
+    def load(cls):
 
-        if cls.FILE.exists():
+        cls.FILE.parent.mkdir(
+            parents=True,
+            exist_ok=True
+        )
 
-            with open(cls.FILE, "r", encoding="utf-8") as file:
-
-                data = json.load(file)
-
-        else:
+        if not cls.FILE.exists():
 
             data = {
-                "last_date": "",
-                "streak": 0
+
+                "streak": 0,
+
+                "last_date": ""
+
             }
+
+            cls.save(data)
+
+            return data
+
+        with open(
+            cls.FILE,
+            "r",
+            encoding="utf-8"
+        ) as f:
+
+            return json.load(f)
+
+    @classmethod
+    def save(cls, data):
+
+        cls.FILE.parent.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
+        with open(
+            cls.FILE,
+            "w",
+            encoding="utf-8"
+        ) as f:
+
+            json.dump(
+                data,
+                f,
+                indent=4
+            )
+
+    @classmethod
+    def update(cls):
+
+        data = cls.load()
 
         today = str(date.today())
 
         if data["last_date"] != today:
 
             data["streak"] += 1
+
             data["last_date"] = today
 
-        with open(cls.FILE, "w", encoding="utf-8") as file:
+            cls.save(data)
 
-            json.dump(
-                data,
-                file,
-                indent=4
-            )
+        return data
 
     @classmethod
-    def get_streak(cls):
+    def current(cls):
 
-        if not cls.FILE.exists():
-
-            return 0
-
-        with open(cls.FILE, "r", encoding="utf-8") as file:
-
-            return json.load(file)["streak"]
+        return cls.load()["streak"]

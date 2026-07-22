@@ -1,5 +1,4 @@
 from pathlib import Path
-import json
 
 
 class CompanyService:
@@ -9,10 +8,10 @@ class CompanyService:
     @classmethod
     def get_companies(cls):
 
-        companies = []
-
         if not cls.DATA_DIR.exists():
-            return companies
+            return []
+
+        companies = []
 
         for folder in cls.DATA_DIR.iterdir():
 
@@ -24,29 +23,22 @@ class CompanyService:
 
         return sorted(companies)
 
-    @staticmethod
-    def get_companies_for_question(question_file):
+    @classmethod
+    def get_company_topics(cls, company):
 
-        path = Path(question_file)
+        company = company.lower().replace(" ", "_")
 
-        if not path.exists():
+        folder = cls.DATA_DIR / company
+
+        if not folder.exists():
             return []
 
-        with open(path, "r", encoding="utf-8") as f:
-            questions = json.load(f)
+        topics = []
 
-        companies = set()
+        for file in folder.glob("*.json"):
 
-        for question in questions:
+            topics.append(
+                file.stem.replace("_", " ").title()
+            )
 
-            value = question.get("companies")
-
-            if not value:
-                continue
-
-            if isinstance(value, list):
-                companies.update(value)
-            else:
-                companies.add(value)
-
-        return sorted(companies)
+        return sorted(topics)

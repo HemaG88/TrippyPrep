@@ -201,7 +201,9 @@ def show():
             use_container_width=True
         ):
 
-            BookmarkService.save(question)
+            BookmarkService.add(
+    question
+)
 
             st.success("Bookmarked")
 

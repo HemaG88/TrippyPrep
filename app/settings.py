@@ -1,60 +1,61 @@
 import streamlit as st
 
-from services.xp_tracker_service import XPTrackerService
-from services.progress_service import ProgressService
+from services.settings_service import SettingsService
+from services.export_service import ExportService
 
 
 def show():
 
     st.title("⚙ Settings")
 
+    settings = SettingsService.load()
+
     st.divider()
 
-    st.subheader("Reset Progress")
-
-    st.warning(
-        "This will reset your quiz progress and XP."
+    settings["dark_mode"] = st.toggle(
+        "🌙 Dark Mode",
+        value=settings["dark_mode"]
     )
 
-    if st.button(
-        "🗑 Reset All Data",
-        use_container_width=True,
-    ):
+    settings["sound"] = st.toggle(
+        "🔊 Sound",
+        value=settings["sound"]
+    )
 
-        ProgressService.save_progress({
+    settings["notifications"] = st.toggle(
+        "🔔 Notifications",
+        value=settings["notifications"]
+    )
 
-            "tests_completed": 0,
-
-            "total_score": 0,
-
-            "total_questions": 0,
-
-            "best_accuracy": 0,
-        })
-
-        XPTrackerService.save({
-
-            "xp": 0,
-
-            "level": 1,
-        })
-
-        st.success(
-            "Progress Reset Successfully."
-        )
+    settings["daily_goal"] = st.slider(
+        "🎯 Daily Goal",
+        min_value=5,
+        max_value=100,
+        value=settings["daily_goal"],
+        step=5
+    )
 
     st.divider()
 
-    st.subheader("About")
+    if st.button(
+        "💾 Save Settings",
+        use_container_width=True
+    ):
 
-    st.info(
-        """
-**TrippyPrep**
+        SettingsService.save(settings)
 
-Version : 1.0
+        st.success(
+            "Settings saved successfully."
+        )
+    st.divider()
 
-AI Placement Preparation Platform
+if st.button(
+    "📥 Export My Progress",
+    use_container_width=True
+):
 
-Built with ❤️ using Python + Streamlit
-"""
+    file = ExportService.save()
+
+    st.success(
+        f"Backup saved successfully!\n\n{file}"
     )

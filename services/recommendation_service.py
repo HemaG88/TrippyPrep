@@ -4,29 +4,60 @@ from services.progress_service import ProgressService
 class RecommendationService:
 
     @classmethod
-    def get_recommendation(cls):
+    def get_recommendations(cls):
 
         progress = ProgressService.load_progress()
 
+        recommendations = []
+
         if progress["tests_completed"] == 0:
-            return "Start your first practice test."
 
-        total = progress["total_questions"]
+            recommendations.append(
+                "Start with Number System."
+            )
 
-        accuracy = 0
+            recommendations.append(
+                "Complete your first quiz."
+            )
 
-        if total > 0:
-            accuracy = (
-                progress["total_score"] / total
-            ) * 100
+            recommendations.append(
+                "Read Learning Mode before Practice."
+            )
 
-        if accuracy >= 90:
-            return "Excellent! Start Company-wise Preparation."
+            return recommendations
 
-        elif accuracy >= 75:
-            return "Good progress. Start Mock Interviews."
+        if progress["best_accuracy"] < 60:
 
-        elif accuracy >= 60:
-            return "Focus on Weak Topics and Practice More."
+            recommendations.append(
+                "Revise completed topics."
+            )
 
-        return "Revise Fundamentals before attempting Mock Tests."
+            recommendations.append(
+                "Practice Easy level questions."
+            )
+
+        elif progress["best_accuracy"] < 80:
+
+            recommendations.append(
+                "Move to Medium level."
+            )
+
+            recommendations.append(
+                "Attempt Mixed Practice."
+            )
+
+        else:
+
+            recommendations.append(
+                "Start Company Preparation."
+            )
+
+            recommendations.append(
+                "Attempt Mock Interviews."
+            )
+
+        recommendations.append(
+            "Maintain a daily practice streak."
+        )
+
+        return recommendations

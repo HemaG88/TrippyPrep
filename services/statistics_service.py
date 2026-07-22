@@ -1,32 +1,35 @@
-from services.question_loader import QuestionLoader
+from services.progress_service import ProgressService
+from services.xp_tracker_service import XPTrackerService
+from services.bookmark_service import BookmarkService
+from services.report_service import ReportService
+from services.streak_service import StreakService
 
 
 class StatisticsService:
-    """
-    Calculates statistics for question datasets.
-    """
 
-    def __init__(self):
-        self.loader = QuestionLoader()
+    @staticmethod
+    def get_statistics():
 
-    def get_topic_statistics(self, json_file):
-        questions = self.loader.load_questions(json_file)
+        progress = ProgressService.load_progress()
 
-        stats = {
-            "total": len(questions),
-            "easy": 0,
-            "medium": 0,
-            "hard": 0
+        xp = XPTrackerService.load()
+
+        return {
+
+            "tests": progress["tests_completed"],
+
+            "questions": progress["total_questions"],
+
+            "best_accuracy": progress["best_accuracy"],
+
+            "xp": xp["xp"],
+
+            "level": xp["level"],
+
+            "bookmarks": BookmarkService.total(),
+
+            "reports": ReportService.total(),
+
+            "streak": StreakService.current()
+
         }
-
-        for question in questions:
-            difficulty = question["difficulty"].lower()
-
-            if difficulty == "easy":
-                stats["easy"] += 1
-            elif difficulty == "medium":
-                stats["medium"] += 1
-            elif difficulty == "hard":
-                stats["hard"] += 1
-
-        return stats

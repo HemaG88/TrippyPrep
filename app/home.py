@@ -1,6 +1,7 @@
 import streamlit as st
 
 from services.dashboard_service import DashboardService
+from services.roadmap_service import RoadmapService
 
 
 def show():
@@ -8,10 +9,13 @@ def show():
     data = DashboardService.get_dashboard_data()
 
     st.title("💀 TrippyPrep")
-
     st.caption("Your AI Placement Preparation Companion")
 
     st.divider()
+
+    # ==========================================
+    # Dashboard Summary
+    # ==========================================
 
     c1, c2, c3, c4 = st.columns(4)
 
@@ -41,32 +45,37 @@ def show():
 
     st.divider()
 
+    # ==========================================
+    # Quick Actions
+    # ==========================================
+
     st.subheader("🚀 Quick Actions")
 
     c1, c2, c3 = st.columns(3)
 
     with c1:
-        if st.button(
+        st.button(
             "🎓 Academy",
             use_container_width=True,
-        ):
-            st.session_state.selected_question_file = None
+        )
 
     with c2:
-        if st.button(
+        st.button(
             "📊 Dashboard",
             use_container_width=True,
-        ):
-            pass
+        )
 
     with c3:
-        if st.button(
+        st.button(
             "🤖 AI Mentor",
             use_container_width=True,
-        ):
-            pass
+        )
 
     st.divider()
+
+    # ==========================================
+    # Recent Activity
+    # ==========================================
 
     st.subheader("🕒 Recent Activity")
 
@@ -83,3 +92,19 @@ def show():
                 f"{activity['score']}/{activity['total']} • "
                 f"{activity['accuracy']}%"
             )
+
+    st.divider()
+
+    # ==========================================
+    # Placement Roadmap
+    # ==========================================
+
+    st.subheader("🗺 Placement Roadmap")
+
+    roadmap = RoadmapService.get_roadmap()
+
+    for step in roadmap:
+
+        with st.expander(step["title"]):
+
+            st.write(step["description"])

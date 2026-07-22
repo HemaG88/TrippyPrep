@@ -1,21 +1,48 @@
 class RoadmapService:
 
-    @classmethod
-    def get_daily_plan(cls):
+    @staticmethod
+    def get_roadmap():
 
         return [
 
-            "📘 Learn one new topic",
+            {
+                "title": "Level 1",
+                "description": "Number System, Percentages, Ratio"
+            },
 
-            "✍ Solve 25 Aptitude Questions",
+            {
+                "title": "Level 2",
+                "description": "Profit & Loss, Time & Work, SI & CI"
+            },
 
-            "💻 Solve 5 Coding Problems",
+            {
+                "title": "Level 3",
+                "description": "Logical Reasoning & Puzzles"
+            },
 
-            "🏢 Practice One Company Set",
+            {
+                "title": "Level 4",
+                "description": "Verbal Ability"
+            },
 
-            "🎤 Attend One Mock Interview",
+            {
+                "title": "Level 5",
+                "description": "Data Interpretation"
+            },
 
-            "📄 Improve Resume",
+            {
+                "title": "Level 6",
+                "description": "Mock Tests"
+            },
 
-            "📊 Check Dashboard"
+            {
+                "title": "Level 7",
+                "description": "Company Preparation"
+            },
+
+            {
+                "title": "Level 8",
+                "description": "HR + Technical Interview"
+            }
+
         ]
